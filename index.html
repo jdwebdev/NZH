@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NZH</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div id="modal">
+        <div id="popup"></div>
+    </div>
+    <header>
+        <nav>
+            <ul class="btnList">
+                <li>
+                    <button id="n" class="languageBtn">日本語</button>
+                </li>
+                <li>
+                    <button id="z" class="languageBtn">汉语</button>
+                </li>
+                <li>
+                    <button id="h" class="languageBtn">한국어</button>
+                </li>
+            </ul>
+            <button id="switchMode"></button>
+        </nav>
+    </header>
+    <main>
+        <section id="n_section">
+            <h1>日本語</h1>
+        </section>
+
+        <section id="z_section">
+            <div class="search_section">
+                <form class="search_form" class="forms" action="">
+                    <label class="zh_font" for="z_input">汉语</label>
+                    <input class="search_input zh_font" id="z_input" type="text" placeholder="汉字还是拼音">
+                    <button id="z_searchBtn" class="searchBtn zh_font">检索</button>
+                </form>
+                <div class="select_container">
+                    <select name="" id="z_select" class="select_type zh_font">
+                        <option class="zh_font" value="hanzi" selected>汉字</option>
+                        <option class="zh_font" value="word">单词</option>
+                        <option class="zh_font" value="duo">Duo</option>
+                        <option class="zh_font" value="fanti1">繁体</option>
+                        <option class="zh_font" value="fanti2">繁體</option>
+                    </select>
+                    <select name="" id="z_select_lesson" class="select_lesson zh_font"></select>
+                </div>
+                <span id="z_resultNb" class="resultNb"></span>
+            </div>
+            <div id="z_result_section" class="result_section zh_font"></div>
+        </section>
+
+        <section id="h_section">
+            <div class="search_section">
+                <form class="search_form" class="forms" action="">
+                    <label class="zh_font" for="h_input">한글</label>
+                    <input class="search_input zh_font" id="h_input" type="text" placeholder="단어 검색">
+                    <button id="h_searchBtn" class="searchBtn zh_font">검색</button>
+                </form>
+                <div class="select_container">
+                    <select name="" id="h_select" class="select_type zh_font">
+                        <option class="zh_font" value="lesson" selected>수업</option>
+                        <option class="zh_font" value="duo">듀어</option>
+                        <option class="zh_font" value="hanja">한자</option>
+                    </select>
+                    <select name="" id="h_select_lesson" class="select_lesson zh_font"></select>
+                </div>
+                <span id="h_resultNb" class="resultNb"></span>
+            </div>
+            <div id="h_result_section" class="result_section zh_font"></div>
+        </section>
+    </main>
+    
+    <script src="./class/kanji.js"></script>
+    <script src="./class/hanzi.js"></script>
+    <script src="./class/hangul.js"></script>
+    <script src="./index.js"></script>
+    <script src="./listings/z.js"></script>
+    <script src="./listings/h.js"></script>
+</body>
+</html>

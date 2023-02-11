@@ -1,0 +1,474 @@
+@font-face {
+    font-family: "pgfont";
+    src: url("./fonts/PGFontV2.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "jpfont";
+    src: url("./fonts/PixelMplus10-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "kyokasho";
+    src: url("./fonts/UDDigiKyokashoN-R-01.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:"kyokasho";
+    color: black;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+header {
+    padding: 10px;
+    height: 100px;
+    background-color:rgba(172,50,50);
+}
+
+ul {
+    list-style: none;
+}
+
+nav {
+    /* margin: 0 auto; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav ul {
+    display:flex;
+    list-style: none;
+}
+
+.languageBtn {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgba(217,160,102);
+    border-radius: 10px;
+    height: 80px;
+    width: 150px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.languageBtn:hover {
+    cursor: pointer;
+    background-color:bisque;
+}
+
+main {
+    width:700px;
+    margin: 0 auto;
+}
+
+/* ---------- Search Form ---------- */
+
+/* ---------- Result section ---------- */
+.zh_font {
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.oneResult {
+    display: flex;
+    margin: 0 auto;
+    width: 100%;
+    background-color:blanchedalmond;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.word_container {
+    border-radius: 10px 0px 0px 10px;
+    border-right: 1px solid gray;
+    width: 20%;
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.word_details {
+    border-right: 1px solid gray;
+    font-size: 22px;
+    width: 60%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.word_details p {
+    margin-bottom: 10px;
+}
+
+.category {
+    color: gray;
+    font-size: 18px;
+}
+
+/* Listing kanji */
+.kanji {
+    font-size: 80px;
+    width: 80%;
+    align-self: center;
+    /* background-color: bisque; */
+}
+.kakusuu {
+    width: 20%;
+    align-self: flex-start;
+    /* background-color: cadetblue; */
+}
+.bushu {
+    align-self: flex-start;
+}
+.sonota {
+    width: 20%;
+    padding: 10px;
+    font-size: 22px;
+}
+.kyuu {
+    font-size: 34px;
+}
+.pinyin {
+    font-size: 18px;
+    word-wrap: break-word;
+}
+
+/* Listing word n */
+.sonota_n {
+    width: 20%;
+    padding: 10px;
+    font-size: 22px;
+}
+
+/* Listing hanzi */
+.hanzi {
+    font-size: 70px;
+}
+.sonota_hanzi {
+    width: 20%;
+    padding: 10px;
+    font-size: 22px;
+}
+.kyuu_z {
+    font-size: 34px;
+}
+
+/* Listing word h */
+.sonota_h {
+    width: 100%;
+    padding: 10px;
+    font-size: 28px;
+}
+
+/* ---------- MODAL ---------- */
+
+/* ---------- Search Form section ---------- */
+.search_section {
+    width: 100%;
+    display: flex;
+    flex-direction:column;
+    padding-top: 5px;
+    position:sticky;
+    top: 60px;
+    background-color: white;
+}
+
+.search_form {
+    display: flex;
+    justify-content:space-around;
+}
+
+.search_input {
+    height: 40px;
+    width: 70%;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.search_form label {
+    align-self:center;
+}
+
+.select_container {
+    display:flex;
+    justify-content: space-around;
+    padding: 0px 5px; 
+}
+
+.select_type {
+    width: 80%;
+    margin: 5px auto;
+    height: 30px;
+    font-size: 16px;
+}
+
+/* Cacher par défaut pour z_select_lesson */
+#z_select_lesson {
+    display: none;
+}
+
+.select_lesson {
+    width: 20%;
+    margin: 5px 0px 5px 5px;
+    height: 30px;
+    font-size: 16px;
+}
+
+
+.searchBtn {
+    border: none;
+    border-radius: 5px;
+    width: 50px;
+    height: 40px;
+    font-size: 16px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+/* ---------- Search Result section ---------- */
+#z_section {
+    display: flex;
+    flex-direction: column;
+}
+#h_section {
+    display: flex;
+    flex-direction: column;
+}
+
+.result_section {
+    overflow-y: scroll;
+}
+
+.one_line {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.one_line div {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    width: 52px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+.one_line div.no_border {
+    border: 1px solid rgba(0,0,0,0);
+    box-shadow: 2px 2px 2px rgba(0,0,0,0);
+}
+.resultNb {
+    margin-left: 10px;
+}
+
+.word_one_line {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.word_one_line div {
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
+.word_one_line div.h_word {
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#switchMode {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+}
+
+/*
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+    ------------------------------------------ MOBILE ------------------------------------------
+*/
+@media (max-width: 400px) {
+
+    /* HEADER */
+
+    header {
+        width: 100%;
+        height: 60px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        position: sticky;
+        top: 0px;
+    }
+
+    .btnList {
+        display:flex;
+        justify-content: space-around;
+    }
+
+    .languageBtn {
+        padding: 0px;
+        font-size: 20px;
+        background-color: rgba(217,160,102);
+        border-radius: 10px;
+        height: 50px;
+        width: 70px;
+    }
+
+
+    /* Remove press button effect on click. div & button */
+    div {
+        -webkit-tap-highlight-color: transparent;
+    }
+    button {
+        -webkit-tap-highlight-color: transparent;
+    }
+
+    /* MAIN */
+    main {
+        width:100%;
+        margin: 0 auto;
+    }
+
+    .oneResult {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        background-color:blanchedalmond;
+        border-radius: 10px;
+        margin-bottom: 10px;
+    }
+
+    .word_container {
+        border-radius: 10px 10px 0px 0px;
+        border-right: 0px;
+        border-bottom: 1px solid gray;
+        width: 100%;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .word_details {
+        border-right: 0px;
+        border-bottom: 1px solid gray;
+        font-size: 18px;
+        width: 100%;
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .category {
+        color: gray;
+        font-size: 12px;
+    }
+
+    /* Listing kanji */
+    .kanji {
+        font-size: 40px;
+        width: 50px;
+    }
+    .kakusuu {
+        font-size: 12px;
+        align-self: flex-start;
+    }
+    .bushu {
+        font-size: 12px;
+        align-self: flex-start;
+    }
+    .sonota {
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+        font-size: 18px;
+        width: 100%;
+    }
+    .kyuu {
+        font-size: 26px;
+    }
+    .pinyin {
+        font-size: 12px;
+        word-wrap: break-word;
+        align-self: center;
+    }
+    
+    
+    /* Listing word n */
+    .sonota_n {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 10px;
+        font-size: 18px;
+    }
+    
+    /* Listing hanzi */
+    .hanzi {
+        font-size: 35px;
+    }
+    .sonota_hanzi {
+        padding: 10px;
+        font-size: 18px;
+    }
+    .kyuu_z {
+        font-size: 30px;
+    }
+    
+    /* Listing word h */
+    .word_h {
+        font-size: 30px;
+    }
+    .sonota_h {
+        padding: 5px;
+        font-size: 20px;
+    }
+
+    /* ---------- MODAL ---------- */
+    #modal {
+        /* display: none; */
+        display: flex;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        flex-direction: center;
+        z-index: -10;
+        opacity: 0;
+        transition: ease opacity 0.3s;
+    }
+
+    #modal.fadeIn {
+        opacity:1;
+        z-index:10;
+    }
+
+    #popup {
+        margin: 100px auto;
+        width: 90%;
+    }
+
+}
