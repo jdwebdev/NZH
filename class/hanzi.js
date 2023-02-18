@@ -1,6 +1,7 @@
 class Hanzi {
 
     static list = [];
+    static failedList = [];
 
     constructor(pId, pHanzi, pPinyin, pPinyinLizi, pLizi, pYisi = "", pFanti = "") {
 
@@ -26,6 +27,7 @@ class Hanzi {
 }
 
 readHANZIFile("./tsv/NZH - 汉字.tsv");
+readHANZIFile("./failed/z_hanzi_failed.txt");
 
 function readHANZIFile(pFile) {
     let rawFile = new XMLHttpRequest();
@@ -34,11 +36,32 @@ function readHANZIFile(pFile) {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 tsvFile = rawFile.responseText;
-                createHanzi(tsvFile);
+                if (pFile.includes("failed")) {
+                    if (tsvFile == "") {
+                    } else {
+                        z_h_createFailedList(tsvFile);
+                    }
+                } else {
+                    createHanzi(tsvFile);
+                }
             }
         }
     }
     rawFile.send(null);    
+}
+
+function z_h_createFailedList(pFile) {
+    let row = pFile.split(/\r\n/);
+    console.log(row);
+    for (let i = 0; i < row.length; i++) {
+        let arr = [];
+        let tempArr = row[i].split(",");
+        for (let j = 0; j < tempArr.length; j++) {
+            arr.push(Hanzi.list[tempArr[j] - 1]); //? hanzi.id - 1 ==> index de hanzi.list[index]
+        }
+        Hanzi.failedList[i] = arr;
+    }
+    console.log(Hanzi.failedList);
 }
 
 function createHanzi(pFile) {
@@ -57,6 +80,7 @@ class Z_Word {
     static list = [];
     static duoList = [];
     static lessonList = [];
+    static failedList = [];
 
     constructor(pId, pWord, pPinyin, pYisi = "", pLizi = "", pLesson = "", pDuo = false) {
 
@@ -85,6 +109,7 @@ class Z_Word {
 
 readZ_WORDFile("./tsv/NZH - 本気で学ぶ中国語.tsv");
 readZ_WORDFile("./tsv/NZH - Duo单词.tsv", 1);
+readZ_WORDFile("./failed/z_zword_failed.txt");
 
 function readZ_WORDFile(pFile, pType = 0) {
     let rawFile = new XMLHttpRequest();
@@ -93,7 +118,14 @@ function readZ_WORDFile(pFile, pType = 0) {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 tsvFile = rawFile.responseText;
-                createZ_WORD(tsvFile, pType);
+                if (pFile.includes("failed")) {
+                    if (tsvFile == "") {
+                    } else {
+                        z_w_createFailedList(tsvFile);
+                    }
+                } else {
+                    createZ_WORD(tsvFile, pType);
+                }
             }
         }
     }
@@ -122,4 +154,18 @@ function createZ_WORD(pFile, pType) {
     } else {
         // console.log(Z_Word.list);
     }
+}
+
+function z_w_createFailedList(pFile) {
+    let row = pFile.split(/\r\n/);
+    console.log(row);
+    for (let i = 0; i < row.length; i++) {
+        let arr = [];
+        let tempArr = row[i].split(",");
+        for (let j = 0; j < tempArr.length; j++) {
+            arr.push(Z_Word.list[tempArr[j] - 1]); //? Z_Word.id - 1 ==> index de Z_Word.list[index]
+        }
+        Z_Word.failedList[i] = arr;
+    }
+    console.log(Z_Word.failedList);
 }

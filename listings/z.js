@@ -1,9 +1,9 @@
-let z_result_section = document.getElementById("z_result_section");
-let z_searchBtn = document.getElementById("z_searchBtn");
-let z_input = document.getElementById("z_input");
-let z_resultNb = document.getElementById("z_resultNb");
-let z_select = document.getElementById("z_select"); //? hanzi / word / fanti1 / fanti2
-let z_select_lesson = document.getElementById("z_select_lesson");
+let z_result_section = id("z_result_section");
+let z_searchBtn = id("z_searchBtn");
+let z_input = id("z_input");
+let z_resultNb = id("z_resultNb");
+let z_select = id("z_select"); //? hanzi / word / fanti1 / fanti2
+let z_select_lesson = id("z_select_lesson");
 z_select.addEventListener("change", e => {
     if (z_select.value == "word") {
         if (z_select_lesson.innerHTML == "") {

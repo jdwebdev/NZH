@@ -27,7 +27,7 @@
             <button id="switchMode"></button>
         </nav>
     </header>
-    <main>
+    <main id="main_listing">
         <section id="n_section">
             <h1>日本語</h1>
         </section>
@@ -64,7 +64,7 @@
                 <div class="select_container">
                     <select name="" id="h_select" class="select_type zh_font">
                         <option class="zh_font" value="lesson" selected>수업</option>
-                        <option class="zh_font" value="duo">듀어</option>
+                        <option class="zh_font" value="duo">듀오</option>
                         <option class="zh_font" value="hanja">한자</option>
                     </select>
                     <select name="" id="h_select_lesson" class="select_lesson zh_font"></select>
@@ -74,6 +74,79 @@
             <div id="h_result_section" class="result_section zh_font"></div>
         </section>
     </main>
+    <main id="main_training">
+        <section id="nt_section">
+            <h2>漢字練習 !!!!!</h2>
+
+        </section>
+        <section id="zt_section" class="training_section">
+
+            <!-- Training filters -->
+            <div class="filters_section">
+                <div class="filters_container">
+                    <select name="" id="zt_select" class="select_filter zh_font">
+                        <option class="zh_font" value="hanzi" selected>汉字</option>
+                        <option class="zh_font" value="word">单词</option>
+                        <option class="zh_font" value="duo">Duo</option>
+                    </select>
+                    <select name="" id="zt_select_filter" class="select_filter zh_font">
+                        <option id="zt_all_option" class="zh_font" value="all" selected>全部</option>
+                        <option id="zt_lesson_option" class="zh_font" value="lesson">课</option>
+                        <option class="zh_font" value="xy">X-Y</option>
+                        <option id="zt_random_option" class="zh_font" value="xrandom">x-rd</option>
+                    </select>
+                    <select name="" id="zt_select_lesson" class="select_filter zh_font"></select>
+                    <div id="zt_range_input">
+                        <input id="zt_start" class="select_filter" type="text">
+                        <input id="zt_end" class="select_filter" type="text">
+                    </div>
+                    <div id="fanti_check_container">
+                        <input id="fanti_check" type="checkbox">
+                        <label for="fanti_check" class="zh_font">繁體</label>
+                    </div> 
+                </div>
+                <button id="zt_startBtn" class="startBtn zh_font">开始</button>
+            </div>
+
+            <!-- Training section -->
+            <div id="z_training_section" class="training_part"></div>
+        </section>
+
+        <section id="ht_section" class="training_section">
+            <!-- Training filters -->
+            <div class="filters_section">
+                <div class="filters_container">
+                    <select name="" id="ht_select" class="select_filter zh_font">
+                        <option class="zh_font" value="word">단어</option>
+                        <option class="zh_font" value="duo">듀오</option>
+                    </select>
+                    <select name="" id="ht_select_filter" class="select_filter zh_font">
+                        <option id="ht_all_option" class="zh_font" value="all" selected>모두</option>
+                        <option id="ht_lesson_option" class="zh_font" value="lesson">수업</option>
+                        <option class="zh_font" value="xy">X-Y</option>
+                        <option id="ht_random_option" class="zh_font" value="xrandom">x-rd</option>
+                    </select>
+                    <select name="" id="ht_select_lesson" class="select_filter zh_font"></select>
+                    <div id="ht_range_input">
+                        <input id="ht_start" class="select_filter" type="text">
+                        <input id="ht_end" class="select_filter" type="text">
+                    </div>
+                    <div id="hanja_check_container">
+                        <input id="hanja_check" type="checkbox">
+                        <label for="hanja_check">한자</label>
+                    </div>
+                    <div id="h_to_n_container">
+                        <input id="h_to_n_check" type="checkbox">
+                        <label for="h_to_n_check">한>日</label>
+                    </div>
+                </div>
+                <button id="ht_startBtn" class="startBtn zh_font">시작</button>
+            </div>
+
+            <!-- Training section -->
+            <div id="h_training_section" class="training_part zh_font"></div>
+        </section>
+    </main>
     
     <script src="./class/kanji.js"></script>
     <script src="./class/hanzi.js"></script>
@@ -81,5 +154,7 @@
     <script src="./index.js"></script>
     <script src="./listings/z.js"></script>
     <script src="./listings/h.js"></script>
+    <script src="./training/z_training.js"></script>
+    <script src="./training/h_training.js"></script>
 </body>
 </html>

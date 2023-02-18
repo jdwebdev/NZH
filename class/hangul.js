@@ -3,6 +3,7 @@ class Hangul {
     static list = [];
     static duoList = [];
     static lessonList = [];
+    static failedList = [];
 
     constructor(pId, pWord, pNihongo, pExampleHangul, pExampleNihongo, pHanja, pLesson = "", pDuo = false) {
 
@@ -28,7 +29,8 @@ class Hangul {
 }
 
 readHangulFile("./tsv/NZH - できる한국어.tsv");
-readHangulFile("./tsv/NZH - 듀어.tsv", 1);
+readHangulFile("./tsv/NZH - 듀오.tsv", 1);
+readHangulFile("./failed/h_failed.txt");
 
 function readHangulFile(pFile, pType = 0) {
     let rawFile = new XMLHttpRequest();
@@ -37,7 +39,14 @@ function readHangulFile(pFile, pType = 0) {
         if (rawFile.readyState === 4) {
             if (rawFile.status === 200 || rawFile.status == 0) {
                 tsvFile = rawFile.responseText;
-                createHangul(tsvFile, pType);
+                if (pFile.includes("failed")) {
+                    if (tsvFile == "") {
+                    } else {
+                        h_createFailedList(tsvFile);
+                    }
+                } else {
+                    createHangul(tsvFile, pType);
+                }
             }
         }
     }
@@ -66,4 +75,18 @@ function createHangul(pFile, pType) {
     } else {
         // console.log(Hangul.list);
     }
+}
+
+function h_createFailedList(pFile) {
+    let row = pFile.split(/\r\n/);
+    console.log(row);
+    for (let i = 0; i < row.length; i++) {
+        let arr = [];
+        let tempArr = row[i].split(",");
+        for (let j = 0; j < tempArr.length; j++) {
+            arr.push(Hangul.list[tempArr[j] - 1]); //? Hangul.id - 1 ==> index de Hangul.list[index]
+        }
+        Hangul.failedList[i] = arr;
+    }
+    console.log(Hangul.failedList);
 }

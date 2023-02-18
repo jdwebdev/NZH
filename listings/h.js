@@ -1,9 +1,9 @@
-let h_result_section = document.getElementById("h_result_section");
-let h_searchBtn = document.getElementById("h_searchBtn");
-let h_input = document.getElementById("h_input");
-let h_resultNb = document.getElementById("h_resultNb");
-let h_select = document.getElementById("h_select"); //? hanzi / word / fanti1 / fanti2
-let h_select_lesson = document.getElementById("h_select_lesson");
+let h_result_section = id("h_result_section");
+let h_searchBtn = id("h_searchBtn");
+let h_input = id("h_input");
+let h_resultNb = id("h_resultNb");
+let h_select = id("h_select"); //? hanzi / word / fanti1 / fanti2
+let h_select_lesson = id("h_select_lesson");
 h_select.addEventListener("change", e => {
     if (h_select.value == "lesson") {
         // if (h_select_lesson.innerHTML == "") {

@@ -45,26 +45,34 @@ let log = console.log.bind();
 let WORD_LIST = [];                                               //!    Pour display
 
 let body = document.getElementsByTagName("body")[0];
+let mainListing = id("main_listing");
+let mainTraining = id("main_training");
+mainTraining.style.display = "none";
 let activeBtn = "n";
 let activeColor = "rgba(200,200,200,1)";
 let inactiveColor = "rgba(217,160,102,1)";
 let languagesList = ["n", "z", "h"];
 let btnList = [];
 let sectionList = [];
-let switchModeBtn = document.getElementById("switchMode");
+let sectionTrainingList = [];
+let switchModeBtn = id("switchMode");
+switchModeBtn.addEventListener("click", e => {
+    switchMode();
+});
 let currentMode = 0; //? 0: List | 1: Training
 
-let resultSection = document.getElementById("result_section");    //!    Pour display
+let resultSection = id("result_section");    //!    Pour display
 
-let modal = document.getElementById("modal");
-let popup = document.getElementById("popup");
+let modal = id("modal");
+let popup = id("popup");
 let bModal = false;
 
 modal.addEventListener("click", e => closeModal());
 
 languagesList.forEach(l => {
-    btnList[l] = document.getElementById(l);
-    sectionList[l] = document.getElementById(l+"_section")
+    btnList[l] = id(l);
+    sectionList[l] = id(l+"_section");
+    sectionTrainingList[l] = id(l+"t_section");
     if (l == "n") {
         btnList[l].style.backgroundColor = activeColor;
     }
@@ -78,9 +86,11 @@ function changeLanguage(l) {
     for (let key in btnList) {
         btnList[key].style.backgroundColor = inactiveColor;
         sectionList[key].style.display = "none";
+        sectionTrainingList[key].style.display = "none";
     }
     btnList[activeBtn].style.backgroundColor = activeColor;
     sectionList[activeBtn].style.display = "flex";
+    sectionTrainingList[activeBtn].style.display = "flex";
 
     if (Hangul.lessonList.length > 0 && h_select_lesson.innerHTML == "") {
         let lessonHTML = "";
@@ -91,7 +101,11 @@ function changeLanguage(l) {
         h_select_lesson.innerHTML = lessonHTML;
     }
 
-    switch(l) {
+    changeSwitchBtnLabel(l);
+}
+
+function changeSwitchBtnLabel(pLanguage) {
+    switch(pLanguage) {
         case "n":
             switchModeBtn.innerHTML = currentMode == 0 ? "練習" : "リスト";
             break;
@@ -102,6 +116,52 @@ function changeLanguage(l) {
             switchModeBtn.innerHTML = currentMode == 0 ? "연습" : "리스트";
             break;
     }
+}
+
+function switchMode() {
+    if (currentMode) {//? Training to Listing
+        currentMode = 0;
+        mainListing.style.display = "block";
+        mainTraining.style.display = "none";
+    } else {
+
+        if (Hanzi.failedList.length > 0 && !b_zt_h_FailedAlreadyInserted) {
+            b_zt_h_FailedAlreadyInserted = true;
+            let count = 0;
+            Hanzi.failedList.forEach(h => {
+                zt_select_filter.innerHTML += `
+                    <option value="ZH_${count}">H_${count+1}</option>
+                `;
+                count++;
+            });
+        }
+        if (Z_Word.failedList.length > 0 && !b_zt_w_FailedAlreadyInserted) {
+            b_zt_w_FailedAlreadyInserted = true;
+            let count = 0;
+            Z_Word.failedList.forEach(h => {
+                zt_select_filter.innerHTML += `
+                    <option value="ZW_${count}">W_${count+1}</option>
+                `;
+                count++;
+            });
+        }
+
+        if (Hangul.failedList.length > 0 && !b_ht_w_FailedAlreadyInserted) {
+            b_ht_w_FailedAlreadyInserted = true;
+            let count = 0;
+            Hangul.failedList.forEach(h => {
+                ht_select_filter.innerHTML += `
+                    <option value="HW_${count}">W_${count+1}</option>
+                `;
+                count++;
+            });
+        }
+
+        currentMode = 1;
+        mainListing.style.display = "none";
+        mainTraining.style.display = "block";
+    }
+    changeSwitchBtnLabel(activeBtn);
 }
 
 function openModal() {
@@ -200,6 +260,12 @@ function emptyInput() {
     inputList.forEach(i => {
         i.value = "";
     });
+}
+function id(pId) {
+    return document.getElementById(pId);
+}
+function rnd(pMin, pMax) { //? pMax NON COMPRIS
+    return Math.floor(Math.random() * (pMax - pMin)) + pMin;
 }
 
 window.addEventListener("keypress", key => {
