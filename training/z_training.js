@@ -180,11 +180,13 @@ let zt_hanzi; let zt_fanti; let zt_n; let zt_lizi; let zt_n_btn; let zt_kakunin;
 let zt_word;
 let zt_nextBtn_container = null;
 let z_training_section = id("z_training_section");
+let zt_progressBar;
 
 function zt_hanziDisplayTraining() {
     let innerHTML = "";
     z_training_section.innerHTML = "";
     innerHTML = `
+        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}</span></div>
         <p id="zt_hanzi" class="toFound zh_font">?</p> <!--时-->
         <p id="zt_fanti" class="fantiToFound zh_font">${zt_randomList[zt_currentIndex].fanti != "" ? "?" : ""}</p>
         <p class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
@@ -198,7 +200,9 @@ function zt_hanziDisplayTraining() {
         <div id="zt_nextBtn_container"></div>
     `;
     z_training_section.innerHTML = innerHTML;
-
+    
+    zt_progressBar = id("zt_progressBar");
+    zt_progressBar.style.width = (zt_currentIndex / zt_randomList.length) * 100 + "%";
     zt_nextBtn_container = id("zt_nextBtn_container");
     zt_hanzi = id("zt_hanzi");
     zt_fanti = id("zt_fanti");
@@ -227,6 +231,7 @@ function zt_ZWordDisplayTraining() {
     let innerHTML = "";
     z_training_section.innerHTML = "";
     innerHTML = `
+        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}</span></div>
         <p id="zt_word" class="toFound zh_font">?</p> <!--时-->
         <p class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <div class="zt_p zt_nihongo">
@@ -239,6 +244,8 @@ function zt_ZWordDisplayTraining() {
     `;
     z_training_section.innerHTML = innerHTML;
 
+    zt_progressBar = id("zt_progressBar");
+    zt_progressBar.style.width = (zt_currentIndex / zt_randomList.length) * 100 + "%";
     zt_nextBtn_container = id("zt_nextBtn_container");
     zt_word = id("zt_word");
     zt_lizi = id("zt_lizi");

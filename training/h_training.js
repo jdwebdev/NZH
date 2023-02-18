@@ -160,11 +160,13 @@ function ht_startTraining() {
 let ht_word; let ht_hanja; let ht_n; let ht_ex; let ht_n_btn; let ht_kakunin;
 let ht_nextBtn_container = null;
 let h_training_section = id("h_training_section");
+let ht_progressBar;
 
 function ht_WordDisplayTraining() {
     let innerHTML = "";
     h_training_section.innerHTML = "";
     innerHTML = `
+        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}</span></div>
         <p id="ht_word" class="toFound zh_font">?</p>
         <p id="ht_hanja" class="hanjaToFound zh_font">${ht_randomList[ht_currentIndex].hanja != "" ? "?" : ""}</p>
         <p id="ht_n" class="ht_p">${ht_randomList[ht_currentIndex].nihongo}</p>
@@ -175,6 +177,8 @@ function ht_WordDisplayTraining() {
     `;
     h_training_section.innerHTML = innerHTML;
 
+    ht_progressBar = id("ht_progressBar");
+    ht_progressBar.style.width = (ht_currentIndex / ht_randomList.length) * 100 + "%";
     ht_nextBtn_container = id("ht_nextBtn_container");
     ht_word = id("ht_word");
     ht_hanja = id("ht_hanja");
@@ -199,6 +203,7 @@ function ht_h_to_n_WordDisplayTraining() {
     let innerHTML = "";
     h_training_section.innerHTML = "";
     innerHTML = `
+        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}</span></div>
         <p id="ht_word" class="toFound zh_font">${ht_randomList[ht_currentIndex].word}</p>
         <p id="ht_hanja" class="hanjaToFound zh_font">${ht_randomList[ht_currentIndex].hanja != "" ? "?" : ""}</p>
         <p id="ht_n" class="ht_p">${ht_randomList[ht_currentIndex].nihongo != "" ? "?" : ""}</p>
@@ -209,6 +214,8 @@ function ht_h_to_n_WordDisplayTraining() {
     `;
     h_training_section.innerHTML = innerHTML;
 
+    ht_progressBar = id("ht_progressBar");
+    ht_progressBar.style.width = (ht_currentIndex / ht_randomList.length) * 100 + "%";
     ht_nextBtn_container = id("ht_nextBtn_container");
     ht_word = id("ht_word");
     ht_hanja = id("ht_hanja");

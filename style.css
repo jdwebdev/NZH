@@ -670,4 +670,15 @@ main {
     .result_fail_list {
         word-wrap: break-word;
     }
+
+    .progressBar {
+        height: 15px;
+        width: 0%;
+        background-color: rgb(38, 194, 38);
+    }
+
+    #currentIndex {
+        position: absolute;
+        left: 50%;
+    }
 }
