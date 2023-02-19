@@ -76,8 +76,9 @@ function z_search() {
                 Hanzi.list.forEach(h => {
                     if (h.hanzi.includes(z_input.value)) {
                         z_resultList.push(h);
-                    }
-                    if (h.pinyin.includes(z_input.value)) {
+                    } else if (h.pinyin.includes(z_input.value.toLowerCase())) {
+                        z_resultList.push(h);
+                    } else if (h.lizi.includes(z_input.value)) {
                         z_resultList.push(h);
                     }
                 });
