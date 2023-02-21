@@ -14,7 +14,6 @@ ht_range_input.style.display = "none";
 let ht_all_option = id("ht_all_option");
 let ht_random_option = id("ht_random_option");
 let ht_lesson_option = id("ht_lesson_option");
-ht_lesson_option.style.display = "none";
 
 let ht_end = id("ht_end");
 let ht_start = id("ht_start");
@@ -28,20 +27,20 @@ ht_select.addEventListener("change", e => {
     ht_all_option.selected = true;
     ht_selectFilterChange("all");
     switch (ht_select.value) {
-        case "hanzi":
-            ht_lesson_option.style.display = "none";
-            ht_random_option.style.display = "flex";
-            hanja_check_div.style.display = "flex";
-            break;
         case "word":
-            ht_lesson_option.style.display = "flex";
-            ht_random_option.style.display = "none";
-            hanja_check_div.style.display = "none";
+            ht_select_filter.innerHTML = `
+                <option id="ht_all_option" class="zh_font" value="all" selected>모두</option>
+                <option id="ht_lesson_option" class="zh_font" value="lesson">수업</option>
+                <option class="zh_font" value="xy">X-Y</option>
+            `;
+            // hanja_check_div.style.display = "none";
             break;
         case "duo":
-            ht_lesson_option.style.display = "none";
-            ht_random_option.style.display = "none";
-            hanja_check_div.style.display = "none";
+            ht_select_filter.innerHTML = `
+                <option id="ht_all_option" class="zh_font" value="all" selected>모두</option>
+                <option class="zh_font" value="xy">X-Y</option>
+            `;
+            // hanja_check_div.style.display = "none";
             break;
     }
 });

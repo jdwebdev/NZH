@@ -15,35 +15,64 @@ zt_range_input.style.display = "none";
 let zt_all_option = id("zt_all_option");
 let zt_random_option = id("zt_random_option");
 let zt_lesson_option = id("zt_lesson_option");
-zt_lesson_option.style.display = "none";
 
 let zt_end = id("zt_end");
 let zt_start = id("zt_start");
 let fanti_check_div = id("fanti_check_container");
 let fanti_check = id("fanti_check");
+let spec_check_div = id("spec_check_container");
+let spec_check = id("spec_check");
+spec_check_div.style.display = "none";
 
 let zt_startBtn = id("zt_startBtn");
 
 zt_select.addEventListener("change", e => {
     zt_all_option.selected = true;
     zt_selectFilterChange("all");
+    let count = 0;
     switch (zt_select.value) {
         case "hanzi":
-            zt_lesson_option.style.display = "none";
-            zt_random_option.style.display = "flex";
+            zt_select_filter.innerHTML = `
+                <option id="zt_all_option" class="zh_font" value="all" selected>全部</option>
+                <option class="zh_font" value="xy">X-Y</option>
+                <option id="zt_random_option" class="zh_font" value="xrandom">x-rd</option>
+            `;
+            
+            Hanzi.failedList.forEach(h => {
+                zt_select_filter.innerHTML += `
+                    <option value="ZH_${count}">H_${count+1}</option>
+                `;
+                count++;
+            });
             fanti_check_div.style.display = "flex";
+            spec_check_div.style.display = "none";
             break;
         case "word":
-            zt_lesson_option.style.display = "flex";
-            zt_random_option.style.display = "none";
+            zt_select_filter.innerHTML = `
+                <option id="zt_all_option" class="zh_font" value="all" selected>全部</option>
+                <option id="zt_lesson_option" class="zh_font" value="lesson">课</option>
+                <option class="zh_font" value="xy">X-Y</option>
+            `;
+
+            Z_Word.failedList.forEach(h => {
+                zt_select_filter.innerHTML += `
+                    <option value="ZW_${count}">W_${count+1}</option>
+                `;
+                count++;
+            });
             fanti_check_div.style.display = "none";
+            spec_check_div.style.display = "flex";
             break;
         case "duo":
-            zt_lesson_option.style.display = "none";
-            zt_random_option.style.display = "none";
+            zt_select_filter.innerHTML = `
+                <option id="zt_all_option" class="zh_font" value="all" selected>全部</option>
+                <option class="zh_font" value="xy">X-Y</option>
+            `;
             fanti_check_div.style.display = "none";
+            spec_check_div.style.display = "none";
             break;
     }
+
 });
 zt_select_filter.addEventListener("change", e => {
     zt_selectFilterChange(zt_select_filter.value);
@@ -137,7 +166,9 @@ function zt_startTraining() {
         case "word": //? Z_Word.lessonList
             if (filter == "all") {
                 for (let i = 0; i < Z_Word.list.length; i++) {
-                    zt_randomList.push(Z_Word.list[i]);
+                    if (!spec_check.checked || (spec_check.checked && Z_Word.list[i].spec != "")) {
+                        zt_randomList.push(Z_Word.list[i]);
+                    }
                 }
             } else if (filter == "xy") {
                 for (let i = parseInt(zt_start.value)-1; i < parseInt(zt_end.value)-1; i++) {
@@ -146,7 +177,9 @@ function zt_startTraining() {
             } else if (filter == "lesson") {
                 for (let i = 0; i < Z_Word.list.length; i++) {
                     if (Z_Word.list[i].lesson == zt_select_lesson.value) {
-                        zt_randomList.push(Z_Word.list[i]);
+                        if (!spec_check.checked || (spec_check.checked && Z_Word.list[i].spec != "")) {
+                            zt_randomList.push(Z_Word.list[i]);
+                        }
                     }
                 }
             } else if (filter.includes("ZW_")) {
@@ -238,6 +271,7 @@ function zt_ZWordDisplayTraining() {
             <p id="zt_n" class="">${zt_randomList[zt_currentIndex].yisi != "" ? "?" : ""}</p> <!-- yisi -->
             <button id="zt_n_btn" class="zt_n_btn">日</button>
         </div>
+        <p id="" class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyinLizi}</p> <!---->
         <p id="zt_lizi" class="zt_p zh_font">${zt_randomList[zt_currentIndex].lizi != "" ? "?" : ""}</p> <!-- 三个小时 | 需要几个小时 -->
         <button id="zt_kakunin" class="zh_font">确认</button>
         <div id="zt_nextBtn_container"></div>   

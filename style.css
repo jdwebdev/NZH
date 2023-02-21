@@ -533,6 +533,10 @@ main {
         width: 35px;
     }
 
+    #zt_select_lesson {
+        margin-right: 5px;
+    }
+
     .startBtn {
         width: 50px;
         padding: 0 5px;
@@ -547,6 +551,12 @@ main {
     }
     #hanja_check_container {
         align-self: center;
+        margin-right: 5px;
+    }
+    #spec_check_container {
+        align-self: center;
+    }
+    #spec_check {
         margin-right: 5px;
     }
     #h_to_n_container {
@@ -565,7 +575,7 @@ main {
         border: 1px solid gray;
         padding: 5px 0;
         margin-bottom: 5px;
-        height: 64px;
+        min-height: 64px;
     }
     .fantiToFound, .hanjaToFound {
         font-size: 32px;

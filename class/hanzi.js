@@ -82,14 +82,16 @@ class Z_Word {
     static lessonList = [];
     static failedList = [];
 
-    constructor(pId, pWord, pPinyin, pYisi = "", pLizi = "", pLesson = "", pDuo = false) {
+    constructor(pId, pWord, pPinyin, pYisi = "", pPinyinLizi = "", pLizi = "", pSpec = "", pLesson = "", pDuo = false) {
 
         this.id = pId;
 
         this.word = pWord;
         this.pinyin = pPinyin;
         this.yisi = pYisi;
+        this.pinyinLizi = pPinyinLizi;
         this.lizi = pLizi;
+        this.spec = pSpec;
         this.lesson = pLesson;
 
         // this.liziList = pLizi.split(" | ");
@@ -143,8 +145,8 @@ function createZ_WORD(pFile, pType) {
             lesson = row[i][0].split(' ')[1];
             Z_Word.lessonList.push(lesson);
         } else {
-            //?               id, word,      pinyin,    yisi,      lizi,      
-            test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3], lesson, pType);
+            //?               id, word,      pinyin,    yisi,      pinyinLizi, lizi,      -
+            test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3],  row[i][4], row[i][5], lesson, pType);
             id++;
         }
     }

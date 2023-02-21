@@ -1,98 +1,153 @@
-单词	拼音	意思	例子
-@ 1-1			
-你	nǐ	あなた	
-好	hǎo	良い	
-你好	nǐhǎo	こんにちは	
-早上	zǎoshang	朝	
-早上好	zǎoshanghǎo	おはようございます	
-晚上	wǎnshang	夜	
-晚上好	wǎnshanghǎo	こんばんは	
-晚安	wǎn'ān	お休みなさい	
-明天	míngtiān	明日	
-见。見	jiàn	会う	
-明天见。明天見	míngtiānjiàn	また明日	
-再见。再見	zàijiàn	さようなら	
-早安	zǎo'ān	おはよう	
-·天安门。天安門	tiān'ānmén	天安門	
-·公安局	gōng'ānjú	公安局	
-·恋爱。戀愛	liàn'ài	恋愛	
-·天鹅。天鵝	tiān'é	白鳥	
-·木偶戏。木偶戲	mù'ǒuxì	人形劇	
-·餐厅。餐廳	cāntīng	レストラン	
-·东京。東京	dōngjīng	東京	
-·公司	gōngsī	会社	
-·关心。關心	guānxīn	関心	
-今天	jīntiān	今日	
-·出差	chūchāi	出張	
-·英国。英國	yīngguó	英国	
-·生活	shēnghuó	生活	
-·空调。空調	kōngtiáo	エアコン	
-·刚才。剛才	gāngcái	さっき	
-·阿姨	āyí	おばさん	
-·积极。積極	jījí	積極的	
-·修理	xiūlǐ	修理	
-·身体。身體	shēntǐ	体	
-·商品	shāngpǐn	商品	
-·英语。英語	yīngyǔ	英語	
-·风景。風景	fēngjǐng	風景	
-·机场。機場	jīchǎng	空港	
-·兄弟	xiōngdì	兄弟	
-·空气。空氣	kōngqì	空気	
-·医院。醫院	yīyuàn	病院	
-·鸡蛋。鷄蛋	jīdàn	卵	
-·希望	xīwàng	希望	
-·方向	fāngxiàng	方向	
-辛苦了	xīnkǔle	お疲れさまでした	
-不辛苦	bùxīnkǔ	ご心配なく	
-没关系。沒關係	méiguānxì	大丈夫です	
-下星期见。下星期見	xiàxīngqī jiàn	また来週	
-下个月见。下個月見	xiàgeyuè jiàn	また来月	
-贵姓。貴姓	guìxìng	苗字、姓	
-·池田麻美	chítián máměi	池田麻美	
-叫	jiào	呼ぶ	
-叫什么名字。叫什麽名字	jiào shénme míngzi	お名前は何ですか	
-唱歌	chànggē	歌を歌う	
-谢谢。謝謝	xìèxie	ありがとう	
-学中文。學中文	xué zhōngwén	中国語を学ぶ	
-@ 1-2			
-请。請	qǐng	どうぞ。ください	qǐng jìn qǐng zuò
-进。進	jìn	入る	qǐng jìn
-打搅。打攪	dǎjiǎo	邪魔する　お邪魔します	A: qǐng jìn B: dǎjiǎo le
-了	le	(過去) | ～よ	
-喝	hē	飲む	wǒ hē shuǐ
-茶	chá	おちゃ	wǒ hē chá
-水	shuǐ	みず	wǒ hē shuǐ
-时间。時間	shíjiān	じかん	méi yǒu shíjiān
-旁边。旁邊	pángbiān	そば	
-结婚。結婚	jiéhūn	けっこん	
-传真。傳真	chuánzhēn	ファックス	
-钱包。錢包	qiánbāo	財布	
-农村。農村	nóngcūn	のうそん	
-银行。銀行	yínháng	ぎんこう	
-厨房	chúfáng	台所	
-德国。德國	déguó	ドイツ	
-儿童。兒童	értóng	児童	
-流行	liúxíng	りゅうこう。はやり	
-同学。同學	tóngxué	クラスメート	
-牛奶	niúnǎi	牛乳	
-啤酒	píjiǔ	ビール	
-男女	nánnǚ	だんじょ	
-韩语。韓語	hányǔ	かんこくご	
-扶手	fúshǒu	手すり	
-糖果	tángguǒ	飴	
-同事	tóngshì	同僚	
-学校。學校	xuéxiào	がっこう	
-愉快	yúkuài	ゆかい	
-原谅。原諒	yuánliàng	許す	
-习惯。習慣	xíguàn	しゅうかん。なれている	
-迟到。遲到	chídào	遅れる	
-不要	búyào	要らない	
-累	lèi	疲れる	
-休息	xiūxi	休憩	
-去	qù	行く	nǐ qù nǎ'er
-哪儿	nǎ'er	どこ	nǐ qù nǎ'er
-电影院。電影院	diànyǐngyuàn	映画館	
-看	kàn	見る。読む	kàn diàn yǐng | kàn shū
-现在。現在	xiànzài	今	
-上网。上網	shàngwǎng	インターネットをする	
-干什么。幹什麽	gàn shénme	何をする	
+单词	拼音	意思	拼音例子	例子	-
+@ 1-1					
+你	nǐ	あなた			
+好	hǎo	良い			
+你好	nǐhǎo	こんにちは			
+早上	zǎoshang	朝			
+早上好	zǎoshanghǎo	おはようございます			
+晚上	wǎnshang	夜			
+晚上好	wǎnshanghǎo	こんばんは			
+晚安	wǎn'ān	お休みなさい			
+明天	míngtiān	明日			
+见。見	jiàn	会う			
+明天见。明天見	míngtiānjiàn	また明日			
+再见。再見	zàijiàn	さようなら			
+早安	zǎo'ān	おはよう			
+天安门。天安門	tiān'ānmén	天安門			
+公安局	gōng'ānjú	公安局			-
+恋爱。戀愛	liàn'ài	恋愛			-
+天鹅。天鵝	tiān'é	白鳥			-
+木偶戏。木偶戲	mù'ǒuxì	人形劇			-
+餐厅。餐廳	cāntīng	レストラン			-
+东京。東京	dōngjīng	東京			
+公司	gōngsī	会社			
+关心。關心	guānxīn	関心			
+今天	jīntiān	今日			
+出差	chūchāi	出張			-
+英国。英國	yīngguó	英国			
+生活	shēnghuó	生活			
+空调。空調	kōngtiáo	エアコン			-
+刚才。剛才	gāngcái	さっき			
+阿姨	āyí	おばさん			
+积极。積極	jījí	積極的			-
+修理	xiūlǐ	修理			
+身体。身體	shēntǐ	体			
+商品	shāngpǐn	商品			
+英语。英語	yīngyǔ	英語			
+风景。風景	fēngjǐng	風景			-
+机场。機場	jīchǎng	空港			
+兄弟	xiōngdì	兄弟			
+空气。空氣	kōngqì	空気			-
+医院。醫院	yīyuàn	病院			
+鸡蛋。鷄蛋	jīdàn	卵			
+希望	xīwàng	希望			
+方向	fāngxiàng	方向			
+辛苦了	xīnkǔle	お疲れさまでした			
+不辛苦	bùxīnkǔ	ご心配なく			
+没关系。沒關係	méiguānxì	大丈夫です			
+下星期见。下星期見	xiàxīngqī jiàn	また来週			
+下个月见。下個月見	xiàgeyuè jiàn	また来月			
+贵姓。貴姓	guìxìng	苗字、姓			
+池田麻美	chítián máměi	池田麻美			-
+叫	jiào	呼ぶ			
+叫什么名字。叫什麽名字	jiào shénme míngzi	お名前は何ですか			
+唱歌	chànggē	歌を歌う			
+谢谢。謝謝	xìèxie	ありがとう			
+学中文。學中文	xué zhōngwén	中国語を学ぶ			
+@ 1-2					
+请。請	qǐng	どうぞ。ください	qǐng jìn qǐng zuò		
+进。進	jìn	入る	qǐng jìn		
+打搅。打攪	dǎjiǎo	邪魔する　お邪魔します	A: qǐng jìn B: dǎjiǎo le		-
+了	le	(過去) | ～よ			
+喝	hē	飲む	wǒ hē shuǐ		
+茶	chá	おちゃ	wǒ hē chá		
+水	shuǐ	みず	wǒ hē shuǐ		
+时间。時間	shíjiān	じかん	méi yǒu shíjiān		
+旁边。旁邊	pángbiān	そば			
+结婚。結婚	jiéhūn	けっこん			
+传真。傳真	chuánzhēn	ファックス			-
+钱包。錢包	qiánbāo	財布			-
+农村。農村	nóngcūn	のうそん			-
+银行。銀行	yínháng	ぎんこう			
+厨房	chúfáng	台所			-
+德国。德國	déguó	ドイツ			
+儿童。兒童	értóng	児童			-
+流行	liúxíng	りゅうこう。はやり			
+同学。同學	tóngxué	クラスメート			
+牛奶	niúnǎi	牛乳			
+啤酒	píjiǔ	ビール			
+男女	nánnǚ	だんじょ			
+韩语。韓語	hányǔ	かんこくご			
+扶手	fúshǒu	手すり			-
+糖果	tángguǒ	飴			-
+同事	tóngshì	同僚			
+学校。學校	xuéxiào	がっこう			
+愉快	yúkuài	ゆかい			-
+原谅。原諒	yuánliàng	許す			-
+习惯。習慣	xíguàn	しゅうかん。なれている			
+迟到。遲到	chídào	遅れる			
+不要	búyào	要らない			
+累	lèi	疲れる			
+休息	xiūxi	休憩			
+去	qù	行く	nǐ qù nǎ'er		
+哪儿	nǎ'er	どこ	nǐ qù nǎ'er		
+电影院。電影院	diànyǐngyuàn	映画館			
+看	kàn	見る。読む	kàn diànyǐng | kàn shū		
+现在。現在	xiànzài	今			
+上网。上網	shàngwǎng	インターネットをする			
+干什么。幹什麽	gàn shénme	何をする			
+@ 1-3					
+对不起。對不起	duìbuqǐ	すみません			
+真	zhēn	本当に			
+抱歉。抱歉	bàoqiàn	申し訳ございません			-
+不要紧。不要緊	bú yào jǐn	大したことない。大丈夫			-
+不客气。不客氣	bú kè qi	どういたしまして			
+麻烦。麻煩	máfan	迷惑をかける。お手数をかける	máfan nǐ le	麻烦你了	-
+每天	měitiān	毎日			
+买单。買單	mǎidān	勘定。会計			
+紧张。緊張	jǐnzhāng	きんちょう　する			-
+北京	běijīng	ペキン			
+老师。老師	lǎoshī	先生			
+法国。法國	fǎguǒ	フランス			
+美国。美國	měiguǒ	アメリカ			
+可能	kěnéng	かのう。できる			
+解决。解決	jiějué	かいけつ			-
+友情	yǒuqíng	ゆうじょう			-
+网球。網球	wǎngqiú	テニス			
+老板。老闆	lǎobǎn	社長			-
+几点。幾點	jǐdiǎn	何時			
+手表。手錶	shǒubiǎo	腕時計			
+洗澡	xǐzǎo	お風呂			-
+理解	lǐjiě	りかい			-
+水果	shuǐguǒ	果物			
+姐妹	jiěmèi	しまい			
+冷气。冷氣	lěngqì	クーラー			-
+领带。領帶	lǐngdài	ネクタイ			-
+感动。感動	gǎndòng	かんどう			
+马上。馬上	mǎshàng	もうすぐ。すぐ			
+美丽。美麗	měilì	きれいな			-
+小姐	xiǎojiě	お嬢さん。すみません			
+等	děng	待つ			
+意思	yìsi	意味			
+几岁。幾歲	jǐsuì	何歳			
+姐姐	jiějie	お姉さん			
+多大了	duōdàle	いくつですか			
+属。屬	shǔ	あなたの干支は何ですか	nǐ (shì) shǔ shénme de	你(是)属什么的	-
+我属猴的。我屬猴的	wǒ shǔ hóu de	私は申年です(サル)			
+喜欢。喜歡	xǐhuān	好き			
+父母	fùmǔ	両親			
+爷爷。爺爺	yéye	祖父			
+奶奶	nǎinai	祖母			
+多大年纪。多大年紀	duōdà niánjì	おいくつですか			
+多大岁数。多大歲數	duōdà suìshu	おいけつですか			-
+草莓	cǎoméi	いちご			-
+西瓜	xīguā	スイカ			
+胡萝卜。胡蘿蔔	húluóbo	人参			-
+小狗	xiǎogǒu	犬			
+猫	māo	ねこ			
+香蕉	xiāngjiāo	バナナ			
+冰淇淋	bīngqílín	アイスクリーム			-
+一杯（冰淇淋）	yìbēi（bīngqílín）				
+苹果。蘋果	píngguǒ	林檎			
+白兔	báitù	うさぎ			-
+猴子	hóuzi	サル			-
