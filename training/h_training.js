@@ -73,8 +73,8 @@ function ht_selectFilterChange(pOption) {
             if (ht_select_lesson.innerHTML == "") {
                 let lessonHTML = "";
                 // lessonHTML = `<option class="zh_font" value="all">全部</option>`;
-                for(let i = 0; i < Z_Word.lessonList.length; i++) {
-                    lessonHTML += `<option value="${Z_Word.lessonList[i]}">${Z_Word.lessonList[i]}</option>`;
+                for(let i = 0; i < Hangul.lessonList.length; i++) {
+                    lessonHTML += `<option value="${Hangul.lessonList[i]}">${Hangul.lessonList[i]}</option>`;
                 }
                 ht_select_lesson.innerHTML = lessonHTML;                
             }
