@@ -25,7 +25,7 @@
 好		hao3	níhǎo	你好	こんにちは	
 狗		gou3	gǒu	我有一个狗	いぬ	
 和		he2	wǒ hé nǐ	我和你	～と～	
-猫		mao1	māo	它是我的猫	ねこ	
+猫	貓	mao1	māo	它是我的猫	ねこ	
 茶		cha2	wǒ yào hē chá	我要喝茶	おちゃ	
 王		wang2	wáng	王老师 | 我不可能是你的王子	おうさまの(おう)	
 他		ta1	il	他是谁	かれ	
@@ -293,7 +293,7 @@
 袋		dai4	yīdài píngguǒ | dàizi	一袋苹果 | 袋子	ひとぶくろ | 袋	
 米		mi3	mǐfàn	米饭	ごはん(こめ)	
 习	習	xi2	wǒ xuéxí hànyǔ	我学习汉语	勉強する	
-为	為爲	wei4	wèi shénme | yīnwèi	为什么 | 因为	どうして | だから、なので	
+为	為爲	wei4，wei2	wèi shénme | yīnwèi | chéngwéi	为什么 | 因为 | 成为	どうして | だから、なので | ～になる	
 牙		ya2	xībānyá	西班牙	スペイン	
 所		suo3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi	所以 | 这个太贵，所以我不买	～ので、donc	
 以		yi3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi	所以 | 这个太贵，所以我不买	～ので、donc	
@@ -427,14 +427,14 @@
 完		wán	nǐ chī wán le ma	你吃完了吗	V+終える、V+終わる	
 真		zhēn	tā zhēn piàoliàng	她真漂亮	本当に	
 已		yǐ	yǐjīng	已经	もう、すでに	
-经	經	jīng	yǐjīng	已经	もう、すでに	
+经	經	jīng	yǐjīng｜jīngjì	已经｜经济	もう、すでに｜経済	
 饱	飽	bǎo	wǒ hěn bǎo	我很饱	お腹がいっぱい	
 饿	餓	e4	wǒ è le	我饿了	お腹が空いた	
 渴		ke3	wǒ hěn kě	我很渴	喉が渇いた	
 甜		tian2	tiándiǎn | zhè ge dàngāo tài tián le	甜点 | 这个蛋糕太甜了	デザート | 甘い	
 巧		qiao3	qiǎokèlì	巧克力	チョコレート	
 克		ke4	qiǎokèlì	巧克力	チョコレート	
-力		li4	qiǎokèlì	巧克力	チョコレート	
+力		li4	qiǎokèlì | shìlì	巧克力 | 视力	チョコレート | 視力	
 味		wei4	wèidào	味道	あじ	
 试	試	shi4	tā xiǎng shìshì zhè tiáo lán qúnzi	她想试试这条蓝裙子	ためす	
 鞋		xié	zhè shuāng xiézi	这双鞋子	靴	
@@ -655,7 +655,7 @@
 厕	厠	ce4	cèsuǒ	厕所	トイレ	
 记	記	ji4	jìzhě	记者	きしゃ	
 者		zhe3	jìzhě	记者	きしゃ	
-邮	郵	you2	diànyóu	电邮	Eメール	
+邮	郵	you2	diànyóu | yóujú | yóupiào	电邮 | 邮局 | 邮票	Eメール｜郵便局｜切手	
 坡		po1	xīnjiāpō	新加坡	シンガポール	
 添		tian1	tiān máfan | gěi nǐ tiān máfan le	添麻烦 | 给你添麻烦了	迷惑をかける	
 称	稱	cheng1	chēnghu	称呼 我什么称呼您？	何とお呼びすればいいですか	
@@ -691,3 +691,31 @@
 环	環	huan2	ěrhuán	耳环	イヤリング	
 脱		tuo1	tuō yīfu	脱 衣服	脱ぐ　服	
 摘		zhai1	zhāi màozi|yǎnjìngr	摘 帽子|眼镜儿	外す　帽子｜眼鏡	
+程		cheng2	(diànnǎo) gōngchéngshī	电脑工程师	(IT)エンジニア	
+姑		gu1	gūniang	姑娘	お嬢さん	
+娘		niang2	xīnniáng	姑娘 | 新娘	花嫁さん	
+退		tui4	tuìxiū	退休	定年退職	
+庭		ting2	jiātíng	家庭	家庭	
+历	曆	li4	rìlì	日历。日曆	カレンダー	
+剧	劇	ju4	jīngjù	京剧。京劇	京劇	
+济	濟	ji4	jīngjì	经济。經濟	けいざい	
+妥		tuo3	tuǒxié	妥协。妥協	妥協	
+协	協	xie2	tuǒxié	妥协。妥協	妥協	
+拖		tuo1	tuōxié	拖鞋	スリッパ	
+卧	臥	wo4	wòshì	卧室。臥室	ベッドルーム	
+象		xiang4	dàxiàng	大象	象	
+虎		hu3	lǎohǔ	老虎	トラ	
+熊		xiong2	xióngmāo	熊猫。熊貓	パンダ	
+鳄	鱷	e4	èyú	鳄鱼。鱷魚	ワニ	
+鼠		shu3	dàishǔ | cāngshǔ	袋鼠 | 仓鼠	カンガルー | ハムスター	
+颈	頸	jing3	chángjǐnglù	长颈鹿。長頸鹿	キリン	
+鹿		lu4	chángjǐnglù	长颈鹿。長頸鹿	キリン	
+狮	獅	shi1	shīzi	狮子。獅子	ライオン	
+企		qi3	qǐ'é	企鹅。企鵝	ペンギン	
+仓	倉	cang1	cāngshǔ	仓鼠。倉鼠	ハムスター	
+养	養	yang3	yǎng | yǎng chǒngwù | méiyǒu yǎng chǒngwù	养 | 养宠物 | 没有养宠物	飼う	
+宠	寵	chong3	chǒngwù	宠物。寵物	ペット	
+类	類	lei4	rénlèi	人类。人類	じんるい	
+寄	寄	ji4	jìxìn	寄信	手紙を出す	
+念		nian4	niàn | zhè ge zì zěnme niàn ？	念 | 这个字怎么念？	読む	
+直		zhi2	yìzhí	一直	真っ直ぐ	
