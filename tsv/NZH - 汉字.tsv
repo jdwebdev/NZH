@@ -24,7 +24,7 @@
 水		shui3	wǒ hē shuǐ	我喝水	みず	
 好		hao3	níhǎo	你好	こんにちは	
 狗		gou3	gǒu	我有一个狗	いぬ	
-和		he2	wǒ hé nǐ	我和你	～と～	
+和		he2，huo	wǒ hé nǐ | nuǎnhuo	我和你 | 暖和	～と～	
 猫	貓	mao1	māo	它是我的猫	ねこ	
 茶		cha2	wǒ yào hē chá	我要喝茶	おちゃ	
 王		wang2	wáng	王老师 | 我不可能是你的王子	おうさまの(おう)	
@@ -215,7 +215,7 @@
 跳		tiao4	tiàowǔ	跳舞	踊る	
 舞		wu3	tiàowǔ	跳舞	踊る	
 能		neng2	tā bù néng tiàowǔ	他不能跳舞	～できる	
-床	牀	chuang2	qǐchuáng	起床	(寝てから)起きる	
+床		chuang2	qǐchuáng | shàngchuáng	起床 | 上床	(寝てから)起きる | 寝る(ベッドに入る)	
 班		ban1	shàngbān	上班 | 下班	仕事(に行く)(から帰る)こと	
 睡		shui4	shuìjiào	睡觉	寝る	
 觉	覺	jiao4，jue2	shuìjiào | juéde	睡觉 | 觉得	寝る | 思う	
@@ -243,7 +243,7 @@
 太		tai4	tài guì le	太贵了	～すぎ	
 视	視	shi4	diànshì	电视	テレビ	
 想		xiang3	wǒ xiǎng ～	我想~	～したい	
-干	幹，乾	gan4，gan1	nǐ gàn shénme gan1bei1	这个周末我们会干什么 | 干杯	する(動詞) | 乾杯	
+干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1	这个周末我们会干什么 | 干杯	する(動詞) | 乾杯	
 影		ying3	diànyǐng	电影	映画	
 报	報	bao4	bàozhǐ	报纸	新聞	
 纸	紙	zhi3	bàozhǐ	报纸	新聞	
@@ -298,7 +298,7 @@
 所		suo3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi	所以 | 这个太贵，所以我不买	～ので、donc	
 以		yi3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi	所以 | 这个太贵，所以我不买	～ので、donc	
 因		yin1	yīnwèi	因为	Parce que, comme ~	
-旅		lv3	lǚyóu	旅游	りょこう	
+旅		lv3	lǚyóu | lǚxíng	旅游 | 旅行	りょこう	
 轻	輕	qing1	qīngsōng	轻松	リラックス	
 松	鬆	song1	qīngsōng	轻松	リラックス	
 拍		pai1	pāizhào	拍照	写真を撮ること	
@@ -454,7 +454,7 @@
 眼		yan3	yǎnjīng	眼睛	目	
 睛		jing1	yǎnjīng	眼睛	目	
 绿	緑	lv4	lǜsè	绿色	みどり	
-脸	臉	lian3	liǎn	脸	顔	
+脸	臉	lian3	liǎn | xǐliǎn	脸 | 洗脸	顔 | 顔を洗う	
 又		you4 	wǒ nǔpéngyou de yǎnjīng yòu hēi yòu piàoliàng	我女朋友的眼睛又黑又漂亮	～し、～し	
 黑		hei1	hēisè	黑色	くろい	
 脚		jiao3	jiǎo	脚	足	
@@ -546,7 +546,7 @@
 浆	漿	jiang1	dòujiāng	豆浆	とうにゅう	
 锅	鍋	guo1	huǒguō	火锅	火鍋	
 笼	籠	long2	xiǎolóngbāo	小笼包	小籠包	
-拉		la1	lāmiàn	拉面	ラーメン	
+拉		la1	lāmiàn | shālā	拉面 | 沙拉	ラーメン | サラダ	
 炒		chao3	chǎofàn	炒饭	チャーハン	
 叔		shu1	shūshū	叔叔	叔父	
 夏		xia4	xiàtiān	夏天	なつ	
@@ -615,7 +615,7 @@
 婚		hun1	jiéhūn	结婚	けっこん	
 传	傳	chuan2	chuánzhēn	传真	ファックス	
 农	農	nong2	nóngcūn	农村	のうそん	
-村		cun1	nóngcūn	农村	のうそん	
+村		cun1	nóngcūn | cūnzhǎng	农村 | 村长	のうそん | そんちょう	
 银	銀	yin2	yínháng	银行	ぎんこう	
 厨		chu2	chúfáng	厨房	台所	
 童		tong2	értóng	儿童	児童	
@@ -666,7 +666,7 @@
 精		jing1	jīngshén・jīngshen	精神	精神・元気	
 神		shen2	jīngshén・jīngshen	精神	精神・元気	
 姥		lao3	lǎoye | lǎolao	姥爷 | 姥姥	(祖父 | 祖母) (母方)	
-凉	涼	liang2	liángkuai	凉快	涼しい	
+凉	涼	liang2	liángkuai | chōngliáng	凉快 | 冲凉	涼しい | シャワーを浴びる	
 邻	鄰	lin2	línju	邻居	隣、近所	
 居		ju1	línju	邻居	隣、近所	
 口		kou3	kěkǒukělè	可口可乐	コカコーラ	
@@ -755,3 +755,27 @@
 罐		guan4	yíguàn	一罐	一缶	
 份		fen4	yífèn	一份	1人分	
 碟		die2	yìdié	一碟	小皿１つ	
+净		jing4	gānjing	干净	綺麗。清潔	
+全		quan2	ānquán	安全	安全	
+暖		nuan3	nuǎnhuo	暖和	暖かい	
+刺		ci4	cìji	刺激	しげき	
+激		ji1	cìji	刺激	しげき	
+式		shi4	zhèngshì	正式	しょうじき	
+蜂		feng1	fēngmì	蜂蜜	はちみつ	
+蜜		mi4	fēngmì	蜂蜜	はちみつ	
+斯		si1	sīlǐlánkǎ	斯里兰卡。斯里蘭卡	スリランカ	
+兰	蘭	lan2	sīlǐlánkǎ	斯里兰卡。斯里蘭卡	スリランカ	
+菲		fei1	fēilǜbīn	菲律宾。菲律賓	フィリピン	
+律		lv4	fēilǜbīn	菲律宾。菲律賓	フィリピン	
+宾	賓	bin1	fēilǜbīn	菲律宾。菲律賓	フィリピン	
+普		pu3	pǔjídǎo (phuket 泰国) | pǔtōnghuà	普吉岛。普吉島 | 普通话	プーケット | マンダリン	
+岛	島	dao3	pǔjídǎo (phuket 泰国)	普吉岛。普吉島	プーケット	
+柬		jian3	jiǎnpǔzhài	柬埔寨	カンボジア	
+埔		pu3	jiǎnpǔzhài	柬埔寨	カンボジア	
+寨		zhai4	jiǎnpǔzhài	柬埔寨	カンボジア	
+吴	吳	wu2	wúgēkū (Angkor Wat寺院Cambodge)	吴哥窟。吳哥窟	アンコールワット	
+窟		ku1	wúgēkū (Angkor Wat寺院Cambodge)	吴哥窟。吳哥窟	アンコールワット	
+沙		sha1	shālā	沙拉	サラダ	
+冲	衝	chong1	chōngliáng	冲凉。衝涼	シャワーを浴びる	
+业	業	ye4	zuò zuòyè	做作业。做作業	宿題をする	
+忘		wang4	wàngle	忘了	忘れた	
