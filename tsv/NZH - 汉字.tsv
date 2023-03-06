@@ -197,7 +197,7 @@
 走		zou3	dào xuéxiào zěnme zǒu	到学校怎么走	歩く	
 到		dao4	dào xuéxiào zěnme zǒu	到学校怎么走	～まで	
 里	裡裏	li3	nǐ zài nǎli	你在哪里	～の中	
-往		wang3	qǐng wǎng yòubiān zǒu	请往右边走	右に進んでください	
+往		wang3	qǐng wǎng yòubiān zǒu | jiāowǎng	请往右边走 | 交往	右に進んでください | 付き合う	
 边	邊	bian1	pángbiān	旁边 | 右边 | 左边	隣	
 书	書	shu1	wǒ xǐhuān kàn shū	我喜欢看书	本	
 喜		xi3	wǒ xǐhuān kàn shū	我喜欢看书	好き	
@@ -220,8 +220,8 @@
 睡		shui4	shuìjiào	睡觉	寝る	
 觉	覺	jiao4，jue2	shuìjiào | juéde	睡觉 | 觉得	寝る | 思う	
 从	從	cong2	cóng ～	从~到~	～から	
-回		hui2	huíjiā	回家	家に帰る	
-放		fang4	fàngxué	放学	学校が終わること	
+回		hui2	huíjiā | huíguó	回家 | 回国	家に帰る | 帰国	
+放		fang4	fàngxué | fàngjià	放学 | 放假	学校が終わること | 休みに入る	
 钱	錢	qian2	méiyǒu qián	没有钱	お金	
 块	塊	kuai4	8 kuài　(8 yuán) | yíkuài dàngāo	八块 | 一块蛋糕	ケーキの数え方	
 角		jiao3	jiǎo （0.1 yuán）	角(書き言葉) = 毛(話し言葉)		
@@ -406,7 +406,7 @@
 留		liu2	liúzài | wǒ xiǎng liúzài jiā gōngzuò	留在 | 我想留在家工作	残る | 私は家に残って仕事がしたい	
 定		ding4	yídìng	一定	必ず	
 别		bie2	bié～ | bié kàn	别~ | 别看	～しないで(命令) | 見ないで	
-假		jia4	qǐngjià	请假	休みを取る	
+假		jia4	qǐngjià | fàngjià	请假 | 放假	休みを取る | 休みに入る	
 发	發，髮	fa1，fa4	fāshāo | nǐ yǒumeiyou fāshāo | tóufà	发烧 | 你有没有发烧 | 头发	熱 | 熱が出る | 髪	
 烧	燒	shao1	fāshāo | nǐ yǒumeiyou fāshāo | tā fāshāo le	发烧 | 你有没有发烧 | 他发烧了	熱 | 熱が出る	
 疼		teng2	dùzi téng	肚子疼	痛い、お腹が痛い、腹痛	
@@ -459,7 +459,7 @@
 黑		hei1	hēisè	黑色	くろい	
 脚		jiao3	jiǎo	脚	足	
 嘴		zui3	zuǐbā	嘴巴	口	
-巴		ba1	zuǐbā	嘴巴	口	
+巴		ba1	zuǐbā | bāshì	嘴巴 | 巴士	口 | バス	
 鼻		bi2	bízi	鼻子	はな	
 离	離	li2	yīyuàn lí zhèli yuǎn ma	医院离这里远吗	病院はここから遠い？	
 远	遠	yuan3	yīyuàn lí zhèli yuǎn ma	医院离这里远吗	遠い	
@@ -521,9 +521,9 @@
 输	輸	shu1	tā shū le，wǒ fēicháng shīwàng	他输了，我非常失望	負ける	
 心		xin1	xìnxīn | wǒmen yǒu xìnxīn huì yíng zhège bǐsài	信心 | 我们有信心会赢这个比赛	自信 | この試合に勝つ自信がある	
 赢	贏	ying2	yíng | wǒmen yǒu xìnxīn huì yíng zhège bǐsài	赢 | 我们有信心会赢这个比赛	勝つ | この試合に勝つ自信がある	
-理		li3	dìlǐ	地理	ちり	
+理		li3	dìlǐ | xiūlǐ | lǐjiě | guǎnlǐ	地理 | 修理 | 理解 | 管理	ちり | しゅうり | りかい | かんり	
 课	課	ke4	yǒu kè | shàngkè | shàng～kè	有课 | 上课 | 上[科目名]课	授業がある | 授業に出る	
-教		jiao4	jiàoshì	教室	きょうしつ	
+教		jiao4	jiàoshì | jiàoshī	教室 | 教师	きょうしつ | きょうし	
 同		tong2	tóngxué	同学	クラスメート	
 懂		dong3	dǒng | wǒ bù dǒng	懂 | 我不懂	分かる　分からない	
 题	題	ti2	wèntí | yǒu shénme wèntí ma | zhècì kǎoshì yǒu duōshǎo tí	问题 | 有什么问题吗 | 这次考试有多少题	質問 | 何か質問がある? | 今回のテストは何問ありますか	
@@ -559,7 +559,7 @@
 概		gai4	dàgài	大概	たぶん	
 刚	剛	gang1	gāng + V | tā gāng zǒu	刚+V | 他刚走	V＋たばかり | 行ったばかり	
 堵		du3	dǔchē	堵车	渋滞	
-园	園	yuan2	gōngyuán	公园	公園	
+园	園	yuan2	gōngyuán | yòuéryuán	公园 | 幼儿园	公園 | 幼稚園	
 附		fu4	fùjìn	附近	近く	
 城		cheng2	chéngshì	城市	都市	
 图	圖	tu2	túshūguǎn	图书馆	図書館	
@@ -612,7 +612,7 @@
 麻		ma2	máfan | chítián máměi　(名前)	麻烦 | 池田麻美	迷惑をかける | 池田麻美(名前)	
 搅	攪	jiao3	dǎjiǎo | A: qǐng jìn B: dǎjiǎo le	打搅	邪魔する　お邪魔します	
 结	結	jie2	jiéhūn	结婚	けっこん	
-婚		hun1	jiéhūn	结婚	けっこん	
+婚		hun1	jiéhūn | qiúhūn	结婚 | 求婚	けっこん | プロポーズ	
 传	傳	chuan2	chuánzhēn	传真	ファックス	
 农	農	nong2	nóngcūn	农村	のうそん	
 村		cun1	nóngcūn | cūnzhǎng	农村 | 村长	のうそん | そんちょう	
@@ -676,7 +676,7 @@
 尊		zun1	zūnjìng	尊敬	尊敬	
 敬		jing4	zūnjìng	尊敬	尊敬	
 具		ju4	wénjù	文具	文房具	
-成		cheng2	chéngjì	成绩	成績	
+成		cheng2	chéngjì | chéngjiā	成绩 | 成家	成績 | 結婚	
 绩	績	ji4	chéngjì	成绩	成績	
 充		chong1	chōngfèn	充分	十分	
 主		zhu3	zhǔfù	主妇	主婦	
@@ -793,3 +793,20 @@
 杂	雜	za2	zázhì	杂志。雜志	ざっし	
 志		zhi4	zázhì	杂志。雜志	ざっし	
 职	職	zhi2	zhíyuán	职员。職員	しょくいん	
+横		heng2	Héngbīn (地名)	横滨。橫濱	横浜	
+滨	濱	bin1	Héngbīn (地名)	横滨。橫濱	横浜	
+林		lin2	xiǎolín (名前)	小林	(名前)	
+求		qiu2	qiúhūn	求婚	プロポーズ	
+通		tong1	tōngzhī	通知	つうち	
+管		guan3	guǎnlǐ	管理	かんり	
+立		li4	guólì	国立。國立	こくりつ	
+阪		ban3	Dàbǎn (地名)	大阪	おおさか	
+乌	烏	wu1	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
+龙	龍	long2	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
+士		shi4	(zuò)bāshì	(坐)巴士	バス	
+交		jiao1	jiāowǎng	交往	付き合う	
+宿		su4	sùshè	宿舍	寮	
+舍		she4	sùshè	宿舍	寮	
+幼		you4	yòuéryuán	幼儿园。幼兒園	ようちえん	
+毕	畢	bi4	bìyè	毕业。畢業	そつぎょう	
+食		shi2	mǎi shíwù	买食物。買食物	食品を買う	
