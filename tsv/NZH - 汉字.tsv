@@ -33,7 +33,7 @@
 李		li3	lǐ	李医生	リ(苗字)	
 名		ming2	nǐ jiào shénme míngzi	你叫什么名字	なまえ	
 叫		jiao4	nǐ jiào shénme míngzi	你叫什么名字	～と申します	
-华	華	hua2	lǐhuá	李华	(なまえ)	
+华	華	hua2	lǐhuá | huárén	李华 | 华人	(なまえ) | かじん (在外国中国人)	
 字		zi4	hànzi	汉字	かんじ	
 张	張	zhang1	zhāng	张老师	(苗字)	
 明		ming2	míngbái | míngtiān | míngnián	你明白吗 | 明天 | 明年	分かる | 明日 | 来年	
@@ -185,7 +185,7 @@
 末		mo4	zhōumò	周末	しゅうまつ	
 昨		zuo2	zuótiān	昨天	きのう	
 做		zuo4	nǐ zuò shenme	你做什么	～する	
-了		le	wǒ chīfàn le	我吃饭了	(過去を表す)	
+了	瞭	le，liao3	wǒ chīfàn le | liǎojiě	我吃饭了 | 了解。瞭解	(過去を表す) | りかい、知る、分かる	
 去		qu4	qùnián | nǐ qù nǎer？	去年 | 你去哪儿	行く	
 右		you4	māo zài nǐ de yòubiān	猫在你的右边	みぎ	
 左		zuo3	māo zài nǐ de zuǒbiān	猫在你的左边	ひだり	
@@ -434,7 +434,7 @@
 甜		tian2	tiándiǎn | zhè ge dàngāo tài tián le	甜点 | 这个蛋糕太甜了	デザート | 甘い	
 巧		qiao3	qiǎokèlì	巧克力	チョコレート	
 克		ke4	qiǎokèlì	巧克力	チョコレート	
-力		li4	qiǎokèlì | shìlì	巧克力 | 视力	チョコレート | 視力	
+力		li4	qiǎokèlì | shìlì | yālì	巧克力 | 视力 | 压力	チョコレート | 視力 | プレッシャー、あつりょく	
 味		wei4	wèidào	味道	あじ	
 试	試	shi4	tā xiǎng shìshì zhè tiáo lán qúnzi	她想试试这条蓝裙子	ためす	
 鞋		xié	zhè shuāng xiézi	这双鞋子	靴	
@@ -478,7 +478,7 @@
 雨		yu3	xià yǔ le	下雨了	あめが降ってる	
 伞	傘	san3	sǎn | nǐ yǒu dài sǎn ma	你有带伞吗	傘	
 带	帶	dai4	nǐ yǒu dài sǎn ma	你有带伞吗	持つ、連れて	
-着		zhe	tā zài děngzhe wǒ wàimiàn xiàzhe yǔ	他在等着我、外面下着雨	〜ている	
+着	著	zhe	tā zài děngzhe wǒ wàimiàn xiàzhe yǔ	他在等着我、外面下着雨	〜ている	
 刮	颳	gua1	wàimiàn guāzhe fēng	外面刮着风	吹く　外で風が吹いてる	
 风	風	feng1	wàimiàn guāzhe fēng | wàimiàn de fēng hěn dà	外面刮着风 | 外面的风很大	外で風が吹いてる | 外の風が強い	
 就		jiu4	rúguǒ míngtiān xià yǔ，wǒmen jiù bù chūqù	如果明天下雨，我们就不出去	(一つの意味)～するとすぐ～	
@@ -582,7 +582,7 @@
 辣		la4	zhè ge cài hěn là	这个菜很辣	辛い	
 除		chu2	chúle～ | chúle nǐ，wǒmen dōu rènshì tā	除了~ | 除了你，我们都认识他	～以外、～をのぞいて	
 咸		xian2	xián	咸	しょっぱい	
-饺	餃	jiao3	jiǎozi	饺子	ぎょうざ	
+饺	餃	jiao3	jiǎozi | shuǐjiǎo	饺子 | 水饺	ギョーザ | 水ギョーザ	
 其		qi2	qí～	其~ 其他？？？？	ほかの	
 苦		ku3	zhè ge cài hěn kǔ	这个菜很苦	にがい	
 极	極	ji2	～jíle | zhè shì shénme？kǔ jíle	～极了 | 这是什么？苦极了	すごく〜 | これは何？すごく苦い	
@@ -598,7 +598,7 @@
 鹅	鵝	e2	tiān'é	天鹅	白鳥	
 木		mu4	mù'ǒuxì	木偶戏	人形劇	
 偶		ou3	mù'ǒuxì	木偶戏	人形劇	
-餐		can1	cāntīng	餐厅	レストラン	
+餐		can1	cāntīng | kuàicān	餐厅 | 快餐	レストラン | ファストフード	
 厅	廳	ting1	cāntīng | kètīng	餐厅 | 客厅	レストラン | リビング	
 活		huo2	shēnghuó	生活	生活	
 调	調	tiao2	kōngtiáo	空调	エアコン	
@@ -617,7 +617,7 @@
 农	農	nong2	nóngcūn	农村	のうそん	
 村		cun1	nóngcūn | cūnzhǎng	农村 | 村长	のうそん | そんちょう	
 银	銀	yin2	yínháng	银行	ぎんこう	
-厨		chu2	chúfáng	厨房	台所	
+厨	廚	chu2	chúfáng | chúshī	厨房 | 厨师	台所 | コックさん	
 童		tong2	értóng	儿童	児童	
 流		liu2	liúxíng	流行	りゅうこう。はやり	
 扶		fu2	fúshǒu	扶手	手すり	
@@ -696,7 +696,7 @@
 娘		niang2	gūniang | xīnniáng	姑娘 | 新娘	お嬢さん | 花嫁さん	
 退		tui4	tuìxiū	退休	定年退職	
 庭		ting2	jiātíng	家庭	家庭	
-历	曆	li4	rìlì	日历。日曆	カレンダー	
+历	曆、歷	li4	rìlì | lìshǐ	日历。日曆 | 历史。歷史	カレンダー | れきし	
 剧	劇	ju4	jīngjù	京剧。京劇	京劇	
 济	濟	ji4	jīngjì	经济。經濟	けいざい	
 妥		tuo3	tuǒxié	妥协。妥協	妥協	
@@ -775,7 +775,7 @@
 寨		zhai4	jiǎnpǔzhài	柬埔寨	カンボジア	
 吴	吳	wu2	wúgēkū (Angkor Wat寺院Cambodge)	吴哥窟。吳哥窟	アンコールワット	
 窟		ku1	wúgēkū (Angkor Wat寺院Cambodge)	吴哥窟。吳哥窟	アンコールワット	
-沙		sha1	shālā	沙拉	サラダ	
+沙		sha1	shālā | shāfa	沙拉 | 沙发	サラダ | ソファ	
 冲	衝	chong1	chōngliáng	冲凉。衝涼	シャワーを浴びる	
 业	業	ye4	zuò zuòyè｜ bìyè	做作业。做作業 ｜ 毕业。畢業	宿題をする ｜ 卒業	
 忘		wang4	wàngle	忘了	忘れた	
@@ -808,5 +808,27 @@
 宿		su4	sùshè	宿舍	寮	
 舍		she4	sùshè	宿舍	寮	
 幼		you4	yòuéryuán	幼儿园。幼兒園	ようちえん	
-毕	畢‼️　書き順	bi4	bìyè	毕业。畢業	そつぎょう	
+毕	畢	bi4	bìyè	毕业。畢業	そつぎょう	
 食		shi2	mǎi shíwù	买食物。買食物	食品を買う	
+伊		yi1	yīténg (名前)	伊藤	いとう(名前)	
+藤		teng2	yīténg (名前)	伊藤	いとう(名前)	
+山		shan1	shānběn (名前)	山本	やまもと(名前)	
+压	壓	ya1	yālì	压力。壓力	プレッシャー、あつりょく	
+言		yan2	yǔyán	语言。語言	言語	
+拒		ju4	jùjué	拒绝。拒絕	きょぜつ	
+绝	絕	jue2	jùjué	拒绝。拒絕	きょぜつ	
+组	組	zu3	zǔzhī	组织。組織	組織	
+织	織	zhi1	zǔzhī	组织。組織	組織	
+籍		ji2	měijí huárén	美籍华人。美籍華人	米国籍の華人	
+史		shi3	lìshǐ	历史。歷史	れきし	
+仔		zai3	niúzǎikù	牛仔裤。牛仔褲	ジーパン	
+词	詞	ci2	cídiǎn	词典。詞典	辞書	
+典		dian3	cídiǎn	词典。詞典	辞書	
+郊		jiao1	jiāoqū	郊区。郊區	郊外	
+区	區	qu1	jiāoqū	郊区。郊區	郊外	
+装	裝	zhuang1	fúzhuāngdiàn	服装店。服裝店	衣料品店	
+麦	麥	mai_4	màidāngláo	麦当劳。麥當勞	マクドナルド	
+当	當	dang1	màidāngláo	麦当劳。麥當勞	マクドナルド	
+劳	勞	lao2	màidāngláo	麦当劳。麥當勞	マクドナルド	
+躺		tang3	tǎng tǎngzhe	躺 躺着。躺著	横になる	
+寿	壽	shou4	shòusī	寿司。壽司	すし	
