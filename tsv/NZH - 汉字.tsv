@@ -403,7 +403,7 @@
 休		xiu1	xiūxi	休息	やすむ	
 息		xi1	xiūxi	休息	休む	
 肚		du4	dùzi	肚子	お腹	
-留		liu2	liúzài | wǒ xiǎng liúzài jiā gōngzuò	留在 | 我想留在家工作	残る | 私は家に残って仕事がしたい	
+留		liu2	liúzài | wǒ xiǎng liúzài jiā gōngzuò | liúxué	留在 | 我想留在家工作 | 留学	残る | 私は家に残って仕事がしたい | 留学	
 定		ding4	yídìng	一定	必ず	
 别		bie2	bié～ | bié kàn	别~ | 别看	～しないで(命令) | 見ないで	
 假		jia4	qǐngjià | fàngjià	请假 | 放假	休みを取る | 休みに入る	
@@ -467,7 +467,7 @@
 飞	飛	fei1	fēijī	飞机	飛行機	
 场	場	chang3	jīchǎng | zěnme qù jīchǎng	机场 | 怎么去机场	空港	
 靠		kao4	kào | qǐng kào yòubian tíng	靠 | 请靠右边停	右側に寄せて止めてください	
-票		piao4	piào | jīpiào | huǒchēpiào	~票 | 机票 | 火车票	~券 / 切符 | 航空券 | 列車の切符	
+票		piao4	piào | jīpiào | huǒchēpiào | zhīpiào	~票 | 机票 | 火车票 | 支票	~券 / 切符 | 航空券 | 列車の切符 | 小切手	
 火		huo3	huǒchē	火车	列車	
 迟	遲	chi2	chídào	迟到	遅れる	
 让	讓	rang4	ràng | gōngsī bú ràng wǒ qǐngjià | bú ràng	~让~ | 公司不让我请假 | ~不让~	～させる　会社は私に休暇を取らせてくれない | ～させてくれない	
@@ -505,7 +505,7 @@
 聪	聰	cong1	cōngmíng	聪明	賢い	
 春		chun1	chūnjié | chūntiān	春节 | 春天	旧正月 | はる	
 送		song4	sòng lǐwù | wǒ sòng gěi tā shénme lǐwù	送礼物 | 我送给她什么礼物	プレゼントをあげる	
-礼	禮	li3	lǐwù	礼物	プレゼント	
+礼	禮	li3	lǐwù | lǐbài	礼物 | 礼拜	プレゼント | 「星期」と一緒	
 物		wu4	lǐwù	礼物	プレゼント	
 法		fa3	fǎguó	法国	フランス	
 祝		zhu4	zhù nǐ shēntǐ jiànkāng	祝你身体健康	あなたのご健康をいのっている	
@@ -516,7 +516,7 @@
 第		di4	dì ～ | tā shì dìyī	第～ | 他是第一	だい～ | 一位 | 彼が一位	
 排		pai2	páiqiú | niúpái	排球 | 牛排	バレーボール | ステーキ	
 失		shi1	shīwàng	失望	がっかり	
-油		you2	jiāyóu | yóutiáo	加油 | 油条	頑張って！ | 中国の揚げパン	
+油		you2	jiāyóu | yóutiáo	加油 | 油条	頑張って！ | 中華揚げパン	
 参	參	can1	cānjiā | cānjiā bǐsài	参加 | 参加比赛	さんかする | 試合に出る	
 输	輸	shu1	tā shū le，wǒ fēicháng shīwàng	他输了，我非常失望	負ける	
 心		xin1	xìnxīn | wǒmen yǒu xìnxīn huì yíng zhège bǐsài	信心 | 我们有信心会赢这个比赛	自信 | この試合に勝つ自信がある	
@@ -782,7 +782,7 @@
 画	畫	hua4	huà <> huàr	画 <> 画儿。畫	描く <> 絵	
 烤		kao3	kǎoyā	烤鸭。烤鴨	北京ダック	
 鸭	鴨	ya1	kǎoyā	烤鸭。烤鴨	北京ダック	
-拜		bai4	bàituōle	拜托了	よろしくお願いします。(丁寧に人に何かを頼む時)	
+拜		bai4	bàituōle | lǐbài	拜托了 | 礼拜	よろしくお願いします。(丁寧に人に何かを頼む時) | 「星期」と一緒	
 托		tuo1	bàituōle	拜托了	よろしくお願いします。(丁寧に人に何かを頼む時)	
 护	護	hu4	hùzhào	护照。護照	パスポート	
 签	簽	qian1	qiānzhèng	签证。簽證	ビザ	
@@ -832,3 +832,9 @@
 劳	勞	lao2	màidāngláo	麦当劳。麥當勞	マクドナルド	
 躺		tang3	tǎng tǎngzhe	躺 躺着。躺著	横になる	
 寿	壽	shou4	shòusī	寿司。壽司	すし	
+愿	願	yuan4	yuànyì	愿意。願意	〜したい　(心より願っている)	
+欠		qian4	qiànzhài	欠债。欠債	負債	
+债	債	zhai4	qiànzhài	欠债。欠債	負債	
+检	檢	jian3	tǐjiǎn	体检。體檢	健康診断	
+傲		ao4	àomàn	傲慢	傲慢	
+支		zhi1	zhīpiào	支票	小切手	
