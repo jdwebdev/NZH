@@ -44,7 +44,7 @@
 也		ye3	wǒ yě shì fǎguórén	我也是法国人	～も	
 忙		mang2	wǒ hěn máng	我很忙	いそがしい	
 高		gao1	wǒ hěn gāoxìng	我很高兴	嬉しい	
-兴	興	xing4	wǒ hěn gāoxìng	我很高兴	嬉しい	
+兴	興	xing4	wǒ hěn gāoxìng | gǎnxìngqu	我很高兴 | 感兴趣	嬉しい | 興味ある	
 很		hen3	wǒ hěn gāoxìng	我很高兴	とても	
 认	認	ren4	rènshi nǐ wǒ hěn gāoxìng	认识你我很高兴	知る、出会う	
 识	識	shi2	rènshi nǐ wǒ hěn gāoxìng	认识你我很高兴	知る、出会う	
@@ -129,7 +129,7 @@
 次		ci4	yícì	一次	一回	
 汉	漢	han4	hànyǔ | hànzi	汉语 | 汉字	中国語 | かんじ	
 语	語	yu3	hànyǔ | rìyǔ | fǎyǔ	汉语 | 日语 | 法语	～ご、ことば	
-久		jiu3	hǎo jiǔ bú jiàn	好久不见	ひさしぶり	
+久		jiu3	hǎo jiǔ bú jiàn | duō jiǔ le	好久不见 | 多久了	ひさしぶり | どのくらい = 多长时间	
 安		an1	zǎoān | wǎnān	早安 | 晚安	おはよう | お休み	
 最		zui4	zuìjìn	最近	さいきん	
 近		jin4	zuìjìn	最近	さいきん	
@@ -178,7 +178,7 @@
 非		fei1	fēicháng	这个礼物我非常喜欢，谢谢你	とても | ひじょうに	
 常		chang2	fēicháng | chángcháng	非常 | 常常	とても、ひじょうに | しょっちゅう	
 午		wu3	shàngwǔ | xiàwǔ	上午 | 下午	あさ | ごご	
-分		fen1	èrdiǎnèrshíèrfēn	二十二点二十二分	～ふん　(時間)	
+分		fen1	èrdiǎnèrshíèrfēn | gōngfēn	二十二点二十二分 | 公分	～ふん　(時間) | センチ	
 下		xia4	xiàge xīngqī	下个星期	した | 来週	
 每		mei3	měi ge xīngqīliù	每个星期六	まい～　まいしゅう	
 周		zhou1	zhōumò	周末，周四=星期四	週末	
@@ -199,7 +199,7 @@
 里	裡裏	li3	nǐ zài nǎli	你在哪里	～の中	
 往		wang3	qǐng wǎng yòubiān zǒu | jiāowǎng	请往右边走 | 交往	右に進んでください | 付き合う	
 边	邊	bian1	pángbiān	旁边 | 右边 | 左边	隣	
-书	書	shu1	wǒ xǐhuān kàn shū	我喜欢看书	本	
+书	書	shu1	wǒ xǐhuān kàn shū | túshūguǎn | shūfǎ	我喜欢看书 | 图书馆 | 书法	本 | 図書館 | 書道	
 喜		xi3	wǒ xǐhuān kàn shū	我喜欢看书	好き	
 欢	歡	huan1	wǒ xǐhuān kàn shū	我喜欢看书	好き	
 看		kan4	wǒ xǐhuān kàn shū	我喜欢看书	読む | 見る | 会う	
@@ -208,12 +208,12 @@
 游	遊	you2	yóuxì	游戏	ゲーム	
 戏	戲	xi4	yóuxì	游戏	ゲーム	
 听	聽、聼	ting1	tīng yīnyuè	听音乐	聴く	
-音		yin1	yīnyuè	音乐	おんがく	
+音		yin1	yīnyuè | fāyīn	音乐 | 发音	おんがく | 発音	
 乐	樂	yue4，le4	yīnyuè | kuàilè	音乐 | 快乐	おんがく | 幸せ	
 歌		ge1	chànggē	唱歌	うたう	
 唱		chang4	chànggē	唱歌	うたう	
 跳		tiao4	tiàowǔ	跳舞	踊る	
-舞		wu3	tiàowǔ	跳舞	踊る	
+舞		wu3	tiàowǔ | wǔhui	跳舞 | 舞会	踊る | ダンスパーティー	
 能		neng2	tā bù néng tiàowǔ	他不能跳舞	～できる	
 床		chuang2	qǐchuáng | shàngchuáng	起床 | 上床	(寝てから)起きる | 寝る(ベッドに入る)	
 班		ban1	shàngbān	上班 | 下班	仕事(に行く)(から帰る)こと	
@@ -230,7 +230,7 @@
 只	隻,衹	zhi3，zhi1	zhǐ shuō bú zuò | yìzhī gǒu(māo/niǎo)	只说不做 | 一只狗(猫/鸟)	ただ、だけ。口で言うだけで実行しない | 一匹	
 共		gong4	yīgòng	一共	全部で	
 千		qian1	qiān kuài	千块	1000	
-信		xin4	xìnyòngkǎ	信用卡	クレジットカード	
+信		xin4	xìnyòngkǎ | xìnxīn | xìnyù	信用卡 | 信心 | 信誉	クレジットカード | 自信 | 信用	
 用		yong4	xìnyòngkǎ	信用卡	クレジットカード	
 卡		ka3	xìnyòngkǎ	信用卡	クレジットカード	
 收	収	shou1	shōu xìnyòngkǎ	收信用卡	使える | 受け取る	
@@ -259,7 +259,7 @@
 找		zhao3	wǒ xiǎng zhǎodào tā ｜ nǐ zhǎo shéi	你找谁	探す、誰を探してる？	
 桌		zhuo1	zhuōzi	桌子	机	
 椅		yi3	yǐzi	椅子	いす	
-外		wai4	wǒ zài pángjiān wài	我在房间外	～の外	
+外		wai4	wǒ zài pángjiān wài | wàiguó	我在房间外 | 外国	～の外 | 外国	
 房		fang2	fángjiān	房间	部屋	
 箱		xiang1	bīngxiāng	冰箱	冷蔵庫	
 等		deng3	qǐng děng yīxià	请等一下	待つ	
@@ -271,7 +271,7 @@
 文		wen2	zhōngwén | yīngwén	中文 | 英文	中国語	
 订	訂	ding4	wǒ xiǎng dìngwèi	我想订位	予約をする	
 服		fu2	fúwùyuán	服务员	店員	
-务	務	wu4	fúwùyuán | gōngwùyuán	服务员 | 公务员	店員 | 公務員	
+务	務	wu4	fúwùyuán | gōngwùyuán | gōngfēn	服务员 | 公务员 | 公分	店員 | 公務員 | センチ	
 员	員	yuan2	fúwùyuán	服务员	店員	
 东	東	dong1	dōngxi | mǎi dōngxi	东西 | 买东西	物 | 買い物をする	
 西		xi1	dōngxi | xīguā | xīhóngshì	东西 | 西瓜 | 西红柿	物 | スイカ | トマト	
@@ -313,7 +313,7 @@
 料		liao4	yǐnliào	饮料	のみもの	
 羊		yang2	yángròu	羊肉	ひつじ、ラム肉	
 胖		pang4	pang4	我不胖	太ってる	
-工		gong1	gōngzuò	工作	仕事	
+工		gong1	gōngzuò | gōngzī	工作 | 工资	仕事 | 給料	
 作		zuo4	gōngzuò	工作	仕事	
 累		lei4	nǐ lèi ma	我太累了	疲れる	
 健		jian4	jiànkāng	健康	けんこう	
@@ -375,7 +375,7 @@
 瓶		ping2	píngzi	瓶子	びん	
 片		pian4	yìzhāng zhàopiàn	一张照片	一枚の写真	
 树	樹	shu4	shù xià yǒu yìzhī māo	树下有一只猫	木	
-跑		pao3	pǎobù	跑步	走る	
+跑		pao3	pǎobù | pǎole	跑步 | 跑了	走る | 逃げた	
 步		bu4	pǎobù	跑步	走る	
 泳		yong3	yóuyǒng	游泳	およぐ	
 打		da3	dǎ lánqiú	打篮球	(バスケットボールを)する	
@@ -383,7 +383,7 @@
 球		qiu2	tī zúqiú	踢足球	サッカー	
 踢		ti1	tī zúqiú	踢足球	サッカー	
 篮	籃	lan2	dǎ lánqiú	打篮球	バスケット	
-运	運	yun4	yùndòng	运动	運動	
+运	運	yun4	yùndòng | xìngyùn	运动 | 幸运	運動 | 幸運	
 动	動	dong4	yùndòng	运动	運動	
 骑	騎	qi2	qí mǎ	骑马	乗馬	
 马	馬	ma3	qí mǎ	骑马	乗馬	
@@ -428,7 +428,7 @@
 真		zhēn	tā zhēn piàoliàng	她真漂亮	本当に	
 已		yǐ	yǐjīng	已经	もう、すでに	
 经	經	jīng	yǐjīng｜jīngjì	已经｜经济	もう、すでに｜経済	
-饱	飽	bǎo	wǒ hěn bǎo	我很饱	お腹がいっぱい	
+饱	飽	bǎo	wǒ hěn bǎo | wǒ bǎole	我很饱 | 我饱了	お腹がいっぱい x2	
 饿	餓	e4	wǒ è le	我饿了	お腹が空いた	
 渴		ke3	wǒ hěn kě	我很渴	喉が渇いた	
 甜		tian2	tiándiǎn | zhè ge dàngāo tài tián le	甜点 | 这个蛋糕太甜了	デザート | 甘い	
@@ -461,7 +461,7 @@
 嘴		zui3	zuǐbā	嘴巴	口	
 巴		ba1	zuǐbā | bāshì	嘴巴 | 巴士	口 | バス	
 鼻		bi2	bízi	鼻子	はな	
-离	離	li2	yīyuàn lí zhèli yuǎn ma	医院离这里远吗	病院はここから遠い？	
+离	離	li2	yīyuàn lí zhèli yuǎn ma | líkāi	医院离这里远吗 | 离开	病院はここから遠い？ | 離れて	
 远	遠	yuan3	yīyuàn lí zhèli yuǎn ma	医院离这里远吗	遠い	
 停		ting2	kěyǐ kào yòubian tíng ma	可以靠右边停吗	止める	
 飞	飛	fei1	fēijī	飞机	飛行機	
@@ -507,7 +507,7 @@
 送		song4	sòng lǐwù | wǒ sòng gěi tā shénme lǐwù	送礼物 | 我送给她什么礼物	プレゼントをあげる	
 礼	禮	li3	lǐwù | lǐbài	礼物 | 礼拜	プレゼント | 「星期」と一緒	
 物		wu4	lǐwù	礼物	プレゼント	
-法		fa3	fǎguó	法国	フランス	
+法		fa3	fǎguó | shūfǎ	法国 | 书法	フランス | 書道	
 祝		zhu4	zhù nǐ shēntǐ jiànkāng	祝你身体健康	あなたのご健康をいのっている	
 练	練	lian4	liànxí	练习	練習	
 乒		ping1	dǎ pīngpāngqiú	打乒乓球	卓球	
@@ -643,13 +643,13 @@
 卜	蔔	bo	húluóbo	胡萝卜	人参	
 淇		qi2	bīngqílín	冰淇淋	アイスクリーム	
 淋		lin2	bīngqílín	冰淇淋	アイスクリーム	
-兔		tu4	báitù	白兔	うさぎ	
+兔		tu4	báitù | tùzi	白兔 | 兔子	うさぎ x2	
 猴		hou2	hóuzi	猴子	サル	
 军	軍	jun1	xià jūn (名前)	夏军	夏(苗字) 軍(名前)	
 先		xian1	xiānsheng	先生	ご主人。紳士	
 泰		tai4	tàiguó	泰国	タイ	
 宅		zhai2	zhùzhái	住宅	住宅	
-幸		xing4	xìngfú	幸福	幸せ	
+幸		xing4	xìngfú | xìngyùn	幸福 | 幸运	幸せ | 幸運	
 福		fu2	xìngfú | quánjiāfú	幸福 | 全家福	幸せ | 家族写真	
 复	復	fu4	fùxí	复习	復習	
 厕	厠	ce4	cèsuǒ	厕所	トイレ	
@@ -724,7 +724,7 @@
 刘	劉	liu2	liú xiānsheng (名前)	刘先生。劉先生	劉 (名前)	
 寓		yu4	gōngyù	公寓	マンション・アパート	
 尼		ni2	yìndùníxīyà	印度尼西亚。印度尼西亞	インドネシア	
-价	價	jia4	jiàqián	价钱。價錢	値段	
+价	價	jia4	jiàqián | wùjià	价钱。價錢 | 物价	値段 | ぶっか	
 胜	勝	sheng4	shènglì	胜利。勝利	勝利	
 限		xian4	qīxiàn	期限	きげん	
 世		shi4	shìjì	世纪。世紀	せいき	
@@ -803,7 +803,7 @@
 阪		ban3	Dàbǎn (地名)	大阪	おおさか	
 乌	烏	wu1	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
 龙	龍	long2	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
-士		shi4	(zuò)bāshì	(坐)巴士	バス	
+士		shi4	(zuò)bāshì | fùshìshān	(坐)巴士 | 富士山	バス | ふじさん	
 交		jiao1	jiāowǎng	交往	付き合う	
 宿		su4	sùshè	宿舍	寮	
 舍		she4	sùshè	宿舍	寮	
@@ -838,3 +838,15 @@
 检	檢	jian3	tǐjiǎn	体检。體檢	健康診断	
 傲		ao4	àomàn	傲慢	傲慢	
 支		zhi1	zhīpiào	支票	小切手	
+化		hua4	wénhuà	文化	文化	
+趣		qu4	duì ～ yǒu/gǎn xìngqu	对～有/感 兴趣	～に興味がある	
+特		te4	tèbié shì	特别是	特に	
+资	資	zi1	gōngzī	工资。工資	給料	
+误	誤	wu4	wùhui	误会。誤會	誤解	
+誉	譽	yu4	xìnyù	信誉。信譽	信用	
+富		fu4	fùshìshān	富士山	ふじさん	
+驻	駐	zhu4	chángzhù	常驻。常駐	駐在	
+录	錄	lu4	tīng lùyīn	听录音。聼錄音	ろくおんを聴く	
+朗		lang3	lǎngdú	朗读。朗讀	ろうどく	
+宫	宮	gong1	gōngqí (名前)	宫崎。宮崎	みやざき(名前)	
+崎		qi2	gōngqí (名前)	宫崎。宮崎	みやざき(名前)	
