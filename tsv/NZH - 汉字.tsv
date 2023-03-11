@@ -35,7 +35,7 @@
 叫		jiao4	nǐ jiào shénme míngzi	你叫什么名字	～と申します	
 华	華	hua2	lǐhuá | huárén	李华 | 华人	(なまえ) | かじん (在外国中国人)	
 字		zi4	hànzi	汉字	かんじ	
-张	張	zhang1	zhāng	张老师	(苗字)	
+张	張	zhang1	zhāng | jǐnzhāng | yì zhāng zhǐ	张老师 | 紧张 | 一张纸	(苗字) | きんちょうする | 紙一枚	
 明		ming2	míngbái | míngtiān | míngnián	你明白吗 | 明天 | 明年	分かる | 明日 | 来年	
 呢		ne	wǒ shì..., nǐ ne ?	我是学生，你呢	私は学生です。あなたは？	
 姓		xing4	wǒ xìng みょうじ jiào なまえ 	我姓... 我叫...	[苗字]と申します	
@@ -103,13 +103,13 @@
 湾	灣	wan1	táiwān	台湾	たいわん	
 没		mei2	méiguānxi | méiyǒu	没关系 | 没有	ない	
 关	關	guan1	méiguānxi	没关系	大丈夫	
-系	係,繋,繫	xi4	méiguānxi	没关系	大丈夫	
+系	係,繋,繫	xi4	méiguānxi | liánxì	没关系 | 联系	大丈夫 | 連絡？接続？	
 气	氣	qi4	búkèqǐ	不客气	どういたしまして	
 谢	謝	xie4	xièxiè nǐ	谢谢你	ありがとう	
 客		ke4	búkèqǐ	不客气	どういたしまして	
 起		qi3	búkèqǐ	不客气	どういたしまして	
 谁	誰	shei2	nǐ shì shéi	你是谁	だれ	
-有		you3	wǒ méi yǒu qián	我没有钱	ある	
+有		you3	wǒ méi yǒu qián | yǒuyòng	我没有钱 | 有用	ある | 役に立つ	
 妹		mei4	mèimei	妹妹	いもうと	
 姐		jie3	jiějie	姐姐	姉	
 那		na4	nà ge rén	那个人	その、あの	
@@ -166,7 +166,7 @@
 喂		wei2	wèi	喂	もしもし	
 白		bai2	míngbái	你明白吗	分かる	
 快		kuai4	kuàicān | nǐ shuō de hěn kuài	快餐 | 你说得很快	速く | ファストフード	
-慢		man4	qǐng màn yīdiǎner shuō	请慢一点儿说	遅い	
+慢		man4	qǐng màn yīdiǎner shuō | mànmānr	请慢一点儿说 | 慢慢儿	遅い | ゆっくり	
 得		de， děi	wǒ shuō de bù hǎo | wǒ děi ～	我说得不好 | 我得～	喋るのが上手くない | 〜しなければならない	
 漂		piao4	piàolian	你很漂亮	綺麗	
 亮		liang4	piàoliang	你很漂亮	綺麗	
@@ -195,7 +195,7 @@
 校		xiao4	xuéxiào	学校	がっこう	
 路		lu4	wǒ bù zhīdào lù	我不认识路	道	
 走		zou3	dào xuéxiào zěnme zǒu	到学校怎么走	歩く	
-到		dao4	dào xuéxiào zěnme zǒu	到学校怎么走	～まで	
+到		dao4	dào xuéxiào zěnme zǒu | dàodǐ	到学校怎么走 | 到底	～まで | 結局	
 里	裡裏	li3	nǐ zài nǎli	你在哪里	～の中	
 往		wang3	qǐng wǎng yòubiān zǒu | jiāowǎng	请往右边走 | 交往	右に進んでください | 付き合う	
 边	邊	bian1	pángbiān	旁边 | 右边 | 左边	隣	
@@ -225,13 +225,13 @@
 钱	錢	qian2	méiyǒu qián	没有钱	お金	
 块	塊	kuai4	8 kuài　(8 yuán) | yíkuài dàngāo	八块 | 一块蛋糕	ケーキの数え方	
 角		jiao3	jiǎo （0.1 yuán）	角(書き言葉) = 毛(話し言葉)		
-毛		mao2	máo （0.1 yuán）	角(書き言葉) = 毛(話し言葉)		
+毛		mao2	máo （0.1 yuán）| máoyī	角(書き言葉) = 毛(話し言葉) | 毛衣	セーター	
 买	買	mai_3	mǎi dōngxi	买东西	買う	
 只	隻,衹	zhi3，zhi1	zhǐ shuō bú zuò | yìzhī gǒu(māo/niǎo)	只说不做 | 一只狗(猫/鸟)	ただ、だけ。口で言うだけで実行しない | 一匹	
 共		gong4	yīgòng	一共	全部で	
 千		qian1	qiān kuài	千块	1000	
 信		xin4	xìnyòngkǎ | xìnxīn | xìnyù	信用卡 | 信心 | 信誉	クレジットカード | 自信 | 信用	
-用		yong4	xìnyòngkǎ	信用卡	クレジットカード	
+用		yong4	xìnyòngkǎ | yǒuyòng	信用卡 | 有用	クレジットカード | 役に立つ	
 卡		ka3	xìnyòngkǎ	信用卡	クレジットカード	
 收	収	shou1	shōu xìnyòngkǎ	收信用卡	使える | 受け取る	
 便		pian2, bian4	pian2yi	便宜	安い	
@@ -246,7 +246,7 @@
 干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1	这个周末我们会干什么 | 干杯	する(動詞) | 乾杯	
 影		ying3	diànyǐng	电影	映画	
 报	報	bao4	bàozhǐ	报纸	新聞	
-纸	紙	zhi3	bàozhǐ	报纸	新聞	
+纸	紙	zhi3	bàozhǐ | yì zhāng zhǐ	报纸 | 一张纸	新聞 | 紙一枚	
 网	網	wang3	shàngwǎng	上网	ネットで	
 新		xin1	xīnwén ｜ xīnniánkuàile	我用电脑看新闻	ニュース	
 闻	聞	wen2	xīnwén	新闻	ニュース	
@@ -302,7 +302,7 @@
 轻	輕	qing1	qīngsōng	轻松	リラックス	
 松	鬆	song1	qīngsōng	轻松	リラックス	
 拍		pai1	pāizhào	拍照	写真を撮ること	
-照		zhao4	zhàoxiàngjī	照相机	カメラ	
+照		zhao4	zhàoxiàngjī | zhàopiàn | hùzhào	照相机 | 照片 | 护照	カメラ | 写真 | パスポート	
 相		xiang4, xiang1	zhàoxiàngjī	照相机	カメラ	
 还	還	hai2	háishi	还是	それとも、～と～どちら	
 海		hai3	shànghǎi	上海	シャンハイ	
@@ -337,7 +337,7 @@
 公		gong1	gōnggòngqìchē	公共汽车	バス	
 汽		qi4	gōnggòngqìchē	公共汽车	バス	
 船		chuan2	chuán | yì zhī chuán	一只船	ふね	
-衣		yi1	yīfu	衣服	服	
+衣		yi1	yīfu | máoyī	衣服 | 毛衣	服 | セーター	
 件		jian4	yíjiàn yīfu	一件衣服	(量詞)　服	
 商		shang1	shāngdiàn	商店	しょうてん、店	
 门	門	men2	qǐng kāimén | qǐng guānmén	请开门 | 请关门	ドア、ドアを開けて下さい、ドアを閉めて下さい	
@@ -504,8 +504,8 @@
 且		qie3	érqiě | ～bú dàn～，érqiě ～ | tā bú dàn shuài，érqiě cōngmíng	~不但~, 而且~ | 他不但帅，而且聪明	彼はかっこいいだけでなく、その上賢い	
 聪	聰	cong1	cōngmíng	聪明	賢い	
 春		chun1	chūnjié | chūntiān	春节 | 春天	旧正月 | はる	
-送		song4	sòng lǐwù | wǒ sòng gěi tā shénme lǐwù	送礼物 | 我送给她什么礼物	プレゼントをあげる	
-礼	禮	li3	lǐwù | lǐbài	礼物 | 礼拜	プレゼント | 「星期」と一緒	
+送		song4	sòng lǐwù | wǒ sòng gěi tā shénme lǐwù | sòngxíng	送礼物 | 我送给她什么礼物 | 送行	プレゼントをあげる | 見送る	
+礼	禮	li3	(yí fèn)lǐwù | lǐbài	(一份)礼物 | 礼拜	(１つ)プレゼント | 「星期」と一緒	
 物		wu4	lǐwù	礼物	プレゼント	
 法		fa3	fǎguó | shūfǎ	法国 | 书法	フランス | 書道	
 祝		zhu4	zhù nǐ shēntǐ jiànkāng	祝你身体健康	あなたのご健康をいのっている	
@@ -748,12 +748,12 @@
 虾	蝦	xia1	zuìxiā	醉虾。醉蝦	酒で料理したエビ	
 柠	檸	ning2	níngméng chá	柠檬茶。檸檬茶	レモンティー	
 檬		meng2	níngméng chá	柠檬茶。檸檬茶	レモンティー	
-联	聯	lian2	liánluò	联络。聯絡	連絡する	
+联	聯	lian2	liánluò | liánxì	联络。聯絡 | 联系	連絡する | 連絡？接続？	
 络	絡	luo4	liánluò	联络。聯絡	連絡する	
 茉		mo4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
 莉		li4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
 罐		guan4	yíguàn	一罐	一缶	
-份		fen4	yífèn	一份	1人分	
+份		fen4	yífèn | yí fèn lǐwù	一份 | 一份礼物	1人分 | プレゼント１つ	
 碟		die2	yìdié	一碟	小皿１つ	
 净		jing4	gānjing	干净	綺麗。清潔	
 全		quan2	ānquán	安全	安全	
@@ -818,7 +818,7 @@
 拒		ju4	jùjué	拒绝。拒絕	きょぜつ	
 绝	絕	jue2	jùjué	拒绝。拒絕	きょぜつ	
 组	組	zu3	zǔzhī	组织。組織	組織	
-织	織	zhi1	zǔzhī	组织。組織	組織	
+织	織	zhi1	zǔzhī | zhī máoyī	组织。組織 | 织毛衣	組織 | セーターを編む	
 籍		ji2	měijí huárén	美籍华人。美籍華人	米国籍の華人	
 史		shi3	lìshǐ	历史。歷史	れきし	
 仔		zai3	niúzǎikù	牛仔裤。牛仔褲	ジーパン	
@@ -837,7 +837,7 @@
 债	債	zhai4	qiànzhài	欠债。欠債	負債	
 检	檢	jian3	tǐjiǎn	体检。體檢	健康診断	
 傲		ao4	àomàn	傲慢	傲慢	
-支		zhi1	zhīpiào	支票	小切手	
+支		zhi1	zhīpiào | zhīchí	支票 | 支持	小切手 | 支持	
 化		hua4	wénhuà	文化	文化	
 趣		qu4	duì ～ yǒu/gǎn xìngqu	对～有/感 兴趣	～に興味がある	
 特		te4	tèbié shì	特别是	特に	
@@ -850,3 +850,17 @@
 朗		lang3	lǎngdú	朗读。朗讀	ろうどく	
 宫	宮	gong1	gōngqí (名前)	宫崎。宮崎	みやざき(名前)	
 崎		qi2	gōngqí (名前)	宫崎。宮崎	みやざき(名前)	
+光		guang1	huānyíng guānglín	欢迎光临。歡迎光臨	いらっしゃいませ	
+临	臨	lin2	huānyíng guānglín	欢迎光临。歡迎光臨	いらっしゃいませ	
+虑	慮	lv4	kǎolǜ	考虑。考慮	考える	
+持		chi2	zhīchí	支持	支持	
+指		zhi3	zhǐshì	指示	指示	
+示		shi4	zhǐshì	指示	指示	
+亿	億	yi4	liǎng yì	两亿。兩億		
+民		min2	rénmínbì	人民币。人民幣	(中国のお金)	
+币	幣	bi4	rénmínbì	人民币。人民幣	(中国のお金)	
+减	減	jian3	jiǎnféi	减肥。減肥	ダイエット	
+肥		fei2	jiǎnféi	减肥。減肥	ダイエット	
+瘦		shou4	shòu	瘦	痩せる	
+底		di3	dàodǐ	到底	結局	
+顾	顧	gu4	zhàogù	照顾。照顧	面倒を見る	
