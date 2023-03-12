@@ -16,7 +16,7 @@
 我		wo3	wǒ shì fǎguórén	我是法国人	私	
 喝		he1	wǒ hē shuǐ	我喝水	飲む	
 吗	嗎	ma	nǐ shì zhōngguórén ma	你是中国人吗	～か？(質問)	
-咖		ka1	kāfēi	咖啡	コーヒー	
+咖		ka1，ga1	kāfēi | gālí	咖啡 | 咖喱	コーヒー | カレー	
 啡		fei1	kāfēi	咖啡	コーヒー	
 再		zai4	zài shuō yícì	再说一次	もう一度、さらに	
 见	見	jian4	zàijiàn	再见	さようなら	
@@ -155,7 +155,7 @@
 几	幾	ji3	xiànzài jídiǎn | jīntiān xīngqījǐ	现在几点 | 今天星期几	何時 | 何曜日	
 现	現	xian4	xiànzài	现在	今	
 两	兩	liang3	liǎng ge	两个	ふたつ	
-孩		hai2	háizi	孩子	子供	
+孩		hai2	háizi | xiǎoháir	孩子 | 小孩儿	子供 | 子供	
 岁	嵗	sui4	èr shí sì suì | sānshísān suì	二十四岁 | 三十三岁	～さい、年齢	
 子		zi3	háizi | érzi	孩子 | 儿子	こども | むすこ	
 丈		zhang4	zhàngfū	丈夫	おっと	
@@ -211,7 +211,7 @@
 音		yin1	yīnyuè | fāyīn	音乐 | 发音	おんがく | 発音	
 乐	樂	yue4，le4	yīnyuè | kuàilè	音乐 | 快乐	おんがく | 幸せ	
 歌		ge1	chànggē	唱歌	うたう	
-唱		chang4	chànggē	唱歌	うたう	
+唱		chang4	chànggē | yǎnchànghuì	唱歌 | 演唱会	うたう | コンサート	
 跳		tiao4	tiàowǔ	跳舞	踊る	
 舞		wu3	tiàowǔ | wǔhui	跳舞 | 舞会	踊る | ダンスパーティー	
 能		neng2	tā bù néng tiàowǔ	他不能跳舞	～できる	
@@ -232,10 +232,10 @@
 千		qian1	qiān kuài	千块	1000	
 信		xin4	xìnyòngkǎ | xìnxīn | xìnyù	信用卡 | 信心 | 信誉	クレジットカード | 自信 | 信用	
 用		yong4	xìnyòngkǎ | yǒuyòng	信用卡 | 有用	クレジットカード | 役に立つ	
-卡		ka3	xìnyòngkǎ	信用卡	クレジットカード	
+卡		ka3	xìnyòngkǎ | kǎlā OK	信用卡 | 卡拉OK	クレジットカード | カラオケ	
 收	収	shou1	shōu xìnyòngkǎ	收信用卡	使える | 受け取る	
-便		pian2, bian4	pian2yi	便宜	安い	
-宜		yi2	pian2yi	便宜	安い	
+便		pian2, bian4	piányi | suíbiàn	便宜 | 随便	安い | 自由に、気のまま、好きなように	
+宜		yi2	piányi	便宜	安い	
 贵	貴	gui4	tài guì le	太贵了	高い(値段)	
 金		jin1	xiànjīn	现金	おかね | げんきん	
 行		xing2，hang2	bùxíng | yínháng	不行 | 银行	ダメ | ぎんこう	
@@ -245,7 +245,7 @@
 想		xiang3	wǒ xiǎng ～	我想~	～したい	
 干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1	这个周末我们会干什么 | 干杯	する(動詞) | 乾杯	
 影		ying3	diànyǐng	电影	映画	
-报	報	bao4	bàozhǐ	报纸	新聞	
+报	報	bao4	bàozhǐ | kàn bào	报纸 | 看报	新聞 | 新聞を読む	
 纸	紙	zhi3	bàozhǐ | yì zhāng zhǐ	报纸 | 一张纸	新聞 | 紙一枚	
 网	網	wang3	shàngwǎng	上网	ネットで	
 新		xin1	xīnwén ｜ xīnniánkuàile	我用电脑看新闻	ニュース	
@@ -391,7 +391,7 @@
 空		kong4	yǒu kòng | nǐ xīngqīliù yǒu kòng ma	有空 | 你星期六有空吗	暇ですか？	
 来	來	lai2	wèishénme nǐ méiyou lái gōngzuò ？	为什么你没有来工作?	くる	
 候		hou4	shénme shíhou	什么时候	いつ	
-过	過	guo4	nǐmen kànguo nà běn shū ma	你们看过那本书吗	Vたことがある	
+过	過	guo4	nǐmen kànguo nà běn shū ma | búguò	你们看过那本书吗 | 不过	Vたことがある | でも	
 告		gao4	gàosù | wèishénme nǐ méiyou gàosù wǒ？	告诉 | 为什么你没有告诉我	なぜ私に知らせなかったのですか	
 诉	訴	su4	gàosù | wèishénme nǐ méiyou gàosù wǒ？	告诉 | 为什么你没有告诉我	なぜ私に知らせなかったのですか	
 浪		lang4	làngmàn	浪漫	ロマンティック	
@@ -423,7 +423,7 @@
 才		cái	wǒ jīntiān zǎoshàng liǎngdiǎn cái huíjiā	我今天早上两点才回家	やっと？ 私は今朝2時にやっと家に帰った	
 事		shì	nǐ yǒu shénme shìqíng	你有什么事情	どんなことがあった	
 情		qíng	nǐ yǒu shénme shìqíng	你有什么事情	どんなことがあった	
-费	費	fei4	xiǎofèi	小费	チップ	
+费	費	fei4	xiǎofèi | pòfei	小费 | 破费	チップ | お金をかける	
 完		wán	nǐ chī wán le ma	你吃完了吗	V+終える、V+終わる	
 真		zhēn	tā zhēn piàoliàng	她真漂亮	本当に	
 已		yǐ	yǐjīng	已经	もう、すでに	
@@ -546,7 +546,7 @@
 浆	漿	jiang1	dòujiāng	豆浆	とうにゅう	
 锅	鍋	guo1	huǒguō	火锅	火鍋	
 笼	籠	long2	xiǎolóngbāo	小笼包	小籠包	
-拉		la1	lāmiàn | shālā	拉面 | 沙拉	ラーメン | サラダ	
+拉		la1	lāmiàn | shālā | kǎlā OK	拉面 | 沙拉 | 卡拉OK	ラーメン | サラダ | カラオケ	
 炒		chao3	chǎofàn	炒饭	チャーハン	
 叔		shu1	shūshū	叔叔	叔父	
 夏		xia4	xiàtiān	夏天	なつ	
@@ -583,7 +583,7 @@
 除		chu2	chúle～ | chúle nǐ，wǒmen dōu rènshì tā	除了~ | 除了你，我们都认识他	～以外、～をのぞいて	
 咸		xian2	xián	咸	しょっぱい	
 饺	餃	jiao3	jiǎozi | shuǐjiǎo	饺子 | 水饺	ギョーザ | 水ギョーザ	
-其		qi2	qí～	其~ 其他？？？？	ほかの	
+其		qi2	qí～ | yóuqí shì	其~ 其他？？？？ | 尤其是	ほかの | 特に	
 苦		ku3	zhè ge cài hěn kǔ	这个菜很苦	にがい	
 极	極	ji2	～jíle | zhè shì shénme？kǔ jíle	～极了 | 这是什么？苦极了	すごく〜 | これは何？すごく苦い	
 盐	鹽	yan2	yán | zhè ge yǒu tài duō yán	盐 | 这个有太多盐	塩 | 塩が多すぎ	
@@ -609,7 +609,7 @@
 辛		xin1	xīnkǔle | bùxīnkǔ	辛苦了 | 不辛苦	お疲れさまでした | ご心配なく	
 池		chi2	chítián máměi　(名前)	池田麻美	池田麻美(名前)	
 田		tian2	chítián máměi　(名前)	池田麻美	池田麻美(名前)	
-麻		ma2	máfan | chítián máměi　(名前)	麻烦 | 池田麻美	迷惑をかける | 池田麻美(名前)	
+麻		ma2	máfan | májiàng | chítián máměi　(名前)	麻烦 | 麻将 | 池田麻美	迷惑をかける | 麻雀 | 池田麻美(名前)	
 搅	攪	jiao3	dǎjiǎo | A: qǐng jìn B: dǎjiǎo le	打搅	邪魔する　お邪魔します	
 结	結	jie2	jiéhūn	结婚	けっこん	
 婚		hun1	jiéhūn | qiúhūn	结婚 | 求婚	けっこん | プロポーズ	
@@ -823,7 +823,7 @@
 史		shi3	lìshǐ	历史。歷史	れきし	
 仔		zai3	niúzǎikù	牛仔裤。牛仔褲	ジーパン	
 词	詞	ci2	cídiǎn	词典。詞典	辞書	
-典		dian3	cídiǎn	词典。詞典	辞書	
+典		dian3	cídiǎn | gǔdiǎn yīnyuè	词典。詞典 | 古典音乐	辞書 | クラシック音楽	
 郊		jiao1	jiāoqū	郊区。郊區	郊外	
 区	區	qu1	jiāoqū	郊区。郊區	郊外	
 装	裝	zhuang1	fúzhuāngdiàn	服装店。服裝店	衣料品店	
@@ -864,3 +864,20 @@
 瘦		shou4	shòu	瘦	痩せる	
 底		di3	dàodǐ	到底	結局	
 顾	顧	gu4	zhàogù	照顾。照顧	面倒を見る	
+够	夠	gou4	gòule	够了，不要了。	もう十分だ、もういい	
+广	廣	guang3	tīng guǎngbō	听广播。聼廣播	ラジオを聞く	
+播		bo1	tīng guǎngbō	听广播。聼廣播	ラジオを聞く	
+尤		you2	yóuqí shì	尤其是	特に	
+古		gu3	gǔdiǎn yīnyuè	古典音乐。古典音樂	クラシック音楽	
+演		yan3	yǎnchànghuì	演唱会。演唱會	コンサート	
+将	將	jiang4	dǎ májiàng	打麻将。打麻將	麻雀をする	
+逛		guang4	guàngjiē	逛街	街をぶらつく	
+街		jie1	guàngjiē	逛街	街をぶらつく	
+啊		a	hǎo a	好啊	いいですよ	
+瑜		yu2	zuò yújiā	做瑜伽	ヨガをする	
+伽		jia1	zuò yújiā	做瑜伽	ヨガをする	
+抽		chou1	chōuyān	抽烟	タバコを吸う	
+烟		yan1	chōuyān	抽烟	タバコを吸う	
+喱		li2	gālífàn	咖喱饭。咖喱飯	カレーライス	
+咱		zan2	zánmen	咱们。咱們	私達(相手を含む)	
+破		po4	pòfei	破费。破費	お金をかける	
