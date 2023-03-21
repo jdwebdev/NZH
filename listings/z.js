@@ -80,6 +80,8 @@ function z_search() {
                         z_resultList.push(h);
                     } else if (h.lizi.includes(z_input.value)) {
                         z_resultList.push(h);
+                    } else if (h.fanti.includes(z_input.value)) {
+                        z_resultList.push(h);
                     }
                 });
                 let count = 0;
