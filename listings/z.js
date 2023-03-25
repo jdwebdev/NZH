@@ -46,7 +46,8 @@ function z_search() {
         case "hanzi":
             if (z_input.value == "") {
                 let count = 0;
-                for (let i = 0; i < Hanzi.list.length; i++) {
+
+                for (let i = Hanzi.list.length-1; i >= 0; i--) {
                     if (count == 0) {
                         innerHTML += "<div class='one_line'>";
                     }
@@ -54,7 +55,7 @@ function z_search() {
                     innerHTML += "<div id='hanzi_" + i + "' class='zh_font' onclick='openHanziPopup("+i+",Hanzi.list)'>" + Hanzi.list[i].hanzi + "</div>";
                     count++;
                     
-                    if (i+1 == Hanzi.list.length) {
+                    if (i == 0) {
                         if (count < 6) {
                             let diff = 6 - count;
                             for (j=0; j < diff; j++) {
@@ -68,6 +69,28 @@ function z_search() {
                         count = 0;
                     }
                 }
+                // for (let i = 0; i < Hanzi.list.length; i++) {
+                //     if (count == 0) {
+                //         innerHTML += "<div class='one_line'>";
+                //     }
+
+                //     innerHTML += "<div id='hanzi_" + i + "' class='zh_font' onclick='openHanziPopup("+i+",Hanzi.list)'>" + Hanzi.list[i].hanzi + "</div>";
+                //     count++;
+                    
+                //     if (i+1 == Hanzi.list.length) {
+                //         if (count < 6) {
+                //             let diff = 6 - count;
+                //             for (j=0; j < diff; j++) {
+                //                 innerHTML += "<div class='no_border'>" + "" + "</div>";
+                //             }
+                //             count = 6;
+                //         }
+                //     }
+                //     if (count == 6) {
+                //         innerHTML += "</div>";
+                //         count = 0;
+                //     }
+                // }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = Hanzi.list.length;
 

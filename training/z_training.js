@@ -143,7 +143,7 @@ function zt_startTraining() {
                 });
                 log(sHanzi);
 
-                for (let i = parseInt(zt_start.value)-1; i < parseInt(zt_end.value)-1; i++) {
+                for (let i = parseInt(zt_start.value)-1; i < parseInt(zt_end.value); i++) {
                     zt_randomList.push(Hanzi.list[i]);
                 }
                 log("xy : ");
