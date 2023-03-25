@@ -230,6 +230,10 @@ main {
 }
 
 /* ---------- Search Result section ---------- */
+#n_section {
+    display: flex;
+    flex-direction: column;
+}
 #z_section {
     display: flex;
     flex-direction: column;
@@ -424,6 +428,11 @@ main {
         font-size: 18px;
     }
     
+    /* Listing kanji */
+    .kanji {
+        font-size: 35px;
+    }
+
     /* Listing hanzi */
     .hanzi {
         font-size: 35px;
@@ -495,6 +504,19 @@ main {
         width: 90%;
         display: flex;
         /* background-color: burlywood; */
+    }
+
+    #nt_select {
+        margin-right: 10px;
+    }
+    #nt_select_filter {
+        margin-right: 10px;
+    }
+    #nt_start {
+        margin-right: 10px;
+    }
+    #nt_end {
+        margin-right: 10px;
     }
 
     #zt_select {
@@ -577,13 +599,20 @@ main {
         margin-bottom: 5px;
         min-height: 64px;
     }
-    .fantiToFound, .hanjaToFound {
+    .itaijiToFound, .fantiToFound, .hanjaToFound {
         font-size: 32px;
         text-align: center;
         padding: 5px 0;
     }
+
+    .nt_n_btn {
+        width: 20%;
+        height: 30px;
+        font-size: 18px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
     
-    .zt_p, .ht_p {
+    .nt_p, .zt_p, .ht_p {
         font-size: 20px;
         margin-bottom: 10px;
     }
@@ -600,6 +629,37 @@ main {
         height: 30px;
         font-size: 18px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+
+    #nt_kakunin {
+        width: 100%;
+        height: 60px;
+        font-size: 26px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+    }
+    #nt_fanti {
+        height: 52px;
+    }
+    #nt_nt_exK {
+        min-height: 26px;
+    }
+    #nt_nextBtn_container {
+        margin-top: 20px;
+        display: flex;
+        justify-content: space-between;
+    }
+    #nt_nextBtn_container button {
+        width: 48%;
+        height: 50px;
+        font-size: 30px;
+        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border: none;
+    }
+    #nt_win {
+        background-color:rgb(118, 216, 20);
+    }
+    #nt_fail {
+        background-color:firebrick;
     }
 
 

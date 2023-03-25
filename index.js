@@ -80,7 +80,8 @@ languagesList.forEach(l => {
     btnList[l].addEventListener("click", e => changeLanguage(l));
 });
 
-changeLanguage("z");
+// changeLanguage("z");
+changeLanguage("n");
 
 function changeLanguage(l) {
     activeBtn = l;
@@ -125,6 +126,17 @@ function switchMode() {
         mainListing.style.display = "block";
         mainTraining.style.display = "none";
     } else {
+
+        if (Kanji.failedList.length > 0 && !b_nt_k_FailedAlreadyInserted) {
+            b_nt_k_FailedAlreadyInserted = true;
+            let count = 0;
+            Kanji.failedList.forEach(k => {
+                nt_select_filter.innerHTML += `
+                    <option value="NK_${count}">K_${count+1}</option>
+                `;
+                count++;
+            });
+        }
 
         if (Hanzi.failedList.length > 0 && !b_zt_h_FailedAlreadyInserted) {
             b_zt_h_FailedAlreadyInserted = true;

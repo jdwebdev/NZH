@@ -29,7 +29,22 @@
     </header>
     <main id="main_listing">
         <section id="n_section">
-            <h1>日本語</h1>
+            <div class="search_section">
+                <form class="search_form" class="forms" action="">
+                    <label for="n_input">漢字</label>
+                    <input class="search_input" id="n_input" type="text" placeholder="漢字又は仮名">
+                    <button id="n_searchBtn" class="searchBtn">検索</button>
+                </form>
+                <div class="select_container">
+                    <select name="" id="n_select" class="select_type">
+                        <option value="kanji" selected>漢字</option>
+                        <option value="word">単語</option>
+                        <!-- <option value="fanti2">繁體</option> -->
+                    </select>
+                </div>
+                <span id="n_resultNb" class="resultNb"></span>
+            </div>
+            <div id="n_result_section" class="result_section"></div>
         </section>
 
         <section id="z_section">
@@ -75,10 +90,54 @@
         </section>
     </main>
     <main id="main_training">
-        <section id="nt_section">
-            <h2>漢字練習 !!!!!</h2>
+        <section id="nt_section" class="training_section">
 
+            <!-- Training filters -->
+            <div class="filters_section">
+                <div class="filters_container">
+                    <select name="" id="nt_select" class="select_filter">
+                        <option value="kanji" selected>漢字</option>
+                        <option value="word">単語</option>
+                    </select>
+                    <select name="" id="nt_select_filter" class="select_filter">
+                        <option id="nt_all_option" value="all" selected>全部</option>
+                        <option value="xy">X-Y</option>
+                        <option id="nt_random_option" value="xrandom">x-rd</option>
+                    </select>
+                    <select name="" id="nt_select_lesson" class="select_filter"></select>
+                    <div id="nt_range_input">
+                        <input id="nt_start" class="select_filter" type="text">
+                        <input id="nt_end" class="select_filter" type="text">
+                    </div>
+                    <!-- <div id="fanti_check_container">
+                        <input id="fanti_check" type="checkbox">
+                        <label for="fanti_check">繁體</label>
+                    </div>  -->
+                    <div id="spec_check_container">
+                        <input id="spec_check" type="checkbox">
+                        <label for="spec_check">S</label>
+                    </div> 
+                </div>
+                <button id="nt_startBtn" class="startBtn">开始</button>
+            </div>
+
+            <!-- Training section -->
+            <div id="n_training_section" class="training_part">
+<!--
+                <div id="nt_progressBar" class="progressBar"><span id="currentIndex">1</span></div>
+                <p id="nt_kanji" class="toFound">?</p>
+                <p id="nt_itaiji" class="itaijiToFound">?</p>
+                <p class="nt_p">ケツ</p>
+                <p class="nt_p">か(く)、か(ける)</p>
+                <p class="nt_p">ふかけつ、けってん、あくび</p>
+                <p id="nt_exK" class="nt_p">?</p>
+                <button id="nt_kakunin">確認</button>
+                <div id="nt_nextBtn_container"></div>
+-->
+            </div>
         </section>
+
+
         <section id="zt_section" class="training_section">
 
             <!-- Training filters -->
@@ -155,8 +214,10 @@
     <script src="./class/hanzi.js"></script>
     <script src="./class/hangul.js"></script>
     <script src="./index.js"></script>
+    <script src="./listings/n.js"></script>
     <script src="./listings/z.js"></script>
     <script src="./listings/h.js"></script>
+    <script src="./training/n_training.js"></script>
     <script src="./training/z_training.js"></script>
     <script src="./training/h_training.js"></script>
 </body>
