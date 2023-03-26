@@ -80,8 +80,8 @@ languagesList.forEach(l => {
     btnList[l].addEventListener("click", e => changeLanguage(l));
 });
 
-// changeLanguage("z");
-changeLanguage("n");
+changeLanguage("z");
+// changeLanguage("n");
 
 function changeLanguage(l) {
     activeBtn = l;
