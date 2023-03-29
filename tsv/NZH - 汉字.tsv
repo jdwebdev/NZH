@@ -19,7 +19,7 @@
 咖		ka1，ga1	kāfēi | gālí	咖啡 | 咖喱	コーヒー | カレー	
 啡		fei1	kāfēi	咖啡	コーヒー	
 再		zai4	zài shuō yícì	再说一次	もう一度、さらに	
-见	見	jian4	zàijiàn	再见	さようなら	
+见	見	jian4	zàijiàn | jiànmiàn	再见 | 见面	さようなら | 会う	
 你		ni3	níhǎo	你好	こんにちは	
 水		shui3	wǒ hē shuǐ	我喝水	みず	
 好		hao3	níhǎo	你好	こんにちは	
@@ -49,7 +49,7 @@
 认	認	ren4	rènshi nǐ wǒ hěn gāoxìng	认识你我很高兴	知る、出会う	
 识	識	shi2	rènshi nǐ wǒ hěn gāoxìng	认识你我很高兴	知る、出会う	
 不		bu4	wǒ bù zhīdào	我不知道	ない、じゃない、否定	
-饭	飯	fan4	chǐfàn | mǐfàn | fànguǎn	吃饭 | 米饭 | 饭馆	ごはん	
+饭	飯	fan4	chǐfàn | mǐfàn | fànguǎn | dùnfàn	吃饭 | 米饭 | 饭馆 | 顿饭	ごはん | 食事	
 面	麵	mian4	wǒ chī miàn | miànbāo | chǎomiàn	我吃面 | 面包 | 炒面	めん | パン | 焼きそば	
 吃		chi1	wǒ chī fàn	我吃饭	食べる	
 鱼	魚	yu2	yú	我不吃鱼	さかな	
@@ -82,7 +82,7 @@
 拿		na2	ná | jiānádà	拿 | 加拿大	(手に)持つ、もらう | カナダ	
 哪		na3	nǐ zài nǎer？	你在哪儿	どこ	
 早		zao3	zǎoshàng | zǎoān	早上 | 早安	はやい | 朝	
-今		jin1	jīntiān	今天	きょう	
+今		jin1	jīntiān | jīnhòu	今天 | 今后	きょう | 今後	
 天		tian1	jīntiān | xīngqītiān | qiántiān	今天 | 星期天 | 前天	きょう | 日曜日 | おととい	
 怎		zen3	zěnmeyàng	怎么样	どう | どうやって	
 样	樣	yang4	zěnmeyàng	怎么样	どう | どうやって	
@@ -142,7 +142,7 @@
 热	熱	re4	rè kāfēi | rè chá | rè shuǐ	热咖啡 | 热茶 | 热水	あつい(コーヒー | お茶) | お湯	
 冰		bing1	bīng chá | bīng shuǐ | bīngxiāng	冰茶 | 冰水 | 冰箱	冷たい(お茶 | 水) | 冷蔵庫	
 洗		xi3	xǐshǒujiān | xǐshǒuyè	洗手间 | 洗手液	トイレ | ハンドソープ	
-手		shou3	洗手液 | xǐshǒuyè	洗手间 | 洗手液	トイレ | ハンドソープ	
+手		shou3	xǐshǒujiān | xǐshǒuyè	洗手间 | 洗手液	トイレ | ハンドソープ	
 间	間	jian1	xǐshǒujiān | shíjiān	洗手间 | 时间	トイレ | じかん	
 院		yuan4	yīyuàn | xuéyuàn | yuànzhǎng | yuànzi	医院 | 学院 | 院长 | 院子	びょういん | がくいん | いんちょう | 庭	
 馆	館	guan3	fànguǎn | túshūguǎn | bówùguǎn	饭馆 | 图书馆 | 博物馆	レストラン | 図書館 | 博物館	
@@ -150,8 +150,8 @@
 期		qi1	xīngqī | xià ge xīngqī | xīngqītiān	星期 | 下个星期 | 星期天	曜日、週	
 点	點	dian3	yīdiǎn | èrdiǎn | sāndiǎn | yīdiǎnbàn	一点 | 二点 | 三点 | 一点半	～時	
 月		yue1	yīyuè | èryuè | sānyuè	一月 | 二月 | 三月	げつ、がつ	
-年		nian2	èr líng yī sān nián	二〇一三年	とし、ねん	
-半		ban4	yīdiǎnbàn	一点半	一時はん	
+年		nian2	èr líng yī sān nián | nǐ shì nǎ niánshēng	二〇一三年 | 你是哪年生？	とし、ねん | 何年生まれ？	
+半		ban4	yīdiǎnbàn | bànyè	一点半 | 半夜	一時はん | 12時00AM 0:00	
 几	幾	ji3	xiànzài jídiǎn | jīntiān xīngqījǐ	现在几点 | 今天星期几	何時 | 何曜日	
 现	現	xian4	xiànzài	现在	今	
 两	兩	liang3	liǎng ge	两个	ふたつ	
@@ -165,7 +165,7 @@
 它		ta1	tā shì wǒ de māo	它是我的猫	(動物)  il - かれ - it	
 喂		wei2	wèi	喂	もしもし	
 白		bai2	míngbái	你明白吗	分かる	
-快		kuai4	kuàicān | nǐ shuō de hěn kuài	快餐 | 你说得很快	速く | ファストフード	
+快		kuai4	kuàicān | nǐ shuō de hěn kuài | kuài～le	快餐 | 你说得很快 | 快～了	速く | ファストフード | もうすぐ〜である	
 慢		man4	qǐng màn yīdiǎner shuō | mànmānr	请慢一点儿说 | 慢慢儿	遅い | ゆっくり	
 得		de， děi	wǒ shuō de bù hǎo | wǒ děi ～	我说得不好 | 我得～	喋るのが上手くない | 〜しなければならない	
 漂		piao4	piàoliang	你很漂亮	綺麗	
@@ -190,7 +190,7 @@
 右		you4	māo zài nǐ de yòubiān	猫在你的右边	みぎ	
 左		zuo3	māo zài nǐ de zuǒbiān	猫在你的左边	ひだり	
 前		qian2	māo zài nǐ de qiánmian | sāntiānqián	猫在你的前面 | 三天前	まえ | おととい	
-后	後	hou4	māo zài nǐ de hòumian | yìniánhòu	猫在你的后面 | 一年后	うしろ | あさって	
+后	後	hou4	māo zài nǐ de hòumian | yìniánhòu | jīnhòu	猫在你的后面 | 一年后 | 今后	うしろ | あさって | 今後	
 旁		pang2	nǐ de pángbiān	你的旁边	隣	
 校		xiao4	xuéxiào | xiàoyuán	学校 | 校园	がっこう | キャンパス	
 路		lu4	wǒ bù zhīdào lù	我不认识路	道	
@@ -253,7 +253,7 @@
 机	機	ji1	shǒujī | yí jià fēijī | jīhuì	手机 | 一架飞机 | 机会	携帯 | 飛行機 | 機会、チャンス	
 韩	韓	han2	hánguó	韩国	かんこく	
 目		mu4	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù	节目	番組	
-节	節	jie2	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù	节目	番組	
+节	節	jie2	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù | qíngrénjié	节目 | 情人节	番組 | バレンタイン	
 体	體	ti3	tǐyù	体育	からだ	
 育		yu4	tǐyù	体育	スポーツ	
 找		zhao3	wǒ xiǎng zhǎodào tā ｜ nǐ zhǎo shéi	你找谁	探す、誰を探してる？	
@@ -264,7 +264,7 @@
 箱		xiang1	bīngxiāng	冰箱	冷蔵庫	
 等		deng3	qǐng děng yīxià | děngdeng	请等一下 | 等等	待つ | など	
 位		wei4	nǐmen jǐwèi	你们几位	～名様	
-进	進	jin4	qǐng jìn	请进	入る	
+进	進	jin4	qǐng jìn | jìnxiū	请进 | 进修	入る | 研修	
 菜		cai4	càidān	菜单	メニュー	
 单	單	dan1	càidān | wǒ mǎidān	菜单 | 我买单	メニュー、お会計する	
 坐		zuo4	qǐng zuò | nǐmen xiǎng zuòzài nǎlǐ | zuòzhe shūfu	请坐 | 你们想坐在哪里 | 坐着舒服	すわる | 座り心地が良い	
@@ -286,7 +286,7 @@
 果		guo3	shuǐguǒ | píngguǒ	水果 | 苹果	くだもの、林檎	
 鸡	鷄、雞？	ji1	jīdàn | jīròu | jīdànxīhóngshì	鸡蛋 | 鸡肉 | 鸡蛋西红柿	卵、鶏肉	
 蛋		dan4	jīdàn | jīdànxīhóngshì	鸡蛋 | 鸡蛋西红柿	卵	                                                                                          
-鲜	鮮	xian1	xīnxiān	新鲜	しんせん(な)	
+鲜	鮮	xian1	xīnxiān | xiānhuā	新鲜 | 鲜花	しんせん(な) | (自然の生きた)花	
 蔬		shu1	shūcài	蔬菜	野菜	
 包		bao1	miànbāo | yībāo píngguǒ | yībāo mǐ | hànbǎobāo | qiánbāo	面包 | 一包苹果 | 一包米 | 汉堡包 | 钱包	パン | 林檎一袋 | 米一袋 | ハンバーガー | 財布	
 糖		tang2	wǒ de chá yǒu táng	我的茶有糖	さとう。お茶にさとうが入ってる	
@@ -321,7 +321,7 @@
 身		shen1	shēntǐ | wǒ shēntǐ búcuò | jiànshēnfáng	身体 我身体不错 | 健身房	体 | ジム	
 注		zhu4	zhùyì | qǐng zhùyì jiànkāng	注意 请注意健康	ちゅうい	
 意		yi4	zhùyì | qǐng zhùyì jiànkāng	注意 请注意健康	ちゅうい	
-开	開	kai1	kāishǐ	开始	かいし	
+开	開	kai1	kāishǐ | shèngkāi	开始 | 盛开	かいし | 咲く	
 始		shi3	kāishǐ	开始	かいし	
 锻	鍛	duan4	duànliàn	锻炼	(体を)きたえる	
 炼	煉、鍊	lian4	duànliàn	锻炼	(体を)きたえる	
@@ -352,7 +352,7 @@
 秒		miao3	gěi wǒ shí miǎo	给我十秒	びょう、second	
 刻		ke4	wǔdiǎn chà yí kè	五点差一刻	五時十五分前	
 差		cha4，chai1	wǔdiǎn chà yí kè | chūchāi	五点差一刻 | 出差	五時十五分前 | 出張	
-钟	鐘	zhong1	wǔ fēnzhōng | nàozhōng	五分钟 | 闹钟	～間？～分間？ | 目覚まし時計	
+钟	鐘	zhong1	wǔ fēnzhōng | nàozhōng | ～ ge zhōng tóu = ～ge xiǎoshí	五分钟 | 闹钟 | ～个钟头	～間？～分間？ | 目覚まし時計 | 〜時間	
 小		xiao3	sān ge xiǎoshi | xūyào jǐge xiǎoshi	三个小时 | 需要几个小时	三時間、何時間かかる	
 时	時	shi2	sān ge xiǎoshi | xūyào jǐge xiǎoshi	三个小时 | 需要几个小时	三時間、何時間かかる	
 整		zheng3	xiànzài liǎng diǎn zhěng	现在两点整	ちょうど2時	
@@ -378,7 +378,7 @@
 跑		pao3	pǎobù | pǎole	跑步 | 跑了	走る | 逃げた	
 步		bu4	pǎobù	跑步	走る	
 泳		yong3	yóuyǒng	游泳	およぐ	
-打		da3	dǎ lánqiú	打篮球	(バスケットボールを)する	
+打		da3	dǎ lánqiú | dǎsuan	打篮球 | 打算	(バスケットボールを)する | 予定	
 足		zu2	tī zúqiú	踢足球	(サッカーを)する	
 球		qiu2	tī zúqiú	踢足球	サッカー	
 踢		ti1	tī zúqiú	踢足球	サッカー	
@@ -398,7 +398,7 @@
 漫		man4	làngmàn | mànhuà	浪漫 | 漫画	ロマンティック | まんが	
 舒		shu1	shūfu | wǒ bù shūfu | shūshì	舒服 | 我不舒服 | 舒适	快適 | 具合が悪い | 快適な	
 应	應	ying1	yīnggāi | nǐ yīnggāi huíjiā	应该 | 你应该回家	～するべき、～しなければならない	
-该	該	gai1	yīnggāi | nǐ yīnggāi huíjiā	应该 | 你应该回家	～するべき、～しなければならない	
+该	該	gai1	yīnggāi | nǐ yīnggāi huíjiā | gāi～le	应该 | 你应该回家 | 该～了	～するべき、～しなければならない | そろそろ〜する	
 病		bing4	shēngbìng | wǒ shēngbìng le	生病 | 我生病了	びょうき	
 休		xiu1	xiūxi	休息	やすむ	
 息		xi1	xiūxi	休息	休む	
@@ -407,11 +407,11 @@
 定		ding4	yídìng	一定	必ず	
 别		bie2	bié～ | bié kàn	别~ | 别看	～しないで(命令) | 見ないで	
 假		jia4	qǐngjià | fàngjià	请假 | 放假	休みを取る | 休みに入る	
-发	發，髮	fa1，fa4	fāshāo | nǐ yǒumeiyou fāshāo | tóufà | chūfā	发烧 | 你有没有发烧 | 头发 | 出发	熱 | 熱が出る | 髪 | 出発	
+发	發，髮	fa1，fa4	fāshāo | nǐ yǒumeiyou fāshāo | tóufa | chūfā	发烧 | 你有没有发烧 | 头发 | 出发	熱 | 熱が出る | 髪 | 出発	
 烧	燒	shao1	fāshāo | nǐ yǒumeiyou fāshāo | tā fāshāo le	发烧 | 你有没有发烧 | 他发烧了	熱 | 熱が出る	
 疼		teng2	dùzi téng	肚子疼	痛い、お腹が痛い、腹痛	
 药	藥	yao4	？ hē yào	药	薬	
-头	頭	tou2	wǒ tóu téng	他头疼	頭、頭が痛い	
+头	頭	tou2	wǒ tóu téng | tóufa | ～ ge zhōng tóu = ～ge xiǎoshí	他头疼 | 头发 | ～个钟头	頭、頭が痛い | 髪 | 〜時間	
 感		gan3	gǎnmào | tā gǎnmào le	感冒 | 她感冒了	風邪	
 冒		mao4	gǎnmào | tā gǎnmào le	感冒 | 她感冒了	風邪	
 派		pai4	pàiduì	派对	 パーティー	
@@ -422,7 +422,7 @@
 司		si1	gōngsī | shòusī | sījī	公司 | 寿司 | 司机	会社 | すし | 運転手	
 才		cái	wǒ jīntiān zǎoshàng liǎngdiǎn cái huíjiā	我今天早上两点才回家	やっと？ 私は今朝2時にやっと家に帰った	
 事		shì	nǐ yǒu shénme shìqíng | tóngshì	你有什么事情 | 同事	どんなことがあった | 同僚	
-情		qíng	nǐ yǒu shénme shìqíng	你有什么事情	どんなことがあった	
+情		qíng	nǐ yǒu shénme shìqíng | qíngrénjié	你有什么事情 | 情人节	どんなことがあった | バレンタイン	
 费	費	fei4	xiǎofèi | pòfei	小费 | 破费	チップ | お金をかける	
 完		wán	nǐ chī wán le ma	你吃完了吗	V+終える、V+終わる	
 真		zhēn	tā zhēn piàoliàng	她真漂亮	本当に	
@@ -432,7 +432,7 @@
 饿	餓	e4	wǒ è le	我饿了	お腹が空いた	
 渴		ke3	wǒ hěn kě	我很渴	喉が渇いた	
 甜		tian2	tiándiǎn | zhè ge dàngāo tài tián le | tiánpǐn	甜点 | 这个蛋糕太甜了 | 甜品	デザート | 甘い | デザート	
-巧		qiao3	qiǎokèlì	巧克力	チョコレート	
+巧		qiao3	qiǎokèlì | tài qiǎo le	巧克力 | 太巧了	チョコレート | すごい偶然ですね	
 克		ke4	qiǎokèlì	巧克力	チョコレート	
 力		li4	qiǎokèlì | shìlì | yālì	巧克力 | 视力 | 压力	チョコレート | 視力 | プレッシャー、あつりょく	
 味		wei4	wèidào	味道	あじ	
@@ -508,7 +508,7 @@
 礼	禮	li3	(yí fèn)lǐwù | lǐbài | hūnlǐ	(一份)礼物 | 礼拜 | 婚礼	(１つ)プレゼント | 「星期」と一緒 | 結婚式	
 物		wu4	lǐwù	礼物	プレゼント	
 法		fa3	fǎguó | shūfǎ	法国 | 书法	フランス | 書道	
-祝		zhu4	zhù nǐ shēntǐ jiànkāng	祝你身体健康	あなたのご健康をいのっている	
+祝		zhu4	zhù nǐ shēntǐ jiànkāng | qìngzhù	祝你身体健康 | 庆祝	あなたのご健康をいのっている | 祝う	
 练	練	lian4	liànxí | jiàoliàn	练习 | 教练	練習 | コーチ	
 乒		ping1	dǎ pīngpāngqiú	打乒乓球	卓球	
 乓		pang1	dǎ pīngpāngqiú	打乒乓球	卓球	
@@ -556,7 +556,7 @@
 亚	亞	ya4	Àodàlìyà	澳大利亚	オーストラリア	
 季		ji4	jìjié	季节	きせつ	
 越		yue4	yuè～yuè | yuè lái yuè | zuìjìn yuè lái yuè rè le	越~越 | 越来越 | 最近越来越热了	すればするほど | ますます | ますます暑くなった	
-概		gai4	dàgài	大概	たぶん	
+概		gai4	dàgài	大概	たぶん、大体	
 刚	剛	gang1	gāng + V | tā gāng zǒu	刚+V | 他刚走	V＋たばかり | 行ったばかり	
 堵		du3	dǔchē	堵车	渋滞	
 园	園	yuan2	gōngyuán | yòuéryuán | xiàoyuán	公园 | 幼儿园 | 校园	公園 | 幼稚園 | キャンパス	
@@ -603,7 +603,7 @@
 活		huo2	shēnghuó	生活	生活	
 调	調	tiao2	kōngtiáo	空调	エアコン	
 积	積	ji1	jījí	积极	積極的	
-修		xiu1	xiūlǐ	修理	修理	
+修		xiu1	xiūlǐ | jìnxiū	修理 | 进修	修理 | 研修	
 景		jing3	fēngjǐng	风景	風景	
 向		xiang4	fāngxiàng	方向	方向	
 辛		xin1	xīnkǔle | bùxīnkǔ	辛苦了 | 不辛苦	お疲れさまでした | ご心配なく	
@@ -634,7 +634,7 @@
 领	領	ling3	lǐngdài	领带	ネクタイ	
 丽	麗	li4	měilì	美丽	きれいな	
 属	屬	shu3	shǔ | nǐ (shì) shǔ shénme de	你(是)属什么的	あなたの干支は何ですか	
-纪	紀	ji4	duōdà niánjì | shìjì	多大年纪 | 世纪	おいくつですか | 世紀	
+纪	紀	ji4	duōdà niánjì | shìjì | jìniànrì	多大年纪 | 世纪 | 纪念日	おいくつですか | 世紀 | 記念日	
 数	數	shu4? shu3?	duōdà suìshu | shùxué | dàduōshù xuéshēng	多大岁数 | 数学 | 大多数学生	おいくつですか | すうがく | 多くの学生	
 草		cao3	cǎoméi	草莓	いちご	
 莓		mei2	cǎoméi	草莓	いちご	
@@ -643,7 +643,7 @@
 卜	蔔	bo	húluóbo	胡萝卜	人参	
 淇		qi2	bīngqílín	冰淇淋	アイスクリーム	
 淋		lin2	bīngqílín	冰淇淋	アイスクリーム	
-兔		tu4	báitù | tùzi	白兔 | 兔子	うさぎ x2	
+兔		tu4	báitù | tùzi | wǒ shǔ tù	白兔 | 兔子 | 我属兔	うさぎ x2 | ウサギ(卯)年	
 猴		hou2	hóuzi	猴子	サル	
 军	軍	jun1	xià jūn (名前)	夏军	夏(苗字) 軍(名前)	
 先		xian1	xiānsheng	先生	ご主人。紳士	
@@ -704,7 +704,7 @@
 拖		tuo1	tuōxié	拖鞋	スリッパ	
 卧	臥	wo4	wòshì	卧室。臥室	ベッドルーム	
 象		xiang4	dàxiàng	大象	象	
-虎		hu3	lǎohǔ	老虎	トラ	
+虎		hu3	lǎohǔ | wǒ shǔ hǔ de	老虎 | 我属虎的	トラ | トラ(寅)年	
 熊		xiong2	xióngmāo	熊猫。熊貓	パンダ	
 鳄	鱷	e4	èyú	鳄鱼。鱷魚	ワニ	
 鼠		shu3	dàishǔ | cāngshǔ | mǐlǎoshǔ	袋鼠 | 仓鼠 | 米老鼠	カンガルー | ハムスター | ミッキー	
@@ -717,7 +717,7 @@
 宠	寵	chong3	chǒngwù	宠物。寵物	ペット	
 类	類	lei4	rénlèi	人类。人類	じんるい	
 寄		ji4	jìxìn	寄信	手紙を出す	
-念		nian4	niàn | zhè ge zì zěnme niàn ？	念 | 这个字怎么念？	読む	
+念		nian4	niàn | zhè ge zì zěnme niàn ？ | jìniànrì	念 | 这个字怎么念？ | 纪念日	読む | 記念日	
 直		zhi2	yìzhí zhí(フォント注意) 	一直	真っ直ぐ	
 吉		ji2	jítián (名前)	吉田 (名前)	吉田	
 尔	爾	er3	dǎ gāoěrfū | ǒu'ěr	打高尔夫 | 偶尔	ゴルフ | たまに	
@@ -753,7 +753,7 @@
 茉		mo4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
 莉		li4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
 罐		guan4	yíguàn	一罐	一缶	
-份		fen4	yífèn | yí fèn lǐwù | shēnfènzhèng	一份 | 一份礼物 | 身份证	1人分 | プレゼント１つ | 身分証明書	
+份		fen4	yífèn | yí fèn lǐwù | shēnfènzhèng | huàn yí fèn gōngzuò	一份 | 一份礼物 | 身份证 | 换一份工作	1人分 | プレゼント１つ | 身分証明書 | 仕事を変える	
 碟		die2	yìdié	一碟	小皿１つ	
 净		jing4	gānjing	干净	綺麗。清潔	
 全		quan2	ānquán	安全	安全	
@@ -789,7 +789,7 @@
 证	證	zheng4	qiānzhèng | shēnfènzhèng	签证。簽證 | 身份证	ビザ | 身分証明書	
 铅	鉛	qian1	qiānbǐ	铅笔。鉛筆	えんぴつ	
 橡		xiang4	xiàngpí	橡皮	消しゴム	
-算		suan4	suànshù	算术。算術	さんすう	
+算		suan4	suànshù | dǎsuan	算术 | 打算	さんすう | 予定	
 杂	雜	za2	zázhì	杂志。雜志	ざっし	
 志		zhi4	zázhì	杂志。雜志	ざっし	
 职	職	zhi2	zhíyuán	职员。職員	しょくいん	
@@ -824,7 +824,7 @@
 仔		zai3	niúzǎikù	牛仔裤。牛仔褲	ジーパン	
 词	詞	ci2	cídiǎn | diànzǐ cídiǎn	词典。詞典 | 电子词典	辞書 | 電子辞書	
 典		dian3	cídiǎn | gǔdiǎn yīnyuè	词典。詞典 | 古典音乐	辞書 | クラシック音楽	
-郊		jiao1	jiāoqū	郊区。郊區	郊外	
+郊		jiao1	jiāoqū | jiāoyóu	郊区。郊區 | 郊游	郊外 | ピクニック	
 区	區	qu1	jiāoqū | jūmínqū	郊区。郊區 | 居民区	郊外 | 居住区	
 装	裝	zhuang1	fúzhuāngdiàn | fúzhuāng shèjìshī	服装店。服裝店 | 服装设计师	衣料品店 | ファッションデザイナー	
 麦	麥	mai_4	màidāngláo	麦当劳。麥當勞	マクドナルド	
@@ -914,7 +914,7 @@
 社		she4	shāngshè | lǚxíngshè | shèzhǎng	商社 | 旅行社 | 社长	しょうしゃ | 旅行会社 | 社長	
 舅		jiu4	jiùjiu	舅舅	(人の)おじさん	
 惠		hui4	huìpǔ gōngsī (会社名)	惠普公司	ヒューレットパッカード	
-计	計	ji4	kuàijì | shèjìshī	会计 | 设计师	経理 | デザイナー	
+计	計	ji4	kuàijì | shèjìshī | jìhuà	会计 | 设计师 | 计划。計劃	経理 | デザイナー | 計画	
 融		rong2	jīnróng jīguān	金融机关。金融機關	金融機関	
 导	導	dao3	dǎoyóu | dǎoyǎn	导游 | 导演	ガイド | 監督	
 侄		zhi2	zhízi	侄子	甥	
@@ -995,3 +995,20 @@
 搭		da1	dā tóngshì de chē qù	搭同事的车去	同僚の車で行く	
 闹	鬧	nao4	nàozhōng	闹钟。鬧鐘	目覚まし時計	
 另		ling4	lìng | lìng yí zuò shì bàngōnglóu	另 | 另一座是办公楼	あと～、別 | あと一棟はオフィスビル	
+接		jie1	jiē	接	迎える	
+傍		bang4	bàngwǎn	傍晚	夕方 5:00～6:00 PM	
+夜		ye4	bànyè	半夜	12時00AM 0:00	
+凌		ling2	língchén	凌晨	01:00～4:00AM	
+晨		chen2	língchén	凌晨	01:00～4:00AM	
+顿	頓	dun4	dùnfàn | xī'ěrdùn(固有名詞) jiǔdiàn	顿饭 | 希尔顿酒店。希爾頓酒店	食事 | ヒルトンホテル	
+散		san4	bújiàn búsàn	不见不散。不見不散	会うまで待つこと	
+插		cha1	chāhuār	插花儿。插花兒	生け花	
+芭		ba1	bāléi(wǔ)	芭蕾(舞)	バレエ	
+蕾		lei2	bāléi(wǔ)	芭蕾(舞)	バレエ	
+庆	慶	qing4	qìngzhù	庆祝。慶祝	祝う	
+噢		o1	ō	噢	おお	
+命		ming4	wǒ de běn mìng nián	我的本命年	年女	
+划	劃	hua4	jìhuà	计划。計劃	計画	
+盛		sheng4	shèngkāi | xiānhuā shèngkāi	盛开。盛開 | 鲜花盛开	咲く、花が咲く	
+勃		bo2	shēngjī bóbó	生机勃勃。生機勃勃	生き生きと、活気のある	
+剪		jian3	jiǎn tóufa	剪头发。剪頭髮	髪を切る	
