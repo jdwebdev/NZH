@@ -10,8 +10,8 @@
 九		jiu3	9	9		
 十		shi2	10	10		
 百		bai3	100	100		
-零		ling2	0	0		
-元		yuan2	yuán	元	げん　(お金)	
+零		ling2	0 | líng diǎn èr 0.2	0 | 零点二	0.2	
+元		yuan2	yuán | rìyuán | měiyuán | jiāyuán | ōuyuán	元 | 日元 | 美元 | 加元 | 欧元	げん　(お金) | 日本円 | アメリカドル | カナダドル | ユーロ	
 鸟	鳥	niao3	niǎo	yì zhī niǎo	とり(動物) | とり一羽	
 我		wo3	wǒ shì fǎguórén	我是法国人	私	
 喝		he1	wǒ hē shuǐ	我喝水	飲む	
@@ -21,7 +21,7 @@
 再		zai4	zài shuō yícì	再说一次	もう一度、さらに	
 见	見	jian4	zàijiàn | jiànmiàn	再见 | 见面	さようなら | 会う	
 你		ni3	níhǎo	你好	こんにちは	
-水		shui3	wǒ hē shuǐ	我喝水	みず	
+水		shui3	wǒ hē shuǐ | xiāngshuǐ | kuàngquánshuǐ	我喝水 |  香水 | 矿泉水	みず | 香水 | ミネラルウォーター	
 好		hao3	níhǎo	你好	こんにちは	
 狗		gou3	gǒu	我有一个狗	いぬ	
 和		he2，huo	wǒ hé nǐ | nuǎnhuo	我和你 | 暖和	～と～	
@@ -50,11 +50,11 @@
 识	識	shi2	rènshi nǐ wǒ hěn gāoxìng	认识你我很高兴	知る、出会う	
 不		bu4	wǒ bù zhīdào	我不知道	ない、じゃない、否定	
 饭	飯	fan4	chǐfàn | mǐfàn | fànguǎn | dùnfàn	吃饭 | 米饭 | 饭馆 | 顿饭	ごはん | 食事	
-面	麵	mian4	wǒ chī miàn | miànbāo | chǎomiàn	我吃面 | 面包 | 炒面	めん | パン | 焼きそば	
+面	麵	mian4	wǒ chī miàn | miànbāo | chǎomiàn | miànbāochē	我吃面 | 面包 | 炒面 | 面包车	めん | パン | 焼きそば | マイクロバス minivan	
 吃		chi1	wǒ chī fàn	我吃饭	食べる	
 鱼	魚	yu2	yú	我不吃鱼	さかな	
 老		lao3	lǎoshī | lǎoshi	老师 | 老实	せんせい | 真面目な	
-师	師	shi1	lǎoshī | (～)shīfu	老师 | 师傅	せんせい | 運転手や職人	
+师	師	shi1	lǎoshī | (～)shīfu | ēnshī	老师 | 师傅 | 恩师	せんせい | 運転手や職人 | 恩師	
 学	學	xue2	xuéshēng | shùxué	学生 | 数学	まなぶ、がくせい | すうがく	
 生		sheng1	xuéshēng | yīshēng	学生 | 医生	がくせい、いしゃ	
 医	醫	yi1	yīshēng | yīyuàn	医生 | 医院	いしゃ	
@@ -71,14 +71,14 @@
 对	對	dui4	duì | duìbuqǐ	对 | 对不起	そうです | すみません	
 大		da4	dàxué | jiānádà | fàndiàn dàtīng	大学 | 加拿大 | 饭店大厅	おおきい | ホテルのロビー	
 都		dou1，du1	wǒmen dōu shì xuéshēng | jīngdū (地名)	我们都是学生 | 京都	みんな，ぜんぶ | きょうと	
-美		mei3	měiguó | měiguórén | měiróngshī | nánměizhōu	美国 | 美国人 | 美容师 | 南美洲	アメリカ | 美容師 | 南米	
-国	國	guo2	zhōngguó	中国	くに	
+美		mei3	měiguó | měiguórén | měiróngshī | nánměizhōu | měiyuán	美国 | 美国人 | 美容师 | 南美洲 | 美元	アメリカ | 美容師 | 南米 | アメリカドル	
+国	國	guo2	zhōngguó | guóchǎn	中国 | 国产	くに | 国産	
 人		ren2	zhōngguórén | rìběnrén | yírén	中国人 | 日本人 | 宜人	ひと | 感じがいい	
 中		zhong4	zhōngguó | gāozhōng	中国 | 高中	ちゅうごく | 高等学校	
-英		ying1	yīngguó | yīngyǔ	英国 | 英语	イギリス	
-日		ri4	rìběn	日本	にほん	
+英		ying1	yīngguó | yīngyǔ | yīngbàng | yīngcùn	英国 | 英语 | 英镑 | 英寸	イギリス | えいご | ポンド | インチ	
+日		ri4	rìběn | rìyuán	日本 | 日元	にほん | 日本円	
 本		ben3	rìběn | bǐjìběn	日本 | 笔记本	にほん | ノート	
-加		jia1	jiānádà | cānjiā	加拿大 | 参加	カナダ | さんか	
+加		jia1	jiānádà | cānjiā | jiāyuán	加拿大 | 参加 | 加元	カナダ | さんか | カナダドル	
 拿		na2	ná | jiānádà	拿 | 加拿大	(手に)持つ、もらう | カナダ	
 哪		na3	nǐ zài nǎer？	你在哪儿	どこ	
 早		zao3	zǎoshàng | zǎoān	早上 | 早安	はやい | 朝	
@@ -91,8 +91,8 @@
 住		zhu4	wǒ zhùzài fǎguó	我住在法国	(場所に)すむ	
 家		jia1	wǒ de jiārén | jiājù	我的家人 | 家具	いえ | かぞく | かぐ	
 在		zai4	nǐ zài nǎer	你在哪儿	いる、ある	
-香		xiang1	xiānggǎng	香港	ホンコン	
-港		gang3	xiānggǎng	香港	ホンコン	
+香		xiang1	xiānggǎng | xiāngjiāo | xiāngshuǐ | yì gǔ xiāngwèir	香港 | 香蕉 | 香水 | 一股香味儿	ホンコン | バナナ | 香水 | ひとしきりの良い香り	
+港		gang3	xiānggǎng | gǎngbì	香港 | 港币	ホンコン | ホンコンドル	
 纽	紐	niu3	niǔyuē - New york	纽约	NY	
 约	約	yue1	niǔyuē - New york | yuēhuì	纽约 | 约会	NY | デート	
 伦	倫	lun2	lúndūn - London	伦敦	ロンドン	
@@ -136,13 +136,13 @@
 会	會	hui4，kuai4	wǒ bú huì shuō | yíhuìer | kuàijì	我不会说 | 一会儿 | 会计	できる(知識) | 経理	
 错	錯	cuo4	bú cuò | wo shuo cuò le	不错 我说错了	言い間違える	
 儿	兒	er2	érzi | nv'er | yi dian'er	儿子 | 女儿 | 一点儿	息子 | 娘 | 少し	
-牛		niu2	niúnǎi	牛奶	ぎゅうにゅう	
+牛		niu2	niúnǎi | yì tóu niú	牛奶 | 一头牛	ぎゅうにゅう | 牛	
 奶	嬭,妳	nai3	niúnǎi | nǎinǎi	牛奶 | 奶奶	牛乳 | 祖母	
 要		yao4	wǒ yào chī mǐfàn	我要吃米饭	～したい、～しなければならない	
 热	熱	re4	rè kāfēi | rè chá | rè shuǐ	热咖啡 | 热茶 | 热水	あつい(コーヒー | お茶) | お湯	
 冰		bing1	bīng chá | bīng shuǐ | bīngxiāng	冰茶 | 冰水 | 冰箱	冷たい(お茶 | 水) | 冷蔵庫	
-洗		xi3	xǐshǒujiān | xǐshǒuyè	洗手间 | 洗手液	トイレ | ハンドソープ	
-手		shou3	xǐshǒujiān | xǐshǒuyè	洗手间 | 洗手液	トイレ | ハンドソープ	
+洗		xi3	xǐshǒujiān | xǐshǒuyè | xǐfàshuǐ	洗手间 | 洗手液 | 洗发水	トイレ | ハンドソープ | シャンプー	
+手		shou3	xǐshǒujiān | xǐshǒuyè | shǒujuànr	洗手间 | 洗手液 | 手绢儿	トイレ | ハンドソープ | ハンカチ	
 间	間	jian1	xǐshǒujiān | shíjiān	洗手间 | 时间	トイレ | じかん	
 院		yuan4	yīyuàn | xuéyuàn | yuànzhǎng | yuànzi	医院 | 学院 | 院长 | 院子	びょういん | がくいん | いんちょう | 庭	
 馆	館	guan3	fànguǎn | túshūguǎn | bówùguǎn	饭馆 | 图书馆 | 博物馆	レストラン | 図書館 | 博物館	
@@ -151,10 +151,10 @@
 点	點	dian3	yīdiǎn | èrdiǎn | sāndiǎn | yīdiǎnbàn	一点 | 二点 | 三点 | 一点半	～時	
 月		yue1	yīyuè | èryuè | sānyuè	一月 | 二月 | 三月	げつ、がつ	
 年		nian2	èr líng yī sān nián | nǐ shì nǎ niánshēng	二〇一三年 | 你是哪年生？	とし、ねん | 何年生まれ？	
-半		ban4	yīdiǎnbàn | bànyè	一点半 | 半夜	一時はん | 12時00AM 0:00	
+半		ban4	yīdiǎnbàn | bànyè | liǎngbànr	一点半 | 半夜 | 两半儿	一時はん | 12時00AM 0:00 | 半分	
 几	幾	ji3	xiànzài jídiǎn | jīntiān xīngqījǐ	现在几点 | 今天星期几	何時 | 何曜日	
-现	現	xian4	xiànzài	现在	今	
-两	兩	liang3	liǎng ge	两个	ふたつ	
+现	現	xian4	xiànzài | xiànjīn | xiànshí	现在 | 现金 | 现实	今 | 現金 | 現実	
+两	兩	liang3	liǎng ge | liǎngbànr | ~ liǎng (度量衡単位)	两个 | 两半儿 | 二两	ふたつ | 半分 | 100 グラム	
 孩		hai2	háizi | xiǎoháir	孩子 | 小孩儿	子供 | 子供	
 岁	嵗	sui4	èr shí sì suì | sānshísān suì	二十四岁 | 三十三岁	～さい、年齢	
 子		zi3	háizi | érzi	孩子 | 儿子	こども | むすこ	
@@ -196,7 +196,7 @@
 路		lu4	wǒ bù zhīdào lù	我不认识路	道	
 走		zou3	dào xuéxiào zěnme zǒu	到学校怎么走	歩く	
 到		dao4	dào xuéxiào zěnme zǒu | dàodǐ	到学校怎么走 | 到底	～まで | 結局	
-里	裡裏	li3	nǐ zài nǎli	你在哪里	～の中	
+里	裡裏	li3	nǐ zài nǎli | (èr/liǎng)lǐ	你在哪里 | (二/两)里	～の中 | 1キロメートル	
 往		wang3	qǐng wǎng yòubiān zǒu | jiāowǎng	请往右边走 | 交往	右に進んでください | 付き合う	
 边	邊	bian1	pángbiān	旁边 | 右边 | 左边	隣	
 书	書	shu1	yìběn shū | túshūguǎn | shūfǎ | shūjià | shūzhuō | shūfáng	一本书 | 图书馆 | 书法 | 书架 | 书桌 | 书房	本 | 図書館 | 書道 | 本棚 | 勉強机 | 書斎	
@@ -222,10 +222,10 @@
 从	從	cong2	cóng ～	从~到~	～から	
 回		hui2	huíjiā | huíguó	回家 | 回国	家に帰る | 帰国	
 放		fang4	fàngxué | fàngjià | bié fàngzài xīnshàng	放学 | 放假 | 别放在心上	学校が終わること | 休みに入る | 気にしないで下さい	
-钱	錢	qian2	méiyǒu qián | qiánbāo	没有钱 | 钱包	お金 | 財布	
+钱	錢	qian2	méiyǒu qián | qiánbāo | huànqián | zhǎoqián | zǎnqián	没有钱 | 钱包 | 换钱 | 找钱 | 攒钱	お金 | 財布 | 両替 | おつり | お金を貯める	
 块	塊	kuai4	8 kuài　(8 yuán) | yíkuài dàngāo	八块 | 一块蛋糕	ケーキの数え方	
 角		jiao3	jiǎo （0.1 yuán）| yí jià sānjiǎo gāngqín	角(書き言葉) = 毛(話し言葉) | 一架三角钢琴	一台のグランドピアノ	
-毛		mao2	máo （0.1 yuán）| máoyī	角(書き言葉) = 毛(話し言葉) | 毛衣	セーター	
+毛		mao2	máo （0.1 yuán）| máoyī | máojin	角(書き言葉) = 毛(話し言葉) | 毛衣 | 毛巾	セーター | タオル	
 买	買	mai_3	mǎi dōngxi	买东西	買う	
 只	隻,衹	zhi3，zhi1	zhǐ shuō bú zuò | yìzhī gǒu(māo/niǎo)	只说不做 | 一只狗(猫/鸟)	ただ、だけ。口で言うだけで実行しない | 一匹	
 共		gong4	yīgòng	一共	全部で	
@@ -233,7 +233,7 @@
 信		xin4	xìnyòngkǎ | xìnxīn | xìnyù	信用卡 | 信心 | 信誉	クレジットカード | 自信 | 信用	
 用		yong4	xìnyòngkǎ | yǒuyòng	信用卡 | 有用	クレジットカード | 役に立つ	
 卡		ka3	xìnyòngkǎ | kǎlā OK	信用卡 | 卡拉OK	クレジットカード | カラオケ	
-收	収	shou1	shōu xìnyòngkǎ	收信用卡	使える | 受け取る	
+收	収	shou1	shōu xìnyòngkǎ / xiànjīn	收信用卡 / 现金	使える、受け取る、扱う	
 便		pian2, bian4	piányi | suíbiàn	便宜 | 随便	安い | 自由に、気のまま、好きなように	
 宜		yi2	piányi | yírén	便宜 | 宜人	安い | 感じがいい	
 贵	貴	gui4	tài guì le	太贵了	高い(値段)	
@@ -242,21 +242,21 @@
 万	萬	wan4	yī wàn (10 000) | (wànlǐ)chángchéng	1万 | (万里)长城	10 000 | ばんりのちょうじょう	
 太		tai4	tài guì le	太贵了	～すぎ	
 视	視	shi4	diànshì	电视	テレビ	
-想		xiang3	wǒ xiǎng ～	我想~	～したい	
+想		xiang3	wǒ xiǎng ～ | lǐxiǎng | mèngxiǎng	我想~ | 理想 | 梦想	～したい | 理想 | 夢	
 干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1	这个周末我们会干什么 | 干杯	する(動詞) | 乾杯	
 影		ying3	diànyǐng	电影	映画	
 报	報	bao4	bàozhǐ | kàn bào	报纸 | 看报	新聞 | 新聞を読む	
 纸	紙	zhi3	bàozhǐ | yì zhāng zhǐ	报纸 | 一张纸	新聞 | 紙一枚	
-网	網	wang3	shàngwǎng	上网	ネットで	
+网	網	wang3	shàngwǎng | wǎngqiú | wǎngbā	上网 | 网球 | 网吧	ネットで | テニス | ネットカフェ	
 新		xin1	xīnwén | xīnniánkuàile	我用电脑看新闻	ニュース	
 闻	聞	wen2	xīnwén	新闻	ニュース	
 机	機	ji1	shǒujī | yí jià fēijī | jīhuì	手机 | 一架飞机 | 机会	携帯 | 飛行機 | 機会、チャンス	
 韩	韓	han2	hánguó	韩国	かんこく	
 目		mu4	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù	节目	番組	
-节	節	jie2	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù | qíngrénjié	节目 | 情人节	番組 | バレンタイン	
+节	節	jie2	jiémù ｜ diànshì jiémù ｜ tǐyù jiémù | qíngrénjié | jiéjiǎn	节目 | 情人节 | 节俭	番組 | バレンタイン | 倹約、素朴、質素	
 体	體	ti3	tǐyù	体育	からだ	
 育		yu4	tǐyù	体育	スポーツ	
-找		zhao3	wǒ xiǎng zhǎodào tā ｜ nǐ zhǎo shéi	你找谁	探す、誰を探してる？	
+找		zhao3	wǒ xiǎng zhǎodào tā ｜ nǐ zhǎo shéi | zhǎoqián	你找谁 | 找钱	探す、誰を探してる？ | おつり	
 桌		zhuo1	zhuōzi | shūzhuō | cānzhuō	桌子 | 书桌 | 餐桌	机 | 勉強机 | 食卓	
 椅		yi3	yǐzi	椅子	いす	
 外		wai4	wǒ zài pángjiān wài | wàiguó	我在房间外 | 外国	～の外 | 外国	
@@ -277,25 +277,25 @@
 西		xi1	dōngxi | xīguā | xīhóngshì | bāxī	东西 | 西瓜 | 西红柿 | 巴西	物 | スイカ | トマト | ブラジル	
 些		xie1	zhè xiē pǐngguǒ	这些苹果	これらの林檎	
 印		yin4	yìndù | fùyìnjī | dǎyìnjī	印度 | 复印机 | 打印机	インド | コピー機 (業務用、でかいやつ) | プリンター (普通の)	
-度		du4	yìndù	印度	インド	
+度		du4	yìndù | dùjià	印度 | 度假	インド | リゾート	
 超		chao1	chāoshì | chāojí shìchǎng	超市 | 超级市场	スーパー | スーパーマーケット	
 市		shi4	chāoshì | chéngshì	超市 | 城市	スーパー | 都市	
 给	給	gei3	qǐng gěi wǒ qián	请给我钱	お金ください	
-瓜		gua1	xīguā | mùguā	西瓜 | 木瓜	スイカ | パパイヤ	
+瓜		gua1	xīguā | mùguā | huángguā	西瓜 | 木瓜 | 黄瓜	スイカ | パパイヤ | 胡瓜	
 苹	蘋	ping2	píngguǒ	苹果	林檎	
-果		guo3	shuǐguǒ | píngguǒ	水果 | 苹果	くだもの、林檎	
+果		guo3	shuǐguǒ | píngguǒ | mángguǒ	水果 | 苹果 | 芒果	くだもの、林檎 | マンゴー	
 鸡	鷄、雞？	ji1	jīdàn | jīròu | jīdànxīhóngshì	鸡蛋 | 鸡肉 | 鸡蛋西红柿	卵、鶏肉	
 蛋		dan4	jīdàn | jīdànxīhóngshì	鸡蛋 | 鸡蛋西红柿	卵	                                                                                          
-鲜	鮮	xian1	xīnxiān | xiānhuā	新鲜 | 鲜花	しんせん(な) | (自然の生きた)花	
+鲜	鮮	xian1	xīnxiān | xiānhuā | hǎixiān	新鲜 | 鲜花 | 海鲜	しんせん(な) | (自然の生きた)花 | シーフード	
 蔬		shu1	shūcài	蔬菜	野菜	
 包		bao1	miànbāo | yībāo píngguǒ | yībāo mǐ | hànbǎobāo | qiánbāo	面包 | 一包苹果 | 一包米 | 汉堡包 | 钱包	パン | 林檎一袋 | 米一袋 | ハンバーガー | 財布	
 糖		tang2	wǒ de chá yǒu táng	我的茶有糖	さとう。お茶にさとうが入ってる	
 袋		dai4	yīdài píngguǒ | dàizi	一袋苹果 | 袋子	ひとぶくろ | 袋	
-米		mi3	mǐfàn	米饭	ごはん(こめ)	
+米		mi3	mǐfàn | píngfāngmǐ	米饭 | 平方米	ごはん(こめ) | 平方メートル	
 习	習	xi2	wǒ xuéxí hànyǔ	我学习汉语	勉強する	
-为	為爲	wei4，wei2	wèi shénme | yīnwèi | chéngwéi	为什么 | 因为 | 成为	どうして | だから、なので | ～になる	
+为	為爲	wei4，wei2	wèi shénme | yīnwèi | chéngwéi | yì fēn wéi èr	为什么 | 因为 | 成为 | 一分为二	どうして | だから、なので | ～になる | 半分に分ける	
 牙		ya2	xībānyá	西班牙	スペイン	
-所		suo3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi | zhěnsuǒ	所以 | 这个太贵，所以我不买 | 诊所	～ので、donc | クリニック	
+所		suo3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi | zhěnsuǒ | yì suǒ (量詞)	所以 | 这个太贵，所以我不买 | 诊所 | 一所	～ので、donc | クリニック | (学校)1つ	
 以		yi3	suǒyǐ | zhège tàiguì，suǒyǐ wǒ bù mǎi	所以 | 这个太贵，所以我不买	～ので、donc	
 因		yin1	yīnwèi	因为	Parce que, comme ~	
 旅		lv3	lǚyóu | lǚxíng | lǚkè	旅游 | 旅行 | 旅客	りょこう | 観光客	
@@ -305,10 +305,10 @@
 照		zhao4	zhàoxiàngjī | zhàopiàn | hùzhào	照相机 | 照片 | 护照	カメラ | 写真 | パスポート	
 相		xiang4, xiang1	zhàoxiàngjī	照相机	カメラ	
 还	還	hai2	háishi | hái kěyǐ	还是 | 还可以	それとも、～と～どちら | まあまあ	
-海		hai3	shànghǎi | hǎidǐ | hǎi'ōu	上海 | 海底 | 海鸥	シャンハイ | かいてい | カモメ	
+海		hai3	shànghǎi | hǎidǐ | hǎi'ōu | hǎixiān	上海 | 海底 | 海鸥 | 海鲜	シャンハイ | かいてい | カモメ | シーフード	
 肉		rou4	ròu | jīròu | yángròu | zhūròu	鸡肉	にく、とりにく	
 条	條	tiao2	miàntiáo | zhè tiáo qúnzi	面条 | 这条裙子	麺 | (量詞)	
-猪		zhu1	zhūròu	猪肉	ぶた、ぶたにく	
+猪	豬	zhu1	zhūròu	猪肉	ぶた、ぶたにく	
 饮	飲	yin3	yǐnliào	饮料	のみもの	
 料		liao4	yǐnliào	饮料	のみもの	
 羊		yang2	yángròu	羊肉	ひつじ、ラム肉	
@@ -327,13 +327,13 @@
 炼	煉、鍊	lian4	duànliàn	锻炼	(体を)きたえる	
 地		di4	dìtiě	地铁	ちかてつ	
 铁	鐵、銕	tie3	dìtiě	地铁	ちかてつ	
-酒		jiu3	jiǔdiàn | píjiǔ	酒店 | 啤酒	ホテル | ビール	
+酒		jiu3	jiǔdiàn | píjiǔ | shāojiǔ	酒店 | 啤酒 | 烧酒	ホテル | ビール | 焼酎	
 店		dian4	jiǔdiàn	酒店	ホテル	
 准	凖	zhun3	bùzhǔn	不准~	禁止、～してはいけない	
 站		zhan4	chēzhàn | zhànzài	车站 | 站在	駅 | 立っている	
 出		chu1	chūzūchē | chūchāi | chūguó | chūfā	出租车 | 出差 | 出国 | 出发	タクシー | 出張 | 外国へ行く | 出発	
 租		zu1	zū | chūzūchē	租 | 出租车	借りる | タクシー	
-车	車	che1	chūzūchē | zìxíngchē | mótuōchē	出租车 | 自行车 | 摩托车	タクシー | 自転車 | オートバイ	
+车	車	che1	chūzūchē | zìxíngchē | mótuōchē | miànbāochē	出租车 | 自行车 | 摩托车 | 面包车	タクシー | 自転車 | オートバイ | マイクロバスminivan	
 公		gong1	gōnggòngqìchē | gōngsī | gōngfēn | gōngwùyuán	公共汽车 | 公司 | 公分 | 公务员	バス | 会社 | センチ | 公务员	
 汽		qi4	gōnggòngqìchē	公共汽车	バス	
 船		chuan2	chuán | yì zhī chuán | yúchuán	一只船 | 渔船	ふね | ぎょせん	
@@ -363,16 +363,16 @@
 汁		zhi1	guǒzhī | chéngzhī	果汁 | 橙汁	ジュース | オレンジジュース	
 蕉		jiao1	xiāngjiāo	香蕉	バナナ	
 糕		gao1	dàngāo | yíkuài dàngāo	一块蛋糕	(一個の)ケーキ	
-碗		wan3	yì wǎn mǐfàn	一碗米饭	茶わん	
-盘	盤	pan2	pánzi	盘子	お皿	
+碗		wan3	yì wǎn mǐfàn / miàn / tāng	一碗米饭 / 面 / 汤	茶わん	
+盘	盤	pan2	pánzi | yì pán (量詞) cài / guāngdié	盘子 | 一盘菜 / 光碟	お皿 | 皿にのった物、皿状	
 筷		kuai4	kuàizi	筷子	お箸	
 刀		dao1	dāo	刀	ナイフ	
 叉		cha1	chāzi	叉子	フォーク	
 勺		shao2	sháozi	勺子	スプーン	
 办	辦	ban4	bàngōngshì	办公室	事務所	
 室		shi4	bàngōngshì	办公室	事務所	
-辆	輛	liang4	wǒ mǎi le yí liàng qìchē	我买了一辆汽车	車を数える量詞	
-瓶		ping2	píngzi	瓶子	びん	
+辆	輛	liang4	yí liàng che | mótuōchē | miànbāochē	一辆车 | 摩托车 | 面包车	(量詞-地上を走る乗り物)	
+瓶		ping2	píngzi | yì píng (量詞)	瓶子 | 一瓶 ~	びん	
 片		pian4	yìzhāng zhàopiàn	一张照片	一枚の写真	
 树	樹	shu4	shù xià yǒu yìzhī māo | yì kē shù	树下有一只猫 | 一棵树	木 | 1本の木	
 跑		pao3	pǎobù | pǎole	跑步 | 跑了	走る | 逃げた	
@@ -387,7 +387,7 @@
 动	動	dong4	yùndòng	运动	運動	
 骑	騎	qi2	qí mǎ | qí zìxíngchē | qí mótuōchē	骑马 | 骑自行车 | 骑摩托车	乗馬 | 自転車に乗る | オートバイに乗る	
 马	馬	ma3	qí mǎ	骑马	乗馬	
-吧		ba5	zǒu ba	走吧	行きましょう	
+吧		ba5	zǒu ba | wǎngbā	走吧 | 网吧	行きましょう | ネットカフェ	
 空		kong1，kong4	yǒu kòng | nǐ yǒu kòng ma | kōngzhōng xiǎojiě	有空 | 你有空吗 | 空中小姐	暇ですか？ | スチュワーデス	
 来	來	lai2	wèishénme nǐ méiyou lái gōngzuò ？	为什么你没有来工作?	くる	
 候		hou4	shénme shíhou	什么时候	いつ	
@@ -401,17 +401,17 @@
 该	該	gai1	yīnggāi | nǐ yīnggāi huíjiā | gāi～le	应该 | 你应该回家 | 该～了	～するべき、～しなければならない | そろそろ〜する	
 病		bing4	shēngbìng | wǒ shēngbìng le	生病 | 我生病了	びょうき	
 休		xiu1	xiūxi	休息	やすむ	
-息		xi1	xiūxi	休息	休む	
+息		xi1	xiūxi | yì tiáo xiāoxi	休息 | 一条消息	休む | 情報１つ	
 肚		du4	dùzi	肚子	お腹	
 留		liu2	liúzài | wǒ xiǎng liúzài jiā gōngzuò | liúxué	留在 | 我想留在家工作 | 留学	残る | 私は家に残って仕事がしたい | 留学	
 定		ding4	yídìng	一定	必ず	
 别		bie2	bié～ | bié kàn	别~ | 别看	～しないで(命令) | 見ないで	
-假		jia4	qǐngjià | fàngjià	请假 | 放假	休みを取る | 休みに入る	
-发	發，髮	fa1，fa4	fāshāo | nǐ yǒumeiyou fāshāo | tóufa | chūfā	发烧 | 你有没有发烧 | 头发 | 出发	熱 | 熱が出る | 髪 | 出発	
-烧	燒	shao1	fāshāo | nǐ yǒumeiyou fāshāo | tā fāshāo le	发烧 | 你有没有发烧 | 他发烧了	熱 | 熱が出る	
+假		jia4	qǐngjià | fàngjià | dùjià	请假 | 放假 | 度假	休みを取る | 休みに入る | リゾート	
+发	發，髮	fa1，fa4	fāshāo | nǐ yǒumeiyou fāshāo | tóufa | chūfā | fādàcái	发烧 | 你有没有发烧 | 头发 | 出发 | 发大财	熱 | 熱が出る | 髪 | 出発 | 大儲けをする	
+烧	燒	shao1	fāshāo | nǐ yǒumeiyou fāshāo | tā fāshāo le | shāojiǔ	发烧 | 你有没有发烧 | 他发烧了 | 烧酒	熱 | 熱が出る | 焼酎	
 疼		teng2	dùzi téng	肚子疼	痛い、お腹が痛い、腹痛	
 药	藥	yao4	？ hē yào	药	薬	
-头	頭	tou2	wǒ tóu téng | tóufa | ～ ge zhōng tóu = ～ge xiǎoshí	他头疼 | 头发 | ～个钟头	頭、頭が痛い | 髪 | 〜時間	
+头	頭	tou2	wǒ tóu téng | tóufa | ～ ge zhōng tóu = ～ge xiǎoshí | yì tóu (量詞)	他头疼 | 头发 | ～个钟头 | 一头	頭、頭が痛い | 髪 | 〜時間 | (量詞) 牛やロバなど	
 感		gan3	gǎnmào | tā gǎnmào le	感冒 | 她感冒了	風邪	
 冒		mao4	gǎnmào | tā gǎnmào le	感冒 | 她感冒了	風邪	
 派		pai4	pàiduì	派对	 パーティー	
@@ -423,9 +423,9 @@
 才		cái	wǒ jīntiān zǎoshàng liǎngdiǎn cái huíjiā	我今天早上两点才回家	やっと？ 私は今朝2時にやっと家に帰った	
 事		shì	nǐ yǒu shénme shìqíng | tóngshì	你有什么事情 | 同事	どんなことがあった | 同僚	
 情		qíng	nǐ yǒu shénme shìqíng | qíngrénjié	你有什么事情 | 情人节	どんなことがあった | バレンタイン	
-费	費	fei4	xiǎofèi | pòfei	小费 | 破费	チップ | お金をかける	
+费	費	fei4	xiǎofèi | pòfei | shēnghuó fèi	小费 | 破费 | 生活费	チップ | お金をかける | 生活費	
 完		wán	nǐ chī wán le ma	你吃完了吗	V+終える、V+終わる	
-真		zhēn	tā zhēn piàoliàng	她真漂亮	本当に	
+真		zhēn	tā zhēn piàoliàng | chéngzhēn	她真漂亮 | 成真	本当に | 叶う、現実になる、なる	
 已		yǐ	yǐjīng	已经	もう、すでに	
 经	經	jīng	yǐjīng｜jīngjì | jīnglǐ	已经｜经济 | 经理	もう、すでに｜経済 | マネージャー、社長的な？	
 饱	飽	bǎo	wǒ hěn bǎo | wǒ bǎole	我很饱 | 我饱了	お腹がいっぱい x2	
@@ -433,7 +433,7 @@
 渴		ke3	wǒ hěn kě	我很渴	喉が渇いた	
 甜		tian2	tiándiǎn | zhè ge dàngāo tài tián le | tiánpǐn	甜点 | 这个蛋糕太甜了 | 甜品	デザート | 甘い | デザート	
 巧		qiao3	qiǎokèlì | tài qiǎo le	巧克力 | 太巧了	チョコレート | すごい偶然ですね	
-克		ke4	qiǎokèlì	巧克力	チョコレート	
+克		ke4	qiǎokèlì | liǎng kè	巧克力 | 两克	チョコレート | 2グラム	
 力		li4	qiǎokèlì | shìlì | yālì	巧克力 | 视力 | 压力	チョコレート | 視力 | プレッシャー、あつりょく	
 味		wei4	wèidào	味道	あじ	
 试	試	shi4	tā xiǎng shìshì zhè tiáo lán qúnzi	她想试试这条蓝裙子	ためす	
@@ -475,7 +475,7 @@
 晴		qing2	qíng qíngtiān	晴 | (~是)晴天	晴れ	
 雪		xuě	xià xuě le	下雪了	ゆきが降っている	
 阴	陰	yin1	yīntiān | wǒ bù xǐhuan yītiān	阴天 | 我不喜欢阴天	曇り | 曇りが好きじゃない	
-雨		yu3	xià yǔ le	下雨了	あめが降ってる	
+雨		yu3	xià yǔ le | yǔsǎn	下雨了 | 雨伞	あめが降ってる | 傘	
 伞	傘	san3	sǎn | nǐ yǒu dài sǎn ma	你有带伞吗	傘	
 带	帶	dai4	nǐ yǒu dài sǎn ma	你有带伞吗	持つ、連れて	
 着	著	zhe	tā zài děngzhe wǒ wàimiàn xiàzhe yǔ	他在等着我、外面下着雨	〜ている	
@@ -491,8 +491,8 @@
 长	長	chang2，zhang3	cháng | tài cháng le | zhǎngdà | (wànlǐ)chángchéng | shèzhǎng	太长了 | 长大 | (万里)长城 | 社长	長い | 大きくなる、成長 | ばんりのちょうじょう | 社長	
 然		ran2	suīrán | suīrán nà tiáo kùzi hěn piányì，dànshì bù shūfu	虽然 | 虽然那条裤子很便宜，但是不舒服	けど、しかし	
 颜	顏，顔	yan2	yánsè | wǒ chuān shénme yánsè hǎokàn	颜色 | 我穿什么颜色好看	私は何色を着ると綺麗ですか	
-黄	黃	huang2	huángsè	黄色	きいろ	
-帽		mao4	màozi	帽子	ぼうし	
+黄	黃	huang2	huángsè | huángguā	黄色 | 黄瓜	きいろ | 胡瓜	
+帽		mao4	yīdǐng màozi	一顶帽子	ぼうし１つ	
 紫		zi3	zǐsè	紫色	むらさき	
 表	錶	biao3	shǒubiǎo | biǎodì · biǎomèi	手表 | 表弟・表妹	腕時計 | 従弟・従妹	
 卖	賣	mai_4	wǒ bú mài shǒubiǎo	我不卖手表	私は腕時計を売りません	
@@ -507,7 +507,7 @@
 送		song4	sòng lǐwù | wǒ sòng gěi tā shénme lǐwù | sòngxíng	送礼物 | 我送给她什么礼物 | 送行	プレゼントをあげる | 見送る	
 礼	禮	li3	(yí fèn)lǐwù | lǐbài | hūnlǐ	(一份)礼物 | 礼拜 | 婚礼	(１つ)プレゼント | 「星期」と一緒 | 結婚式	
 物		wu4	lǐwù	礼物	プレゼント	
-法		fa3	fǎguó | shūfǎ	法国 | 书法	フランス | 書道	
+法		fa3	fǎguó | shūfǎ | fǎguān | fǎláng	法国 | 书法 | 法官 | 法郎	フランス | 書道 | 裁判官 | フランスフラン	
 祝		zhu4	zhù nǐ shēntǐ jiànkāng | qìngzhù	祝你身体健康 | 庆祝	あなたのご健康をいのっている | 祝う	
 练	練	lian4	liànxí | jiàoliàn	练习 | 教练	練習 | コーチ	
 乒		ping1	dǎ pīngpāngqiú	打乒乓球	卓球	
@@ -521,7 +521,7 @@
 输	輸	shu1	tā shū le，wǒ fēicháng shīwàng	他输了，我非常失望	負ける	
 心		xin1	xìnxīn | wǒmen yǒu xìnxīn huì yíng zhège bǐsài	信心 | 我们有信心会赢这个比赛	自信 | この試合に勝つ自信がある	
 赢	贏	ying2	yíng | wǒmen yǒu xìnxīn huì yíng zhège bǐsài	赢 | 我们有信心会赢这个比赛	勝つ | この試合に勝つ自信がある	
-理		li3	dìlǐ | xiūlǐ | lǐjiě | guǎnlǐ	地理 | 修理 | 理解 | 管理	ちり | しゅうり | りかい | かんり	
+理		li3	dìlǐ | xiūlǐ | lǐjiě | guǎnlǐ | lǐxiǎng	地理 | 修理 | 理解 | 管理 | 理想	ちり | しゅうり | りかい | かんり | 理想	
 课	課	ke4	yǒu kè | shàngkè | shàng～kè	有课 | 上课 | 上[科目名]课	授業がある | 授業に出る	
 教		jiao4	jiàoshì | jiàoshī | jiàotáng | jiàoliàn	教室 | 教师 | 教堂 | 教练	きょうしつ | きょうし | 教会 | コーチ	
 同		tong2	tóngxué | tóngshì | tóngyì	同学 | 同事 | 同意	クラスメート | 同僚 | どうい	
@@ -540,11 +540,11 @@
 父		fu4	fùmǔ	父母	両親	
 亲	親	qin1	qīnqī | wǒ yǒu hěn duō qīnqī	亲戚 | 我有很多亲戚	しんせき	
 戚		qi1	qīnqī | wǒ yǒu hěn duō qīnqī	亲戚 | 我有很多亲戚	しんせき	
-像		xiang4	xiàng | wǒ de jiā xiàng jiǔdiàn yíyàng	像 | 我的家像酒店一样	のような | 私の家はホテルのようだ	
+像		xiang4	xiàng | wǒ de jiā xiàng jiǔdiàn yíyàng | shèxiàngjī	像 | 我的家像酒店一样 | 摄像机	のような | 私の家はホテルのようだ | ビデオ撮影機	
 粥		zhou1	zhè wǎn zhōu tài rè le	这碗粥太热了	お粥	
 豆		dou4	dòujiāng	豆浆	とうにゅう	
 浆	漿	jiang1	dòujiāng	豆浆	とうにゅう	
-锅	鍋	guo1	huǒguō	火锅	火鍋	
+锅	鍋	guo1	huǒguō | dàguō	火锅 | 大锅	火鍋 | 大鍋	
 笼	籠	long2	xiǎolóngbāo	小笼包	小籠包	
 拉		la1	lāmiàn | shālā | kǎlā OK	拉面 | 沙拉 | 卡拉OK	ラーメン | サラダ | カラオケ	
 炒		chao3	chǎofàn | chǎomiàn	炒饭 | 炒面	チャーハン | 焼きそば	
@@ -565,18 +565,18 @@
 图	圖	tu2	túshūguǎn	图书馆	図書館	
 方		fang1	dìfāng	地方	場所	
 花		hua1	huāqián | nǐ huā le duōshǎo qián | wǒ huā le tài duō shíjiān zuò fàn	花钱 | 你花了多少钱？ | 我花了太多时间做饭	(お金や時間を)使う、かかる	
-折		zhe2	dǎzhé | zhè jiàn chènshān dǎzhé ma	打折 | 这件衬衫打折吗	割引 | 割引されますか	
+折		zhe2	dǎzhé | zhè jiàn chènshān dǎzhé ma | zhékòu	打折 | 这件衬衫打折吗 | 有没有折扣	割引 | 割引されますか | 値引きできますか	
 皮		pi2	píxié | xiàngpí	皮鞋 | 橡皮	革靴 | 消しゴム	
 旧	舊	jiu4	jiù | nǐ de diànhuà tài jiù le	旧 | 你的电话太旧了	古い | 君の電話古すぎる	
-换	換	huan4	huàn chē	换车	車をかえる	
+换	換	huan4	huàn chē | duìhuànchù | duìhuàndān | huànqián	换车 | 兑换处 | 兑换单 | 换钱	車をかえる | 両替所 | 両替の申込書 | 両替	
 退		tui4	tuì kuǎn | tuì huò	退款 | 退货	返金 | 返品	
 货	貨	huo4	tuì huò	退货	返品	
-款		kuan3	tuì kuǎn	退款	返金	
+款		kuan3	tuì kuǎn | dàikuǎn | fùkuǎn	退款 | 贷款 | 付款	返金 | ローン | 支払い	
 刷		shua1	shuāyá	刷牙	歯を磨く	
 惯	慣	guan4	xíguàn	习惯	しゅうかん | なれている	
 澡		zao3	xǐzǎo	洗澡	お風呂に入る	
 总	總	zong3	zǒngshi	总是	いつも	
-梦	夢	meng4	zuòmèng | bié zuòmèng le	做梦 | 别做梦了	夢を見る | 夢を見ないで	
+梦	夢	meng4	zuòmèng | mèngxiǎng | bié zuòmèng le	做梦 | 梦想 | 别做梦了	夢を見る | 夢 | 夢を見ないで	
 故		gu4	gùshì | gùgōng	故事 | 故宫	物語 | こきゅう、昔の宮殿	
 讲	講	jiang3	jiǎng | tā zài jiǎng shénme | jiǎng gùshì	他在讲什么 | 讲故事	話す | 物語を話す	
 辣		la4	zhè ge cài hěn là	这个菜很辣	辛い	
@@ -588,9 +588,9 @@
 极	極	ji2	～jíle | zhè shì shénme？kǔ jíle	～极了 | 这是什么？苦极了	すごく〜 | これは何？すごく苦い	
 盐	鹽	yan2	yán | zhè ge yǒu tài duō yán	盐 | 这个有太多盐	塩 | 塩が多すぎ	
 南		nan2	nán | nánfāng | nánměizhōu	南方 | 南美洲	みなみ | 中国のみなみの区域 | 南米	
-初		chu1	chūzhōng	初中	中学	
+初		chu1	chūzhōng | dà nián chū èr	初中 | 大年初二	中学 | 正月2日目	
 级	級	ji2	niánjí | jǐ niánjí | chāojí shìchǎng	年级 | 几年级 | 超级市场	何年生 | スーパーマーケット	
-镜	鏡	jing4	yǎnjìng	眼镜	めがね	
+镜	鏡	jing4	yǎnjìng | yí miàn jìngzi	眼镜 | 一面镜子	めがね | 鏡１つ	
 戴		dai4	dài yǎnjìng	戴眼镜	眼鏡をかける	
 较	較	jiao4	bǐjiào | wǒ bǐjiào niánjīng	比较 | 我比较年经	~の方が | 私の方が若い	
 局		ju2	gōng'ānjú	公安局	公安局	
@@ -598,7 +598,7 @@
 鹅	鵝	e2	tiān'é	天鹅	白鳥	
 木		mu4	mù'ǒuxì | mùguā	木偶戏 | 木瓜	人形劇 | パパイヤ	
 偶		ou3	mù'ǒuxì | ǒu'ěr	木偶戏 | 偶尔	人形劇 | たまに	
-餐		can1	cāntīng | kuàicān | cānzhuō	餐厅 | 快餐 | 餐桌	レストラン | ファストフード | 食卓	
+餐		can1	cāntīng | kuàicān | cānzhuō | cānjù	餐厅 | 快餐 | 餐桌 | 餐具	レストラン | ファストフード | 食卓 | 食器	
 厅	廳	ting1	cāntīng | kètīng | fàndiàn dàtīng	餐厅 | 客厅 | 饭店大厅	レストラン | リビング | ホテルのロビー	
 活		huo2	shēnghuó	生活	生活	
 调	調	tiao2	kōngtiáo	空调	エアコン	
@@ -660,7 +660,7 @@
 添		tian1	tiān máfan | gěi nǐ tiān máfan le	添麻烦 | 给你添麻烦了	迷惑をかける	
 称	稱	cheng1	chēnghu	称呼 我什么称呼您？	何とお呼びすればいいですか	
 呼		hu1	chēnghu	称呼 我什么称呼您？	何とお呼びすればいいですか	
-翁		weng1	wēng xióng	翁雄	(名前)	
+翁		weng1	wēng xióng | (bǎi/yì)wàn fùwēng	翁雄 | (百/亿)万富翁	(名前) | (百/億)万長者(ちょうじゃ)	
 雄		xiong2	wēng xióng	翁雄	(名前)	
 宏		hong2	chítián hóng	池田宏	(名前)	
 精		jing1	jīngshén・jīngshen	精神	精神・元気	
@@ -675,17 +675,17 @@
 岗	崗	gang3	xiàgǎng	下岗	リストラされる	
 尊		zun1	zūnjìng	尊敬	尊敬	
 敬		jing4	zūnjìng	尊敬	尊敬	
-具		ju4	wénjù | jiājù	文具 | 家具	文房具 | かぐ	
-成		cheng2	chéngjì | chéngjiā | chénggōng	成绩 | 成家 | 成功	成績 | 結婚 | 成功	
+具		ju4	wénjù | jiājù | cānjù	文具 | 家具 | 餐具	文房具 | かぐ | 食器	
+成		cheng2	chéngjì | chéngjiā | chénggōng | chéngzhēn	成绩 | 成家 | 成功 | 成真	成績 | 結婚 | 成功 | 叶う、現実になる、なる	
 绩	績	ji4	chéngjì	成绩	成績	
 充		chong1	chōngfèn	充分	十分	
 主		zhu3	zhǔfù	主妇	主婦	
 妇	婦	zhu3	zhǔfù	主妇	主婦	
 祖		zu3	zǔfù	祖父	祖父	
 聊		liao2	liáotiānr	聊天儿	おしゃべりする	
-平		ping2	píngshí	平时	普段	
+平		ping2	píngshí | píngfāngmǐ	平时 | 平方米	普段 | 平方メートル	
 袜	襪	wa4	wàzi	袜子	靴下	
-套		tao4	shǒutào	手套	手袋	
+套		tao4	shǒutào | yí tào	手套 | 一套	手袋 | 組、セット	
 项	項	xiang4	xiàngliànr	项链儿	ネックレス	
 链	鏈	lian4	xiàngliànr	项链儿	ネックレス	
 环	環	huan2	ěrhuán | huánjìng	耳环 | 环境	イヤリング | かんきょう	
@@ -738,7 +738,7 @@
 螃		pang2	pángxiè	螃蟹	蟹	
 蟹		xie4	pángxiè	螃蟹	蟹	
 招		招	zhāopáicài	招牌菜	看板料理	
-牌		牌	zhāopáicài	招牌菜	看板料理	
+牌		牌	zhāopáicài | páizi	招牌菜 | 牌子	看板料理 | ブランド	
 自		zi4	zìjǐ | qí zìxíngchē	自己 | 骑自行车	自分 | 自転車に乗る	
 己		ji3	zìjǐ	自己	自分	
 推		tui1	hǎotuījiàn	好推荐。好推薦	お勧め	
@@ -752,9 +752,9 @@
 络	絡	luo4	liánluò	联络。聯絡	連絡する	
 茉		mo4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
 莉		li4	mòlìhuā chá	茉莉花茶	ジャスミン茶	
-罐		guan4	yíguàn	一罐	一缶	
+罐		guan4	yíguàn kělè píjiǔ	一罐可乐 / 啤酒	一缶 (量詞) 缶に入った飲み物	
 份		fen4	yífèn | yí fèn lǐwù | shēnfènzhèng | huàn yí fèn gōngzuò	一份 | 一份礼物 | 身份证 | 换一份工作	1人分 | プレゼント１つ | 身分証明書 | 仕事を変える	
-碟		die2	yìdié	一碟	小皿１つ	
+碟		die2	yìdié | guāngdié	一碟 | 光碟	小皿１つ | CD	
 净		jing4	gānjing	干净	綺麗。清潔	
 全		quan2	ānquán	安全	安全	
 暖		nuan3	nuǎnhuo	暖和	暖かい	
@@ -804,7 +804,7 @@
 乌	烏	wu1	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
 龙	龍	long2	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶	
 士		shi4	(zuò)bāshì | fùshìshān | hùshi | nǚshì	(坐)巴士 | 富士山 | 护士 | 女士	バス | ふじさん | 看護師 | 女性	
-交		jiao1	jiāowǎng	交往	付き合う	
+交		jiao1	jiāowǎng | jiāo xiànjīn	交往 | 我交现金	付き合う | 現金で払う	
 宿		su4	sùshè	宿舍	寮	
 舍		she4	sùshè	宿舍	寮	
 幼		you4	yòuéryuán	幼儿园。幼兒園	ようちえん	
@@ -817,7 +817,7 @@
 言		yan2	yǔyán	语言。語言	言語	
 拒		ju4	jùjué	拒绝。拒絕	きょぜつ	
 绝	絕	jue2	jùjué	拒绝。拒絕	きょぜつ	
-组	組	zu3	zǔzhī	组织。組織	組織	
+组	組	zu3	zǔzhī | (dì)èr zǔ	组织。組織 | (第)二组	組織 | 2組	
 织	織	zhi1	zǔzhī | zhī máoyī	组织。組織 | 织毛衣	組織 | セーターを編む	
 籍		ji2	měijí huárén	美籍华人。美籍華人	米国籍の華人	
 史		shi3	lìshǐ	历史。歷史	れきし	
@@ -828,8 +828,8 @@
 区	區	qu1	jiāoqū | jūmínqū	郊区。郊區 | 居民区	郊外 | 居住区	
 装	裝	zhuang1	fúzhuāngdiàn | fúzhuāng shèjìshī	服装店。服裝店 | 服装设计师	衣料品店 | ファッションデザイナー	
 麦	麥	mai_4	màidāngláo	麦当劳。麥當勞	マクドナルド	
-当	當	dang1	màidāngláo	麦当劳。麥當勞	マクドナルド	
-劳	勞	lao2	màidāngláo | qínláo	麦当劳 | 勤劳	マクドナルド | 勤勉	
+当	當	dang1	màidāngláo | dāngshàng	麦当劳。麥當勞 | 当上	マクドナルド | 〜になる	
+劳	勞	lao2	màidāngláo | qínláo | láojià láojià	麦当劳 | 勤劳 | 劳驾劳驾。勞駕勞駕	マクドナルド | 勤勉 | すみません	
 躺		tang3	tǎng tǎngzhe	躺 躺着。躺著	横になる	
 寿	壽	shou4	shòusī	寿司。壽司	すし	
 愿	願	yuan4	yuànyì	愿意。願意	〜したい　(心より願っている)	
@@ -837,28 +837,28 @@
 债	債	zhai4	qiànzhài	欠债。欠債	負債	
 检	檢	jian3	tǐjiǎn	体检。體檢	健康診断	
 傲		ao4	àomàn	傲慢	傲慢	
-支		zhi1	zhīpiào | zhīchí	支票 | 支持	小切手 | 支持	
+支		zhi1	zhīpiào | zhīchí | yì zhī yān / bǐ	支票 | 支持 | 一支烟 / 笔	小切手 | 支持 | タバコ一本 / ペン１つ	
 化		hua4	wénhuà	文化	文化	
-趣		qu4	duì ～ yǒu/gǎn xìngqu	对～有/感 兴趣	～に興味がある	
+趣		qu4	duì ～ yǒu/gǎn xìngqu | lèqù	对～有/感 兴趣 | 乐趣	～に興味がある | 楽しみ、喜び	
 特		te4	tèbié shì | mótèr	特别是 | 模特儿	特に | モデル	
 资	資	zi1	gōngzī	工资。工資	給料	
 误	誤	wu4	wùhui	误会。誤會	誤解	
 誉	譽	yu4	xìnyù	信誉。信譽	信用	
-富		fu4	fùshìshān	富士山	ふじさん	
+富		fu4	fùshìshān | (bǎi/yì)wàn fùwēng	富士山 | (百/亿)万富翁	ふじさん | (百/億)万長者(ちょうじゃ)	
 驻	駐	zhu4	chángzhù	常驻。常駐	駐在	
 录	錄	lu4	tīng lùyīn	听录音。聼錄音	ろくおんを聴く	
 朗		lang3	lǎngdú	朗读。朗讀	ろうどく	
 宫	宮	gong1	gōngqí (名前) | gùgōng	宫崎 | 故宫	みやざき(名前) | こきゅう、昔の宮殿	
 崎		qi2	gōngqí (名前)	宫崎。宮崎	みやざき(名前)	
-光		guang1	huānyíng guānglín	欢迎光临。歡迎光臨	いらっしゃいませ	
+光		guang1	huānyíng guānglín | guāngdié | jièguāngr jièguāngr	欢迎光临。歡迎光臨 | 光碟 | 借光儿借光儿	いらっしゃいませ | CD | すみません	
 临	臨	lin2	huānyíng guānglín	欢迎光临。歡迎光臨	いらっしゃいませ	
 虑	慮	lv4	kǎolǜ	考虑。考慮	考える	
 持		chi2	zhīchí	支持	支持	
 指		zhi3	zhǐshì	指示	指示	
 示		shi4	zhǐshì	指示	指示	
-亿	億	yi4	liǎng yì	两亿。兩億		
+亿	億	yi4	liǎng yì	两亿。兩億	一億	
 民		min2	rénmínbì | jūmínqū	人民币。人民幣 | 居民区	(中国のお金) | 居住区	
-币	幣	bi4	rénmínbì	人民币。人民幣	(中国のお金)	
+币	幣	bi4	rénmínbì | gǎngbì | xīnbì	人民币。人民幣 | 港币 | 新币	(中国のお金) | 香港ドル | シンガポールドル	
 减	減	jian3	jiǎnféi	减肥。減肥	ダイエット	
 肥		fei2	jiǎnféi	减肥。減肥	ダイエット	
 瘦		shou4	shòu	瘦	痩せる	
@@ -878,7 +878,7 @@
 伽		jia1	zuò yújiā (jiā書き方二つ)	做瑜伽	ヨガをする	
 珈		jia1	zuò yújiā (jiā書き方二つ)	做瑜珈	ヨガをする	
 抽		chou1	chōuyān | chōutì	抽烟 | 抽屉	タバコを吸う | 引き出し	
-烟		yan1	chōuyān	抽烟	タバコを吸う	
+烟	煙	yan1	chōuyān | yì zhī yān | yì hé yān	抽烟 | 一支烟 | 一盒烟。一盒煙	タバコを吸う | タバコ一本 | タバコ一箱	
 喱		li2	gālífàn	咖喱饭。咖喱飯	カレーライス	
 咱		zan2	zánmen	咱们。咱們	私達(相手を含む)	
 破		po4	pòfei	破费。破費	お金をかける	
@@ -895,7 +895,7 @@
 功		gong1	chénggōng	成功	せいこう	
 容		rong2	róngyì | měiróngshī	容易 | 美容师	簡単 | 美容師	
 易		yi4	róngyì | màoyì	容易 | 贸易	簡単 | ぼうえき	
-威		wei1	wēinísī | xiàwēiyí	威尼斯(地名) | 夏威夷 (地名)	ベニスVenise | ハワイ	
+威		wei1	wēinísī | xiàwēiyí | wēishìjì	威尼斯(地名) | 夏威夷 (地名) | 威士忌	ベニスVenise | ハワイ | ウイスキー	
 混		hun4	zhōngrì hùnxuě'ér	中日混血儿。中日混血兒	中日のハーフ	
 血		xue3	zhōngrì hùnxuě'ér	中日混血儿。中日混血兒	中日のハーフ	
 博		bo2	bówùguǎn	博物馆。博物館	はくぶつかん	
@@ -913,7 +913,7 @@
 菱		ling2	sānlíngshāngshè (会社名)	三菱商社	みつびし商社	
 社		she4	shāngshè | lǚxíngshè | shèzhǎng	商社 | 旅行社 | 社长	しょうしゃ | 旅行会社 | 社長	
 舅		jiu4	jiùjiu	舅舅	(人の)おじさん	
-惠		hui4	huìpǔ gōngsī (会社名)	惠普公司	ヒューレットパッカード	
+惠		hui4	yōuhuì | huìpǔ gōngsī (会社名)	优惠 | 惠普公司	割引、安くする | ヒューレットパッカード	
 计	計	ji4	kuàijì | shèjìshī | jìhuà	会计 | 设计师 | 计划。計劃	経理 | デザイナー | 計画	
 融		rong2	jīnróng jīguān	金融机关。金融機關	金融機関	
 导	導	dao3	dǎoyóu | dǎoyǎn	导游 | 导演	ガイド | 監督	
@@ -938,7 +938,7 @@
 榴		liu2	liúlián	榴莲。榴蓮	ドリアン	
 莲	蓮	lian2	liúlián	榴莲。榴蓮	ドリアン	
 治		zhi4	zhì'ān | sānmíngzhì	治安 | 三明治	ちあん | サンドイッチ	
-实	實	shi2	lǎoshi	老实。老實	真面目な	
+实	實	shi2	lǎoshi | xiànshí	老实。老實 | 现实	真面目な | 現実	
 登		deng1	dēng	登	のぼる	
 观	觀	guan1	cānguān	参观。參觀	訪問	
 峇		ba1	lǐbābālǐlù（场所名）	里峇峇里路	リバーバレーロード	
@@ -977,7 +977,7 @@
 微		wei1	wēibōlú	微波炉。微波爐	電子レンジ	
 波		bo1	wēibōlú	微波炉。微波爐	電子レンジ	
 炉	爐	lu2	wēibōlú	微波炉。微波爐	電子レンジ	
-产	產	chan3	jiādiàn chǎnpǐn	家电产品。家電產品	家電製品	
+产	產	chan3	jiādiàn chǎnpǐn | guóchǎn	家电产品。家電產品 | 国产	家電製品 | 国産	
 橱	櫥	chu2	yīchú	衣橱。衣櫥	洋服箪笥	
 液		ye4	xǐshǒuyè	洗手液	ハンドソープ	
 卫	衛	wei4	wèishēngzhǐ、shǒuzhǐ	卫生纸、手纸。衛生紙，手紙	トイレットペーパー	
@@ -988,10 +988,10 @@
 叶	葉	ye4	qiānyè (地名)	千叶。千葉	ちば	
 唐		tang2	tánglǎoyā	唐老鸭。唐老鴨	ドナルド	
 瑞		rui4	ruìshì	瑞士	スイス	
-欧	歐	ou1	ōuzhōu	欧洲。歐洲	ヨーロッパ	
+欧	歐	ou1	ōuzhōu | ōuyuán	欧洲。歐洲 | 欧元	ヨーロッパ | ユーロ	
 洲		zhou1	ōuzhōu | nánměizhōu	欧洲。歐洲 | 南美洲	ヨーロッパ | 南米	
 著		zhu4	zhùmíng(de)	著名(的)	有名な	
-摩		mo2	qí mótuōchē	骑摩托车。騎摩托車	オートバイに乗る	
+摩		mo2	qí mótuōchē | ànmó	骑摩托车。騎摩托車 | 按摩	オートバイに乗る | マッサージ	
 搭		da1	dā tóngshì de chē qù	搭同事的车去	同僚の車で行く	
 闹	鬧	nao4	nàozhōng	闹钟。鬧鐘	目覚まし時計	
 另		ling4	lìng | lìng yí zuò shì bàngōnglóu	另 | 另一座是办公楼	あと～、別 | あと一棟はオフィスビル	
@@ -1000,7 +1000,7 @@
 夜		ye4	bànyè	半夜	12時00AM 0:00	
 凌		ling2	língchén	凌晨	01:00～4:00AM	
 晨		chen2	língchén	凌晨	01:00～4:00AM	
-顿	頓	dun4	dùnfàn | xī'ěrdùn(固有名詞) jiǔdiàn	顿饭 | 希尔顿酒店。希爾頓酒店	食事 | ヒルトンホテル	
+顿	頓	dun4	dùnfàn | liǎng dùn | xī'ěrdùn(固有名詞) jiǔdiàn	顿饭 | 两顿 | 希尔顿酒店。希爾頓酒店	食事 | ヒルトンホテル | 2トン	
 散		san4	bújiàn búsàn	不见不散。不見不散	会うまで待つこと	
 插		cha1	chāhuār	插花儿。插花兒	生け花	
 芭		ba1	bāléi(wǔ)	芭蕾(舞)	バレエ	
@@ -1012,3 +1012,65 @@
 盛		sheng4	shèngkāi | xiānhuā shèngkāi	盛开。盛開 | 鲜花盛开	咲く、花が咲く	
 勃		bo2	shēngjī bóbó	生机勃勃。生機勃勃	生き生きと、活気のある	
 剪		jian3	jiǎn tóufa	剪头发。剪頭髮	髪を切る	
+兑	兌	dui4	duìhuànchù | duìhuàndān	兑换处 | 兑换单	両替所 | 両替の申込書	
+处	處	chu4	duìhuànchù	兑换处。兌換處	両替所	
+汇	匯	hui4	huìlǜ	汇率。匯率	為替(かわせ)レート	
+率		lv4	huìlǜ	汇率。匯率	為替(かわせ)レート	
+填		tian2	tián(xiě)	填(写)。填(寫)	書き込む、埋める	
+消		xiao1	yì tiáo xiāoxi	一条消息。一條消息	情報１つ	
+巾		jin1	yì tiáo máojin	一条毛巾。一條毛巾	タオル一本	
+把		ba3	yì bǎ：yǐzi，yǔsǎn，yàoshi，shūzi	一把：椅子，雨伞，钥匙，梳子	本、脚：柄や取っ手の付いている器物	
+伞	傘	san3	yǔsǎn	雨伞。雨傘	傘	
+钥	鑰	yao4	yàoshi	钥匙。鑰匙	鍵	
+匙		shi	yàoshi	钥匙。鑰匙	鍵	
+梳		shu1	shūzi	梳子	くし	
+绢	絹	shou3	shǒujuànr	手绢儿。手絹兒	ハンカチ	
+摄	攝	she4	shèxiàngjī	摄像机。攝像機	ビデオ撮影機	
+矿	礦	kuang4	kuàngquánshuǐ	矿泉水。礦泉水	ミネラルウォーター	
+泉		quan2	kuàngquánshuǐ	矿泉水。礦泉水	ミネラルウォーター	
+壶	壺	hu2	yì hú：chá，shāojiǔ，rèshuǐ	一壶：茶，烧酒，热水。一壺	急須や壺などに入っている飲み物	
+官		guan1	fǎguān	法官	裁判官	
+恩		en1	ēnshī	恩师。恩師	恩師	
+缸		gang1	shuǐgāng	水缸	水がめ	
+匹		pi3	yì pǐ：mǎ，luózi	一匹：马，骡子	頭：馬、ラバ	
+骡	騾	luo2	luózi	骡子。騾子	ラバ (騾馬)	
+驴	驢	lv2	yì tóu lǘ	一头驴。一頭驢	ロバ (驢馬)	
+盒		he2	yì hé yān | yì hé qiǎokèlì	一盒烟。一盒煙 | 一盒巧克力	タバコ一箱 | チョコレート一箱	
+顶	頂	ding3	yīdǐng màozi	一顶帽子。一頂帽子	帽子１つ	
+股		gu3	yì gǔ xiāngwèir	一股香味儿	ひとしきりの良い香り	
+根		gen1	yì gēn làzhú	一根蜡烛。一根蠟燭	蝋燭一本	
+蜡	蠟	la4	yì gēn làzhú	一根蜡烛。一根蠟燭	蝋燭一本	
+烛	燭	zhu2	yì gēn làzhú	一根蜡烛。一根蠟燭	蝋燭一本	
+之		zhi1	èr fēn zhī yī	二分之一	1 / 2	
+尺		chi3	(èr/liǎng)chǐ	(二/两)尺	0.67メートル	
+斤		jin1	(èr/liǎng)jīn | liǎng gōngjīn	(二/两)斤 | 两公斤	1キロ | 2キログラム	
+亩	畝	mu3	(èr/liǎng)mǔ	(二/两)亩。畝	13.33 アール	
+寸		cun4	liǎng cùn | yīngcùn	两寸。兩寸 | 英寸	0.067 メートル | インチ	
+层	層	ceng2	(dì)èr céng	(第)二层。二層	2階	
+镑	鎊	bang4	yīngbàng	英镑。英鎊	ポンド	
+郎		lang2	fǎláng	法郎	フランスフラン	
+暴		bao4	bàofāhù	暴发户。暴發戶	成金(なりきん)	
+户	戶	hu4	bàofāhù	暴发户。暴發戶	成金(なりきん)	
+穷	窮	qiong2	qióngrén	穷人。窮人	貧乏人	
+贷	貸	dai4	dàikuǎn	贷款。貸款	ローン	
+制		zhi4	AA zhì	AA制 / 分摊。分攤	割り勘	
+摊	攤	tan1	fēntān	AA制 / 分摊。分攤	割り勘	
+扣		kou4	有没有zhékòu	有没有折扣	値引きできますか	
+优	優	you1	yōuhuì	优惠。優惠	割引、安くする	
+芒		mang2	mángguǒ	芒果	マンゴー	
+财	財	cai2	fādàcái	发大财。發大財	大儲けをする	
+或		huo4	huò	或	〜や、また	
+逍		xiao1	xiāoyáozìzài	逍遥自在。逍遙自在	悠々自適	
+遥	遙	yao2	xiāoyáozìzài	逍遥自在。逍遙自在	悠々自適	
+挣	掙	zheng4	zhèng	挣。掙 | 挣大钱	得る、儲かる	
+义	義	yi4	cái yǒu yìyì	意义。意義 | 有梦想的人生才有意义	意義、意味	
+俭	儉	jian3	jiéjiǎn	节俭。節儉	倹約、素朴、質素	
+攒	攢	zan3	zǎnqián	攒钱。攢錢	お金を貯める	
+首		shou3	shǒuqī	首期	最初の分割払い、頭金、apport	
+付		fu4	fù | fùkuǎn | fēnqīfùkuǎn	付 | 付款 | 分期付款	支払う | 支払い | 分割払い	
+忌		ji4	wēishìjì	威士忌	ウイスキー	
+享		xiang3	xiǎngshòu	享受	楽しみ、贅沢	
+受		shou4	xiǎngshòu	享受	楽しみ、贅沢	
+按		an4	ànmó	按摩	マッサージ	
+驾	駕	jia4	láojià láojià	劳驾劳驾。勞駕勞駕	すみません	
+借	藉	jie4	jièguāngr jièguāngr	借光儿借光儿。藉光兒	すみません	
