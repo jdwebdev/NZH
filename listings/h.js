@@ -51,7 +51,7 @@ function h_search() {
                 innerHTML = "";
                 h_resultList = [];
                 Hangul.list.forEach(w => {
-                    if (w.lesson.includes(h_select_lesson.value)) {
+                    if (w.lesson == h_select_lesson.value) {
                         h_resultList.push(w);
                     }
                 });
@@ -67,13 +67,13 @@ function h_search() {
 
             } else if (h_input.value == "") { //? Aucun filtre, affichage de tout
                 
-                Hangul.list.forEach(w => {
+                for (let i = Hangul.list.length - 1; i >= 0; i--) {
                     innerHTML += `
                         <div class="word_one_line">
-                            <div id="h_word_${w.id}" class="h_word zh_font" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
+                            <div id="h_word_${Hangul.list[i].id}" class="h_word zh_font" onclick="openHangulPopup(${Hangul.list[i].id-1},Hangul.list)">${Hangul.list[i].word}</div>
                         </div>
                     `;
-                });
+                }
                 h_result_section.innerHTML = innerHTML;
                 h_resultNb.innerHTML = Hangul.list.length;
                 
@@ -174,10 +174,11 @@ function openHangulPopup(id, list) {
             <div class="word_container">
                 <div class="word_h zh_font">${list[id].word}</div>
             </div>
-            <div class="word_details">
+            <div class="word_details" style="position: relative">
                 <p><span class="category zh_font">의미　</span>${list[id].nihongo}</p>
                 <p class="zh_font"><span class="category zh_font">예　</span>${list[id].h_ex}</p>
                 <p><span class="category zh_font">예　</span>${list[id].n_ex}</p>
+                <span class="lesson_number">${list[id].lesson}</span>
             </div>
             <div class="sonota_h">
                 <p class="zh_font">${list[id].hanja}</p>

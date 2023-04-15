@@ -97,7 +97,7 @@ function changeLanguage(l) {
     if (Hangul.lessonList.length > 0 && h_select_lesson.innerHTML == "") {
         let lessonHTML = "";
         lessonHTML = `<option value="all">모두</option>`;
-        for(let i = 0; i < Hangul.lessonList.length; i++) {
+        for(let i = Hangul.lessonList.length-1; i >= 0; i--) {
             lessonHTML += `<option value="${Hangul.lessonList[i]}">${Hangul.lessonList[i]}</option>`;
         }
         h_select_lesson.innerHTML = lessonHTML;
@@ -279,6 +279,32 @@ function id(pId) {
 }
 function rnd(pMin, pMax) { //? pMax NON COMPRIS
     return Math.floor(Math.random() * (pMax - pMin)) + pMin;
+}
+
+function cleanPinyin(pPinyin) {
+    let a = "āáǎà";
+    let i = "īíǐì";
+    let u = "ūúǔùǖǘǚǜ";
+    let e = "ēéěè";
+    let o = "ōóǒò";
+    let cleanedPinyin = "";
+    
+    for (let j = 0; j < pPinyin.length; j++) {
+        if (a.includes(pPinyin[j])) {
+            cleanedPinyin += "a";
+        } else if (i.includes(pPinyin[j])) {
+            cleanedPinyin += "i";
+        } else if (u.includes(pPinyin[j])) {
+            cleanedPinyin += "u";
+        } else if (e.includes(pPinyin[j])) {
+            cleanedPinyin += "u";
+        } else if (o.includes(pPinyin[j])) {
+            cleanedPinyin += "o";
+        } else {
+            cleanedPinyin += pPinyin[j];
+        }
+    }
+    return cleanedPinyin;
 }
 
 window.addEventListener("keypress", key => {

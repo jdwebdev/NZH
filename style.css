@@ -478,6 +478,12 @@ main {
         width: 90%;
     }
 
+    .lesson_number {
+        position:absolute;
+        bottom: 10px;
+        right: 10px;
+        font-size: 10px
+    }
 
 
     /* ---------- TRAINING ---------- */

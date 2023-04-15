@@ -73,7 +73,7 @@ function ht_selectFilterChange(pOption) {
             if (ht_select_lesson.innerHTML == "") {
                 let lessonHTML = "";
                 // lessonHTML = `<option class="zh_font" value="all">全部</option>`;
-                for(let i = 0; i < Hangul.lessonList.length; i++) {
+                for(let i = Hangul.lessonList.length-1; i >= 0; i--) {
                     lessonHTML += `<option value="${Hangul.lessonList[i]}">${Hangul.lessonList[i]}</option>`;
                 }
                 ht_select_lesson.innerHTML = lessonHTML;                

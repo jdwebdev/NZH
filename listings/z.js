@@ -9,7 +9,7 @@ z_select.addEventListener("change", e => {
         if (z_select_lesson.innerHTML == "") {
             let lessonHTML = "";
             lessonHTML = `<option class="zh_font" value="all">全部</option>`;
-            for(let i = 0; i < Z_Word.lessonList.length; i++) {
+            for(let i = Z_Word.lessonList.length-1; i >= 0; i--) {
                 lessonHTML += `<option value="${Z_Word.lessonList[i]}">${Z_Word.lessonList[i]}</option>`;
             }
             z_select_lesson.innerHTML = lessonHTML;
@@ -140,7 +140,7 @@ function z_search() {
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
-                    if (w.lesson.includes(z_select_lesson.value)) {
+                    if (w.lesson == z_select_lesson.value) {
                         z_resultList.push(w);
                     }
                 });
@@ -155,13 +155,13 @@ function z_search() {
                 z_resultNb.innerHTML = z_resultList.length;
             } else if (z_input.value == "") {
                 
-                Z_Word.list.forEach(w => {
+                for (let i = Z_Word.list.length - 1; i >= 0; i--) {
                     innerHTML += `
                         <div class="word_one_line">
-                            <div id="z_word_${w.id}" class="zh_font" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
+                            <div id="z_word_${Z_Word.list[i].id}" class="zh_font" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${Z_Word.list[i].word}</div>
                         </div>
                     `;
-                });
+                }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = Z_Word.list.length;
                 
@@ -170,6 +170,8 @@ function z_search() {
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
                     if (w.word.includes(z_input.value)) {
+                        z_resultList.push(w);
+                    } else if (cleanPinyin(w.pinyin).includes(z_input.value.toLowerCase())) {
                         z_resultList.push(w);
                     } else if (w.lizi.includes(z_input.value)) {
                         z_resultList.push(w);
@@ -297,15 +299,17 @@ function openHanziPopup(id, list) {
 
 function openZ_WordPopup(id, list) {
     popup.innerHTML = "";
+    let windowWidth = window.innerWidth;
     popup.innerHTML = `
         <div class="oneResult">
             <div class="word_container">
-                <div class="hanzi zh_font">${list[id].word}</div>
+            <div class="hanzi zh_font">${list[id].word}</div>
             </div>
-            <div class="word_details">
+            <div class="word_details" style="position:relative">
                 <p class="yomi_hanzi zh_font"><span class="category zh_font">拼音　</span>${list[id].pinyin}</p>
                 <p><span class="category zh_font">意思　</span>${list[id].yisi}</p>
                 <p class="zh_font"><span class="category zh_font">例子　</span>${list[id].lizi}</p>
+                <span class="lesson_number">${list[id].lesson}</span>
             </div>
         </div>
     `;

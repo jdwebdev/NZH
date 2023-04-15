@@ -103,7 +103,7 @@ function zt_selectFilterChange(pOption) {
             if (zt_select_lesson.innerHTML == "") {
                 let lessonHTML = "";
                 // lessonHTML = `<option class="zh_font" value="all">全部</option>`;
-                for(let i = 0; i < Z_Word.lessonList.length; i++) {
+                for(let i = Z_Word.lessonList.length-1; i >= 0; i--) {
                     lessonHTML += `<option value="${Z_Word.lessonList[i]}">${Z_Word.lessonList[i]}</option>`;
                 }
                 zt_select_lesson.innerHTML = lessonHTML;                
