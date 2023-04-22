@@ -186,6 +186,7 @@ function ht_WordDisplayTraining() {
     ht_h_ex = id("ht_h_ex");
     ht_kakunin = id("ht_kakunin");
     ht_kakunin.addEventListener("click", e => {
+        e.preventDefault();
         ht_word.innerHTML = ht_randomList[ht_currentIndex].word;
         ht_hanja.innerHTML = ht_randomList[ht_currentIndex].hanja;
         ht_n.innerHTML = ht_randomList[ht_currentIndex].nihongo;

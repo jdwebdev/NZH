@@ -58,6 +58,7 @@ let sectionList = [];
 let sectionTrainingList = [];
 let switchModeBtn = id("switchMode");
 switchModeBtn.addEventListener("click", e => {
+    e.preventDefault();
     switchMode();
 });
 let currentMode = 0; //? 0: List | 1: Training
@@ -77,7 +78,10 @@ languagesList.forEach(l => {
     if (l == "n") {
         btnList[l].style.backgroundColor = activeColor;
     }
-    btnList[l].addEventListener("click", e => changeLanguage(l));
+    btnList[l].addEventListener("click", e => {
+        e.preventDefault();
+        changeLanguage(l);
+    });
 });
 
 changeLanguage("z");

@@ -291,6 +291,7 @@ function zt_ZWordDisplayTraining() {
     });
     zt_kakunin = id("zt_kakunin");
     zt_kakunin.addEventListener("click", e => {
+        e.preventDefault();
         zt_word.innerHTML = zt_randomList[zt_currentIndex].word;
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
         zt_lizi.innerHTML = zt_randomList[zt_currentIndex].lizi;

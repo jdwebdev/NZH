@@ -29,6 +29,7 @@ header {
     padding: 10px;
     height: 100px;
     background-color:rgba(172,50,50);
+    z-index: 10;
 }
 
 ul {
@@ -527,9 +528,13 @@ main {
 
     #zt_select {
         margin-right: 10px;
+        width: 70px;
+        height: 36px;
     }
     #zt_select_filter {
         margin-right: 10px;
+        width: 70px;
+        height: 36px;
     }
     #zt_start {
         margin-right: 10px;
@@ -540,15 +545,22 @@ main {
 
     #ht_select {
         margin-right: 10px;
+        width: 62px;
+        height: 36px;
     }
     #ht_select_filter {
         margin-right: 10px;
+        height: 36px;
     }
     #ht_start {
         margin-right: 10px;
     }
     #ht_end {
         margin-right: 10px;
+    }
+    #ht_select_lesson {
+        width: 68px;
+        height: 36px;
     }
 
     .select_filter {
@@ -563,6 +575,8 @@ main {
 
     #zt_select_lesson {
         margin-right: 5px;
+        width:70px;
+        height: 36px;
     }
 
     .startBtn {
@@ -580,7 +594,10 @@ main {
     #hanja_check_container {
         align-self: center;
         margin-right: 5px;
+        font-size: 10px;
     }
+
+
     #spec_check_container {
         align-self: center;
     }
@@ -589,6 +606,7 @@ main {
     }
     #h_to_n_container {
         align-self: center;
+        font-size: 10px;
     }
 
     /* TRAINING PART */
