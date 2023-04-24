@@ -211,6 +211,7 @@ function nt_kanjiDisplayTraining() {
     
     nt_kakunin = id("nt_kakunin");
     nt_kakunin.addEventListener("click", e => {
+        e.preventDefault();
         nt_kanji.innerHTML = nt_randomList[nt_currentIndex].kanji;
         nt_itaiji.innerHTML = nt_randomList[nt_currentIndex].itaiji;
         nt_exK.innerHTML = nt_randomList[nt_currentIndex].exKanji;
@@ -253,6 +254,7 @@ function nt_ZWordDisplayTraining() {
     });
     nt_kakunin = id("nt_kakunin");
     nt_kakunin.addEventListener("click", e => {
+        e.preventDefault();
         nt_word.innerHTML = nt_randomList[nt_currentIndex].word;
         nt_n.innerHTML = nt_randomList[nt_currentIndex].yisi;
         nt_lizi.innerHTML = nt_randomList[nt_currentIndex].lizi;

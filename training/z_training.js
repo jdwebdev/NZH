@@ -248,6 +248,7 @@ function zt_hanziDisplayTraining() {
     });
     zt_kakunin = id("zt_kakunin");
     zt_kakunin.addEventListener("click", e => {
+        e.preventDefault();
         zt_hanzi.innerHTML = zt_randomList[zt_currentIndex].hanzi;
         zt_fanti.innerHTML = zt_randomList[zt_currentIndex].fanti;
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
