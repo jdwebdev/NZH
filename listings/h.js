@@ -34,10 +34,10 @@ let h_resultList = [];
 
 h_searchBtn.addEventListener("click", e => {
     e.preventDefault();
-    h_search();
+    h_search(true);
 });
 
-function h_search() {
+function h_search(pFromBtn = false) {
 
     h_result_section.innerHTML = "";
     h_resultNb.innerHTML = "";
@@ -47,7 +47,7 @@ function h_search() {
         case "lesson":
             innerHTML = "";
 
-            if (h_select_lesson.value != "all") { //? Si aucun filtre de leçon précise
+            if (h_select_lesson.value != "all" && !pFromBtn) { //? Si aucun filtre de leçon précise
                 innerHTML = "";
                 h_resultList = [];
                 Hangul.list.forEach(w => {

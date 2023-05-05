@@ -17,7 +17,7 @@ z_select.addEventListener("change", e => {
         z_select_lesson.style.display = "flex";
     } else {
         z_select_lesson.style.display = "none";
-        if (z_select.value == "fanti1" || z_select.value == "fanti2") {
+        if (z_select.value == "fanti1" || z_select.value == "fanti2" || z_select.value == "yoji") {
             z_search();
         }
     }
@@ -34,10 +34,10 @@ let z_resultList = [];
 
 z_searchBtn.addEventListener("click", e => {
     e.preventDefault();
-    z_search();
+    z_search(true);
 });
 
-function z_search() {
+function z_search(pFromBtn = false) {
     z_result_section.innerHTML = "";
     z_resultNb.innerHTML = "";
         
@@ -136,7 +136,7 @@ function z_search() {
         case "word":
             innerHTML = "";
 
-            if (z_select_lesson.value != "all") {
+            if (z_select_lesson.value != "all" && !pFromBtn) {
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
@@ -274,6 +274,24 @@ function z_search() {
             z_result_section.innerHTML = innerHTML;
             z_resultNb.innerHTML = z_resultList.length;
             break;
+        case "yoji": 
+            innerHTML = "";
+            z_resultList = [];
+            Z_Word.list.forEach(w => {
+                if (w.word.includes("#4")) {
+                    z_resultList.push(w);
+                }
+            });
+            z_resultList.forEach(w => {
+                innerHTML += `
+                    <div class="word_one_line">
+                        <div id="z_word_${w.id}" class="zh_font" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
+                    </div>
+                `;
+            });
+            z_result_section.innerHTML = innerHTML;
+            z_resultNb.innerHTML = z_resultList.length;
+        break;
     }
 }
 

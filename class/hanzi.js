@@ -81,8 +81,9 @@ class Z_Word {
     static duoList = [];
     static lessonList = [];
     static failedList = [];
+    static yojiList = [];
 
-    constructor(pId, pWord, pPinyin, pYisi = "", pPinyinLizi = "", pLizi = "", pSpec = "", pLesson = "", pDuo = false) {
+    constructor(pId, pWord, pPinyin, pYisi = "", pPinyinLizi = "", pLizi = "", pSpec = "", pLesson = "", pYoji = false, pDuo = false) {
 
         this.id = pId;
 
@@ -93,6 +94,7 @@ class Z_Word {
         this.lizi = pLizi;
         this.spec = pSpec;
         this.lesson = pLesson;
+        this.bYoji = pYoji;
 
         // this.liziList = pLizi.split(" | ");
         // if (pFanti != "") {
@@ -138,6 +140,7 @@ function createZ_WORD(pFile, pType) {
     let row = pFile.split(/\r\n|\n/);
     let test;
     let lesson = "";
+    let bYoji = false;
     let id = 1;
     for (let i = 1; i < row.length; i++) {
         row[i] = row[i].split('\t');
@@ -145,8 +148,12 @@ function createZ_WORD(pFile, pType) {
             lesson = row[i][0].split(' ')[1];
             Z_Word.lessonList.push(lesson);
         } else {
+            bYoji = row[i][0].includes("#4");
+            if (row[i][0].includes("#4")) {
+                console.log("Includes #4: " + row[i][0]);
+            }
             //?               id, word,      pinyin,    yisi,      pinyinLizi, lizi,      -
-            test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3],  row[i][4], row[i][5], lesson, pType);
+            test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3],  row[i][4], row[i][5], lesson, bYoji, pType);
             id++;
         }
     }
