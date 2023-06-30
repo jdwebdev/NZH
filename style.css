@@ -93,6 +93,15 @@ main {
     justify-content: center;
     align-items: center;
 }
+
+.dico_link {
+    /* position: absolute; */
+    /* right: 20%; */
+    /* top: 50px; */
+    margin-right: 10px;
+    align-self: center;
+}
+
 .word_details {
     border-right: 1px solid gray;
     font-size: 22px;
@@ -151,9 +160,11 @@ main {
     font-size: 70px;
 }
 .sonota_hanzi {
-    width: 20%;
+    width: 100%;
     padding: 10px;
     font-size: 22px;
+    display: flex;
+    justify-content: space-between;
 }
 .kyuu_z {
     font-size: 34px;
@@ -164,6 +175,8 @@ main {
     width: 100%;
     padding: 10px;
     font-size: 28px;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* ---------- MODAL ---------- */

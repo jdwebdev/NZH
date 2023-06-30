@@ -98,6 +98,9 @@ function h_search(pFromBtn = false) {
                         </div>
                     `;
                 });
+                if (h_resultList.length == 0) {
+                    innerHTML += `<a href="https://krdict.korean.go.kr/jpn/dicSearch/search?nation=jpn&nationCode=7&ParaWordNo=&mainSearchWord=${h_input.value}" target="_blank">사전: ${h_input.value}</a>`  //? %EC%95%BC%EA%B7%BC
+                }
                 h_result_section.innerHTML = innerHTML;
                 h_resultNb.innerHTML = h_resultList.length;
             }
@@ -182,6 +185,7 @@ function openHangulPopup(id, list) {
             </div>
             <div class="sonota_h">
                 <p class="zh_font">${list[id].hanja}</p>
+                <a class="dico_link" href="https://krdict.korean.go.kr/jpn/dicSearch/search?nation=jpn&nationCode=7&ParaWordNo=&mainSearchWord=${list[id].word}" target="_blank">→</a>
             </div>
         </div>
     `;

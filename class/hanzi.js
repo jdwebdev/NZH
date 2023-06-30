@@ -149,9 +149,9 @@ function createZ_WORD(pFile, pType) {
             Z_Word.lessonList.push(lesson);
         } else {
             bYoji = row[i][0].includes("#4");
-            if (row[i][0].includes("#4")) {
-                console.log("Includes #4: " + row[i][0]);
-            }
+            // if (row[i][0].includes("#4")) {
+            //     console.log("Includes #4: " + row[i][0]);
+            // }
             //?               id, word,      pinyin,    yisi,      pinyinLizi, lizi,      -
             test = new Z_Word(id, row[i][0], row[i][1], row[i][2], row[i][3],  row[i][4], row[i][5], lesson, bYoji, pType);
             id++;

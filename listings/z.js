@@ -189,6 +189,10 @@ function z_search(pFromBtn = false) {
                         </div>
                     `;
                 });
+
+                if (z_resultList.length == 0) {
+                    innerHTML += `<a href="https://cjjc.weblio.jp/content/${z_input.value}" target="_blank">词典: ${z_input.value}</a>`  //? %E5%98%B4%E5%B7%B4
+                }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = z_resultList.length;
             }
@@ -309,6 +313,7 @@ function openHanziPopup(id, list) {
             </div>
             <div class="sonota_hanzi">
                 <p class="kyuu_z zh_font">${list[id].fanti}</p>
+                <a class="dico_link" href="https://cjjc.weblio.jp/content/${list[id].hanzi}" target="_blank">→</a>
             </div>
         </div>
     `;
@@ -328,6 +333,7 @@ function openZ_WordPopup(id, list) {
                 <p><span class="category zh_font">意思　</span>${list[id].yisi}</p>
                 <p class="zh_font"><span class="category zh_font">例子　</span>${list[id].lizi}</p>
                 <span class="lesson_number">${list[id].lesson}</span>
+                <a class="dico_link" href="https://cjjc.weblio.jp/content/${list[id].word}" target="_blank">→</a>
             </div>
         </div>
     `;
