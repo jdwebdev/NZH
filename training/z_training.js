@@ -217,11 +217,18 @@ let zt_progressBar;
 
 function zt_hanziDisplayTraining() {
     let innerHTML = "";
+    let bFanti = false;
     z_training_section.innerHTML = "";
     innerHTML = `
         <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}</span></div>
         <p id="zt_hanzi" class="toFound zh_font">?</p> <!--时-->
-        <p id="zt_fanti" class="fantiToFound zh_font">${zt_randomList[zt_currentIndex].fanti != "" ? "?" : ""}</p>
+        `
+        if (zt_randomList[zt_currentIndex].fanti != "") {
+            innerHTML += `<p id="zt_fanti" class="fantiToFound zh_font">?</p>`;
+            bFanti = true;
+        }
+        innerHTML += 
+        `
         <p class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <p class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyinLizi}</p>
         <div class="zt_p zt_nihongo">
@@ -250,7 +257,7 @@ function zt_hanziDisplayTraining() {
     zt_kakunin.addEventListener("click", e => {
         e.preventDefault();
         zt_hanzi.innerHTML = zt_randomList[zt_currentIndex].hanzi;
-        zt_fanti.innerHTML = zt_randomList[zt_currentIndex].fanti;
+        if (bFanti) zt_fanti.innerHTML = zt_randomList[zt_currentIndex].fanti;
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
         zt_lizi.innerHTML = zt_randomList[zt_currentIndex].lizi;
         zt_nextBtn_container.innerHTML = `
