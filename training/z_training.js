@@ -252,10 +252,16 @@ function zt_hanziDisplayTraining() {
     zt_n_btn.addEventListener("click", e => {
         e.preventDefault();
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
+        zt_n.style.width = "100%";
+        zt_n_btn.style.display = "none";
     });
     zt_kakunin = id("zt_kakunin");
     zt_kakunin.addEventListener("click", e => {
         e.preventDefault();
+        zt_kakunin.style.display = "none";
+        zt_n.style.width = "100%";
+        zt_n_btn.style.display = "none";
+
         zt_hanzi.innerHTML = zt_randomList[zt_currentIndex].hanzi;
         if (bFanti) zt_fanti.innerHTML = zt_randomList[zt_currentIndex].fanti;
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
@@ -296,10 +302,16 @@ function zt_ZWordDisplayTraining() {
     zt_n_btn.addEventListener("click", e => {
         e.preventDefault();
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
+        zt_n.style.width = "100%";
+        zt_n_btn.style.display = "none";
     });
     zt_kakunin = id("zt_kakunin");
     zt_kakunin.addEventListener("click", e => {
         e.preventDefault();
+        zt_kakunin.style.display = "none";
+        zt_n.style.width = "100%";
+        zt_n_btn.style.display = "none";
+
         zt_word.innerHTML = zt_randomList[zt_currentIndex].word;
         zt_n.innerHTML = zt_randomList[zt_currentIndex].yisi;
         zt_lizi.innerHTML = zt_randomList[zt_currentIndex].lizi;
