@@ -194,7 +194,7 @@ function ht_WordDisplayTraining() {
         ht_h_ex.innerHTML = ht_randomList[ht_currentIndex].h_ex;
         ht_nextBtn_container.innerHTML = `
             <button id="ht_fail" class="zh_font" onclick="ht_next(false)">错</button>
-            <button id="ht_win" class="zh_font" onclick="ht_next(true)">好</button>
+            <button id="ht_win" class="zh_font" onclick="ht_next(true)">对</button>
         `;
     });
 }
@@ -232,7 +232,7 @@ function ht_h_to_n_WordDisplayTraining() {
         ht_h_ex.innerHTML = ht_randomList[ht_currentIndex].h_ex;
         ht_nextBtn_container.innerHTML = `
             <button id="ht_fail" class="zh_font" onclick="ht_next(false, true)">错</button>
-            <button id="ht_win" class="zh_font" onclick="ht_next(true, true)">好</button>
+            <button id="ht_win" class="zh_font" onclick="ht_next(true, true)">对</button>
         `;
     });
 }

@@ -268,7 +268,7 @@ function zt_hanziDisplayTraining() {
         zt_lizi.innerHTML = zt_randomList[zt_currentIndex].lizi;
         zt_nextBtn_container.innerHTML = `
             <button id="zt_fail" class="zh_font" onclick="zt_next(false)">错</button>
-            <button id="zt_win" class="zh_font" onclick="zt_next(true)">好</button>
+            <button id="zt_win" class="zh_font" onclick="zt_next(true)">对</button>
         `;
     });
     
@@ -317,7 +317,7 @@ function zt_ZWordDisplayTraining() {
         zt_lizi.innerHTML = zt_randomList[zt_currentIndex].lizi;
         zt_nextBtn_container.innerHTML = `
             <button id="zt_fail" class="zh_font" onclick="zt_next(false)">错</button>
-            <button id="zt_win" class="zh_font" onclick="zt_next(true)">好</button>
+            <button id="zt_win" class="zh_font" onclick="zt_next(true)">对</button>
         `;
     });
     

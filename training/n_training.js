@@ -260,7 +260,7 @@ function nt_ZWordDisplayTraining() {
         nt_lizi.innerHTML = nt_randomList[nt_currentIndex].lizi;
         nt_nextBtn_container.innerHTML = `
             <button id="nt_fail" onclick="nt_next(false)">错</button>
-            <button id="nt_win" onclick="nt_next(true)">好</button>
+            <button id="nt_win" onclick="nt_next(true)">对</button>
         `;
     });
     
