@@ -959,14 +959,14 @@
 森		sen1	sēnlín	森林	森				
 棵		ke1	yì kē shù	一棵树。一棵樹	1本の木				
 屋		wu1	wūzi | gòuwū	屋子 | 购屋	家　/ 　部屋 | 家を買うこと				
-渡		du4	dùbiān (名前)	渡边。渡邊	わたなべ				
+渡		du4	dùbiān (名前)わたなべ	渡边。渡邊	わたなべ				
 架		jia4	shūjià | yí jià fēijī | yí jià sānjiǎo gāngqín | zhījià	书架 | 一架飞机 | 一架三角钢琴 | 支架	本棚 | 一機の飛行機 | 一台のグランドピアノ | スタンド				
 钢	鋼	gang1	yí jià sānjiǎo gāngqín | gāngbǐ	一架三角钢琴 | 钢笔	一台のグランドピアノ | 筆ペン				
 琴		qin2	yí jià sānjiǎo gāngqín | lā xiǎotíqín | lā dàtíqín	一架三角钢琴 | 拉小提琴 | 拉大提琴	一台のグランドピアノ | バイオリンを弾く | チェロ				
 屉	屜	ti4	chōutì	抽屉。抽屜	引き出し				
 脖		bo2	bózi bózishang	脖子 脖子上	首に				
 青		qing1	qīngchūndòur | qīngshàonián	青春痘儿 | 青少年	ニキビ | 青少年 / ティネージャー				
-痘		dou3	qīngchūndòur	青春痘儿	ニキビ				
+痘		dou4	qīngchūndòur	青春痘儿	ニキビ				
 颗	顆	ke1	yì kē zhì	一颗痣。一顆痣	ほくろ				
 痣		zhi4	yì kē zhì	一颗痣。一顆痣	ほくろ				
 河		he2	hé héli hémiànshang | hétún	河 河里 河面上 | 河豚	川の中、川の上 | フグ(河豚)				
@@ -980,7 +980,7 @@
 产	產	chan3	jiādiàn chǎnpǐn | guóchǎn | cáichǎn | nánchǎn | fángdìchǎn | pòchǎn | yíchǎn	家电产品。家電產品 | 国产 | 财产 | 难产 | 房地产 | 破产 | 遗产	家電製品 | 国産 | 財産 | 難産 | 土地、建物、不動産 | 倒産 | 遺産				
 橱	櫥	chu2	yīchú	衣橱。衣櫥	洋服箪笥				
 液		ye4	xǐshǒuyè	洗手液	ハンドソープ				
-卫	衛	wei4	wèishēngzhǐ、shǒuzhǐ | ménwèi | jǐngwèi	卫生纸、手纸。衛生紙，手紙 | 门卫 | 警卫	トイレットペーパー | 門番、門衛 | ボディーガード、警備する人				
+卫	衛	wei4	wèishēngzhǐ (shǒuzhǐ) | ménwèi | jǐngwèi	卫生纸、(手纸)。衛生紙 | 门卫 | 警卫	トイレットペーパー | 門番、門衛 | ボディーガード、警備する人				
 聚		ju4	quánjùdé (店名) | shāngjiè jùhuì	全聚德 | 商界聚会	ゼンシュトク、北京ダックで有名なチェーン店 | ビジネス業界のパーティー				
 府		fu3	zhèngfǔ | wángfǔjǐng (地名)	政府 | 王府井	政府 | 王府井				
 井		jing3	wángfǔjǐng (地名)	王府井	王府井				
@@ -1000,7 +1000,7 @@
 夜		ye4	bànyè | kāiyèchē	半夜 | 开夜车	12時00AM 0:00 | 徹夜する				
 凌		ling2	língchén	凌晨	01:00～4:00AM				
 晨		chen2	língchén	凌晨	01:00～4:00AM				
-顿	頓	dun4	dùnfàn | liǎng dùn | xī'ěrdùn(固有名詞) jiǔdiàn | tíngdùn	顿饭 | 两顿 | 希尔顿酒店。希爾頓酒店 | 停顿	食事 | ヒルトンホテル | 2トン | 中断、停止、休止				
+顿	頓	dun4	dùnfàn | liǎng dùn | xī'ěrdùn(固有名詞) jiǔdiàn | tíngdùn	顿饭 | 两顿 | 希尔顿酒店。希爾頓酒店 | 停顿	食事 | 2トン | ヒルトンホテル | 中断、停止、休止				
 散		san4	bújiàn búsàn	不见不散。不見不散	会うまで待つこと				
 插		cha1	chāhuār	插花儿。插花兒	生け花				
 芭		ba1	bāléi(wǔ)	芭蕾(舞)	バレエ				
@@ -1008,7 +1008,7 @@
 庆	慶	qing4	qìngzhù | hūnqìng gōngsī	庆祝。慶祝 | 婚庆公司	祝う | ブライダルカンパニー				
 噢		o1	ō	噢	おお				
 命		ming4	wǒ de běn mìng nián | shēngmìng | mìng，fùmǔzhīmìng | mìnglìng | pīnmìng	我的本命年 | 生命 | 命，父母之命 | 命令 | 拼命	年女 | 生命力 | 命令、親の命令 | 命令 | 命を懸ける				
-划	劃	hua4	jìhuà | huásuàn | cèhuà	计划。計劃 | 划算 | 策划	計画 | 割に合う、買得である | 画策する				
+划	劃	hua4，hua2	jìhuà | huásuàn | cèhuà	计划。計劃 | 划算 | 策划	計画 | 割に合う、買得である | 画策する				
 盛		sheng4	shèngkāi | xiānhuā shèngkāi | fēngshèng	盛开。盛開 | 鲜花盛开 | 丰盛	咲く、花が咲く | 豊富な				
 勃		bo2	shēngjī bóbó | zhāoqìpéngbó	生机勃勃。生機勃勃 | 朝气蓬勃	生き生きと、活気のある | 生き生きとしていること				
 剪		jian3	jiǎn tóufa	剪头发。剪頭髮	髪を切る				
