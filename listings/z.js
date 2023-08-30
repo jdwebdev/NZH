@@ -140,6 +140,9 @@ function z_search(pFromBtn = false) {
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
+                    //! -----------------
+                    //TODO CHECK 3-1 etc.
+                    //! -----------------
                     if (w.lesson == z_select_lesson.value) {
                         z_resultList.push(w);
                     }

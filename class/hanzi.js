@@ -142,10 +142,18 @@ function createZ_WORD(pFile, pType) {
     let lesson = "";
     let bYoji = false;
     let id = 1;
+    let currentLesson = "" //? For 3 & 4
     for (let i = 1; i < row.length; i++) {
         row[i] = row[i].split('\t');
-        if (row[i][0][0] =="@") {
+        if (row[i][0][0] == "@") {
+            
             lesson = row[i][0].split(' ')[1];
+            if (lesson[0] == "3" || lesson[0] == "4") {
+                if (currentLesson != (lesson[0] + lesson[1] + lesson[2])) {
+                    currentLesson = lesson[0] + lesson[1] + lesson[2];
+                    Z_Word.lessonList.push(currentLesson);
+                }
+            }
             Z_Word.lessonList.push(lesson);
         } else {
             bYoji = row[i][0].includes("#4");
