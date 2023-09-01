@@ -61,7 +61,7 @@ function readKANJIFile(pFile) {
 
 function n_createFailedList(pFile) {
     let row = pFile.split(/\r\n/);
-    console.log(row);
+    // console.log(row);
     for (let i = 0; i < row.length; i++) {
         let arr = [];
         let tempArr = row[i].split(",");
@@ -70,7 +70,7 @@ function n_createFailedList(pFile) {
         }
         Kanji.failedList[i] = arr;
     }
-    console.log(Kanji.failedList);
+    // console.log(Kanji.failedList);
 }
 
 function createKanji(pFile) {
@@ -82,5 +82,5 @@ function createKanji(pFile) {
         //?             pId, pKanji,   pOnYomi,   pKunYomi,  pKakusuu,  pBushu,    pItaiji,   pExH,      pExK,      pPinyin
         test = new Kanji(i, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5], row[i][6], row[i][7], row[i][8]);
     }
-    console.log(Kanji.list);
+    // console.log(Kanji.list);
 }

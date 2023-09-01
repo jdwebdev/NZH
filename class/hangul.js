@@ -79,7 +79,7 @@ function createHangul(pFile, pType) {
 
 function h_createFailedList(pFile) {
     let row = pFile.split(/\r\n/);
-    console.log(row);
+    // console.log(row);
     for (let i = 0; i < row.length; i++) {
         let arr = [];
         let tempArr = row[i].split(",");
@@ -88,5 +88,5 @@ function h_createFailedList(pFile) {
         }
         Hangul.failedList[i] = arr;
     }
-    console.log(Hangul.failedList);
+    // console.log(Hangul.failedList);
 }

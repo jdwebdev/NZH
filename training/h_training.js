@@ -104,7 +104,7 @@ function ht_startTraining() {
                         ht_randomList.push(Hangul.list[i]);
                     }
                 }
-                log(ht_randomList);
+                // log(ht_randomList);
             } else if (filter == "xy") {
                 for (let i = parseInt(ht_start.value)-1; i < parseInt(ht_end.value)-1; i++) {
                     if (!hanja_check.checked || (hanja_check.checked && Hangul.list[i].hanja != "")) {
@@ -140,7 +140,7 @@ function ht_startTraining() {
                 }
             } else if (filter.includes("HW_")) {
                 filter = filter.slice(3);
-                log("filter word : " + filter)
+                // log("filter word : " + filter)
                 for (let i = 0; i < Hangul.failedList[filter].length; i++) {
                     ht_randomList.push(Hangul.failedList[filter][i]);
                 }

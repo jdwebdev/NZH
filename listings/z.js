@@ -140,9 +140,13 @@ function z_search(pFromBtn = false) {
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
-                    //! -----------------
-                    //TODO CHECK 3-1 etc.
-                    //! -----------------
+                    //? Only when Select 3.1: 3.11 3.12 3.13... 3.2: (3.21, 3.22, 3.23...) 
+                    if(w.lesson[0] == "3" && z_select_lesson.value[0] == "3" && z_select_lesson.value.length == 3) {
+                        if (w.lesson[0] + w.lesson[1] + w.lesson[2] == z_select_lesson.value) {
+                            z_resultList.push(w);
+                        }
+                    }
+
                     if (w.lesson == z_select_lesson.value) {
                         z_resultList.push(w);
                     }

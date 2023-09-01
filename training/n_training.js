@@ -128,17 +128,17 @@ function nt_startTraining() {
                 for (let i = parseInt(nt_start.value)-1; i < parseInt(nt_end.value); i++) {
                     nt_randomList.push(Kanji.list[i]);
                 }
-                log("xy : ");
+                // log("xy : ");
                 sKanji = "";
                 nt_randomList.forEach(k => {
                     sKanji += k.kanji;
                 });
-                log(sKanji.length);
-                log(sKanji);
+                // log(sKanji.length);
+                // log(sKanji);
 
             } else if (filter.includes("NK_")) {
                 filter = filter.slice(3);
-                log("filter kanji : " + filter)
+                // log("filter kanji : " + filter)
                 for (let i = 0; i < Kanji.failedList[filter].length; i++) {
                     nt_randomList.push(Kanji.failedList[filter][i]);
                 }
@@ -167,7 +167,7 @@ function nt_startTraining() {
                 }
             } else if (filter.includes("ZW_")) {
                 filter = filter.slice(3);
-                log("filter word : " + filter)
+                // log("filter word : " + filter)
                 for (let i = 0; i < n_Word.failedList[filter].length; i++) {
                     nt_randomList.push(n_Word.failedList[filter][i]);
                 }

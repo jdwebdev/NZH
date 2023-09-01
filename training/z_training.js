@@ -141,21 +141,21 @@ function zt_startTraining() {
                 Hanzi.list.forEach(h => {
                     sHanzi += h.hanzi;
                 });
-                log(sHanzi);
+                // log(sHanzi);
 
                 for (let i = parseInt(zt_start.value)-1; i < parseInt(zt_end.value); i++) {
                     zt_randomList.push(Hanzi.list[i]);
                 }
-                log("xy : ");
+                // log("xy : ");
                 sHanzi = "";
                 zt_randomList.forEach(h => {
                     sHanzi += h.hanzi;
                 });
-                log(sHanzi);
+                // log(sHanzi);
 
             } else if (filter.includes("ZH_")) {
                 filter = filter.slice(3);
-                log("filter hanzi : " + filter)
+                // log("filter hanzi : " + filter)
                 for (let i = 0; i < Hanzi.failedList[filter].length; i++) {
                     zt_randomList.push(Hanzi.failedList[filter][i]);
                 }
@@ -176,6 +176,12 @@ function zt_startTraining() {
                 }
             } else if (filter == "lesson") {
                 for (let i = 0; i < Z_Word.list.length; i++) {
+                    if(Z_Word.list[i].lesson[0] == "3" && zt_select_lesson.value[0] == "3" && zt_select_lesson.value.length == 3) {
+                        if (Z_Word.list[i].lesson[0] + Z_Word.list[i].lesson[1] + Z_Word.list[i].lesson[2] == zt_select_lesson.value) {
+                            zt_randomList.push(Z_Word.list[i]);
+                        }
+                    }
+                    
                     if (Z_Word.list[i].lesson == zt_select_lesson.value) {
                         if (!spec_check.checked || (spec_check.checked && Z_Word.list[i].spec != "")) {
                             zt_randomList.push(Z_Word.list[i]);
@@ -184,7 +190,7 @@ function zt_startTraining() {
                 }
             } else if (filter.includes("ZW_")) {
                 filter = filter.slice(3);
-                log("filter word : " + filter)
+                // log("filter word : " + filter)
                 for (let i = 0; i < Z_Word.failedList[filter].length; i++) {
                     zt_randomList.push(Z_Word.failedList[filter][i]);
                 }

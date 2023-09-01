@@ -52,7 +52,7 @@ function readHANZIFile(pFile) {
 
 function z_h_createFailedList(pFile) {
     let row = pFile.split(/\r\n/);
-    console.log(row);
+    // console.log(row);
     for (let i = 0; i < row.length; i++) {
         let arr = [];
         let tempArr = row[i].split(",");
@@ -61,7 +61,7 @@ function z_h_createFailedList(pFile) {
         }
         Hanzi.failedList[i] = arr;
     }
-    console.log(Hanzi.failedList);
+    // console.log(Hanzi.failedList);
 }
 
 function createHanzi(pFile) {
