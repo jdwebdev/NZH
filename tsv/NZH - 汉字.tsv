@@ -1,14 +1,14 @@
 汉字	繁体	拼音	拼音例子	例子 āáǎà īíǐì ūúǔù ēéěè ōóǒò ǖǘǚǜ	意思				
-一		yi1	1	1					
+一		yi1	1	1	1				
 二		er4	2 | lā èrhú	2 | 拉二胡	二 | 中国の弦楽器				
 三		san1	3 | sānmíngzhì | yí jià sānjiǎo gāngqín	3 | 三明治 | 一架三角钢琴	三 | サンドイッチ | 一台のグランドピアノ				
 四		si4	4 | 四声	4 | sìshēng	四 | 四声				
-五		wu3	5	5					
-六		liu4	6	6					
-七		qi1	7	7					
-八		ba1	8	8					
-九		jiu3	9	9					
-十		shi2	10	10					
+五		wu3	5	5	5				
+六		liu4	6	6	6				
+七		qi1	7	7	7				
+八		ba1	8 | bāzì hái méi yì piě	8 | 八字还没一撇 八字没见一撇	 | 事の目鼻がつくまでにはなおほど遠い				
+九		jiu3	9	9	9				
+十		shi2	10	10	10				
 百		bai3	100 | bǎimángzhīzhōng	100 | 百忙之中	100 | お忙しい中				
 零		ling2	0 | líng diǎn èr 0.2 | línghuāqián	0 | 零点二 | 零花钱	0.2 | お小遣い				
 元		yuan2	yuán | rìyuán | měiyuán | jiāyuán | ōuyuán	元 | 日元 | 美元 | 加元 | 欧元	げん　(お金) | 日本円 | アメリカドル | カナダドル | ユーロ				
@@ -23,7 +23,7 @@
 你		ni3	níhǎo | mínǐqún	你好 | 迷你裙	こんにちは | ミニスカート				
 水		shui3	wǒ hē shuǐ | xiāngshuǐ | kuàngquánshuǐ | qiánshuǐ | xīnshuǐ | suōshuǐ | shuǐzhǔn	我喝水 |  香水 | 矿泉水 | 潜水 | 薪水 (=工资) | 缩水 | 水准	水 | 香水 | ミネラルウォーター | ダイビング | ＝(工资) | [服などの布が水に濡れ、縮んだことにより](数量・価格)異常に減少 | 水準				
 好		hao3，hao4	níhǎo | àihào | xìnghǎo | zhǐhǎo VO	你好 | 爱好 | 幸好 | 只好 VO	こんにちは | 趣味 | 幸いにも | 〜しかない。仕方がない中、他に選択肢がない中〜をする				
-狗		gou3	gǒu	我有一个狗	犬				
+狗		gou3	gǒu | gǒuzǎiduì	我有一个狗 | 狗仔队	犬 | パパラッチ				
 和		he2，huo	wǒ hé nǐ | nuǎnhuo | hépíng	我和你 | 暖和 | 和平	～と～ | 平和				
 猫	貓	mao1	māo	它是我的猫	猫				
 茶		cha2	wǒ yào hē chá	我要喝茶	お茶				
@@ -36,7 +36,7 @@
 华	華	hua2	lǐhuá | huárén | shēhuá	李华 | 华人 | 奢华	(なまえ) | かじん (在外国中国人) | 贅沢で派手である				
 字		zi4	hànzi | zìyàng | zìmǔ	汉字 | 字样 | 字母	漢字 | 文字、文 | 字母				
 张	張	zhang1	zhāng | jǐnzhāng | yì zhāng zhǐ | shàngzhǎng	张老师 | 紧张 | 一张纸 | 上涨	(苗字) | 緊張する | 紙一枚				
-明		ming2	míngbái | míngtiān | míngnián | sānmíngzhì | shuōmíng | shīmíng | fāmíng | jīngmíng | míngwǎn	你明白吗 | 明天 | 明年 | 三明治 | 说明 | 失明 | 发明 | 精明 | 明晚	分かる | 明日 | 来年 | サンドイッチ | 説明 | 失明、目が見えなくなる | 発明 | 計算高い、こずるい、聡明で損得に敏感である | 明夜(みょうや)、明日の夜				
+明		ming2	míngbái | míngtiān | míngnián | sānmíngzhì | shuōmíng | shīmíng | fāmíng | jīngmíng | míngwǎn | míngxīng	你明白吗 | 明天 | 明年 | 三明治 | 说明 | 失明 | 发明 | 精明 | 明晚 | 明星	分かる | 明日 | 来年 | サンドイッチ | 説明 | 失明、目が見えなくなる | 発明 | 計算高い、こずるい、聡明で損得に敏感である | 明夜(みょうや)、明日の夜 | スター				
 呢		ne	wǒ shì..., nǐ ne ?	我是学生，你呢	私は学生です。あなたは？				
 姓		xing4	wǒ xìng みょうじ jiào なまえ 	我姓... 我叫...	[苗字]と申します				
 什		shen2	shénme	什么	何				
@@ -56,7 +56,7 @@
 老		lao3	lǎoshī | lǎoshi | lǎojiā | lǎowō | báitóuxiélǎo | yǎnglǎojīn | lǎotiānyé	老师 | 老实 | 老家 | 老挝 | 白头偕老 | 养老金 | 老天爷	先生 | 真面目な | 実家 | ラオス | 共に白髪になるまで夫婦仲良く一生添い遂げる | 老齢年金という年金 | 神様				
 师	師	shi1	lǎoshī | (～)shīfu | ēnshī	老师 | 师傅 | 恩师	先生 | 運転手や職人 | 恩師				
 学	學	xue2	xué | xuéshēng | shùxué | táoxué | xuélì	学 | 学生 | 数学 | 逃学 | 学历	学ぶ | 学生 | 数学 | 授業をサボる | 学歴				
-生		sheng1	xuéshēng | yīshēng | shēng háizi | shēngcí | zhōngshēng | yěshēng dòngwù | jiāzúshēngyì | kǎoshēng | shēngcún	学生 | 医生 | 生孩子 | 生词 | 终生 | 野生动物 | 家族生意 | 考生 | 生存	学生 | 医者 | 子供が生まれる、を産む | 新しい単語 | 生涯の | 野生動物 | 家族ビジネス | 受験生 | 生存(する)				
+生		sheng1	xuéshēng | yīshēng | shēng háizi | shēngcí | zhōngshēng | yěshēng dòngwù | jiāzúshēngyì | kǎoshēng | shēngcún | xǔxǔrúshēng	学生 | 医生 | 生孩子 | 生词 | 终生 | 野生动物 | 家族生意 | 考生 | 生存 | 栩栩如生	学生 | 医者 | 子供が生まれる、を産む | 新しい単語 | 生涯の | 野生動物 | 家族ビジネス | 受験生 | 生存(する) | 生きる、生き生きとしている				
 医	醫	yi1	yīshēng | yīyuàn | yīliáo	医生 | 医院 | 医疗	医者 | 医療				
 们	們	men	wǒmen | nǐmen | tāmen	我们 | 你们 | 他们	～たち				
 是		shi4	wǒ shì fǎguórén | shìfǒu	我是法国人 | 是否	to be | ～であるかどうか、= 是不是				
@@ -81,7 +81,7 @@
 加		jia1	jiānádà | cānjiā | jiāyuán | gèngjiā | jiārù | jiāzhì | jiāmì | zàijiā shang～ | jiāyóu	加拿大 | 参加 | 加元 | 更加 | 加入 | 加置 | 加密 | 再加上～ | 加油	カナダ | 参加 | カナダドル | 更に | 参加する、加入する | (設定)、追加する | 暗号化、コード化 | それに加えて、 | 頑張って				
 拿		na2	ná | jiānádà | ná zǒu | (ná) hétóng | nádào ~ | tuīná | ná chūlái | ná qilai	拿 | 加拿大 | 拿走 | (拿)合同 | 拿到~ | 推拿 | 拿出来 | 拿起来	(手に)持つ、もらう | カナダ | 持って行く | 契約(を手にする) | 手に入れる | 按摩 | 取り出す | 持ち上げる				
 哪		na3	nǐ zài nǎer？	你在哪儿	どこ				
-早		zao3	zǎoshàng | zǎoān | zǎolái | zǎoyǐ | yí dà zǎo	早上 | 早安 | 早来 | 早已 | 一大早	早い | 朝 | 早く来る | 早くから、とっくに、ずっと前に | 早朝、朝いちばん				
+早		zao3	zǎoshàng | zǎoān | zǎolái | zǎoyǐ | yí dà zǎo | zǎoshuìzǎoqǐ	早上 | 早安 | 早来 | 早已 | 一大早 | 早睡早起	早い | 朝 | 早く来る | 早くから、とっくに、ずっと前に | 早朝、朝いちばん | 早寝早起き				
 今		jin1	jīntiān | jīnhòu | rújīn	今天 | 今后 | 如今	今日 | 今後 | 今ごろ，現在				
 天		tian1	jīntiān | xīngqītiān | qiántiān | lántiān | tiānlúnzhīlè | lùtiān | xíngrén tiānqiáo | tiāncái | tiāncì liángyuán | tiāndàochóuqín	今天 | 星期天 | 前天 | 蓝天 | 天伦之乐 | 露天 | 行人天桥 | 天才 | 天赐良缘 | 天道酬勤	今日 | 日曜日 | おととい | 青い空 | 一家団欒(いっかだんらん)の楽しみ | 露天、野外 | 歩道橋 | 天才 | 天が授けてくれた良縁 | 天も勤勉な人を助ける				
 怎		zen3	zěnmeyàng	怎么样	どう | どうやって				
@@ -106,7 +106,7 @@
 系	係,繋,繫	xi4	méiguānxi | liánxì | xìliè | xìtǒng	没关系 | 联系 | 系列 | 系统	大丈夫 | 連絡？接続？ | シリーズ、一連の～。一連の教材 | システム、系統				
 气	氣	qi4	búkèqi | yìkǒuqì | qìgōng | chuítóusàngqì | píqi | yǒngqì | qìfèn | jǐngqì | nùqìchōngchōng | yángméitǔqì | qìfēn	不客气 | 一口气 | 气功 | 垂头丧气 | 脾气 | 勇气 | 气愤 | 景气 | 怒气冲冲 | 扬眉吐气 | 气氛	どういたしまして | 一気に | 気功 | しょんぼりと元気がない | 性質，気立て　[異質、偏屈] | 勇気 | 腹立てている、怒っている | 景気 | カンカンに怒る | 抑圧された気持ちが解けて、心が晴れ晴れして意気揚々たるさま | 雰囲気				
 谢	謝	xie4	xièxiè nǐ	谢谢你	ありがとう				
-客		ke4	búkèqi | kètīng | lǚkè | yóukè | kèhù | chéngkè	不客气 | 客厅 | 旅客 | 游客 | 客户 | 乘客	どういたしまして | リビング |  | 観光客 | 観光客 | 顧客 | 乗客				
+客		ke4	búkèqi | kètīng | lǚkè | yóukè | kèhù | chéngkè | hēikè	不客气 | 客厅 | 旅客 | 游客 | 客户 | 乘客 | 黑客	どういたしまして | リビング |  | 観光客 | 観光客 | 顧客 | 乗客 | ハッカー				
 起		qi3	duìbuqǐ | kàn qǐ lái | V + qǐlái / V + qǐ (O) lái | xiānqǐ | qǐfēi	对不起 | 看起来 | V+起(O)来 | 掀起 | 起飞	すみません | 〜に見える | 〜し始める。〜し出す | 巻き起こる、引き起こす、起こる | 離陸。(経済)発展				
 谁	誰	shei2	nǐ shì shéi	你是谁	だれ				
 有		you3	wǒ méi yǒu qián | yǒuyòng | yīngyǒujìnyǒu | chíyǒuzhě | yǒuxiào | yǒuzhāoyírì	我没有钱 | 有用 | 应有尽有 | 持有者 | 有效 | 有朝一日	ある | 役に立つ | 全ての | 所持者 | 有効である、効果がある | いつの日にか				
@@ -138,18 +138,18 @@
 儿	兒	er2	érzi | nv'er | yi dian'er | gūéryuàn	儿子 | 女儿 | 一点儿 | 孤儿院	息子 | 娘 | 少し | 児童養護施設				
 牛		niu2	niúnǎi | yì tóu niú	牛奶 | 一头牛	ぎゅうにゅう | 牛				
 奶	嬭,妳	nai3	niúnǎi | nǎinǎi	牛奶 | 奶奶	牛乳 | 祖母				
-要		yao4，yao1	wǒ yào chī mǐfàn | yàodiǎn | yàoshuō | yāoqiú | bìyào | yàoburán = huòzhě | yàome = yàoburán | yàojǐn de ～	我要吃米饭 | 要点 | 要说 (的) | 要求 | 必要 | 要不然 = 或者 | 要么 = 要不然 | 要紧的～	～したい、～しなければならない | 要点、ポイント | 言いたいこと | 要求 | 必要 | それとも | 大切な				
+要		yao4，yao1	wǒ yào chī mǐfàn | yàodiǎn | yàoshuō | yāoqiú | bìyào | yàoburán = huòzhě | yàome = yàoburán | yàojǐn de ～ | yàomìng	我要吃米饭 | 要点 | 要说 (的) | 要求 | 必要 | 要不然 = 或者 | 要么 = 要不然 | 要紧的～ | 要命	～したい、～しなければならない | 要点、ポイント | 言いたいこと | 要求 | 必要 | それとも | 大切な | 死ぬほど〜だ				
 热	熱	re4	rè kāfēi | rè chá | rè shuǐ | rèmén～ | rènao | chènrèdǎtiě | (yìgǔ) rècháo | rè'ài | rèliè	热咖啡 | 热茶 | 热水 | 热门～ | 热闹 | 趁热打铁 | (一股)热潮 | 热爱 | 热烈	あつい(コーヒー | お茶) | お湯 | 人気のある | 賑やかに | 鉄は熱いうちに打て | ブーム | 心から愛する，熱愛する | 熱烈				
-冰		bing1	bīng chá | bīng shuǐ | bīngxiāng | huābīng	冰茶 | 冰水 | 冰箱 | 滑冰	冷たい(お茶 | 水) | 冷蔵庫 | スケート				
+冰		bing1	bīng chá | bīng shuǐ | bīngxiāng | huābīng | bīngdiāo	冰茶 | 冰水 | 冰箱 | 滑冰 | 冰雕	冷たい(お茶 | 水) | 冷蔵庫 | スケート | 氷の彫刻				
 洗		xi3	xǐshǒujiān | xǐshǒuyè | xǐfàshuǐ | xǐwǎn | yǐlèixǐmiàn | xǐyījī	洗手间 | 洗手液 | 洗发水 | 洗碗 | 以泪洗面 | 洗衣机	トイレ | ハンドソープ | シャンプー | 食器洗い | とても悲しんでたくさん泣く | 洗濯機				
 手		shou3	xǐshǒujiān | xǐshǒuyè | shǒujuànr | shǒushù | fēnshǒu | shǒuyǔ | shǒutí diànnǎo | shǒutíbāo | shǒuqiāng | zhuóshǒu | shǒubāo | shǒudài | shǒutóu | shǒuxià	洗手间 | 洗手液 | 手绢儿 | 手术 | 分手 | 手语 | 手提电脑 | 手提包 | 手枪 | 着手 | 手包 | 手袋 | 手头 | 手下	トイレ | ハンドソープ | ハンカチ | 手術 | (恋人が)別れる | 手話 | ノートパソコン | ハンドバック | ピストル | 取り掛かる、着手する(始まる) | バッグ | ハンドバック | 手元、手持ち | 部下				
 间	間	jian1	xǐshǒujiān | shíjiān | dānjiān | yì jiān gōngsī	洗手间 | 时间 | 单间 | 一间公司	トイレ | じかん | 個室 | 会社1社				
 院		yuan4	yīyuàn | xuéyuàn | yuànzhǎng | yuànzi | zhùyuàn	医院 | 学院 | 院长 | 院子 | 住院	びょういん | がくいん | いんちょう | 庭 | 入院				
 馆	館	guan3	fànguǎn | túshūguǎn | bówùguǎn	饭馆 | 图书馆 | 博物馆	レストラン | 図書館 | 博物館				
-星		xing1	xīngqī | xià ge xīngqī | xīngqītiān | wèixīng	星期 | 下个星期 | 星期天 | 卫星	曜日、週 | 衛星				
+星		xing1	xīngqī | xià ge xīngqī | xīngqītiān | wèixīng | míngxīng | zhuīxīngzú	星期 | 下个星期 | 星期天 | 卫星 | 明星 | 追星族	曜日、週 | 衛星 | スター | 追っかけ(スターやスポーツ選手の仕事先について回る熱狂的ファン)				
 期		qi1	xīngqī | xià ge xīngqī | xīngqītiān | qīmò | fǎnkàngqī | qīzhōng kǎoshì | qīwàng | dìngqī	星期 | 下个星期 | 星期天 | 期末 | 反抗期 | 期中考试 | 期望 | 定期	曜日、週 | 期末 | 反抗期 | 中間テスト | 期待 | 定期的に				
 点	點	dian3	yīdiǎn | èrdiǎn | sāndiǎn | yīdiǎnbàn | diǎntóu | yàodiǎn	一点 | 二点 | 三点 | 一点半 | 点头 | 要点	～時 | 挨拶する、解釈する、頷く | 要点、ポイント				
-月		yue4	yīyuè | èryuè | sānyuè | dùmìyuè | shèngdànyuè	一月 | 二月 | 三月 | 度蜜月 | 圣诞月	げつ、がつ | ハネムーン | クリスマス				
+月		yue4	yīyuè | èryuè | sānyuè | dùmìyuè | shèngdànyuè | yuèsǎo	一月 | 二月 | 三月 | 度蜜月 | 圣诞月 | 月嫂	げつ、がつ | ハネムーン | クリスマス | 産後一か月のお手伝いさん				
 年		nian2	èr líng yī sān nián | nǐ shì nǎ niánshēng | niánqīng | niánlíng	二〇一三年 | 你是哪年生？ | 年轻 | 年龄	とし、ねん | 何年生まれ？ | 若い | 年齢				
 半		ban4	yīdiǎnbàn | bànyè | liǎngbànr | bànjù | shìbàngōngbèi	一点半 | 半夜 | 两半儿 | 半句 | 事半功倍	一時はん | 12時00AM 0:00 | 半分 | 一言 | 労力が半分なのに倍の効果が上がる				
 几	幾	ji3	xiànzài jídiǎn | jīntiān xīngqījǐ	现在几点 | 今天星期几	何時 | 何曜日				
@@ -178,7 +178,7 @@
 非		fei1	fēicháng | fēizhōu | fēifán de | fēifǎ | tònggǎiqiánfēi	这个礼物我非常喜欢，谢谢你 | 非洲 | 非凡的 | 非法 | 痛改前非	とても | ひじょうに | アフリカ | 非凡、素晴らしい | 非合法、不法 | 前非(前に犯した罪)を徹底的に改める				
 常		chang2	fēicháng | chángcháng | zhèngcháng de | yìcháng | chángnián de | shícháng	非常 | 常常 | 正常的 | 异常 | 常年的 | 时常	とても、ひじょうに | しょっちゅう | 正常な | とても | 長年の | しょっちゅう、いつも、常に				
 午		wu3	shàngwǔ | xiàwǔ | shuì wǔ jiào	上午 | 下午 | 睡午觉	あさ | ごご | 昼寝				
-分		fen1，fen4	èrdiǎnèrshíèrfēn | gōngfēn | chōngfèn | fēnshǒu | bùfen | guòfèn | chǔfèn	二十二点二十二分 | 公分 | 充分 | 分手 | 部分 | 过分 | 处分	～ふん　(時間) | センチ | 十分 | (恋人が)別れる | 部分 | ひどすぎる | 処分				
+分		fen1，fen4	èrdiǎnèrshíèrfēn | gōngfēn | chōngfèn | fēnshǒu | bùfen | guòfèn | chǔfèn | fēnxīshī	二十二点二十二分 | 公分 | 充分 | 分手 | 部分 | 过分 | 处分 | 分析师	～ふん　(時間) | センチ | 十分 | (恋人が)別れる | 部分 | ひどすぎる | 処分 | アナリスト				
 下		xia4	xiàge xīngqī | qiànxià | xià juéxīn | shǒuxià	下个星期 | 欠下 | 下决心 | 手下	した | 来週 | 未返済 | 決意する、決心する | 部下				
 每		mei3	měi ge xīngqīliù	每个星期六	まい～　まいしゅう				
 周		zhou1	zhōumò | zhōuzhuǎn | zhōuwéi	周末，周四=星期四 | 周转 | 周围	週末 | (資金が)回転する | 周囲、周り				
@@ -243,7 +243,7 @@
 太		tai4	tài guì le	太贵了	～すぎ				
 视	視	shi4	diànshì | jìnshì <> yuǎnshì | shōushìlǜ	电视 | 近视 <> 远视 | 收视率	テレビ | 近視 <> 遠視 | 視聴率				
 想		xiang3	wǒ xiǎng ～ | lǐxiǎng | mèngxiǎng | kěxiǎng'érzhī | sīxiǎng | xiǎngbuqǐ | qiánsīhòuxiǎng(sīqiánxiǎnghòu)	我想~ | 理想 | 梦想 | 可想而知 | 思想 | 想不起 | 前思后想(思前想后)	～したい | 理想 | 夢 | 推して知るべし、想像できる | 考え、思想 | 思い出せない | あれこれ考える				
-干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1 | gānjing | gàn huór | cā gānjìng | gānráo	这个周末我们会干什么 | 干杯 | 干净 | 干活儿 | 擦干净 | 干扰	する(動詞) | 乾杯 | きれい | 仕事をする | 綺麗に拭く | 邪魔をする、妨害、干渉				
+干	幹，乾	gan4，gan1	nǐ gàn shénme | gan1bei1 | gānjing | gàn huór | cā gānjìng | gānráo | yìgān'èrjìng	这个周末我们会干什么 | 干杯 | 干净 | 干活儿 | 擦干净 | 干扰 | 一干二净	する(動詞) | 乾杯 | きれい | 仕事をする | 綺麗に拭く | 邪魔をする、妨害、干渉 | クリーン				
 影		ying3	diànyǐng | yǐngxǐang | yǎnyǐng | shèyǐngjìzhě	电影 | 影响 | 眼影 | 摄影记者	映画 | 影響 | アイシャドウ | カメラマン				
 报	報	bao4	bàozhǐ | kàn bào | bàomíng | huìbào | bàogào | bàodá | bàodào | bàoshè | qíngbào | huíbào | bàochóu	报纸 | 看报 | 报名 | 汇报 | 报告 | 报答 | 报道 | 报社 | 情报‼️ | 回报 | 报仇	新聞 | 新聞を読む | 申し込む | 報告をする | レポート | 報いる | 報道 | 新聞社 | スパイ情報 | リターン、返し | 恨みを晴らす、あだを討つ				
 纸	紙	zhi3	bàozhǐ | yì zhāng zhǐ | zhǐjīn	报纸 | 一张纸 | 纸巾	新聞 | 紙一枚 | ティッシュ				
@@ -252,10 +252,10 @@
 闻	聞	wen2	xīnwén | zēngguǎng jiànwén	新闻 | 增广见闻	ニュース | 見聞を広める				
 机	機	ji1	shǒujī | yí jià fēijī | jīhuì | tóujī | jīyù | shíjī | ěrjī | wēijī | xǐyījī	手机 | 一架飞机 | 机会 | 投机 | 机遇 | 时机 | 耳机 | 危机 | 洗衣机	携帯 | 飛行機 | 機会、チャンス | 気が合う | チャンス、いい機会 | 時期 | イヤホン、ヘッドホン | 危機 | 洗濯機				
 韩	韓	han2	hánguó	韩国	かんこく				
-目		mu4	jiémù / diànshì jiémù / tǐyù jiémù | mùbiāo | xǐngmù | xiàngmù | mùdì	节目 | 目标 | 醒目 | 项目 | 目的	番組 | 目標 | 目立つ / とても目立つ | プロジェクト | 目的				
+目		mu4	jiémù / diànshì jiémù / tǐyù jiémù | mùbiāo | xǐngmù | xiàngmù | mùdì | mùdèngkǒudāi	节目 | 目标 | 醒目 | 项目 | 目的 | 目瞪口呆	番組 | 目標 | 目立つ / とても目立つ | プロジェクト | 目的 | （目を大きく見開き口をぽかんと開ける→）（驚き・恐怖のために）ぼうぜんとする，あっけにとられる				
 节	節	jie2	jiémù / diànshì jiémù / tǐyù jiémù | qíngrénjié | jiéjiǎn | értóngjié | yīnjié | guòjié	节目 | 情人节 | 节俭 | 儿童节 | 音节 | 过节	番組 | バレンタイン | 倹約、素朴、質素 | 子供の日 | 音節 | 祝祭日・節句を過ごす(祝う)				
-体	體	ti3	tǐyù | jùtǐ shuōshuo | tǐzhì | yìgōngtuántǐ | tǐliàng | tǐmiàn | tǐzhì	体育 | 具体说说 | 体质 | 义工团体 | 体谅 | 体面 | 体制	体 | 具体的に | 体質 | ボランティア団体 | 理解、思いやる、察する | 体裁が良い | 体制				
-育		yu4	tǐyù | jiàoyù | yǎngyù zhī ēn	体育 | 教育 | 养育之恩	スポーツ | 教育 | 育ててくれた恩、両親の恩				
+体	體	ti3	tǐyù | jùtǐ shuōshuo | tǐzhì | yìgōngtuántǐ | tǐliàng | tǐmiàn | tǐzhì | méitǐ	体育 | 具体说说 | 体质 | 义工团体 | 体谅 | 体面 | 体制 | 媒体	体 | 具体的に | 体質 | ボランティア団体 | 理解、思いやる、察する | 体裁が良い | 体制 | マスコミ				
+育		yu4	tǐyù | jiàoyù | yǎngyù zhī ēn | yùérsǎo	体育 | 教育 | 养育之恩 | 育儿嫂	スポーツ | 教育 | 育ててくれた恩、両親の恩 | 資格のあるベビーシッター				
 找		zhao3	wǒ xiǎng zhǎodào tā | nǐ zhǎo shéi | zhǎoqián | zhǎo duìxiàng	你找谁 | 找钱 | 找对象	探す、誰を探してる？ | おつり | (結婚)相手を探す				
 桌		zhuo1	zhuōzi | shūzhuō | cānzhuō	桌子 | 书桌 | 餐桌	机 | 勉強机 | 食卓				
 椅		yi3	yǐzi	椅子	いす				
@@ -284,7 +284,7 @@
 瓜		gua1	xīguā | mùguā | huángguā | guāfēn	西瓜 | 木瓜 | 黄瓜 | 瓜分	スイカ | パパイヤ | 胡瓜 | 分割する(強いやつが弱いやつの～を分割する、奪う)				
 苹	蘋	ping2	píngguǒ | píngguǒ shǒujī	苹果 | 苹果手机	林檎 | iPhone				
 果		guo3	shuǐguǒ | píngguǒ | mángguǒ | jiéguǒ | xiàoguǒ	水果 | 苹果 | 芒果 | 结果 | 效果	くだもの、林檎 | マンゴー | 結果 | 効果				
-鸡	鷄、雞？	ji1	jīdàn | jīròu | jīdànxīhóngshì | zhájīchì	鸡蛋 | 鸡肉 | 鸡蛋西红柿 | 炸鸡翅	卵、鶏肉 | フライドチキンウィング				
+鸡	鷄、雞？	ji1	jīdàn | jīròu | jīdànxīhóngshì | zhájīchì | jīquǎnbùníng	鸡蛋 | 鸡肉 | 鸡蛋西红柿 | 炸鸡翅 | 鸡犬不宁	卵、鶏肉 | フライドチキンウィング | 世情が物騒である				
 蛋		dan4	jīdàn | jīdànxīhóngshì	鸡蛋 | 鸡蛋西红柿	卵	                                                                                          			
 鲜	鮮	xian1	xīnxiān | xiānhuā | hǎixiān	新鲜 | 鲜花 | 海鲜	しんせん(な) | (自然の生きた)花 | シーフード				
 蔬		shu1	shūcài	蔬菜	野菜				
@@ -314,11 +314,11 @@
 羊		yang2	yángròu	羊肉	ひつじ、ラム肉				
 胖		pang4	pàng | shuō nǐ pàng nǐ hái chuǎn shàng le	我不胖 | 说你胖你还喘上了	太ってる | 調子に乗るな。いい気にならないで				
 工		gong1	gōngzuò | gōngzī | dǎgōng | yuángōng | gōngrén | yìgōngtuántǐ | gōngxīnjiē cēng	工作 | 工资 | 打工 | 员工 | 工人 | 义工团体 | 工薪阶层	仕事 | 給料 | スタッフ | 従業員、スタッフ | 労働者 | ボランティア団体 | サラリーマン層				
-作		zuo4	gōngzuò | jiézuò | zuòwéi	工作 | 杰作 | 作为	仕事 | 傑作 | 行為、行動				
+作		zuo4	gōngzuò | jiézuò | zuòwéi | chuàngzuò	工作 | 杰作 | 作为 | 创作	仕事 | 傑作 | 行為、行動 | 創作				
 累	纍	lei4，lei3	nǐ lèi ma | fùzhàilěilěi | lèikuǎ	我太累了 | 负债累累 | 累垮	疲れる | 借金だらけ | (人が)元気がなくなる				
 健		jian4	jiànkāng | jiànshēnfáng	健康 | 健身房	けんこう | ジム(場所)				
 康		kang1	jiànkāng	健康	けんこう				
-身		shen1	shēntǐ | wǒ shēntǐ búcuò | jiànshēnfáng | shēnpáng	身体 我身体不错 | 健身房 | 身旁	体 | ジム | そば、手近、身元、手元				
+身		shen1	shēntǐ | wǒ shēntǐ búcuò | jiànshēnfáng | shēnpáng | húnshēn	身体 我身体不错 | 健身房 | 身旁 | 浑身	体 | ジム | そば、手近、身元、手元 | 全身				
 注		zhu4	zhùyì | qǐng zhùyì jiànkāng | biāozhù，biāozhù pīnyīn	注意 请注意健康 | 标注，标注拼音	ちゅうい | つける				
 意		yi4	yìsi | zhùyì | qǐng zhùyì jiànkāng | yìwài / tài yìwài le | chéngyì | déyí (de) | chuàngyì | yìtú | gùyì | bù néng dàyì	意思 | 注意 请注意健康 | 意外 / 太意外了 | 诚意 | 得意(地) | 创意 | 意图 | 故意 | 不能大意	意味 | 注意 | 意外 / すごく驚いた | 誠意 | 得意げに | 創意 | 意図 | 故意で、わざと | 油断してはダメだ				
 开	開	kai1	kāishǐ | shèngkāi | yìkāishǐ | dǎkāi | kāibàn | kāixīn | bìkāi | kāichú | kāimù	开始 | 盛开 | 一开始 | 打开 | 开办 | 开心 | 避开 | 开除 | 开幕	かいし | 咲く | 最初 | 開ける | 開設、創立、設立、開く | 楽しい | 避ける | 首にする、除名、免職 | 開幕				
@@ -397,7 +397,7 @@
 浪		lang4	làngmàn | làngfèi	浪漫 | 浪费	ロマンティック | 浪費、無駄				
 漫		man4	làngmàn | mànhuà | màncháng	浪漫 | 漫画 | 漫长	ロマンティック | まんが | (歳月などが)長くて果てしがない				
 舒		shu1	shūfu | wǒ bù shūfu | shūshì | xīnqíngshūchàng | shūhuǎn	舒服 | 我不舒服 | 舒适 | 心情舒畅 | 舒缓，舒缓压力	快適 | 具合が悪い | 快適な | すっきりと気持ちがよくなる				
-应	應	ying1，ying4	yīnggāi | nǐ yīnggāi huíjiā | yīngyǒujìnyǒu | yìngzhàn | yìngduì | yìng yìngjí | yīngdāng | yìngzhēng | yīngdé de ～	应该 | 你应该回家 | 应有尽有 | 应战 | 应对 | 应应急 | 应当 | 应征。應徵 | 应得的～	～するべき、～しなければならない | 全ての | 応戦、ファイトバック | 対応 | 急場をしのぐ | ～するべき | 募集に応じる．面接に行く | もらうべき～				
+应	應	ying1，ying4	yīnggāi | nǐ yīnggāi huíjiā | yīngyǒujìnyǒu | yìngzhàn | yìngduì | yìng yìngjí | yīngdāng | yìngzhēng | yīngdé de ～ | shìyìng	应该 | 你应该回家 | 应有尽有 | 应战 | 应对 | 应应急 | 应当 | 应征。應徵 | 应得的～ | 适应	～するべき、～しなければならない | 全ての | 応戦、ファイトバック | 対応 | 急場をしのぐ | ～するべき | 募集に応じる．面接に行く | もらうべき～ | 慣れる、適応する				
 该	該	gai1	yīnggāi | nǐ yīnggāi huíjiā | gāi～le	应该 | 你应该回家 | 该～了	～するべき、～しなければならない | そろそろ〜する				
 病		bing4	shēngbìng | wǒ shēngbìng le | kànbìng | bìngrén gāohuāng | àizībìng | bìngdú	生病 | 我生病了 | 看病 | 病入膏肓 | 艾滋病 | 病毒	びょうき | 病院に通うこと / 病気を診る | 病膏肓に入る，事態が救い難い状況になる | エイズ | ウィルス				
 休		xiu1	xiūxi	休息	やすむ				
@@ -427,7 +427,7 @@
 完		wán	nǐ chī wán le ma | wánchéng	你吃完了吗 | 完成	V+終える、V+終わる | 完成する、全うする				
 真		zhēn	tā zhēn piàoliàng | chéngzhēn | rènzhēn | tǔlù zhēnqíng | zhēnzhèng | zhēnlǐ	她真漂亮 | 成真 | 认真 | 吐露真情 | 真正 | 真理	本当に | 叶う、現実になる、なる | 真面目である | 吐露真情＝真実を吐露する | 本当の | 真理				
 已		yǐ	yǐjīng | zǎoyǐ | bùyǐ	已经 | 早已 | 不已	もう、すでに | 早くから、とっくに、ずっと前に | してやめない				
-经	經	jīng	yǐjīng｜jīngjì | jīnglǐ | jīngguò | jīngguò (N) | jīngyíng | jīngyàn	已经｜经济 | 经理 | 经过 | 经过(N) | 经营 | 经验	もう、すでに｜経済 | マネージャー、社長的な？ | 〜を通して、〜を経て | 経緯，事故の経緯 | 経営 | 経験				
+经	經	jīng	yǐjīng｜jīngjì | jīnglǐ | jīngguò | jīngguò (N) | jīngyíng | jīngyàn | húnshēn méi jìnr	已经｜经济 | 经理 | 经过 | 经过(N) | 经营 | 经验 | 浑身没经儿。沒勁兒	もう、すでに｜経済 | マネージャー、社長的な？ | 〜を通して、〜を経て | 経緯，事故の経緯 | 経営 | 経験 | 全身がだるい				
 饱	飽	bǎo	wǒ hěn bǎo | wǒ bǎole | jiǔzúfànbǎo	我很饱 | 我饱了 | 酒足饭饱	お腹がいっぱい x2 | 大いに食べて飲んだ後の大満足の様子				
 饿	餓	e4	wǒ è le	我饿了	お腹が空いた				
 渴		ke3	wǒ hěn kě	我很渴	喉が渇いた				
@@ -436,7 +436,7 @@
 克	(剋)	ke4	qiǎokèlì | liǎng kè | kèfú | jiákè(名前) | àolínpǐkè	巧克力 | 两克 | 克服 | 夹克 | 奥林匹克	チョコレート | 2グラム | 克服 | ジャケット | オリンピック				
 力		li4	qiǎokèlì | shìlì | yālì | nǔlì | shílì | quánlì yǐfù | lìliang | dàlì	巧克力 | 视力 | 压力 | 努力 | 实力 | 全力以赴 | 力量 | 大力	チョコレート | 視力 | プレッシャー、あつりょく | 努力 | 実力 | 全力を尽くす | 力、体力 | 強力な				
 味		wei4	wèidào | bié yǒu zīwèi	味道 | 别有滋味	味 | 特別な味わいがある				
-试	試	shi4	tā xiǎng shìshì zhè tiáo lán qúnzi | miànshì | chángshì	她想试试这条蓝裙子 | 面试 | 尝试。嘗試	試す | 面接 | 試みる、試す				
+试	試	shi4	tā xiǎng shìshì zhè tiáo lán qúnzi | miànshì | chángshì | shìjuàn'r	她想试试这条蓝裙子 | 面试 | 尝试。嘗試 | 试卷儿	試す | 面接 | 試みる、試す | テスト紙				
 鞋		xié	zhè shuāng xiézi	这双鞋子	靴				
 裙		qun2	zhè tiáo qúnzi | mínǐqún	这条裙子 | 迷你裙	スカート | ミニスカート				
 裤	褲	ku4	zhè tiáo kùzi	这条裤子	ズボン				
@@ -451,12 +451,12 @@
 利		li4	yìdàlì | àodàlìyà | liúlì | shùnlì | yǒu lì yǒu bì | biànlìdiàn | lì rén lì jǐ | lìrùn | lìbì | quánlì | yíngtóuxiǎolì	意大利 | 澳大利亚 | 流利 | 顺利 | 有利有弊 | 便利店 | 利人利己 | 利润 | 利弊 | 权利 | 蝇头小利	イタリア | オーストラリア | 流暢 | 順調 | 良い面もあれば、悪い面もある | コンビニエンスストア | 自分にも他人にも利益になる | 利潤、利ざや | 良さと悪さ、プラスとマイナス | 権利 | (ハエの頭ほどの)わずかな利益				
 耳		er3	ěrduo (!duo轻声) | yìzhī ěrduo | ěrshúnéngxiáng | ěrjī	耳朵 | 一只耳朵 | 耳熟能详 | 耳机	みみ | よく耳にする | イヤホン、ヘッドホン				
 朵		duo3	ěrduo (!duo轻声) | yìzhī ěrduo	耳朵 | 一只耳朵	耳				
-眼		yan3	yǎnjīng | xiǎoyǎnr | yǎnjiè 。kāikuò yǎnjiè | yǎnyǐng | zhēngkāiyǎn	眼睛 | 心眼儿、太好了 | 眼界。开阔眼界 | 眼影 | 睁开眼	目 | 心の底、やさしい | 視野，見聞，見識。視野を広める | アイシャドウ | 目が覚めたら、目を開く				
+眼		yan3	yǎnjīng | xiǎoyǎnr | yǎnjiè 。kāikuò yǎnjiè | yǎnyǐng | zhēngkāiyǎn | zhuǎnyǎn	眼睛 | 心眼儿、太好了 | 眼界。开阔眼界 | 眼影 | 睁开眼 | 转眼	目 | 心の底、やさしい | 視野，見聞，見識。視野を広める | アイシャドウ | 目が覚めたら、目を開く | あっという間に、一瞬の間に				
 睛		jing1	yǎnjīng	眼睛	目				
 绿	緑	lv4	lǜsè	绿色	みどり				
 脸	臉	lian3	liǎn | xǐliǎn | liǎnshang | liǎnsè | chóuméikǔliǎn | liǎnpén	脸 | 洗脸 | 脸上 | 脸色 | 愁眉苦脸 | 脸盆	顔 | 顔を洗う | 顔に | 顔色 | 沈んだ·浮かぬ顔をする | 洗面器				
 又		you4 	wǒ nǔpéngyou de yǎnjīng yòu hēi yòu piàoliàng	我女朋友的眼睛又黑又漂亮	～し、～し				
-黑		hei1	hēisè | hēibǎn | hēilǐng	黑色 | 黑板 | 黑领	くろい | 黒板 | 危険で汚い仕事をする人				
+黑		hei1	hēisè | hēibǎn | hēilǐng | chuī hēiguǎnr | hēikè	黑色 | 黑板 | 黑领 | 吹黑管儿 | 黑客	くろい | 黒板 | 危険で汚い仕事をする人 | クラリネットを吹く | ハッカー				
 脚		jiao3	jiǎo | fàngmànjiǎobù	脚 | 放慢脚步	足 | 歩くスピードを落とす、仕事のペースをスローダウン				
 嘴		zui3	zuǐbā	嘴巴	口				
 巴		ba1	zuǐbā | bāshì | bāxī | bālí	嘴巴 | 巴士 | 巴西 | 巴黎	口 | バス | ブラジル | パリ				
@@ -482,7 +482,7 @@
 刮	颳	gua1	wàimiàn guāzhe fēng | guā	外面刮着风 | 刮。围巾被风刮走了	吹く　外で風が吹いてる | 吹く、[スカーフは風に飛ばされた]				
 风	風	feng1	wàimiàn guāzhe fēng | wàimiàn de fēng hěn dà | fēngjǐng | zhòngfēng | chūnfēngmǎnmiàn | zhuī fēng | fēngsú xíguàn | fēngxiǎn | yìfānfēngshùn | dàfēngbào	外面刮着风 | 外面的风很大 | 风景 | 中风 | 春风满面 | 追风 | 风俗习惯 | 风险，高风险 | 一帆风顺 | 大风暴	外で風が吹いてる | 外の風が強い | 景色 | 脳卒中 | 喜色満面　(表情いっぱいに喜びを現すさま) | 流行りに乗る | 風俗習慣 | リスク、高リスク | 順風満帆、物事が順調に進むたとえ | 大嵐，大荒れ				
 就		jiu4	jiù | rúguǒ míngtiān xià yǔ，wǒmen jiù bù chūqù ①②③ || zào jiù ～ le	如果明天下雨，我们就不出去 ①今天不堵车，我八点出门，八点十分就到了 | 他早就来了 ②她马上就回来 | 我就去 | 我就走 ③这本就是我的书 || 早就~了	(一つの意味)～するとすぐ～ ①とっくに～した、早くも～した ②すぐに～ ③すぐに～ | とっくに～した				
-如		ru2	rúguǒ | rúguǒ míngtiān xià yǔ，wǒmen jiù bù chūqù | bǐrúshuō | rúyuànyǐcháng | rúhǔtiānyì | rúhé | rújīn | rú~děng | bùrú～	如果 | 如果明天下雨，我们就不出去 | 比如说 | 如愿以偿 | 如虎添翼 | 如何 | 如今 | 如～等 | 不如～	もし～たら | 例えば | 願いが叶う | 鬼に金棒 | どうであるか，いかがか | 今ごろ，現在 | 例えば～、～、～など | ～に及ばない				
+如		ru2	rúguǒ | rúguǒ míngtiān xià yǔ，wǒmen jiù bù chūqù | bǐrúshuō | rúyuànyǐcháng | rúhǔtiānyì | rúhé | rújīn | rú~děng | bùrú～ | xǔxǔrúshēng	如果 | 如果明天下雨，我们就不出去 | 比如说 | 如愿以偿 | 如虎添翼 | 如何 | 如今 | 如～等 | 不如～ | 栩栩如生	もし～たら | 例えば | 願いが叶う | 鬼に金棒 | どうであるか，いかがか | 今ごろ，現在 | 例えば～、～、～など | ～に及ばない | 生きる、生き生きとしている				
 红	紅	hong2	hóngsè | hong2jiu3 | hóng dìtǎn | huāhóng | kǒuhóng	红色 | 紅酒 | 红地毯 | 花红 | 口红	赤い | 赤ワイン | 赤絨毯 | ボーナス、配当金 | 口紅				
 穿		chuan1	wǒ yào chuān shénme qù zhège pàiduì	我要穿什么去这个派对	着る				
 虽	雖	sui1	suīrán | suīrán nà tiáo kùzi hěn piányì，dànshì bù shūfu	虽然 | 虽然那条裤子很便宜，但是不舒服	～けど？？				
@@ -515,7 +515,7 @@
 赛	賽	sai4	bǐsài | cānsài zīgé	比赛 | 参赛资格	試合 | 試合参加資格				
 第		di4	dì ～ | tā shì dìyī | dì ～ pái	第～ | 他是第一 | 第～排	だい～ | 一位 | 彼が一位 | 〜列目				
 排		pai2	páiqiú | niúpái | ānpái | dì ～ pái | páimǎn	排球 | 牛排 | 安排 | 第～排 | 排满	バレーボール | ステーキ | 調整、処理 | 〜列目 | いっぱい(スケジュールが)				
-失		shi1	shīwàng | sǔnshī | shībài | shīmíng | shīqù | shīluò | shīyè | shīmián | xiāoshī | yíshī le | shīzhí | shīzú qīngnián | sàngshī | shīwù	失望 | 损失 | 失败 | 失明 | 失去 | 失落 | 失业 | 失眠 | 消失 | 遗失了 | 失职 | 失足青年 | 丧失 | 失误	がっかり | 損をする、損失する | 失敗 | 失明、目が見えなくなる | 失う、失くす | 落ち込む | 失業 | 眠れない、不眠になる | 消える | 失った、失くした | 職務をおろそかにする、失敗をする | 道に誤った青年 | 喪失する、失う | ミス、誤り				
+失		shi1	shīwàng | sǔnshī | shībài | shīmíng | shīqù | shīluò | shīyè | shīmián | xiāoshī | yíshī le | shīzhí | shīzú qīngnián | sàngshī | shīwù | shīzōng	失望 | 损失 | 失败 | 失明 | 失去 | 失落 | 失业 | 失眠 | 消失 | 遗失了 | 失职 | 失足青年 | 丧失 | 失误 | 失踪	がっかり | 損をする、損失する | 失敗 | 失明、目が見えなくなる | 失う、失くす | 落ち込む | 失業 | 眠れない、不眠になる | 消える | 失った、失くした | 職務をおろそかにする、失敗をする | 道に誤った青年 | 喪失する、失う | ミス、誤り | 失踪する，行方不明になる				
 油		you2	jiāyóu | yóutiáo | yóunì | yóuzhá shíwù | yóuhuà	加油 | 油条 | 油腻 | 油炸食物 | 油画	頑張って！ | 中華揚げパン | 脂っこい | 揚げ物 | 油絵				
 参	參	can1	cānjiā | cānjiā bǐsài | cānguān | cānbài | cānsài zīgé	参加 | 参加比赛 | 参观 | 参拜 | 参赛资格	さんかする | 試合に出る | 訪問 | (神社に)お参り | 試合参加資格				
 输	輸	shu1	tā shū le，wǒ fēicháng shīwàng	他输了，我非常失望	負ける				
@@ -525,7 +525,7 @@
 课	課	ke4	yǒu kè | shàngkè | shàng～kè | kèběn | jiǎngkè | kètáng | kuàngkè	有课 | 上课 | 上[科目名]课 | 课本 | 讲课 | 课堂 | 旷课	授業がある | 授業に出る | 教科書 | 授業をする | 教室 | 従業をサボる				
 教		jiao4，jiao1	jiàoshì | jiàoshī | jiàotáng | jiàoliàn | jiāo~ | jiāoshū | jiàoyù | jiàocái | qǐngjiào | jiàodǎo | jiàoshòu | jiàokēshū	教室 | 教师 | 教堂 | 教练 | 教～ | 教书 | 教育 | 教材 | 请教 | 教导 | 教授 | 教科书	教室 | 教師 | 教会 | コーチ | 教える | (教師として)教える | 教育 | 教材 | 教えを請う | 教える、教え導く、指導する | 教授 | 教材				
 同		tong2	tóngxué | tóngshì | tóngyì | (ná) hétóng	同学 | 同事 | 同意 | (拿)合同	クラスメート | 同僚 | どうい | 契約(を手にする)				
-懂		dong3	dǒng | wǒ bù dǒng | kàndǒng / tā néng kàndǒng zhōngwén bàozhǐ | tīng de dǒng | nòngdǒng	懂 | 我不懂 | 看懂 / 他能看懂中文报纸 | 听得懂 | 弄懂	分かる　分からない | 読める、彼は中国語の新聞が読める | 聞いて分かる | 分かる				
+懂		dong3	dǒng | wǒ bù dǒng | kàndǒng / tā néng kàndǒng zhōngwén bàozhǐ | tīng de dǒng | nòngdǒng | yìdǒng	懂 | 我不懂 | 看懂 / 他能看懂中文报纸 | 听得懂 | 弄懂 | 易懂	分かる　分からない | 読める、彼は中国語の新聞が読める | 聞いて分かる | 分かる | 分かりやすい				
 题	題	ti2	wèntí | yǒu shénme wèntí ma | zhècì kǎoshì yǒu duōshǎo tí | huàtí | yí dào nántí	问题 | 有什么问题吗 | 这次考试有多少题 | 话题 | 一道难题	質問 | 何か質問がある? | 今回のテストは何問ありますか | 話題 | (一つの)難問				
 术	術	shu4	měishù | shǒushù | dòngshǒushù | xiānjìn jìshù	美术 | 手术 | 动手术 | 先进技术	美術 | 手術 | 手術をする、を受ける | 先進技術				
 考		kao3	kǎoshì | kǎolǜ | kǎoshàng / kǎo bu shang | gāokǎo | kǎochá | kǎopíng | kǎoshēng | jiānkǎo	考试 | 考虑 | 考上 / 考不上 | 高考 | 考察 | 考评 | 考生 | 监考	テスト | 考える | 試験に受かる / 試験に合格できない | 大学受験 | 視察 | 考課、エバリュエーション、レーティング | 受験生 | 試験監督				
@@ -561,10 +561,10 @@
 堵		du3	dǔchē	堵车	渋滞				
 园	園	yuan2	gōngyuán | yòuéryuán | xiàoyuán | tíngyuán | jiāyuán	公园 | 幼儿园 | 校园 | 庭园 | 家园	公園 | 幼稚園 | キャンパス | 庭園 | 家庭				
 附		fu4	fùjìn	附近	近く				
-城		cheng2	chéngshì | (wànlǐ)chángchéng	城市 | (万里)长城	都市 | ばんりのちょうじょう				
+城		cheng2	chéngshì | (wànlǐ)chángchéng | chéngzhèn	城市 | (万里)长城 | 城镇。城鎮	都市 | ばんりのちょうじょう | ‘城市’と‘集镇’，都市と町				
 图	圖	tu2	túshūguǎn | yìtú | fāfèntúqiáng	图书馆 | 意图 | 发奋图强	図書館 | 意図 | 向上しようと発奮する				
 方		fang1	dìfāng | zài～fāngmiàn | shuāngfāng | fāng'àn | yǐ～(de)fāngshì | duōfāng | xīfāngrén dōngfāngrén	地方 | 在～方面 | 双方 | 方案 | 以~ (的)方式 | 多方 | 西方人 东方人	場所 | 〜の面においては、ーに関しては | 双方、両方 | 安、計画 | ～の方式で、～の形で | いろいろの手段で | 西洋人　東洋人				
-花		hua1	huāqián | nǐ huā le duōshǎo qián | wǒ huā le tài duō shíjiān zuò fàn | línghuāqián | huā diào | huāshù | huāpíng | huāfèi	花钱 | 你花了多少钱？ | 我花了太多时间做饭 | 零花钱 | 花掉 | 花束 | 花瓶 | 花费	(お金や時間を)使う、かかる | お小遣い | 使ってしまう | 花束 | 花瓶 | 費やす、使う				
+花		hua1	huāqián | nǐ huā le duōshǎo qián | wǒ huā le tài duō shíjiān zuò fàn | línghuāqián | huā diào | huāshù | huāpíng | huāfèi | miánhuā	花钱 | 你花了多少钱？ | 我花了太多时间做饭 | 零花钱 | 花掉 | 花束 | 花瓶 | 花费 | 棉花	(お金や時間を)使う、かかる | お小遣い | 使ってしまう | 花束 | 花瓶 | 費やす、使う | 綿				
 折	摺	zhe2	dǎzhé | zhè jiàn chènshān dǎzhé ma | zhékòu | zhédié (書き方複数) | gǔzhé	打折 | 这件衬衫打折吗 | 有没有折扣 | 折叠 | 骨折	割引 | 割引されますか | 値引きできますか | 折りたたむ | 骨折				
 皮		pi2	píxié | xiàngpí | pí | pífū	皮鞋 | 橡皮 | 皮 | 皮肤。皮膚	革靴 | 消しゴム | 皮 | 肌				
 旧	舊	jiu4	jiù | nǐ de diànhuà tài jiù le | jiùshì (de)	旧 | 你的电话太旧了 | 旧式(的)	古い | 君の電話古すぎる | 旧式の				
@@ -578,13 +578,13 @@
 总	總	zong3	zǒngshi | zǒngcái | zǒnglǐ | zǒngjié	总是 | 总裁 | 总理 | 总结	いつも | 責任者。総裁 | 総理 | 総まとめ				
 梦	夢	meng4	zuòmèng | mèngxiǎng | bié zuòmèng le	做梦 | 梦想 | 别做梦了	夢を見る | 夢 | 夢を見ないで				
 故		gu4	gùshì | gùgōng | shìgù | gùyì	故事 | 故宫 | 事故 | 故意	物語 | こきゅう、昔の宮殿 | 事故 | 故意で、わざと				
-讲	講	jiang3	jiǎng | tā zài jiǎng shénme | jiǎng gùshì | jiǎngjiū | jiǎngkè | jiǎngjiě | jiǎngtái | jiǎngshù | jiǎngzuò	他在讲什么 | 讲故事 | 讲究 | 讲课 | 讲解 | 讲台 | 讲述 | 讲座	話す | 物語を話す | 重んじる、問題にする | 授業をする | 説明、解説 | 教壇 | 述べる | 講座				
+讲	講	jiang3	jiǎng | tā zài jiǎng shénme | jiǎng gùshì | jiǎngjiū | jiǎngkè | jiǎngjiě | jiǎngtái | jiǎngshù | jiǎngzuò | yǎnjiǎng	他在讲什么 | 讲故事 | 讲究 | 讲课 | 讲解 | 讲台 | 讲述 | 讲座 | 演讲	話す | 物語を話す | 重んじる、問題にする | 授業をする | 説明、解説 | 教壇 | 述べる | 講座 | 講演				
 辣		la4	zhè ge cài hěn là	这个菜很辣	辛い				
 除		chu2	chúle～ | chúle nǐ，wǒmen dōu rènshì tā | kāichú	除了~ | 除了你，我们都认识他 | 开除	～以外、～をのぞいて | 首にする、除名、免職				
 咸		xian2	xián	咸	しょっぱい				
 饺	餃	jiao3	jiǎozi | shuǐjiǎo	饺子 | 水饺	ギョーザ | 水ギョーザ				
 其		qi2	qí～ | yóuqí shì | jiāngqígǎiwéi~ | qíshí | jíqí	其~ 其他 | 尤其是 | 将其改为~ | 其实 | 极其	ほかの | 特に | これ(ここ)を～に変える | 実は | 極めて				
-苦		ku3	zhè ge cài hěn kǔ | tòngkǔ | chóuméikǔliǎn | kǔkǒupóxīn | kèkǔ	这个菜很苦 | 痛苦 | 愁眉苦脸 | 苦口婆心 | 刻苦	にがい | 苦しい | 沈んだ·浮かぬ顔をする | 老婆心からくる返し忠告する、口をすっぱくして忠告する | 良く苦しみに耐える				
+苦		ku3	zhè ge cài hěn kǔ | tòngkǔ | chóuméikǔliǎn | kǔkǒupóxīn | kèkǔ | kǔjìngānlái	这个菜很苦 | 痛苦 | 愁眉苦脸 | 苦口婆心 | 刻苦 | 苦尽甘来	にがい | 苦しい | 沈んだ·浮かぬ顔をする | 老婆心からくる返し忠告する、口をすっぱくして忠告する | 良く苦しみに耐える | 苦が尽きて楽が来る				
 极	極	ji2	～jíle | zhè shì shénme？kǔ jíle | jījí | xiāojí de xiǎngfǎ | jíwéi | jíqí	～极了 | 这是什么？苦极了 | 积极 | 消极的想法 | 极为 | 极其	すごく〜 | これは何？すごく苦い | 積極的 | 消極的な考え方、マイナス思考 | 極めて | 極めて				
 盐	鹽	yan2	yán | zhè ge yǒu tài duō yán	盐 | 这个有太多盐	塩 | 塩が多すぎ				
 南		nan2	nán | nánfāng | nánměizhōu	南方 | 南美洲	みなみ | 中国のみなみの区域 | 南米				
@@ -619,7 +619,7 @@
 银	銀	yin2	yínháng | yínmù	银行 | 银幕	ぎんこう | スクリーン、画面				
 厨	廚	chu2	chúfáng | chúshī | xiàchú	厨房 | 厨师 | 下厨	台所 | コックさん | 台所に入って料理をつくる				
 童		tong2	értóng | értóngjié	儿童 | 儿童节	児童 | 子供の日				
-流		liu2	liúxíng | liúlì | gēn rén jiāoliú | liúchàng | yuányuǎn liúcháng	流行 | 流利 | 跟人交流 | 流畅 | 源远流长	りゅうこう。はやり | 流暢 | 人とコミュニケーションを取る | 流暢 | 長い流れ、歴史の交流が長い				
+流		liu2	liúxíng | liúlì | gēn rén jiāoliú | liúchàng | yuányuǎn liúcháng | qínliúgǎn | hànliújiábèi	流行 | 流利 | 跟人交流 | 流畅 | 源远流长 | 禽流感 | 汗流夹背	りゅうこう。はやり | 流暢 | 人とコミュニケーションを取る | 流暢 | 長い流れ、歴史の交流が長い | 鳥インフルエンザ | 汗みどろ				
 扶		fu2	fúshǒu | fúchí	扶手 | 扶持	手すり | 助ける、支える				
 愉		yu2	yúkuài | yúyuè	愉快 | 愉悦	ゆかい | 楽しい、嬉しい				
 原		yuan2	yuánliàng | yuánlái | yuányīn | yuánzé shang | yuánchù	原谅 | 原来 | 原因 | 原则上 | 原处	許す | もとの、最初の | 原因 | 基本的に | 元の場所				
@@ -669,7 +669,7 @@
 凉	涼	liang2	liángkuai | chōngliáng	凉快 | 冲凉	涼しい | シャワーを浴びる				
 邻	鄰	lin2	línju	邻居	隣、近所				
 居		ju1	línju | jūmínqū | yíjū | dújū	邻居 | 居民区 | 移居 | 独居	隣、近所 | 居住区 | 移住する | 一人暮らし				
-口		kou3	wèikǒu | kěkǒukělè | yìkǒuqì | jiēkǒu | kǔkǒupóxīn | kǒuhóng	胃口 | 可口可乐 | 一口气 | 街口 | 苦口婆心 | 口红	食欲 | コカコーラ | 一気に | 街の入り口 | 老婆心からくる返し忠告する、口をすっぱくして忠告する | 口紅				
+口		kou3	wèikǒu | kěkǒukělè | yìkǒuqì | jiēkǒu | kǔkǒupóxīn | kǒuhóng | mùdèngkǒudāi	胃口 | 可口可乐 | 一口气 | 街口 | 苦口婆心 | 口红 | 目瞪口呆	食欲 | コカコーラ | 一気に | 街の入り口 | 老婆心からくる返し忠告する、口をすっぱくして忠告する | 口紅 | （目を大きく見開き口をぽかんと開ける→）（驚き・恐怖のために）ぼうぜんとする，あっけにとられる				
 汤	湯	tang1	tāng | tāng hěn hē	汤 | 汤很喝	スープ				1-6
 婆		po2	wǒ lǎopo | kǔkǒupóxīn	我老婆 【女】| 苦口婆心	女房 | 老婆心からくる返し忠告する、口をすっぱくして忠告する				
 岗	崗	gang3	xiàgǎng	下岗	リストラされる				
@@ -755,7 +755,7 @@
 罐		guan4	yíguàn kělè píjiǔ	一罐可乐 / 啤酒	一缶 (量詞) 缶に入った飲み物				
 份		fen4	yífèn | yí fèn lǐwù | shēnfènzhèng | huàn yí fèn gōngzuò	一份 | 一份礼物 | 身份证 | 换一份工作	1人分 | プレゼント１つ | 身分証明書 | 仕事を変える				
 碟		die2	yìdié | guāngdié	一碟 | 光碟	小皿１つ | CD/DVD				
-净		jing4	gānjing | cā gānjìng	干净 | 擦干净	綺麗。清潔 | 綺麗に拭く				1-9
+净		jing4	gānjing | cā gānjìng | yìgān'èrjìng	干净 | 擦干净 | 一干二净	綺麗。清潔 | 綺麗に拭く | クリーン				1-9
 全		quan2	ānquán | quánlì yǐfù	安全 | 全力以赴	安全 | 全力を尽くす．				
 暖		nuan3	nuǎnhuo | wēnnuǎn | dìqiú zhuǎnnuǎn	暖和 | 温暖 | 地球转暖	暖かい | ぬくもり | 地球温暖化				
 刺		ci4	cìji	刺激	刺激				
@@ -784,7 +784,7 @@
 鸭	鴨	ya1	kǎoyā | tánglǎoyā	烤鸭。烤鴨 | 唐老鸭	北京ダック | ドナルド				
 拜		bai4	bàituōle | lǐbài | cānbài | bàifǎng | díbài | bài~ | bàinián	拜托了 | 礼拜 | 参拜 | 拜访 | 迪拜 | 拜~ | 拜年	よろしくお願いします。(丁寧に人に何かを頼む時) | 「星期」と一緒 | (神社に)お参り | 訪れる、訪問する | ドバイ | ~を拝む | 年始の挨拶				
 托		tuo1	bàituōle | mótuōchē | tuōérsuǒ | wěituō	拜托了 | 摩托车 | 托儿所 | 委托	よろしくお願いします。(丁寧に人に何かを頼む時) | オートバイ | 保育園 | 頼む				
-护	護	hu4	bàn hùzhào | hùshi | hùlǐ | biànhù	办护照 | 护士 | 护理 | 辩护	パスポートを取る | 看護師 | 看護する | 弁護				
+护	護	hu4	bàn hùzhào | hùshi | hùlǐ | biànhù | hùgōng	办护照 | 护士 | 护理 | 辩护 | 护工	パスポートを取る | 看護師 | 看護する | 弁護 | 看護ヘルパー				
 签	簽	qian1	qiānzhèng | qiānzi	签证。簽證 | 签字	ビザ | サイン				
 证	證	zheng4	qiānzhèng | shēnfènzhèng | bǎozhèng | ~zhèngshū | zhèngjù	签证。簽證 | 身份证 | 保证 | ~证书 | 证据	ビザ | 身分証明書 | 守る | ~証書 | 証拠				
 铅	鉛	qian1	qiānbǐ	铅笔。鉛筆	鉛筆				
@@ -798,7 +798,7 @@
 林		lin2	sēnlín | xiǎolín (名前) | bólín (地名) | àolínpǐkè	森林 | 小林 | 柏林 | 奥林匹克	森 | こばやし (名前) | ベルリン | オリンピック				
 求		qiu2	qiúhūn | qiú | yāoqiú | qiúzhī bùdé | tànqiú | zhuīqiú | qǐqiú | xūqiú	求婚 | 求~ | 要求 | 求之不得 | 探求 | 追求 | 祈求 | 需求	プロポーズ | 願う、求める | 要求 | 願ってもないことである，この上なく好都合である | 捜し求める，探究する | 追い求める | 祈る、祈り求める | 需要				
 通		tong1	tōngzhī | gōutōng | ～tōng / fǎguótōng | tōng bu guò kǎoshì | tōngguò	通知 | 沟通 | ～通 / 法国通 | 通不过考试 | 通过	つうち | 通じさせる、交流させる | 〜通、専門家的な | 試験に不合格 | ～を通して				
-管		guan3	guǎnlǐ | guǎn | jǐnguǎn	管理 | 管 | 尽管(ǐ) VO1 也 VO2	かんり | 扱う、管理する | (=即使？(即使の方が柔らかい)) 〜だけれども、〜にもかかわらず、〜V;たとしても、〜からといって				
+管		guan3	guǎnlǐ | guǎn | jǐnguǎn | chuī hēiguǎnr	管理 | 管 | 尽管(ǐ) VO1 也 VO2 | 吹黑管儿	かんり | 扱う、管理する | (=即使？(即使の方が柔らかい)) 〜だけれども、〜にもかかわらず、〜V;たとしても、〜からといって | クラリネットを吹く				
 立		li4	guólì | zuòlìbùān | lìzhì | quèlì	国立。國立 | 坐立不安 | 立志 | 确立	こくりつ | 居ても立ってもいられない様 | 志を立てる | 確立する，打ち立てる				
 阪		ban3	Dàbǎn (地名)	大阪	おおさか				
 乌	烏	wu1	wūlóng chá	乌龙茶。烏龍茶	ウーロン茶				
@@ -821,7 +821,7 @@
 织	織	zhi1	zǔzhī | zhī máoyī	组织。組織 | 织毛衣	組織 | セーターを編む				
 籍		ji2	měijí huárén	美籍华人。美籍華人	米国籍の華人				
 史		shi3	lìshǐ | yǒushǐ yǐlái	历史。歷史 | 有史以来	歴史 | 有史以来、史上				
-仔		zai3	niúzǎikù	牛仔裤。牛仔褲	ジーパン				
+仔		zai3，zi3	niúzǎikù | zǐxì | gǒuzǎiduì	牛仔裤。牛仔褲 | 仔细 | 狗仔队	ジーパン | しっかりと、注意深い | パパラッチ				
 词	詞	ci2	cídiǎn | diànzǐ cídiǎn | shēngcí | cíhuì	词典。詞典 | 电子词典 | 生词 | 词汇	辞書 | 電子辞書 | 新しい単語 | 語彙				
 典		dian3	cídiǎn | gǔdiǎn yīnyuè | diǎnlǐ	词典。詞典 | 古典音乐 | 典礼	辞書 | クラシック音楽 | 式典、儀式				
 郊		jiao1	jiāoqū | jiāoyóu	郊区。郊區 | 郊游	郊外 | ピクニック				
@@ -854,7 +854,7 @@
 临	臨	lin2	huānyíng guānglín	欢迎光临。歡迎光臨	いらっしゃいませ				
 虑	慮	lv4	kǎolǜ | shēnsīshúlǜ	考虑。考慮 | 深思熟虑	考える | じっくり考える				
 持		chi2	zhīchí | jiānchí | zhǔchí | fúchí | chíyǒuzhě | chí = 拿 | chíxù	支持 | 坚持 | 主持 (婚礼) | 扶持 | 持有者 | 持~ | 持续	支持 | 堅持する、頑張って続ける | ホスト、執り行う | 助ける、支える | 所持者 | 持つ | （状況などが）持続する				
-指		zhi3	zhǐshì | shǒuzhǐ	指示 | 手指	指示 | 手の指				
+指		zhi3	zhǐshì | shǒuzhǐ | mǔzhǐ	指示 | 手指 | 拇指	指示 | 手の指 | 親指				
 示		shi4	zhǐshì | biǎoshì | jù～xiǎnshì	指示 | 表示 | 据~显示	指示 | 表明、表す | ～によると。～が示すところによると				
 亿	億	yi4	liǎng yì | shù yǐ yì jì de	两亿。兩億 | 数以亿计的	一億 | 億単位の				
 民		min2	rénmínbì | jūmínqū | nóngmín	人民币。人民幣 | 居民区 | 农民	(中国のお金) | 居住区 | 農民				
@@ -864,12 +864,12 @@
 瘦		shou4	shòu	瘦	痩せる				
 底		di3	dàodǐ | hǎidǐ | niándǐ | chèdǐ (de)	到底 | 海底 | 年底 | 彻底(地)	結局 | かいてい | 年末 | 徹底的に				
 顾	顧	gu4	zhàogù | gùwèn	照顾。照顧 | 顾问	面倒を見る | 顧問				
-够	夠	gou4	gòule | néng gòu	够了，不要了 | 能够	もう十分だ、もういい | できる				1-16
+够	夠	gou4	gòule | néng gòu | gòuqiàng	够了，不要了 | 能够 | 够呛。夠嗆	もう十分だ、もういい | できる | 嫌と言うほど				1-16
 广	廣	guang3	tīng guǎngbō | guǎngchǎng | guǎngkuò | guǎngfàn	听广播。聼廣播 | 广场 | 广阔 | 广泛	ラジオを聞く | 広場 | 広々としている、広大 | 幅広い				
 播		bo1	tīng guǎngbō | chuánbō | xīnwén liánbō | (V) bō(fàng)	听广播。聼廣播 | 传播 | 新闻联播 | (V)播(放)	ラジオを聞く | 広がる | ニュース番組 | 音楽や番組を流す				
 尤		you2	yóuqí shì	尤其是	特に				
 古		gu3	gǔdiǎn yīnyuè | gǔlǎo | gǔdǒng | gǔguài | gǔdài	古典音乐。古典音樂 | 古老 | 古董 | 古怪 | 古代 	クラシック音楽 | 古い歴史を持つ、昔からの | 骨董 | 変わっている，異質である　[異質、偏屈] | 古代				
-演		yan3	yǎnchànghuì | dǎoyǎn | biǎoyán | yǎnzòu	演唱会 | 导演 | 表演 | 演奏	コンサート | 監督 | 演じる、上演 | 演奏				
+演		yan3	yǎnchànghuì | dǎoyǎn | biǎoyán | yǎnzòu | yǎnjiǎng	演唱会 | 导演 | 表演 | 演奏 | 演讲	コンサート | 監督 | 演じる、上演 | 演奏 | 講演				
 将	將	jiang4，jiang1	dǎ májiàng | jiāngqígǎiwéi~ | jiānglái | jiāngjìn	打麻将。打麻將 | 将其改为~ | 将来 | 将近~(数量詞・期間詞)	麻雀をする | これ(ここ)を～に変える | 将来 | ～に近い、ほぼ～				
 逛		guang4	guàngjiē	逛 | 逛街	ぶらぶら | 街をぶらつく				
 街		jie1	guàngjiē | jiēshang | jiēkǒu	逛街 | 街上 | 街口	街をぶらつく | 街で | 街の入り口				
@@ -890,11 +890,11 @@
 野		ye3	yěcān | yěshēng dòngwù	野餐 | 野生动物	ピクニック | 野生動物				
 堡		bao3	hànbǎobāo	汉堡包。漢堡包	ハンバーガー				
 连	連	lian2	lián。tā lián yígè zì yě bú rènshi | liánxù | búyòngshuō ① lián/yě ②	他连一个字也不认识 | 连续 | 不用说①连/也②	全然〜しない。〜さえない | 1文字でさえ読めない | 連続 | ①は言うまでもない、②も/でさえ～				
-铃	鈴	ling2	Língmù (名前)	铃木。鈴木	すずき(名前)				1-18
+铃	鈴	ling2	língshēng | Língmù (名前)	铃声。鈴聲 | 铃木。鈴木	ベル | すずき(名前)				1-18
 确	確	que4	(díquè)shì | quèdìng | zhǔnquè | zhèngquè | quèxìn | quèshí | quèlì	(的确)是。的確是 | 确定 | 准确 | 正确 | 确信 | 确实 | 确立	確かに+A。(強調) | 確定 | 正確 | 正確 | 確信 | 確実、確かである | 確立する，打ち立てる				
 功		gong1	chénggōng | qìgōng | yònggōng | shìbèigōngbàn	成功 | 气功 | 用功 | 事倍功半	せいこう | 気功 | 力を入れる | 倍の労力をかけて半分の成果しか上がらない				
 容		rong2	róngyì | měiróngshī | nèiróng | xíngróng	容易 | 美容师 | 内容 | 形容	簡単 | 美容師 | 内容 | たとえて言いまわす、形容する、デスクリップション				
-易		yi4	róngyì | màoyì | qiānjīnyìdé，zhījǐnánxún | jiāoyì | qīngéryìjǔ | yóuyìdàonán	容易 | 贸易 | 千金易得，知己难寻 | 交易 | 轻而易举 | 由易到难	簡単 | ぼうえき | 千金を得るのは易く、知己を探すのは難しい | 交易、取引 | 極めて楽にできる。たやすくできる | 易しい内容から難しい内容へ				
+易		yi4	róngyì | màoyì | qiānjīnyìdé，zhījǐnánxún | jiāoyì | qīngéryìjǔ | yóuyìdàonán | yìdǒng	容易 | 贸易 | 千金易得，知己难寻 | 交易 | 轻而易举 | 由易到难 | 易懂	簡単 | ぼうえき | 千金を得るのは易く、知己を探すのは難しい | 交易、取引 | 極めて楽にできる。たやすくできる | 易しい内容から難しい内容へ | 分かりやすい				
 威		wei1	wēinísī | xiàwēiyí | wēishìjì	威尼斯(地名) | 夏威夷 (地名) | 威士忌	ベニスVenise | ハワイ | ウイスキー				
 混		hun4	zhōngrì hùnxuě'ér | hùnluàn	中日混血儿 | 混乱	中日のハーフ | 混乱				
 血		xue3	zhōngrì hùnxuě'ér | ǒuxīnlìxuè | xuèběnwúguī | xuěpīn = xiāpīn	中日混血儿 | 呕心沥血 | 血本无归 | 血拼 = 瞎拼	中日のハーフ | 心血を注ぐ、苦心惨憺する | 投資した資金を全く回収できなくなった | ショッピング				
@@ -920,7 +920,7 @@
 侄		zhi2	zhízi	侄子	甥				
 递	遞	di4	yóudìyuán | dìgěi	邮递员。郵遞員 | 递给	郵便配達人 | 手渡す				
 模		mo2	mótèr | guīmó	模特儿。模特兒 | 规模	モデル | 規模				
-嫂		sao3	sǎozi	嫂子	兄嫁さん				
+嫂		sao3	sǎozi | yuèsǎo | yùérsǎo	嫂子 | 月嫂 | 育儿嫂	兄嫁さん | 産後一か月のお手伝いさん | 資格のあるベビーシッター				
 贸	貿	mao4	màoyì	贸易。貿易	ぼうえき				
 性		xing4	shìwùxìng de gōngzuò | yìngxìng	事务性的工作。事務性的工作 | 硬性	事務の仕事 | 融通性のない，変更できない				
 设	設	she4	fúzhuāng shèjìshī | shèdìng | shèzhì | jiànshè	服装设计师。服裝設計師 | 设定 | 设置 | 建设	ファッションデザイナー | 設定 | 設置 | 建設				
@@ -949,7 +949,7 @@
 私		si1	sīrén gōngyù | sījiāchē | sīyíng	私人公寓 | 私家车 | 私营	プライベートマンション | マイカー | 個人の経営する，私営の				
 洋		yang2	yángfáng | hǎiyáng wūrǎn	洋房 | 海洋污染	一軒家 | 海洋の汚染				
 诊	診	zhen3	zhěnsuǒ	诊所。診所	クリニック				
-适	適	shi4	shūshì | shìdù | shìyí | héshì	舒适。舒適 | 适度 | 适宜 | 合适	快適な | 適度に | 適切な、程よい、〜に適する | 合う				
+适	適	shi4	shūshì | shìdù | shìyí | héshì | shìyìng	舒适。舒適 | 适度 | 适宜 | 合适 | 适应	快適な | 適度に | 適切な、程よい、〜に適する | 合う | 慣れる、適応する				
 境		jing4	huánjìng | huánjìng shūshì | jìngdì | jìngjiè	环境。環境 | 环境舒适 | 境地 | 境界	環境 | 環境が快適 | 境地，事態，立場 | 境地				
 吵		chao3	chǎo | nǐ bié chǎo	吵 | 你别吵	うるさい 例：うるさくするな				
 哭		ku1	kū | nǐ zěnme kū le | kūxiàobùdé | bǎ tā nòng kū le	哭 | 你怎么哭了 | 哭笑不得 | 把她弄哭了	泣く。例：なぜ泣いた？ | 泣いても笑ってもどんなにしても物事をを変えられない様 | 泣かせる				
@@ -997,7 +997,7 @@
 另		ling4	lìng | lìng yí zuò shì bàngōnglóu | lìng，wǒ xiǎng jiàn lìng yíwèi yīshēng	另 | 另一座是办公楼 | 另，我想见另一位医生	あと～、別 | あと一棟はオフィスビル | 別の、ほかの				
 接		jie1	jiē | jiēshòu | jiētì | jiē diànhuà | zhíjiē | jiējiàn | jiēchù | jiēdào | jiēshòu	接 | 接受 | 接替 | 接电话 | 直接 | 接见 | 接触 | 接到 | 接受	迎える | 受け入れる | 引き継ぐ、受け継ぐ、後任 | 電話を受ける、に出る | 直接 | 国家首脳間の接見。～民間人と接見する | 接触する、接する、触る | ①通知状、知らせを受け取った(過去形が多い)②物品とクレームを受け取った | ①処罰、挑戦、試練を受ける②接受 現状を受け入れる、認める、面接を受ける				1-21
 傍		bang4	bàngwǎn	傍晚	夕方 5:00～6:00 PM				
-夜		ye4	bànyè | kāiyèchē | tiǎodēngyèzhàn	半夜 | 开夜车 | 挑灯夜战	12時00AM 0:00 | 徹夜する | （比喩的に）夜間に労働や仕事をする				
+夜		ye4	bànyè | kāiyèchē | tiǎodēngyèzhàn | áoyè	半夜 | 开夜车 | 挑灯夜战 | 熬夜	12時00AM 0:00 | 徹夜する | （比喩的に）夜間に労働や仕事をする | 徹夜、夜更かし				
 凌		ling2	língchén	凌晨	01:00～4:00AM				
 晨		chen2	língchén	凌晨	01:00～4:00AM				
 顿	頓	dun4	dùnfàn | liǎng dùn | xī'ěrdùn(固有名詞) jiǔdiàn | tíngdùn	顿饭 | 两顿 | 希尔顿酒店。希爾頓酒店 | 停顿	食事 | 2トン | ヒルトンホテル | 中断、停止、休止				
@@ -1007,7 +1007,7 @@
 蕾		lei2	bāléi(wǔ)	芭蕾(舞)	バレエ				
 庆	慶	qing4	qìngzhù | hūnqìng gōngsī	庆祝。慶祝 | 婚庆公司	祝う | ブライダルカンパニー				
 噢		o1	ō	噢	おお				
-命		ming4	wǒ de běn mìng nián | shēngmìng | mìng，fùmǔzhīmìng | mìnglìng | pīnmìng | wéitāmìng	我的本命年 | 生命 | 命，父母之命 | 命令 | 拼命 | 维他命	年女 | 生命力 | 命令、親の命令 | 命令 | 命を懸ける | ビタミン				
+命		ming4	wǒ de běn mìng nián | shēngmìng | mìng，fùmǔzhīmìng | mìnglìng | pīnmìng | wéitāmìng | yàomìng	我的本命年 | 生命 | 命，父母之命 | 命令 | 拼命 | 维他命 | 要命	年女 | 生命力 | 命令、親の命令 | 命令 | 命を懸ける | ビタミン | 死ぬほど〜だ				
 划	劃	hua4，hua2	jìhuà | huásuàn | cèhuà	计划。計劃 | 划算 | 策划	計画 | 割に合う、買得である | 画策する				
 盛		sheng4	shèngkāi | xiānhuā shèngkāi | fēngshèng	盛开。盛開 | 鲜花盛开 | 丰盛	咲く、花が咲く | 豊富な				
 勃		bo2	shēngjī bóbó | zhāoqìpéngbó	生机勃勃。生機勃勃 | 朝气蓬勃	生き生きと、活気のある | 生き生きとしていること				
@@ -1027,7 +1027,7 @@
 绢	絹	juan4	shǒujuànr	手绢儿。手絹兒	ハンカチ				
 摄	攝	she4	shèxiàngjī | shèyǐngjìzhě	摄像机。攝像機 | 摄影记者	ビデオ撮影機 | カメラマン				
 矿	礦	kuang4	kuàngquánshuǐ	矿泉水。礦泉水	ミネラルウォーター				
-泉		quan2	kuàngquánshuǐ	矿泉水。礦泉水	ミネラルウォーター				
+泉		quan2	kuàngquánshuǐ | wēnquán	矿泉水。礦泉水 | 温泉	ミネラルウォーター | 温泉				
 壶	壺	hu2	yì hú：chá，shāojiǔ，rèshuǐ	一壶：茶，烧酒，热水。一壺	急須や壺などに入っている飲み物				
 官		guan1	fǎguān | gāojí guānyuán	法官 | 高级官员	裁判官 | 高官				
 恩		en1	ēnshī | yǎngyù zhī ēn	恩师。恩師 | 养育之恩	恩師 | 育ててくれた恩、両親の恩				
@@ -1074,10 +1074,10 @@
 按		an4	ànmó	按摩	マッサージ				
 驾	駕	jia4	láojià láojià | jiàzhào	劳驾劳驾。勞駕勞駕 | 驾照	すみません | 運転免許証				
 借	藉	jie4	jièguāngr jièguāngr | jiè	借光儿借光儿。藉光兒 | 借	すみません | 貸す				
-温	溫	wen1	wēnróu | wēnnuǎn	温柔。溫柔 | 温暖	優しい | ぬくもり				1-23
+温	溫	wen1	wēnróu | wēnnuǎn | wēnquán	温柔。溫柔 | 温暖 | 温泉	優しい | ぬくもり | 温泉				1-23
 柔		rou2	wēnróu | róudào	温柔。溫柔 | 柔道	優しい | 柔道				
 达	達	da2	zhīshūdálǐ | dádào | biǎodá | dá ~ (数字) | dáchéng	知书达理。知書達理 | 达到。達到 | 表达 | 达 ~ (数字) | 达成	知識と教養があって物事をわかっている(女性に使う) | 成し遂げる、達成する | 表現(する) | （…の数量に）達する、～に及ぶ、(数字)も | 達成				
-嫁		jia4	A jià gěi B	A嫁给B(男)。嫁給	(女が)(男)に嫁ぐ				
+嫁		jia4	A jià gěi B | jià de hěn hǎo	A嫁给B(男)。嫁給 | 嫁的很好	(女が)(男)に嫁ぐ | いい結婚をした				
 娶		qu3	(男)qǔ(女)	(男)娶(女)	(男が)(女)を娶る(めとる)				
 夸	誇	kua1	kuājiǎng	夸奖。誇獎	誉める				
 奖	獎	jiang3	kuājiǎng | nǐ guò jiǎng le | bānjiǎngdiǎnlǐ | fā jiǎngjīn | xìngyùn chōujiǎng | tā zhòng jiǎng le | jiǎngquàn	夸奖。誇獎 | 你过奖了 | 颁奖典礼 | 发奖金 | 幸运抽奖 | 他中奖了 | 奖券	誉める | 誉めすぎだよ | 授賞式 | ボーナスを出す | くじ引き | 彼はくじ引きに当たった | 宝くじ券				
@@ -1135,12 +1135,12 @@
 柜	櫃	gui4	dàyīguì	大衣柜。大衣櫃	箪笥				
 侦	偵	zhen1	zhēntàn xiǎoshuō	侦探小说。偵探小説	探偵小説				
 探		tan4	zhēntàn xiǎoshuō | tànqiú	侦探小说。偵探小説 | 探求	探偵小説 | 捜し求める，探究する				
-悉		xi1	xīní	悉尼	Sydneyシドニー				
-举	舉	ju3	jǔxíng | yìjǔliǎngdé | qīngéryìjǔ | xuǎnjǔ【V】	举行。舉行 | 一举两得 | 轻而易举 | 选举	挙げる、開催 | 一石二鳥 | 極めて楽にできる。たやすくできる | 選挙する				
+悉		xi1	xīní | shúxī	悉尼 | 熟悉	Sydneyシドニー | よく知っている，詳しく知っている				
+举	舉	ju3	jǔxíng | yìjǔliǎngdé | qīngéryìjǔ | xuǎnjǔ【V】 | bǎ 人 jǔ	举行。舉行 | 一举两得 | 轻而易举 | 选举 | 把(人)举	挙げる、開催 | 一石二鳥 | 極めて楽にできる。たやすくできる | 選挙する | 人を持ち上げる				
 变	變	bian4	biànhuà | biànchéng le | biàn A le | xīnlǐ biàntài	变化。變化 | 变成了 | 变A了 | 心理变态	変化 | 変わっている | Aくなる、Aになる | 精神異常				
 均		jun1	rénjūn	人均	一人当たり				
 代		dai4	xiàndàihuà de | dàijià | dàibiǎo | gǔdài | dāngdài	现代化的。現代化的 | 代价 | 代表 | 古代 | 当代	近代的な、モダーン | 代価 | 代表 | 古代 | この時代、現代、当代				
-尽	盡	jin4，jin3	yīngyǒujìnyǒu | jǐnkuài | jìnliàng | jǐnguǎn | jìnlì'érwéi	应有尽有。應有盡有 | 尽快 | 尽量 | 尽管(ǐ) VO1 也 VO2 | 尽力而为	全ての | できるだけはやく | (=即使？(即使の方が柔らかい)) 〜だけれども、〜にもかかわらず、〜V;たとしても、〜からといって | ベストを尽くします				
+尽	盡	jin4，jin3	yīngyǒujìnyǒu | jǐnkuài | jìnliàng | jǐnguǎn | jìnlì'érwéi | kǔjìngānlái	应有尽有。應有盡有 | 尽快 | 尽量 | 尽管(ǐ) VO1 也 VO2 | 尽力而为 | 苦尽甘来	全ての | できるだけはやく | (=即使？(即使の方が柔らかい)) 〜だけれども、〜にもかかわらず、〜V;たとしても、〜からといって | ベストを尽くします | 苦が尽きて楽が来る				
 素		su4	sùzhì | sùshízhě | yīnsù	素质。素質 | 素食者 | 因素	品質 | ベジタリアン | 要素、要因				
 降		jiang4	kōngqì sùzhì xiàjiàng	空气素质下降。空氣素質下降	空気が悪くなる				
 拥	擁	yong1	yōngjǐ | yōngyǒu	拥挤。擁擠 | 拥有	混雑 | (土地・人口・財産・権力などを)擁する、持つ				
@@ -1159,7 +1159,7 @@
 入		ru4	rùnèi | bù dé rùnèi | jìngrù gōngsī | jiārù | tóurù | xiànrù | shōurù | kuàrù | lièrù | rùmén | rùwǔ	入内, 不得入内 | 进入公司 | 加入 | 投入 | 陷入 | 收入 | 跨入 | 列入 | 入门 | 入伍	立ち入り |会社に入社 | 参加する、加入する | 投入 | 陥る | 収入 | (重要な時期に)入る | 入る | 入門 | 入隊				
 内		nei4	rùnèi | bù dé rùnèi | zhīnèi = yǐnèi | nèiróng | nèidōu	入内, 不得入内 | 之内=以内 | 内容 | 内兜	立ち入り |〜以内 | 内容 | 内ポケット				
 无	無	wu2	wúguān | wúliáo | wúlùn~dōu~ | wújīngdǎcǎi | wúwēibúzhì | wúnài | wúyàng | wúshù | xuèběnwúguī | wúyì | sìwújìdàn | wúyíshì	无关。無關 | 无聊 | 无论~都~ | 无精打采 | 无微不至 | 无奈 | 无恙 | 无数 | 血本无归 | 无异 | 肆无忌惮 | 无疑是～	無関係 | 退屈する | どんな～でも～ | しょんぼりしている | 行き届いている、手厚い　(ほぼ完璧みたいな) | 仕方がない | 変わりがない、元気かどうか | 無数、数限りなく多いこと | 投資した資金を全く回収できなくなった | 異ならない，同じである | 勝手に振舞って何らはばかるところがない | ～に違いない、きっと				
-警		jing3	jǐngwèi | jǐngchá | jǐngquǎn | wèixīng	警卫。警衛 | 警察 | 警犬 | 卫星	ボディーガード、警備する人 | 警官 | 警察犬 | 衛星				
+警		jing3	jǐngwèi | jǐngchá | jǐngquǎn | wèixīng | jǐnghuā	警卫。警衛 | 警察 | 警犬 | 卫星 | 警花	ボディーガード、警備する人 | 警官 | 警察犬 | 衛星 | 若い婦警(若い女性警官の美称)				
 粉		fen3	fěnbǐ | fěnlǐng	粉笔。粉筆 | 粉领	チョーク | オフィスレディ				
 勿		wu4	qíngwù V	请勿 V。請勿	～しないで下さい				
 吸		xi1	qíngwù xīyān | xīshōu	请勿吸烟。請勿吸烟 | 吸收	喫煙禁止 | 吸収				
@@ -1229,7 +1229,7 @@
 捉		zhuo1	zhuō mí cáng | bǔzhuō	捉迷藏 | 捕捉	かくれんぼ | 捕まえる、キャッチする				
 藏		cang2，zang4	zhuō mí cáng | xīzàng	捉迷藏 | 西藏	かくれんぼ | チベット				
 材		cai2	shēncái gāodà de rén | jiàocái	身材 | 身材高大的人 | 教材	身体の外形を指し | 体の大きい人 | 教材				
-转	轉	zhuan3	wǎng yòu zhuǎn de chē | zhōuzhuǎn | zhuǎn ~ | dìqiú zhuǎnnuǎn	往右转的车。轉 | 周转 | 转~ | 地球转暖	右へ曲がる車 | (資金が)回転する | 変える | 地球温暖化				
+转	轉	zhuan3	wǎng yòu zhuǎn de chē | zhōuzhuǎn | zhuǎn ~ | dìqiú zhuǎnnuǎn | zhuǎnyǎn	往右转的车。轉 | 周转 | 转~ | 地球转暖 | 转眼	右へ曲がる車 | (資金が)回転する | 変える | 地球温暖化 | あっという間に、一瞬の間に				
 翩		pian1	fēngdù piānpian de ～	风度翩翩的〜。風度翩翩	身のこなしが上品な〜				
 云	雲	yun2	báiyún | xuěbái de yún | yúncai	白云。白雲 | 雪白的云 | 云彩	白い雲 | 真っ白な雲 | 雲				
 洁	潔	jie2	zhěngjié de	整洁的。整潔的	清潔で綺麗な				
@@ -1324,7 +1324,7 @@
 采		cai3	xìnggāocǎiliè de | wújīngdǎcǎi | cǎiqǔ | cǎifǎng	兴高采烈地。興高采烈地 | 无精打采 | 采取 | 采访	大いに興奮しつつ嬉々として | しょんぼりしている | ～をとる | 取材する、インタビューをする				
 烈		lie4	xìnggāocǎiliè de | jīliè | rèliè | qiángliè de	兴高采烈地。興高采烈地 | 激烈 | 热烈 | 强烈的	大いに興奮しつつ嬉々として | 激しい | 熱烈 | 強い				
 沉		chen2	chénzhuólěngjìng	沉着冷静地。沉著冷靜地	冷静沈着に				
-吹		chui1	fēngqīngqīng (de) chuī | chuī dízi	风轻轻(地)吹。風輕輕地吹 | 吹笛子	風がそっと吹いている | 笛を吹く				
+吹		chui1	fēngqīngqīng (de) chuī | chuī dízi | chuī hēiguǎnr	风轻轻(地)吹。風輕輕地吹 | 吹笛子 | 吹黑管儿	風がそっと吹いている | 笛を吹く | クラリネットを吹く				
 狠		hen3	hěnhěn (de)	狠狠(地)	厳しく、容赦なく				
 斥		chi4	xùnchì | tòngchì	训斥。訓斥 | 痛斥	叱る、叱って責める | 厳しく非難する，ひどくしかる				
 彻	徹	che4	chèdǐ (de)	彻底(地)。徹底	徹底的に				
@@ -1333,7 +1333,7 @@
 姻		yin1	hūnyīn	婚姻	結婚				2-3
 孙	孫	sun1	sūnzi | hán yí nòng sūn	孙子。孫子 | 含饴弄孙	孫 | 孫の遊び相手をする？？				
 遵		zun1	zūncóng	遵从。遵從	従う				
-媒		mei2	méishuò，méishuòzhīyán	媒妁，媒妁之言	仲人(なこうど)、仲人口、仲人の言葉				
+媒		mei2	méishuò，méishuòzhīyán | méitǐ	媒妁，媒妁之言 | 媒体	仲人(なこうど)、仲人口、仲人の言葉 | マスコミ				
 妁		shuo4	méishuò，méishuòzhīyán	媒妁，媒妁之言	仲人(なこうど)、仲人口、仲人の言葉				
 论	論	lun4	wúlùn~dōu~ | tǎolùn | lùnwén | yìlùn	无论~都~ | 讨论 | 论文 | 议论	どんな～でも～ | 討論 | 論文 | 議論				
 戎		rong2	róngmǎshēngyá	戎马生涯。戎馬生涯	戦時中の軍隊生活				
@@ -1368,7 +1368,7 @@
 偿	償	chang2	rúyuànyǐcháng | chánghuán	如愿以偿。如願以償 #4 | 偿还	願いが叶う | 債務や借金を返済する				
 呕	嘔	ou3	ǒuxīnlìxuè	呕心沥血。嘔心瀝血 #4	心血を注ぐ、苦心惨憺する				
 沥	瀝	li4	ǒuxīnlìxuè	呕心沥血。嘔心瀝血 #4	心血を注ぐ、苦心惨憺する				
-熟		shu2	ěrshúnéngxiáng | shúrén | shēnsīshúlǜ | chéngshú	耳熟能详。耳熟能詳 #4 | 熟人 | 深思熟虑 | 成熟	よく耳にする | 知り合い、知人 | じっくり考える | 成熟している				
+熟		shu2	ěrshúnéngxiáng | shúrén | shēnsīshúlǜ | chéngshú | shúxī	耳熟能详。耳熟能詳 #4 | 熟人 | 深思熟虑 | 成熟 | 熟悉	よく耳にする | 知り合い、知人 | じっくり考える | 成熟している | よく知っている，詳しく知っている				
 详	詳	xiang2	ěrshúnéngxiáng | xiángxì	耳熟能详。耳熟能詳 #4 | 详细	よく耳にする | 詳しく、詳細				
 翼		yi4	rúhǔtiānyì	如虎添翼 #4	鬼に金棒				
 残	殘	can2	cánfèi	残废(人)。殘廢	身体障害者				
@@ -1385,7 +1385,7 @@
 丢		diu1	háizi zǒu diū le | diūqì | bǎ ～ diū le	孩子走丢了 | 丢弃 | 把～丢了	子供が迷子になった | 捨てる | ～なくす				
 尴	尷	gan1	gān'gà	尴尬。尷尬 | 尴尬场面	気まずい。[気まずい場面]				
 尬		ga4	gān'gà	尴尬。尷尬 | 尴尬场面	気まずい。[気まずい場面]				
-追		zhui1	zhuīzhài | zhuī fēng | zhuīqiú | zhuīwěi | zhuīhuǐmòjí	追债 | 追风 | 追求 | 追尾 | 追悔莫及	返済に追う | 流行りに乗る | 追い求める | 自動車が後ろから接近する | 後悔先に立たず				
+追		zhui1	zhuīzhài | zhuī fēng | zhuīqiú | zhuīwěi | zhuīhuǐmòjí | zhuīxīngzú	追债 | 追风 | 追求 | 追尾 | 追悔莫及 | 追星族	返済に追う | 流行りに乗る | 追い求める | 自動車が後ろから接近する | 後悔先に立たず | 追っかけ(スターやスポーツ選手の仕事先について回る熱狂的ファン)				
 竞	競	jing4	jìngzhēng | jìngbiāo	竞争。競爭 | 竞标	競争 | 入札(にゅうさつ)				
 狼		lang2	lángbèi	狼狈。狼狽	困り果てている，追い詰められている				
 狈	狽	bei4	lángbèi	狼狈。狼狽	困り果てている，追い詰められている				
@@ -1401,7 +1401,7 @@
 委		wei3	wěituō	委托	頼む				
 腹		fu4	dàfùpiánpián	大腹便便	お腹が大きい。(太ってるか妊娠してるか)				
 蒙	懞	meng2	méngshòu sǔnshī	蒙受损失。懞受損失	損失を破る				
-创	創	chuang4	chuàngbàn (gōngsī) | chuàngzào | chuàngyè | chuàngyì | chuàngshǐrén | (V) chuàng	创办(公司)。創辦 | 创造 | 创业 | 创意 | 创始人 | (V)创	創立 | 作り出す | 創業 | 創意 | 創始者 | 始める				
+创	創	chuang4	chuàngbàn (gōngsī) | chuàngzào | chuàngyè | chuàngyì | chuàngshǐrén | (V) chuàng | chuàngzuò	创办(公司)。創辦 | 创造 | 创业 | 创意 | 创始人 | (V)创 | 创作。創作	創立 | 作り出す | 創業 | 創意 | 創始者 | 始める | 創作				
 承		cheng2	chéngdān | chéngshòu	承担。承擔 | 承受	引き受ける、担う | 受け入れる、耐える				
 责	責	ze2	zérèn | fùzérén | búfùzérèn | zéguài	责任。責任 | 负责人 | 不负责任 | 责怪	責任 | 責任者 | 無責任 | 責める、咎める				
 涨	漲	zhang3	zhǎng | fángjià zhǎng de lípǔ | fēizhǎng | shàngzhǎng	涨。漲 | 房价涨得离谱 | 飞涨 | 上涨	上がる | 急騰する，暴騰する | (水位が)上昇。(値段が)高くなる				
@@ -1491,7 +1491,7 @@
 固		gu4	gùdìng	固定	固定				
 配		pei4	dāpèi | yōuhuì pèitào	搭配 | 优惠配套	組み合わせる | 優遇セット、特別メニュー				
 例		li4	lìjù	例句	例文				
-背		bei4	bèi ～，bèi xià lai	背~，背下来	覚える、暗記する、暗唱				
+背		bei4	bèi ～，bèi xià lai | hànliújiábèi	背~，背下来 | 汗流夹背	覚える、暗記する、暗唱 | 汗みどろ				
 愁		chou2	chóuméikǔliǎn | chóu，bù chóu shēngjì	愁眉苦脸。愁眉苦臉 | 愁，不愁生计	沈んだ·浮かぬ顔をする | 心配する，悩む。生活に困らない				
 眉		mei2	chóuméikǔliǎn | ránméizhījí | yángméitǔqì	愁眉苦脸。愁眉苦臉 | 燃眉之急 | 扬眉吐气	沈んだ·浮かぬ顔をする | 焦眉の急(しょうびのきゅう) | 抑圧された気持ちが解けて、心が晴れ晴れして意気揚々たるさま				
 抗		kang4	kàngzhēng | fǎnkàngqī | kàngyì	抗争。抗爭 | 反抗期 | 抗议	抗争する | 反抗期 | 抗議				
@@ -1512,7 +1512,7 @@
 择	擇	ze2	xuǎnzé	选择。選擇	選択する				
 孤		gu1	gūéryuàn	孤儿院。孤兒院	児童養護施設				
 捐		juan1	juānkuǎn | juānshèn	捐款 | 捐肾	寄付する | 腎臓				
-细	細	xi4	xiángxì	详细。詳細	詳しく、詳細				
+细	細	xi4	xiángxì | zǐxì	详细。詳細 | 仔细	詳しく、詳細 | しっかりと、注意深い				
 秘		mi4	mìshū | mìmì	秘书。秘書 | 秘密	秘書 | 秘密				
 突		tu1	wénhuà chōngtū | tūrán	文化冲突。文化衝突 | 突然	文化摩擦 | 突然				
 遗	遺	yi2	yíhàn | yíchǎn | yíshī le	遗憾。遺憾 | 遗产 | 遗失了	残念である，遺憾である | 遺産 | 失った、失くした				
@@ -1535,7 +1535,7 @@
 缴	繳	jiao3	jiǎofù	缴付。繳付	？代金や金銭を口座に払い込む				
 申		shen1	shēnbàn	申办。申辦	(開催や許可を)申請する				
 奥		ao4	àoyùnhuì | àolínpǐkè	奥运会。奧運會 | 奥林匹克	オリンピック | オリンピック				
-预	預	yu4	yùsuàn	预算。預算	予算				
+预	預	yu4	yùsuàn | xīnlǐ gānyùshī	预算。預算 | 心理干预师	予算 | セラピスト				
 奴		nu2	kǎnú	卡奴	クレジットカードの奴隷				
 缺		que1	quēfá	缺乏	欠けている、足りない、～不足。資金不足	quēfá zījīn	缺乏资金		
 乏		fa2	quēfá	缺乏	欠けている、足りない、～不足。資金不足	quēfá zījīn	缺乏资金		
@@ -1628,9 +1628,9 @@
 跨		kua4	kuàrù	跨入	(重要な時期に)入る				
 肩		jian1	bìng jiān | shuāngjiānbǎo	并肩。并肩 | 双肩包	肩を並べる | リュックサック				
 键	鍵	jian4	guānjiàn	关键。關鍵	重要点、鍵、キーポイント				
-犬		quan3	jǐngquǎn	警犬	警察犬				
+犬		quan3	jǐngquǎn | jīquǎnbùníng	警犬 | 鸡犬不宁	警察犬 | 世情が物騒である				
 援		yuan2	jiùyuánduì	救援队。救援隊	救急隊				
-队	隊	dui4	jiùyuánduì | ～duì | duìwǔ | yóujīduì	救援队。救援隊 | ～队 | 队伍 | 游击队	救急隊 | ～チーム | 隊列，陣 | ゲリラ				
+队	隊	dui4	jiùyuánduì | ～duì | duìwǔ | yóujīduì | gǒuzǎiduì	救援队。救援隊 | ～队 | 队伍 | 游击队 | 狗仔队	救急隊 | ～チーム | 隊列，陣 | ゲリラ | パパラッチ				
 硕	碩	shuo4	shuòshì xuéwèi	硕士学位。碩士學位	修士号				
 卸		xie4	xièzhuāng	卸妆。卸妝	化粧を落とす				
 灯	燈	deng1	bǎ dēng guānshang le | tiǎodēngyèzhàn	把灯关上了。把燈關上了 | 挑灯夜战	明かりを消した | （比喩的に）夜間に労働や仕事をする				
@@ -1644,7 +1644,7 @@
 抬	擡	tai2	gāotáiguìshǒu	高抬贵手。高擡貴手	どうぞ大目に見てください				
 饶	饒	rao2	ráo。nǐmen ráo le wǒ ba	饶。你们饶了我吧。饒	許す、勘弁する。勘弁してください				
 圈		quan1	～quānr，wǔ quānr	～圈儿，五圈儿	一周する、五周				
-宁	寧	ning2	níngjìng	宁静。寧靜	静か				
+宁	寧	ning2	níngjìng | jīquǎnbùníng	宁静。寧靜 | 鸡犬不宁	静か | 世情が物騒である				
 权	權	quan2	quánlì | juédìngquán	权利。權利 | 决定权	権利 | 決定権				
 案		an4	fāng'àn	方案	案、計画				
 墅		shu4	biéshù	别墅	別荘				
@@ -1727,7 +1727,7 @@
 衰		shuai1	shuāituì	衰退	衰えてだめになる，衰退する				
 裹		guo3	bāoguǒ	包裹	小包				
 疑		yi2	huáiyí | wúyíshì	怀疑。懷疑 | 无疑是～	疑う | ～に違いない、きっと				
-扬	揚	yang2	biǎoyáng | yángméitǔqì	表扬。表揚 | 扬眉吐气	褒める | 抑圧された気持ちが解けて、心が晴れ晴れして意気揚々たるさま				
+扬	揚	yang2	biǎoyáng | yángméitǔqì | fèifèiyángyáng	表扬。表揚 | 扬眉吐气 | 沸沸扬扬	褒める | 抑圧された気持ちが解けて、心が晴れ晴れして意気揚々たるさま | 騒々しい				
 伍		wu3	rùwǔ | duìwǔ	入伍 | 队伍	入隊 | 隊列，陣				
 旷	曠	kuang4	kuàngkè	旷课。曠課	授業をサボる				
 疯	瘋	feng1	fēngzhǎng | àifēng	疯长。瘋長 | 爱疯	異常に、正気でない、気が狂っている | アイフォン				
@@ -1737,9 +1737,9 @@
 樱	櫻	ying1	yīng(さくら)，yīngzǐ	樱,樱子(名)。櫻	桜子(名)				
 崩		beng1	bēngkuì	崩溃。崩潰	崩壊する				
 溃	潰	kui4	bēngkuì	崩溃。崩潰	崩壊する				
-夹	夾	jia2	jiákè	夹克。夾克	ジャケット				
+夹	夾	jia2	jiákè | hànliújiábèi	夹克。夾克 | 汗流夹背	ジャケット | 汗みどろ				
 兜		dou1	dōu、nèidōu	兜、内兜	ポケット、内ポケット				
-呆		dai1	fādāi	发呆。發呆	ボーッとしている				
+呆		dai1	fādāi | mùdèngkǒudāi	发呆。發呆 | 目瞪口呆	ボーッとしている | （目を大きく見開き口をぽかんと開ける→）（驚き・恐怖のために）ぼうぜんとする，あっけにとられる				
 剩		sheng4	shèngxià	剩下	残る、残す				
 铭	銘	ming2	míngjì	铭记。銘記	深く心に刻みつける，銘記する				
 湖		hu2	húpàn	湖畔	湖畔				
@@ -1748,12 +1748,12 @@
 牢		lao2	zuò láo	坐牢	監獄に入れられる，刑務所に入る				
 瞎		xia1，?xia4	xià shuō、bié xià shuō | xiāpīn	瞎说，别瞎说。瞎說 | 瞎拼	でたらめを言う。バカなこと言わないで | ショッピング				
 摆	擺	bai3	bǎizhe	摆、摆着的照片。擺著	並べる、配置する、置く				
-喘		chuan3	shuō nǐ pàng nǐ hái chuǎn shàng le | chuǎnqì，chuǎn bú guò qì lái	说你胖你还喘上了 | 喘气，喘不过气来。喘氣	調子に乗るな。いい気にならないで | 深呼吸、息をする。息できない、クタクタ				
+喘		chuan3	shuō nǐ pàng nǐ hái chuǎn shàng le | chuǎnqì，chuǎn bú guò qì lái | qìchuǎnxūxū	说你胖你还喘上了 | 喘气，喘不过气来。喘氣 | 气喘吁吁	調子に乗るな。いい気にならないで | 深呼吸、息をする。息できない、クタクタ | 息せき切ってはーはーと言う，はーはーとあえぐ				
 慧		hui4	xiánhuì	贤慧 = 贤惠。賢	心根が優しい，物静かである				
 势	勢	shi4	qiángshì	强势。強勢	強い				
 验	驗	yan4	jīngyàn | shíyàn	经验。經驗 | 实验	経験 | 実験				
 恐		kong3	kǒngpà | kǒngbùfènzǐ	恐怕～ | 恐怖分子	恐らく～かもしれない、～であろう | テロリスト				
-声	聲	sheng1	shēngmǔ(zǐyīn) | sìshēng | xiàngsheng	声母(子音)。聲母 | 四声 | 相声	子音 | 四声 | 落語・漫才に類する演芸				3-11
+声	聲	sheng1	shēngmǔ(zǐyīn) | sìshēng | xiàngsheng | língshēng	声母(子音)。聲母 | 四声 | 相声 | 铃声。鈴聲	子音 | 四声 | 落語・漫才に類する演芸 | ベル				3-11
 韵	韻	yun4	yùnmǔ(mǔyīn)	韵母(母音)。韻母	母音				
 拗		ao4	àoyīn	拗音	拗音(ようおん)(きゃしゅにょ)				
 拨	撥	bo1	bōyīn	拨音。撥音	撥音(ん)				
@@ -1864,3 +1864,29 @@
 绑	綁	bang3	bǎngjià	绑架。綁架	拉致、誘拐				
 盯		ding4	(V) dìng(jǐn)	(V) 盯(紧)。盯緊	見つめる、しっかり見る				
 尾		wei3	zhuīwěi	追尾	自動車が後ろから接近する				
+躲	躱	duo3	duǒ	躲。躱	隠れる、身を隠す				
+熬		ao2	áoyè	熬夜	徹夜、夜更かし				
+呛	嗆	qiang4	gòuqiàng	够呛。夠嗆	嫌と言うほど				
+栩		xu3	xǔxǔrúshēng	栩栩如生 #4	生きる、生き生きとしている				
+咳		ke2	késou	咳嗽	咳をする				
+嗽		sou	késou	咳嗽	咳をする				
+慌		huang1	rénxīnhuānghuāng	人心慌慌，人心惶惶？#4	人々が不安に襲われびくびくする				
+惶		huang1	rénxīnhuānghuāng	人心慌慌，人心惶惶？#4	人々が不安に襲われびくびくする				
+禽		qin2	qínliúgǎn	禽流感	鳥インフルエンザ				
+镇	鎮	zhen4	chéngzhèn	城镇。城鎮	‘城市’と‘集镇’，都市と町				
+踪	蹤	zong1	shīzōng	失踪。失蹤	失踪する，行方不明になる				
+瞪		deng4	mùdèngkǒudāi	目瞪口呆 #4	（目を大きく見開き口をぽかんと開ける→）（驚き・恐怖のために）ぼうぜんとする，あっけにとられる				
+吁		xu1	qìchuǎnxūxū	气喘吁吁 #4。氣喘吁吁	息せき切ってはーはーと言う，はーはーとあえぐ				
+夹		jia2	hànliújiábèi	汗流夹背 #4	汗みどろ				
+卷		juan4	shìjuàn'r	试卷儿。試卷兒	テスト紙				
+棉		mian2	miánhuā	棉花	綿				
+撇		pie3	bāzì hái méi yì piě	八字还没一撇 八字没见一撇	事の目鼻がつくまでにはなおほど遠い				
+浑	渾	hun2	húnshēn	浑身。渾身	全身				
+甘		gan1	kǔjìngānlái	苦尽甘来 #4。苦盡甘來	苦が尽きて楽が来る				
+雕		diao1	bīngdiāo	冰雕	氷の彫刻				
+恨		hen4	hèn bu de	恨不得	～できないのが恨めしい，～したくてたまらない				
+拇		mu3	mǔzhǐ	拇指	親指				
+析		xi1	fēnxīshī	分析师。分析師	アナリスト				
+皇		huang2	dǎgōng huángdì	打工皇帝	超(高い給料を貰っている)サラリーマン				
+帝		di4	dǎgōng huángdì	打工皇帝	超(高い給料を貰っている)サラリーマン				
+甲		jia3	měijiǎshī	美甲师。美甲師	ネイリスト、マニキュアやネイルアート等を行う人				
