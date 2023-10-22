@@ -20,9 +20,6 @@ let zt_end = id("zt_end");
 let zt_start = id("zt_start");
 let fanti_check_div = id("fanti_check_container");
 let fanti_check = id("fanti_check");
-let spec_check_div = id("spec_check_container");
-let spec_check = id("spec_check");
-spec_check_div.style.display = "none";
 
 let zt_startBtn = id("zt_startBtn");
 
@@ -45,7 +42,6 @@ zt_select.addEventListener("change", e => {
                 count++;
             });
             fanti_check_div.style.display = "flex";
-            spec_check_div.style.display = "none";
             break;
         case "word":
             zt_select_filter.innerHTML = `
@@ -61,7 +57,6 @@ zt_select.addEventListener("change", e => {
                 count++;
             });
             fanti_check_div.style.display = "none";
-            spec_check_div.style.display = "flex";
             break;
         case "duo":
             zt_select_filter.innerHTML = `
@@ -69,7 +64,6 @@ zt_select.addEventListener("change", e => {
                 <option class="zh_font" value="xy">X-Y</option>
             `;
             fanti_check_div.style.display = "none";
-            spec_check_div.style.display = "none";
             break;
     }
 
@@ -166,9 +160,7 @@ function zt_startTraining() {
         case "word": //? Z_Word.lessonList
             if (filter == "all") {
                 for (let i = 0; i < Z_Word.list.length; i++) {
-                    if (!spec_check.checked || (spec_check.checked && Z_Word.list[i].spec != "")) {
-                        zt_randomList.push(Z_Word.list[i]);
-                    }
+                    zt_randomList.push(Z_Word.list[i]);
                 }
             } else if (filter == "xy") {
                 for (let i = parseInt(zt_start.value)-1; i < parseInt(zt_end.value)-1; i++) {
@@ -183,9 +175,7 @@ function zt_startTraining() {
                     }
                     
                     if (Z_Word.list[i].lesson == zt_select_lesson.value) {
-                        if (!spec_check.checked || (spec_check.checked && Z_Word.list[i].spec != "")) {
-                            zt_randomList.push(Z_Word.list[i]);
-                        }
+                        zt_randomList.push(Z_Word.list[i]);
                     }
                 }
             } else if (filter.includes("ZW_")) {
@@ -226,7 +216,7 @@ function zt_hanziDisplayTraining() {
     let bFanti = false;
     z_training_section.innerHTML = "";
     innerHTML = `
-        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}</span></div>
+        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
         <p id="zt_hanzi" class="toFound zh_font">?</p> <!--时-->
         `
         if (zt_randomList[zt_currentIndex].fanti != "") {
@@ -284,7 +274,7 @@ function zt_ZWordDisplayTraining() {
     let innerHTML = "";
     z_training_section.innerHTML = "";
     innerHTML = `
-        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}</span></div>
+        <div id="zt_progressBar" class="progressBar"><span id="currentIndex">${zt_currentIndex+1}/${zt_randomList.length}</span></div>
         <p id="zt_word" class="toFound zh_font">?</p> <!--时-->
         <p class="zt_p zh_font">${zt_randomList[zt_currentIndex].pinyin}</p>
         <div class="zt_p zt_nihongo">

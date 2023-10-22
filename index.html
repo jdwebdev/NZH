@@ -41,6 +41,7 @@
                     <select name="" id="n_select" class="select_type">
                         <option value="kanji" selected>漢字</option>
                         <option value="word">単語</option>
+                        <option value="mkanji">マノン漢字</option>
                         <!-- <option value="fanti2">繁體</option> -->
                     </select>
                 </div>
@@ -66,6 +67,7 @@
                         <option class="zh_font" value="fanti2">繁體</option>
                     </select>
                     <select name="" id="z_select_lesson" class="select_lesson zh_font"></select>
+                    <select name="" id="z_bushou" class="select_lesson zh_font"></select>
                 </div>
                 <span id="z_resultNb" class="resultNb"></span>
             </div>
@@ -100,7 +102,7 @@
                 <div class="filters_container">
                     <select name="" id="nt_select" class="select_filter">
                         <option value="kanji" selected>漢字</option>
-                        <option value="word">単語</option>
+                        <option value="mkanji">マノン</option>
                     </select>
                     <select name="" id="nt_select_filter" class="select_filter">
                         <option id="nt_all_option" value="all" selected>全部</option>
@@ -116,12 +118,8 @@
                         <input id="fanti_check" type="checkbox">
                         <label for="fanti_check">繁體</label>
                     </div>  -->
-                    <div id="spec_check_container">
-                        <input id="spec_check" type="checkbox">
-                        <label for="spec_check">S</label>
-                    </div> 
                 </div>
-                <button id="nt_startBtn" class="startBtn">开始</button>
+                <button id="nt_startBtn" class="startBtn">開始</button>
             </div>
 
             <!-- Training section -->
@@ -164,10 +162,6 @@
                     <div id="fanti_check_container">
                         <input id="fanti_check" type="checkbox">
                         <label for="fanti_check" class="zh_font">繁體</label>
-                    </div> 
-                    <div id="spec_check_container">
-                        <input id="spec_check" type="checkbox">
-                        <label for="spec_check" class="zh_font">S</label>
                     </div> 
                 </div>
                 <button id="zt_startBtn" class="startBtn zh_font">开始</button>

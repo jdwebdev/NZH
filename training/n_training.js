@@ -48,7 +48,6 @@ nt_select.addEventListener("change", e => {
                 count++;
             });
             fanti_check_div.style.display = "flex";
-            spec_check_div.style.display = "none";
             break;
         case "word":
             nt_select_filter.innerHTML = `
@@ -64,7 +63,6 @@ nt_select.addEventListener("change", e => {
                 count++;
             });
             fanti_check_div.style.display = "none";
-            spec_check_div.style.display = "flex";
             break;
 
     }
@@ -146,12 +144,38 @@ function nt_startTraining() {
             nt_randomList = nt_randomizeList(nt_randomList);
             nt_kanjiDisplayTraining();
             break;
+        case "mkanji":
+            if (filter == "all") {
+                for (let i = 0; i < MKanji.list.length; i++) {
+                    nt_randomList.push(MKanji.list[i]);
+                }
+
+            } else if (filter == "xy") {
+
+                let sKanji = "";
+                MKanji.list.forEach(k => {
+                    sKanji += k.kanji;
+                });
+                // log(sKanji);
+
+                for (let i = parseInt(nt_start.value)-1; i < parseInt(nt_end.value); i++) {
+                    nt_randomList.push(MKanji.list[i]);
+                }
+                // log("xy : ");
+                sKanji = "";
+                nt_randomList.forEach(k => {
+                    sKanji += k.kanji;
+                });
+                // log(sKanji.length);
+                // log(sKanji);
+            }
+            nt_randomList = nt_randomizeList(nt_randomList);
+            nt_mkanjiDisplayTraining();
+            break;
         case "word": //? n_Word.lessonList
             if (filter == "all") {
                 for (let i = 0; i < n_Word.list.length; i++) {
-                    if (!spec_check.checked || (spec_check.checked && n_Word.list[i].spec != "")) {
-                        nt_randomList.push(n_Word.list[i]);
-                    }
+                    nt_randomList.push(n_Word.list[i]);
                 }
             } else if (filter == "xy") {
                 for (let i = parseInt(nt_start.value)-1; i < parseInt(nt_end.value); i++) {
@@ -160,9 +184,7 @@ function nt_startTraining() {
             } else if (filter == "lesson") {
                 for (let i = 0; i < n_Word.list.length; i++) {
                     if (n_Word.list[i].lesson == nt_select_lesson.value) {
-                        if (!spec_check.checked || (spec_check.checked && n_Word.list[i].spec != "")) {
-                            nt_randomList.push(n_Word.list[i]);
-                        }
+                        nt_randomList.push(n_Word.list[i]);
                     }
                 }
             } else if (filter.includes("ZW_")) {
@@ -190,7 +212,7 @@ function nt_kanjiDisplayTraining() {
     let innerHTML = "";
     n_training_section.innerHTML = "";
     innerHTML = `
-        <div id="nt_progressBar" class="progressBar"><span id="currentIndex">${nt_currentIndex+1}</span></div>
+        <div id="nt_progressBar" class="progressBar"><span id="currentIndex">${nt_currentIndex+1}/${nt_randomList.length}</span></div>
         <p id="nt_kanji" class="toFound">?</p>
         <p id="nt_itaiji" class="itaijiToFound">${nt_randomList[nt_currentIndex].itaiji != "" ? "?" : ""}</p>
         <p class="nt_p">${nt_randomList[nt_currentIndex].onYomi}</p>
@@ -215,6 +237,56 @@ function nt_kanjiDisplayTraining() {
         nt_kanji.innerHTML = nt_randomList[nt_currentIndex].kanji;
         nt_itaiji.innerHTML = nt_randomList[nt_currentIndex].itaiji;
         nt_exK.innerHTML = nt_randomList[nt_currentIndex].exKanji;
+        nt_nextBtn_container.innerHTML = `
+            <button id="nt_fail" onclick="nt_next(false)">ダメ</button>
+            <button id="nt_win" onclick="nt_next(true)">正解</button>
+        `;
+    });
+    
+}
+
+function nt_mkanjiDisplayTraining() {
+    let innerHTML = "";
+    n_training_section.innerHTML = "";
+    innerHTML = `
+        <div id="nt_progressBar" class="progressBar"><span id="currentIndex">${nt_currentIndex+1}/${nt_randomList.length}</span></div>
+        <p id="nt_kanji" class="toFound">?</p>
+        <p class="nt_p">
+    `;
+    nt_randomList[nt_currentIndex].vocList.forEach(v => {
+        innerHTML += `
+            ${v.yomi}
+        `;
+    });
+    innerHTML += `
+        </p>
+        <p id="nt_voc_answer" class="nt_p">?</p>
+        
+        <button id="nt_kakunin">確認</button>
+        <div id="nt_nextBtn_container"></div>
+    `;
+    n_training_section.innerHTML = innerHTML;
+    
+    nt_progressBar = id("nt_progressBar");
+    nt_progressBar.style.width = (nt_currentIndex / nt_randomList.length) * 100 + "%";
+    nt_nextBtn_container = id("nt_nextBtn_container");
+    nt_kanji = id("nt_kanji");
+    nt_voc_answer = id("nt_voc_answer");
+    
+    nt_kakunin = id("nt_kakunin");
+    nt_kakunin.addEventListener("click", e => {
+        e.preventDefault();
+        nt_kanji.innerHTML = nt_randomList[nt_currentIndex].kanji;
+        nt_voc_answer.innerHTML = nt_randomList[nt_currentIndex].exKanji;
+
+        innerHTML = "";
+        nt_randomList[nt_currentIndex].vocList.forEach(v => {
+            innerHTML += `
+                ${v.word}
+            `;
+        });
+        nt_voc_answer.innerHTML = innerHTML;
+
         nt_nextBtn_container.innerHTML = `
             <button id="nt_fail" onclick="nt_next(false)">ダメ</button>
             <button id="nt_win" onclick="nt_next(true)">正解</button>
@@ -302,6 +374,9 @@ function nt_next(pWin) {
             case "kanji":
                 nt_kanjiDisplayTraining();
                 break;
+            case "mkanji":
+                nt_mkanjiDisplayTraining();
+                break
             case "word":
                 nt_ZWordDisplayTraining();
                 break;

@@ -4,6 +4,16 @@ let z_input = id("z_input");
 let z_resultNb = id("z_resultNb");
 let z_select = id("z_select"); //? hanzi / word / fanti1 / fanti2
 let z_select_lesson = id("z_select_lesson");
+let z_bushou = id("z_bushou");
+let bushouHTML = `<option value="all" class="zh_font" value="bushou" selected>部首</option>`;
+Hanzi.bushouList.forEach(b => {
+    bushouHTML += `<option value="${b.nb}" class="zh_font testCOLOR" disabled>----- ${b.nb}画 -----</option>`;
+    b.key.forEach(k => {
+        bushouHTML += `<option value="${k}" class="zh_font">${k}</option>`;
+    });
+});
+z_bushou.innerHTML = bushouHTML;
+
 z_select.addEventListener("change", e => {
     if (z_select.value == "word") {
         if (z_select_lesson.innerHTML == "") {
@@ -14,8 +24,15 @@ z_select.addEventListener("change", e => {
             }
             z_select_lesson.innerHTML = lessonHTML;
         }
+        z_bushou.style.display = "none";
         z_select_lesson.style.display = "flex";
+    } else if (z_select.value == "hanzi") {
+
+        z_bushou.style.display = "flex";
+        z_select_lesson.style.display = "none";
+        z_bushou.value = "all";
     } else {
+        z_bushou.style.display = "none";
         z_select_lesson.style.display = "none";
         if (z_select.value == "fanti1" || z_select.value == "fanti2" || z_select.value == "yoji") {
             z_search();
@@ -26,6 +43,12 @@ z_select_lesson.addEventListener("change", e => {
     if (z_select_lesson.value == "all") {
         
     } else {
+        z_search();
+    }
+});
+z_bushou.addEventListener("change", e => {
+    if (z_bushou.value != "all") {
+        // log(z_bushou.value)
         z_search();
     }
 });
@@ -44,7 +67,36 @@ function z_search(pFromBtn = false) {
     let innerHTML = "";
     switch(z_select.value) {
         case "hanzi":
-            if (z_input.value == "") {
+            if (z_bushou.value != "all") {
+                z_resultList = [];
+                Hanzi.list.forEach(h => {
+                    if (h.bushou == z_bushou.value) z_resultList.push(h);
+                });
+                let count = 0;
+                for (let i = 0; i < z_resultList.length; i++) {
+                    if (count == 0) {
+                        innerHTML += "<div class='one_line'>";
+                    }
+                    innerHTML += "<div id='hanzi_" + i + "' class='zh_font' onclick='openHanziPopup("+i+",z_resultList)'>" + z_resultList[i].hanzi + "</div>";
+                    count++;
+                    if (i+1 == z_resultList.length) {
+                        if (count < 6) {
+                            let diff = 6 - count;
+                            for (j=0; j < diff; j++) {
+                                innerHTML += "<div class='no_border'>" + "" + "</div>";
+                            }
+                            count = 6;
+                        }
+                    }
+                    if (count == 6) {
+                        innerHTML += "</div>";
+                        count = 0;
+                    }
+                }
+                z_result_section.innerHTML = innerHTML;
+                z_resultNb.innerHTML = z_resultList.length;
+
+            } else if (z_input.value == "") {
                 let count = 0;
 
                 for (let i = Hanzi.list.length-1; i >= 0; i--) {

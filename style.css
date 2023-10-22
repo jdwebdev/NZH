@@ -308,11 +308,13 @@ main {
 
 #switchMode {
     position: absolute;
+    font-size: 18px;
     top: 5px;
     right: 5px;
-    width: 50px;
+    width: 60px;
     height: 50px;
     border-radius: 40%;
+    border-color: white;
 }
 
 /*
@@ -348,6 +350,7 @@ main {
         font-size: 20px;
         background-color: rgba(217,160,102);
         border-radius: 10px;
+        border-color: white;
         height: 50px;
         width: 70px;
     }
@@ -370,7 +373,7 @@ main {
     .oneResult {
         display: flex;
         flex-direction: column;
-        width: 90%;
+        width: 100%;
         background-color:blanchedalmond;
         border-radius: 10px;
         margin-bottom: 10px;
@@ -489,7 +492,7 @@ main {
 
     #popup {
         margin: 100px auto;
-        width: 90%;
+        width: 95%;
     }
 
     .lesson_number {
@@ -499,6 +502,39 @@ main {
         font-size: 10px
     }
 
+    .mk_voc { /* <li> */
+        display: flex;
+        border-bottom: 1px dashed gray;
+        padding: 5px 0 5px 0;
+    }
+    .mk_voc_last {
+        border-bottom: none;
+    }
+    
+    .mk_word {
+        width: 33%;
+    }
+    .mk_yomi {
+        width: 33%;
+        font-size: 14px;
+    }
+    .mk_void_yomi {
+        /* background-color: rgb(245,225,195); */
+        display: flex;
+        height: 20px;
+    }
+    .mk_void_hide {
+        display: flex;
+        background-color: rgb(245,225,195) !important;
+        border-radius: 10px;
+        width: 100px;
+    }
+
+    .mk_imi {
+        width: 33%;
+        font-size: 12px;
+        padding-left:2px;
+    }
 
     /* ---------- TRAINING ---------- */
 
@@ -512,6 +548,7 @@ main {
         /* background-color:aqua; */
         display: flex;
         flex-direction: column;
+        padding-right: 10px;
     }
 
     .filters_section {
@@ -528,15 +565,21 @@ main {
 
     #nt_select {
         margin-right: 10px;
+        height: 36px;
+        width: 70px;
     }
     #nt_select_filter {
         margin-right: 10px;
+        width: 70px;
+        height: 36px;
     }
     #nt_start {
         margin-right: 10px;
+        height: 36px;
     }
     #nt_end {
         margin-right: 10px;
+        height: 36px;
     }
 
     #zt_select {
@@ -551,9 +594,11 @@ main {
     }
     #zt_start {
         margin-right: 10px;
+        height: 36px;
     }
     #zt_end {
         margin-right: 10px;
+        height: 36px;
     }
 
     #ht_select {
@@ -610,13 +655,6 @@ main {
         font-size: 10px;
     }
 
-
-    #spec_check_container {
-        align-self: center;
-    }
-    #spec_check {
-        margin-right: 5px;
-    }
     #h_to_n_container {
         align-self: center;
         font-size: 10px;
@@ -786,6 +824,7 @@ main {
 
     #currentIndex {
         position: absolute;
-        left: 50%;
+        /* left: 40%; */
+        right:20px;
     }
 }

@@ -69,6 +69,7 @@ let modal = id("modal");
 let popup = id("popup");
 let bModal = false;
 
+// popup.addEventListener("click", e => e.stopPropagation());
 modal.addEventListener("click", e => closeModal());
 
 languagesList.forEach(l => {
@@ -84,8 +85,8 @@ languagesList.forEach(l => {
     });
 });
 
-changeLanguage("z");
-// changeLanguage("n");
+// changeLanguage("z");
+changeLanguage("n");
 
 function changeLanguage(l) {
     activeBtn = l;
@@ -301,7 +302,7 @@ function cleanPinyin(pPinyin) {
         } else if (u.includes(pPinyin[j])) {
             cleanedPinyin += "u";
         } else if (e.includes(pPinyin[j])) {
-            cleanedPinyin += "u";
+            cleanedPinyin += "e";
         } else if (o.includes(pPinyin[j])) {
             cleanedPinyin += "o";
         } else {

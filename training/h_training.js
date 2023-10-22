@@ -165,7 +165,7 @@ function ht_WordDisplayTraining() {
     let innerHTML = "";
     h_training_section.innerHTML = "";
     innerHTML = `
-        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}</span></div>
+        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}/${ht_randomList.length}</span></div>
         <p id="ht_word" class="toFound zh_font">?</p>
         <p id="ht_hanja" class="hanjaToFound zh_font">${ht_randomList[ht_currentIndex].hanja != "" ? "?" : ""}</p>
         <p id="ht_n" class="ht_p">${ht_randomList[ht_currentIndex].nihongo}</p>
@@ -203,7 +203,7 @@ function ht_h_to_n_WordDisplayTraining() {
     let innerHTML = "";
     h_training_section.innerHTML = "";
     innerHTML = `
-        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}</span></div>
+        <div id="ht_progressBar" class="progressBar"><span id="currentIndex">${ht_currentIndex+1}/${ht_randomList.length}</span></div>
         <p id="ht_word" class="toFound zh_font">${ht_randomList[ht_currentIndex].word}</p>
         <p id="ht_hanja" class="hanjaToFound zh_font">${ht_randomList[ht_currentIndex].hanja != "" ? "?" : ""}</p>
         <p id="ht_n" class="ht_p">${ht_randomList[ht_currentIndex].nihongo != "" ? "?" : ""}</p>
