@@ -251,6 +251,7 @@ function nt_mkanjiDisplayTraining() {
     innerHTML = `
         <div id="nt_progressBar" class="progressBar"><span id="currentIndex">${nt_currentIndex+1}/${nt_randomList.length}</span></div>
         <p id="nt_kanji" class="toFound">?</p>
+        <p class="nt_yomi">${nt_randomList[nt_currentIndex].yomi}</p>
         <p class="nt_p">
     `;
     nt_randomList[nt_currentIndex].vocList.forEach(v => {

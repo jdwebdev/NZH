@@ -143,6 +143,7 @@ class MKanji {
     static id = 0;
     static list = [];
     static tmpList = [];
+    static kanjiSoloList = [];
 
     constructor(pKanji) {
 
@@ -150,8 +151,11 @@ class MKanji {
         MKanji.id++;
         this.kanji = pKanji;
         this.vocList = [];
+        this.yomi = MKanji.kanjiSoloList[this.kanji];
 
         MKanji.list.push(this);
+
+        console.log(this.kanji + " : " + this.yomi);
     }
 
     addVoc(pWord, pYomi, pImi) {
@@ -161,10 +165,35 @@ class MKanji {
             imi: pImi
         });
     }
-
 }
 
-readMKANJIFile("./tsv/マノン漢字 - 単語帳.tsv");
+readMKANJISoloFile("./tsv/マノン達の漢字 - マノン・漢字.tsv");
+function readMKANJISoloFile(pFile) {
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                addKanjiSoloToList(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null);    
+}
+
+function addKanjiSoloToList(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    let test;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        //?         漢字       読み     
+        //?         pKanji,    pYomi,
+        MKanji.kanjiSoloList[row[i][0]] = row[i][1];
+    }
+    readMKANJIFile("./tsv/マノン達の漢字 - マノン・単語帳.tsv");
+}
+
 
 function readMKANJIFile(pFile) {
     let rawFile = new XMLHttpRequest();
