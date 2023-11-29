@@ -71,7 +71,7 @@ class Hanzi {
 }
 
 readHANZIFile("./tsv/NZH - 汉字.tsv");
-readHANZIFile("./failed/z_hanzi_failed.txt");
+// readHANZIFile("./failed/z_hanzi_failed.txt");
 
 function readHANZIFile(pFile) {
     let rawFile = new XMLHttpRequest();
@@ -156,7 +156,7 @@ class Z_Word {
 
 readZ_WORDFile("./tsv/NZH - 本気で学ぶ中国語.tsv");
 readZ_WORDFile("./tsv/NZH - Duo单词.tsv", 1);
-readZ_WORDFile("./failed/z_zword_failed.txt");
+// readZ_WORDFile("./failed/z_zword_failed.txt");
 
 function readZ_WORDFile(pFile, pType = 0) {
     let rawFile = new XMLHttpRequest();

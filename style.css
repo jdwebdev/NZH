@@ -57,6 +57,7 @@ nav ul {
     width: 150px;
     margin-left: 10px;
     margin-right: 10px;
+    border: 1px solid white;
 }
 
 .languageBtn:hover {
@@ -67,6 +68,10 @@ nav ul {
 main {
     width:700px;
     margin: 0 auto;
+}
+
+select {
+    border-radius: 10px;
 }
 
 /* ---------- Result section ---------- */
@@ -202,6 +207,7 @@ main {
     width: 70%;
     padding-left: 10px;
     font-size: 16px;
+    border-radius: 10px;
 }
 
 .search_form label {
@@ -306,6 +312,18 @@ main {
     margin-right: 10px;
 }
 
+.n_one_line {
+    display:inline-block;
+    font-size: 30px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
 #switchMode {
     position: absolute;
     font-size: 18px;
@@ -313,8 +331,8 @@ main {
     right: 5px;
     width: 60px;
     height: 50px;
-    border-radius: 40%;
-    border-color: white;
+    border-radius: 30%;
+    border: 0px solid white;
 }
 
 /*
@@ -326,7 +344,7 @@ main {
     ------------------------------------------ MOBILE ------------------------------------------
     ------------------------------------------ MOBILE ------------------------------------------
 */
-@media (max-width: 400px) {
+@media (max-width: 600px) {
 
     /* HEADER */
 
@@ -389,16 +407,20 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-top: 10px;
     }
     .word_details {
         border-right: 0px;
-        border-bottom: 1px solid gray;
+        /* border-bottom: 1px solid gray; */
         font-size: 18px;
         width: 100%;
         padding: 10px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
+        margin-bottom: 10px;
+        max-height: 407px;
+        overflow-y: auto;
     }
 
     .category {
@@ -406,10 +428,30 @@ main {
         font-size: 12px;
     }
 
+    /* Popup MinnaWord */
+    .n_word {
+        font-size: 40px;
+    }
+    .n_yomi {
+        font-size: 20px;
+        align-self: center;
+    }
+    .n_yomi_none {
+        display: none;
+    }
+    .n_imi {
+
+    }
+    .n_lesson {
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
     /* Listing kanji */
     .kanji {
         font-size: 40px;
-        width: 50px;
+        text-align: center;
+        /* width: 50px; */
     }
     .kakusuu {
         font-size: 12px;
@@ -437,6 +479,10 @@ main {
     
     
     /* Listing word n */
+    #n_select_lesson {
+        display: none;
+        font-family:Arial, Helvetica, sans-serif;
+    }
     .sonota_n {
         display: flex;
         justify-content: space-around;
@@ -548,7 +594,8 @@ main {
         /* background-color:aqua; */
         display: flex;
         flex-direction: column;
-        padding-right: 10px;
+        /* align-items: center; */
+        /* padding-right: 10px; */
     }
 
     .filters_section {
@@ -566,7 +613,7 @@ main {
     #nt_select {
         margin-right: 10px;
         height: 36px;
-        width: 70px;
+        width: 100px;
     }
     #nt_select_filter {
         margin-right: 10px;
@@ -641,6 +688,9 @@ main {
         width: 50px;
         padding: 0 5px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 10px;
+        border: 0px solid black;
+        font-size: 16px;
     }
 
     #fanti_check_container {
@@ -716,6 +766,8 @@ main {
         height: 60px;
         font-size: 26px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #nt_fanti {
         height: 52px;
@@ -737,9 +789,13 @@ main {
     }
     #nt_win {
         background-color:rgb(118, 216, 20);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #nt_fail {
         background-color:firebrick;
+        border-radius: 10px;
+        border: 0px solid white;
     }
 
 
@@ -748,6 +804,8 @@ main {
         height: 60px;
         font-size: 26px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #zt_fanti {
         height: 52px;
@@ -769,9 +827,13 @@ main {
     }
     #zt_win {
         background-color:rgb(118, 216, 20);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #zt_fail {
         background-color:firebrick;
+        border-radius: 10px;
+        border: 0px solid white;
     }
 
 
@@ -780,6 +842,8 @@ main {
         height: 60px;
         font-size: 26px;
         box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #ht_fanti {
         height: 52px;
@@ -802,9 +866,13 @@ main {
     }
     #ht_win {
         background-color:rgb(118, 216, 20);
+        border-radius: 10px;
+        border: 0px solid white;
     }
     #ht_fail {
         background-color:firebrick;
+        border-radius: 10px;
+        border: 0px solid white;
     }
 
 
@@ -832,4 +900,35 @@ main {
         /* left: 40%; */
         right:20px;
     }
+
+/* -- FOR JEREMY -- */
+    #n_keyboard_container {
+        height: 500px;
+        /* background-color: red; */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding-top: 10px;
+    }
+    .keyboard_input {
+        width: 70%;
+        height: 50px;
+        font-size: 20px;
+    }
+
+    .keyboard button {
+        width: 80px;
+        height: 80px;
+        font-size: 30px;
+    }
+
+    #btn_return {
+        height: 162px;
+    }
+    #btn_enter {
+        height: 162px;
+    }
+
+
 }

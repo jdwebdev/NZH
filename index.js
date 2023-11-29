@@ -69,6 +69,8 @@ let modal = id("modal");
 let popup = id("popup");
 let bModal = false;
 
+// openModal(); //? For testing popup
+
 // popup.addEventListener("click", e => e.stopPropagation());
 modal.addEventListener("click", e => closeModal());
 
@@ -281,6 +283,15 @@ function emptyInput() {
 }
 function id(pId) {
     return document.getElementById(pId);
+}
+function none(element) {
+    element.style.display = "none";
+}
+function flex(element) {
+    element.style.display = "flex";
+}
+function block(element) {
+    element.style.display = "block";
 }
 function rnd(pMin, pMax) { //? pMax NON COMPRIS
     return Math.floor(Math.random() * (pMax - pMin)) + pMin;

@@ -3,8 +3,9 @@ let n_searchBtn = id("n_searchBtn");
 let n_input = id("n_input");
 let n_resultNb = id("n_resultNb");
 let n_select = id("n_select"); //? kanji / word
-// let n_select_lesson = id("n_select_lesson");
+let n_select_lesson = id("n_select_lesson");
 n_select.addEventListener("change", e => {
+    none(n_select_lesson);
     if (n_select.value == "kanji") {
         n_search();
     } else if (n_select.value == "word") {
@@ -17,22 +18,19 @@ n_select.addEventListener("change", e => {
         //     n_select_lesson.innerHTML = lessonHTML;
         // }
         // n_select_lesson.style.display = "flex";
-    } else if (n_select.value == "mkanji") {
+    } else if (n_select.value == "mkanji" || n_select.value == "minnaKanji") {
         n_search();
+    } else if (n_select.value == "minnaWord") {
+        n_search();
+        flex(n_select_lesson);
     } else {
         n_select_lesson.style.display = "none";
-        if (n_select.value == "fanti1" || n_select.value == "fanti2") {
-            n_search();
-        }
+        n_search();
     }
 });
-// n_select_lesson.addEventListener("change", e => {
-//     if (n_select_lesson.value == "all") {
-        
-//     } else {
-//         n_search();
-//     }
-// });
+n_select_lesson.addEventListener("change", e => {
+    n_search();
+});
 
 let n_resultList = [];
 
@@ -42,6 +40,7 @@ n_searchBtn.addEventListener("click", e => {
 });
 
 function n_search() {
+    n_resultList = [];
     n_result_section.innerHTML = "";
     n_resultNb.innerHTML = "";
         
@@ -203,68 +202,124 @@ function n_search() {
             }
             break;
 
-        case "word":
-            // innerHTML = "";
+        case "minnaWord":
+            if (n_input.value == "") {
+                if (n_select_lesson.value != "all") {
+                    let count = 0;
+                    MinnaWord.list.forEach(w => {
+                        if (w.lesson == n_select_lesson.value) {
+                            count++
+                            if (w.wordKanji != "") {
+                                innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKanji}</div>`;
+                            } else {
+                                innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKana}</div>`;
+                            }
+                        }
+                    });
+                    n_result_section.innerHTML = innerHTML;
+                    n_resultNb.innerHTML = count;
+                } else {
+                    MinnaWord.list.forEach(w => {
+                        if (w.wordKanji != "") {
+                            innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKanji}</div>`;
+                        } else {
+                            innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKana}</div>`;
+                        }
+                    });
+                    n_result_section.innerHTML = innerHTML;
+                    n_resultNb.innerHTML = MinnaWord.list.length;
+                }
 
-            // if (n_select_lesson.value != "all") {
-            //     innerHTML = "";
-            //     n_resultList = [];
-            //     n_Word.list.forEach(w => {
-            //         if (w.lesson.includes(n_select_lesson.value)) {
-            //             n_resultList.push(w);
-            //         }
-            //     });
-            //     n_resultList.forEach(w => {
-            //         innerHTML += `
-            //             <div class="word_one_line">
-            //                 <div id="n_word_${w.id}" class="zh_font" onclick="openn_WordPopup(${w.id-1},n_Word.list)">${w.word}</div>
-            //             </div>
-            //         `;
-            //     });
-            //     n_result_section.innerHTML = innerHTML;
-            //     n_resultNb.innerHTML = n_resultList.length;
-            // } else if (n_input.value == "") {
-                
-            //     n_Word.list.forEach(w => {
-            //         innerHTML += `
-            //             <div class="word_one_line">
-            //                 <div id="n_word_${w.id}" class="zh_font" onclick="openn_WordPopup(${w.id-1},n_Word.list)">${w.word}</div>
-            //             </div>
-            //         `;
-            //     });
-            //     n_result_section.innerHTML = innerHTML;
-            //     n_resultNb.innerHTML = n_Word.list.length;
-                
-            // } else {
-            //     innerHTML = "";
-            //     n_resultList = [];
-            //     n_Word.list.forEach(w => {
-            //         if (w.word.includes(n_input.value)) {
-            //             n_resultList.push(w);
-            //         } else if (w.lizi.includes(n_input.value)) {
-            //             n_resultList.push(w);
-            //         } else if (w.yisi.includes(n_input.value)) {
-            //             n_resultList.push(w);
-            //         }
-            //         // if (h.pinyin.includes(n_input.value)) {
-            //         //     n_resultList.push(h);
-            //         // }
-            //     });
-            //     n_resultList.forEach(w => {
-            //         innerHTML += `
-            //             <div class="word_one_line" onclick="openn_WordPopup(${w.id-1},n_Word.list)">
-            //                 <div id="n_word_${w.id}" class="zh_font">${w.word}</div>
-            //             </div>
-            //         `;
-            //     });
-            //     n_result_section.innerHTML = innerHTML;
-            //     n_resultNb.innerHTML = n_resultList.length;
-            // }
+            } else if (n_input.value != "") {
+                MinnaWord.list.forEach(w => {
+                    if (w.wordKanji.includes(n_input.value)) {
+                        n_resultList.push(w);
+                    } else if (w.wordKana.includes(n_input.value)) {
+                        n_resultList.push(w);
+                    } else if (w.imi.toLowerCase().includes(n_input.value.toLowerCase())) {
+                        n_resultList.push(w);
+                    }
+                });
 
+                n_resultList.forEach(w => {
+                    if (w.wordKanji != "") {
+                        innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKanji}</div>`;
+                    } else {
+                        innerHTML += `<div id="n_word_${w.id}" class="n_one_line" onclick="openMinnaWordPopup(${w.id-1},MinnaWord.list)">${w.wordKana}</div>`;
+                    }
+                });
+                n_result_section.innerHTML = innerHTML;
+                n_resultNb.innerHTML = n_resultList.length;
+            }
             break;
+        case "minnaKanji":
+            if (n_input.value == "") {
+                let count = 0;
 
+                for (let i = MinnaKanji.list.length-1; i >= 0; i--) {
+                    if (count == 0) {
+                        innerHTML += "<div class='one_line'>";
+                    }
 
-        
+                    innerHTML += "<div id='kanji_" + i + "' class='' onclick='openMKanjiPopup("+i+",MinnaKanji.list)'>" + MinnaKanji.list[i].kanji + "</div>";
+                    count++;
+                    
+                    if (i == 0) {
+                        if (count < 6) {
+                            let diff = 6 - count;
+                            for (j=0; j < diff; j++) {
+                                innerHTML += "<div class='no_border'>" + "" + "</div>";
+                            }
+                            count = 6;
+                        }
+                    }
+                    if (count == 6) {
+                        innerHTML += "</div>";
+                        count = 0;
+                    }
+                }
+                n_result_section.innerHTML = innerHTML;
+                n_resultNb.innerHTML = MinnaKanji.list.length;
+            } else {
+                MinnaKanji.list.forEach(w => {
+                    if (w.kanji.includes(n_input.value)) {
+                        n_resultList.push(w);
+                    } else if (w.on.includes(n_input.value)) {
+                        n_resultList.push(w);
+                    } else if (w.kun.includes(n_input.value)) {
+                        n_resultList.push(w);
+                    }
+                });
+                let count = 0;
+                for (let i = n_resultList.length-1; i >= 0; i--) {
+                    if (count == 0) {
+                        innerHTML += "<div class='one_line'>";
+                    }
+
+                    innerHTML += "<div id='kanji_" + i + "' class='' onclick='openMKanjiPopup("+i+",n_resultList)'>" + n_resultList[i].kanji + "</div>";
+                    count++;
+                    
+                    if (i == 0) {
+                        if (count < 6) {
+                            let diff = 6 - count;
+                            for (j=0; j < diff; j++) {
+                                innerHTML += "<div class='no_border'>" + "" + "</div>";
+                            }
+                            count = 6;
+                        }
+                    }
+                    if (count == 6) {
+                        innerHTML += "</div>";
+                        count = 0;
+                    }
+                }
+
+                n_result_section.innerHTML = innerHTML;
+                n_resultNb.innerHTML = n_resultList.length;
+            }
+            break;
+        case "word":
+            break;
 
     }
 }
@@ -293,12 +348,26 @@ function openKanjiPopup(id, list) {
 }
 
 function openMKanjiPopup(id, list) {
+    //? if n_select.value == "mkanji" || "minnaKanji"
     let innerHTML = "";
     popup.innerHTML = "";
     innerHTML = `
         <div id="oneResult" class="oneResult">
             <div class="word_container">
                 <div class="kanji">${list[id].kanji}</div>
+    `;
+
+    if (n_select.value == "minnaKanji") {
+        if (list[id].on != "" && list[id].kun != "") {
+            innerHTML += `<div>${list[id].on}、${list[id].kun}</div>`;
+        } else if (list[id].on != "") {
+            innerHTML += `<div>${list[id].on}</div>`;
+        } else if (list[id].kun != "") {
+            innerHTML += `<div>${list[id].kun}</div>`;
+        }
+    }   
+
+    innerHTML += `
             </div>
             <div class="word_details">
                 <ul>
@@ -350,18 +419,22 @@ function openMKanjiPopup(id, list) {
     openModal();
 }
 
-function openn_WordPopup(id, list) {
+function openMinnaWordPopup(id, list) {
+    log(list);
     popup.innerHTML = "";
+    let word = list[id].wordKanji != "" ? list[id].wordKanji : list[id].wordKana;
+    let yomiClass = list[id].wordKanji != "" ? "n_yomi" : "n_yomi_none";
+    
     popup.innerHTML = `
         <div class="oneResult">
             <div class="word_container">
-                <div class="hanzi zh_font">${list[id].word}</div>
+                <div class="n_word">${word}</div>
             </div>
             <div class="word_details">
-                <p class="yomi_hanzi zh_font"><span class="category zh_font">拼音　</span>${list[id].pinyin}</p>
-                <p><span class="category zh_font">意思　</span>${list[id].yisi}</p>
-                <p class="zh_font"><span class="category zh_font">例子　</span>${list[id].lizi}</p>
+                <p class="${yomiClass}">${list[id].wordKana}</p>
+                <p class="n_imi zh_font">${list[id].imi}</p>
             </div>
+            <div class="n_lesson">第${list[id].lesson}課</div>
         </div>
     `;
     openModal();

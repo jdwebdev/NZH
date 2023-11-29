@@ -30,7 +30,7 @@ class Hangul {
 
 readHangulFile("./tsv/NZH - できる한국어.tsv");
 readHangulFile("./tsv/NZH - 듀오.tsv", 1);
-readHangulFile("./failed/h_failed.txt");
+// readHangulFile("./failed/h_failed.txt");
 
 function readHangulFile(pFile, pType = 0) {
     let rawFile = new XMLHttpRequest();

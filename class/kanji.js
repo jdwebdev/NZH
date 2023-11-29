@@ -36,7 +36,7 @@ class Kanji {
 }
 
 readKANJIFile("./tsv/NZH - 漢字.tsv");
-readKANJIFile("./failed/n_kanji_failed.txt");
+// readKANJIFile("./failed/n_kanji_failed.txt");
 
 function readKANJIFile(pFile) {
     let rawFile = new XMLHttpRequest();
@@ -127,6 +127,7 @@ let joyo = `
     樣瘍踊窯養擁謡謠曜抑沃浴欲翌翼拉裸羅来來雷頼賴絡落酪辣乱亂卵覧覽濫藍欄欄吏利里理痢裏履璃離陸立律慄略柳流留竜龍粒隆隆硫侶旅虜
     虜慮了両兩良料涼猟獵陵量僚領寮療瞭糧力緑綠林厘倫輪隣臨瑠涙淚累塁壘類類令礼禮冷励勵戻戾例鈴零霊靈隷齢齡麗暦曆歴歷列劣烈裂恋戀
     連廉練練錬鍊呂炉爐賂路露老労勞弄郞朗浪廊廊楼樓漏籠六録錄麓論和話賄脇惑枠湾灣腕
+    伍肆
 `;
 let kinshiChar = `
     abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789ÀÁÂÄÇÉÈÊËÍÌÎÏÑÓÒÔÖÚÙÛÜĀÁǍÀĪÍǏÌŌÓǑÒĒÉĚÈŪÚǓÙÜǕǗǙǛ
@@ -139,6 +140,7 @@ let kinshiChar = `
     ガギグゲゴザジズゼゾダヂヅデドバビブベボパピプペポァィゥェォャュョッ
 `;
 
+//? -------- マノン --------
 class MKanji {
     static id = 0;
     static list = [];
@@ -155,7 +157,7 @@ class MKanji {
 
         MKanji.list.push(this);
 
-        console.log(this.kanji + " : " + this.yomi);
+        // console.log(this.kanji + " : " + this.yomi);
     }
 
     addVoc(pWord, pYomi, pImi) {
@@ -193,7 +195,6 @@ function addKanjiSoloToList(pFile) {
     }
     readMKANJIFile("./tsv/マノン達の漢字 - マノン・単語帳.tsv");
 }
-
 
 function readMKANJIFile(pFile) {
     let rawFile = new XMLHttpRequest();
@@ -250,3 +251,131 @@ function filterKanji(pWord, pYomi, pImi) {
     //?             pId, pKanji,    pYomi,     pImi,  
     // test = new MKanji(i, row[i][0], row[i][1], row[i][2]);
 }
+
+//? -------- みんなの日本語 --------
+class MinnaWord {
+    static list = [];
+    static lessonList = [];
+
+    constructor(pId, pWordKanji, pWordKana, pImi, pLesson) {
+        this.id = pId;
+        if (pWordKanji != "-") {
+            this.wordKanji = pWordKanji;
+        } else {
+            this.wordKanji = "";
+        }
+        this.wordKana = pWordKana;
+        this.imi = pImi;
+        this.lesson = pLesson;
+        MinnaWord.list.push(this);
+    }
+}
+
+readMinnaWordFile("./tsv/マノン達の漢字 - マーニョン・みんなの日本語.tsv");
+function readMinnaWordFile(pFile) {
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                createMinnaWord(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null);    
+}
+
+function createMinnaWord(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    let newWord;
+    let lesson;
+    let id = 1;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        if (row[i][0] == "") {
+            i = row.length;
+        } else {
+            if (row[i][0][0] == "@") {
+                lesson = row[i][0].split('第')[1]; //? @第14課 => 14課
+                lesson = lesson.split('課')[0]; //? 14課 => 14
+                MinnaWord.lessonList.push(lesson);
+            } else {
+                //?                               漢字        読み	      意味,  レッソン
+                //?                         pId   pWordKanji, pWordKana, pImi,  pLesson
+                newWord = new MinnaWord(id,row[i][0], row[i][1], row[i][2], lesson);
+                id++;
+            }
+        }
+    }
+    readMinnaKANJIFile("./tsv/マノン達の漢字 - マーニョン・みんなの日本語 - 漢字.tsv");
+    console.log(MinnaWord.list);
+    let sel_lesson = document.getElementById("n_select_lesson");
+    let innerHTML = "";
+    innerHTML += `<option value="all">All</option>`
+    MinnaWord.lessonList.forEach(l => {
+        innerHTML += `<option value="${l}">${l}</option>`
+    });
+    sel_lesson.innerHTML = innerHTML;
+}
+
+class MinnaKanji {
+    static id = 0;
+    static list = [];
+    static tmpList = [];
+    static kanjiSoloList = [];
+
+    constructor(pKanji, pOn, pKun) {
+
+        this.id = MinnaKanji.id;
+        MinnaKanji.id++;
+        this.kanji = pKanji;
+        this.on = pOn;
+        this.kun = pKun;
+        this.vocList = [];
+
+        MinnaKanji.list.push(this);
+        // console.log(this.kanji + " : " + this.yomi);
+    }
+
+    addVoc(pWord, pYomi, pImi) {
+        this.vocList.push({
+            word: pWord,
+            yomi: pYomi,
+            imi: pImi
+        });
+    }
+}
+
+function readMinnaKANJIFile(pFile) {
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                createMinnaKanji(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null);    
+}
+
+function createMinnaKanji(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    let newKanji;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        //?                       漢字	     音読み      訓読み	     
+        //?                       pKanji,    pOn,       pKun  
+        newKanji = new MinnaKanji(row[i][0], row[i][1], row[i][2]);
+        for (let j = 0; j < MinnaWord.list.length; j++) {
+            if (MinnaWord.list[j].wordKanji.includes(newKanji.kanji)) {
+                newKanji.addVoc(MinnaWord.list[j].wordKanji, MinnaWord.list[j].wordKana, MinnaWord.list[j].imi);
+            }
+        }
+    }
+    console.log(MinnaKanji.list);
+    // console.log(Kanji.list);
+}
+

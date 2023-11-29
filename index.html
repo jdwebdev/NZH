@@ -40,10 +40,11 @@
                 <div class="select_container">
                     <select name="" id="n_select" class="select_type">
                         <option value="kanji" selected>漢字</option>
-                        <option value="word">単語</option>
                         <option value="mkanji">マノン漢字</option>
-                        <!-- <option value="fanti2">繁體</option> -->
+                        <option value="minnaWord">みんなの日本語 - 語彙</option>
+                        <option value="minnaKanji">みんなの日本語 - 漢字</option>
                     </select>
+                    <select name="" id="n_select_lesson" class="select_lesson"></select>
                 </div>
                 <span id="n_resultNb" class="resultNb"></span>
             </div>
@@ -103,6 +104,8 @@
                     <select name="" id="nt_select" class="select_filter">
                         <option value="kanji" selected>漢字</option>
                         <option value="mkanji">マノン</option>
+                        <option value="minnaKanji">マ漢字</option>
+                        <option value="minnaWord">マ語彙</option>
                     </select>
                     <select name="" id="nt_select_filter" class="select_filter">
                         <option id="nt_all_option" value="all" selected>全部</option>
@@ -123,21 +126,8 @@
             </div>
 
             <!-- Training section -->
-            <div id="n_training_section" class="training_part">
-<!--
-                <div id="nt_progressBar" class="progressBar"><span id="currentIndex">1</span></div>
-                <p id="nt_kanji" class="toFound">?</p>
-                <p id="nt_itaiji" class="itaijiToFound">?</p>
-                <p class="nt_p">ケツ</p>
-                <p class="nt_p">か(く)、か(ける)</p>
-                <p class="nt_p">ふかけつ、けってん、あくび</p>
-                <p id="nt_exK" class="nt_p">?</p>
-                <button id="nt_kakunin">確認</button>
-                <div id="nt_nextBtn_container"></div>
--->
-            </div>
+            <div id="n_training_section" class="training_part"></div>
         </section>
-
 
         <section id="zt_section" class="training_section">
 
