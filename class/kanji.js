@@ -371,6 +371,8 @@ function createMinnaKanji(pFile) {
         newKanji = new MinnaKanji(row[i][0], row[i][1], row[i][2]);
         for (let j = 0; j < MinnaWord.list.length; j++) {
             if (MinnaWord.list[j].wordKanji.includes(newKanji.kanji)) {
+
+                //? ADD LESSON
                 newKanji.addVoc(MinnaWord.list[j].wordKanji, MinnaWord.list[j].wordKana, MinnaWord.list[j].imi);
             }
         }

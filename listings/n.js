@@ -379,6 +379,7 @@ function openMKanjiPopup(id, list) {
         if (count == list[id].vocList.length-1) {
             mk_voc_class = "mk_voc mk_voc_last";
         }
+        //? TODO : ADD Lesson number here 
         innerHTML += `
             <li id="mk_voc_${id}_${count}" class="${mk_voc_class}">
                 <div class="mk_word">${v.word}</div>
