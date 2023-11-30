@@ -338,11 +338,12 @@ class MinnaKanji {
         // console.log(this.kanji + " : " + this.yomi);
     }
 
-    addVoc(pWord, pYomi, pImi) {
+    addVoc(pWord, pYomi, pImi, pLesson) {
         this.vocList.push({
             word: pWord,
             yomi: pYomi,
-            imi: pImi
+            imi: pImi,
+            lesson: pLesson
         });
     }
 }
@@ -373,7 +374,7 @@ function createMinnaKanji(pFile) {
             if (MinnaWord.list[j].wordKanji.includes(newKanji.kanji)) {
 
                 //? ADD LESSON
-                newKanji.addVoc(MinnaWord.list[j].wordKanji, MinnaWord.list[j].wordKana, MinnaWord.list[j].imi);
+                newKanji.addVoc(MinnaWord.list[j].wordKanji, MinnaWord.list[j].wordKana, MinnaWord.list[j].imi, MinnaWord.list[j].lesson);
             }
         }
     }

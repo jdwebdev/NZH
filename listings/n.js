@@ -375,11 +375,24 @@ function openMKanjiPopup(id, list) {
 
     let count = 0;
     let mk_voc_class = "mk_voc";
+
+    let currentLesson = 0;
     list[id].vocList.forEach(v => {
         if (count == list[id].vocList.length-1) {
             mk_voc_class = "mk_voc mk_voc_last";
         }
-        //? TODO : ADD Lesson number here 
+
+        if (n_select.value == "minnaKanji") {
+            if (currentLesson == 0) {
+                currentLesson = v.lesson;
+                innerHTML += `<span class="minna_lesson">--- ${currentLesson}課 ---</span>`;
+            }
+            if (currentLesson != v.lesson) {
+                currentLesson = v.lesson;
+                innerHTML += `<span class="minna_lesson">--- ${currentLesson}課 ---</span>`;
+            }
+        }
+
         innerHTML += `
             <li id="mk_voc_${id}_${count}" class="${mk_voc_class}">
                 <div class="mk_word">${v.word}</div>
