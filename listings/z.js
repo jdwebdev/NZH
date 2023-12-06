@@ -188,7 +188,7 @@ function z_search(pFromBtn = false) {
         case "word":
             innerHTML = "";
 
-            if (z_select_lesson.value != "all" && !pFromBtn) {
+            if (z_select_lesson.value != "all" && !pFromBtn) { //? Filtre de leçon précise
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
@@ -205,26 +205,22 @@ function z_search(pFromBtn = false) {
                 });
                 z_resultList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line">
-                            <div id="z_word_${w.id}" class="zh_font" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
-                        </div>
+                        <div id="z_word_${w.id}" class="zh_font z_one_line" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
                     `;
                 });
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = z_resultList.length;
-            } else if (z_input.value == "") {
+            } else if (z_input.value == "") { //? Aucun filtre, affichage de tout
                 
                 for (let i = Z_Word.list.length - 1; i >= 0; i--) {
                     innerHTML += `
-                        <div class="word_one_line">
-                            <div id="z_word_${Z_Word.list[i].id}" class="zh_font" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${Z_Word.list[i].word}</div>
-                        </div>
+                        <div id="z_word_${Z_Word.list[i].id}" class="zh_font z_one_line" onclick="openZ_WordPopup(${Z_Word.list[i].id-1},Z_Word.list)">${Z_Word.list[i].word}</div>
                     `;
                 }
                 z_result_section.innerHTML = innerHTML;
                 z_resultNb.innerHTML = Z_Word.list.length;
                 
-            } else {
+            } else { //? Filtre de recherche input
                 innerHTML = "";
                 z_resultList = [];
                 Z_Word.list.forEach(w => {
@@ -243,9 +239,7 @@ function z_search(pFromBtn = false) {
                 });
                 z_resultList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">
-                            <div id="z_word_${w.id}" class="zh_font">${w.word}</div>
-                        </div>
+                        <div id="z_word_${w.id}" class="zh_font z_one_line" onclick="openZ_WordPopup(${w.id-1},Z_Word.list)">${w.word}</div>
                     `;
                 });
 

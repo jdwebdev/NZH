@@ -47,7 +47,7 @@ function h_search(pFromBtn = false) {
         case "lesson":
             innerHTML = "";
 
-            if (h_select_lesson.value != "all" && !pFromBtn) { //? Si aucun filtre de leçon précise
+            if (h_select_lesson.value != "all" && !pFromBtn) { //? Filtre de leçon précise
                 innerHTML = "";
                 h_resultList = [];
                 Hangul.list.forEach(w => {
@@ -57,21 +57,16 @@ function h_search(pFromBtn = false) {
                 });
                 h_resultList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line">
-                            <div id="h_word_${w.id}" class="h_word zh_font" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
-                        </div>
+                        <div id="h_word_${w.id}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
                     `;
                 });
                 h_result_section.innerHTML = innerHTML;
                 h_resultNb.innerHTML = h_resultList.length;
 
             } else if (h_input.value == "") { //? Aucun filtre, affichage de tout
-                
                 for (let i = Hangul.list.length - 1; i >= 0; i--) {
                     innerHTML += `
-                        <div class="word_one_line">
-                            <div id="h_word_${Hangul.list[i].id}" class="h_word zh_font" onclick="openHangulPopup(${Hangul.list[i].id-1},Hangul.list)">${Hangul.list[i].word}</div>
-                        </div>
+                        <div id="h_word_${Hangul.list[i].id}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${Hangul.list[i].id-1},Hangul.list)">${Hangul.list[i].word}</div>
                     `;
                 }
                 h_result_section.innerHTML = innerHTML;
@@ -93,9 +88,7 @@ function h_search(pFromBtn = false) {
                 });
                 h_resultList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line" onclick="openHangulPopup(${w.id-1},Hangul.list)">
-                            <div id="h_word_${w.id}" class="zh_font">${w.word}</div>
-                        </div>
+                        <div id="h_word_${w.id}" class="zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
                     `;
                 });
                 if (h_resultList.length == 0) {
@@ -118,9 +111,7 @@ function h_search(pFromBtn = false) {
             });
             h_resultList.forEach(w => {
                 innerHTML += `
-                    <div class="word_one_line">
-                        <div id="h_word_${w.id}" class="h_word zh_font" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
-                    </div>
+                    <div id="h_word_${w.id}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
                 `;
             });
             h_result_section.innerHTML = innerHTML;
@@ -134,9 +125,7 @@ function h_search(pFromBtn = false) {
                 
                 Hangul.duoList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line">
-                            <div id="h_word_${w.id}" class="h_word zh_font" onclick="openHangulPopup(${w.id-1},Hangul.duoList)">${w.word}</div>
-                        </div>
+                        <div id="h_word_${w.id}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.duoList)">${w.word}</div>
                     `;
                 });
                 h_result_section.innerHTML = innerHTML;
@@ -158,9 +147,7 @@ function h_search(pFromBtn = false) {
                 });
                 h_resultList.forEach(w => {
                     innerHTML += `
-                        <div class="word_one_line" onclick="openHangulPopup(${w.id-1},Hangul.duoList)">
-                            <div id="h_word_${w.id}" class="zh_font">${w.word}</div>
-                        </div>
+                        <div id="h_word_${w.id}" class="zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.duoList)">${w.word}</div>
                     `;
                 });
                 h_result_section.innerHTML = innerHTML;
