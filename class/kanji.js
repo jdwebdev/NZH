@@ -309,7 +309,6 @@ function createMinnaWord(pFile) {
         }
     }
     readMinnaKANJIFile("./tsv/マノン達の漢字 - マーニョン・みんなの日本語 - 漢字.tsv");
-    console.log(MinnaWord.list);
     let sel_lesson = document.getElementById("n_select_lesson");
     let innerHTML = "";
     innerHTML += `<option value="all">All</option>`
@@ -372,13 +371,105 @@ function createMinnaKanji(pFile) {
         newKanji = new MinnaKanji(row[i][0], row[i][1], row[i][2]);
         for (let j = 0; j < MinnaWord.list.length; j++) {
             if (MinnaWord.list[j].wordKanji.includes(newKanji.kanji)) {
-
                 //? ADD LESSON
                 newKanji.addVoc(MinnaWord.list[j].wordKanji, MinnaWord.list[j].wordKana, MinnaWord.list[j].imi, MinnaWord.list[j].lesson);
             }
         }
     }
-    console.log(MinnaKanji.list);
-    // console.log(Kanji.list);
 }
 
+class Reibun {
+    static list = [];
+    
+    constructor(pId, pJap, pFr, pLesson, pRef) {
+        this.id = pId;
+        this.jap = pJap;
+        this.fr = pFr;
+        this.lesson = pLesson;
+        this.ref = pRef;
+
+        Reibun.list.push(this);
+    }
+}
+readReibunFile("./tsv/日本語 - 例文.tsv");
+function readReibunFile(pFile) {
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                createReibun(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null);    
+}
+function createReibun(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    let newGram;
+    let lesson = 0;
+    let id = 1;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        if (row[i][0][0] == "#") {
+            lesson = row[i][0].split("#")[1];
+        } else {
+            newGram = new Reibun(id, row[i][0], row[i][1], lesson, row[i][2]);
+            id++;
+        }
+    }
+    readMinnaGramFile("./tsv/日本語 - 文法.tsv");
+}
+
+class MinnaGram {
+    static list = [];
+    static reiList = [];
+    
+    constructor(pId, pTitle, pContent, pLesson) {
+        this.id = pId;
+        this.title = pTitle;
+        this.content = pContent;
+        this.reibunList = [];
+        
+        this.lesson = pLesson;
+        MinnaGram.list.push(this);
+    }
+
+    addReibun(pR) {
+        this.reibunList.push(pR);
+    }
+}
+function readMinnaGramFile(pFile) {
+    let rawFile = new XMLHttpRequest();
+    rawFile.open("GET", pFile, true);
+    rawFile.onreadystatechange = function () {
+        if (rawFile.readyState === 4) {
+            if (rawFile.status === 200 || rawFile.status == 0) {
+                tsvFile = rawFile.responseText;
+                createMinnaGram(tsvFile);
+            }
+        }
+    }
+    rawFile.send(null);    
+}
+function createMinnaGram(pFile) {
+    let row = pFile.split(/\r\n|\n/);
+    let newGram;
+    let lesson = 0;
+    let id = 1;
+    for (let i = 1; i < row.length; i++) {
+        row[i] = row[i].split('\t');
+        if (row[i][0][0] == "#") {
+            lesson = row[i][0].split("#")[1];
+        } else {
+            newGram = new MinnaGram(id, row[i][0], row[i][1], lesson);
+            id++;
+            Reibun.list.forEach(r => {
+                if (r.lesson == lesson && r.ref == row[i][2]) {
+                    newGram.addReibun(r);
+                }
+            });
+        }
+    }
+}

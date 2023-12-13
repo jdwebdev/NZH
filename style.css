@@ -312,6 +312,23 @@ select {
     margin-right: 10px;
 }
 
+.lesson_separation {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 4px;
+}
+.n_gram_one_line {
+    display:inline-block;
+    font-size: 24px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    margin-left: 5px;
+    border: 1px solid rgba(200,200,200,1);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+}
+
 .n_one_line {
     display:inline-block;
     font-size: 30px;
@@ -434,6 +451,23 @@ select {
         overflow-y: auto;
     }
 
+    .reibun {
+        /* margin-bottom: 5px; */
+        padding-bottom: 5px;
+        padding-top: 5px;
+        background-color: rgb(235,215,185);
+        border-bottom: 1px dashed gray;
+    }
+    .gramResult p {
+        font-size: 12px;
+    }
+    .gramResult li {
+        font-size: 16px;
+    }
+    .gramResult li span {
+        font-size: 12px;
+    }
+
     .category {
         color: gray;
         font-size: 12px;
@@ -456,6 +490,10 @@ select {
     .n_lesson {
         margin-bottom: 10px;
         margin-left: 10px;
+    }
+
+    .n_gramTitle {
+        font-size: 20px;
     }
 
     /* Listing kanji */

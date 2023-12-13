@@ -23,6 +23,9 @@ n_select.addEventListener("change", e => {
     } else if (n_select.value == "minnaWord") {
         n_search();
         flex(n_select_lesson);
+    } else if (n_select.value == "minnaGram") {
+        n_search();
+        flex(n_select_lesson);
     } else {
         n_select_lesson.style.display = "none";
         n_search();
@@ -318,7 +321,22 @@ function n_search() {
                 n_resultNb.innerHTML = n_resultList.length;
             }
             break;
-        case "word":
+        case "minnaGram":
+            let currentLesson = 0;
+            MinnaGram.list.forEach(w => {
+                if (currentLesson != w.lesson) {
+                    innerHTML += `<p class="lesson_separation">------ 第${w.lesson}課 ------</p>`;
+                    currentLesson = w.lesson;
+                }
+                
+                innerHTML += `
+                    <div>
+                        <div id="n_word_${w.id}" class="n_gram_one_line" onclick="openMinnaGramPopup(${w.id-1},MinnaGram.list)">${w.title}</div>
+                    </div>
+                `;
+            });
+            n_result_section.innerHTML = innerHTML;
+            n_resultNb.innerHTML = MinnaGram.list.length;
             break;
 
     }
@@ -451,5 +469,40 @@ function openMinnaWordPopup(id, list) {
             <div class="n_lesson">第${list[id].lesson}課</div>
         </div>
     `;
+    openModal();
+}
+
+function openMinnaGramPopup(id, list) {
+    log(list);
+    let innerHTML = ""
+    popup.innerHTML = "";
+    let word = list[id].wordKanji != "" ? list[id].wordKanji : list[id].wordKana;
+    // let yomiClass = list[id].wordKanji != "" ? "n_yomi" : "n_yomi_none";
+    let content = list[id].content.replace("\n", "<br/>");
+
+    
+    innerHTML = `
+        <div class="oneResult gramResult">
+            <div class="word_container">
+                <div class="n_gramTitle">${list[id].title}</div>
+            </div>
+            <div class="word_details">
+                <p class="">${list[id].content}</p>
+            </div>
+            <div class="word_details">
+                <ul>
+    `;
+    list[id].reibunList.forEach(r => {
+        innerHTML += `<li class="reibun">
+            ${r.jap}<br/><span class="zh_font">${r.fr}</span>
+        </li>`;
+    });
+    innerHTML += `
+                </ul>
+            </div>
+            <div class="n_lesson">第${list[id].lesson}課</div>
+        </div>
+    `;
+    popup.innerHTML = innerHTML;
     openModal();
 }
