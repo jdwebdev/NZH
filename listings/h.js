@@ -18,6 +18,9 @@ h_select.addEventListener("change", e => {
     } else if (h_select.value == "hanja") {
         h_select_lesson.style.display = "none";
         h_search();
+    } else if (h_select.value == "hanja2") {
+        h_select_lesson.style.display = "none";
+        h_search();
     } else {
         h_select_lesson.style.display = "none";
     }
@@ -41,6 +44,7 @@ function h_search(pFromBtn = false) {
 
     h_result_section.innerHTML = "";
     h_resultNb.innerHTML = "";
+    h_resultList = [];
         
     let innerHTML = "";
     switch(h_select.value) {
@@ -49,7 +53,6 @@ function h_search(pFromBtn = false) {
 
             if (h_select_lesson.value != "all" && !pFromBtn) { //? Filtre de leçon précise
                 innerHTML = "";
-                h_resultList = [];
                 Hangul.list.forEach(w => {
                     if (w.lesson == h_select_lesson.value) {
                         h_resultList.push(w);
@@ -74,7 +77,6 @@ function h_search(pFromBtn = false) {
                 
             } else { //? Filtre de recherche input
                 innerHTML = "";
-                h_resultList = [];
                 Hangul.list.forEach(w => {
                     if (w.word.includes(h_input.value)) {
                         h_resultList.push(w);
@@ -112,6 +114,20 @@ function h_search(pFromBtn = false) {
             h_resultList.forEach(w => {
                 innerHTML += `
                     <div id="h_word_${w.id}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${w.id-1},Hangul.list)">${w.word}</div>
+                `;
+            });
+            h_result_section.innerHTML = innerHTML;
+            h_resultNb.innerHTML = h_resultList.length;
+
+            break;
+        case "hanja2":
+            innerHTML = "";
+            Hangul.hanjaList.forEach(h => {
+                h_resultList.push(h);
+            });
+            h_resultList.forEach(h => {
+                innerHTML += `
+                    <div id="h_word_${h}" class="h_word zh_font z_one_line" onclick="openHangulPopup(${h},Hangul.list)">${h}</div>
                 `;
             });
             h_result_section.innerHTML = innerHTML;

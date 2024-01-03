@@ -4,6 +4,10 @@ class Hangul {
     static duoList = [];
     static lessonList = [];
     static failedList = [];
+    static hanjaList = [];
+    static dameList = `하세요사람잘합니다스모포츠달옷쓰레기노래맞은로이혀저녁지난음몇집여름님을찍간먹는히아시겹살된찌개에를
+                    나차가들많알루물짓팔깔고무인손으돈네첫막보남내찜질위바말롭날놀짐마되둥곰쪽없밥거리팥설렁트짜제치게듣풀꽃
+                    속자장배더미/()?-<>▽～ 　abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789`;
 
     constructor(pId, pWord, pNihongo, pExampleHangul, pExampleNihongo, pHanja, pLesson = "", pDuo = false) {
 
@@ -23,6 +27,13 @@ class Hangul {
             Hangul.duoList.push(this);
         } else {
             Hangul.list.push(this);
+            if (pHanja != "") {
+                for (let i = 0; i < pHanja.length; i++) {
+                    if (!Hangul.hanjaList.includes(pHanja[i]) && !Hangul.dameList.includes(pHanja[i])) {
+                        Hangul.hanjaList.push(pHanja[i]);
+                    }
+                }
+            }
         }
     }
 
