@@ -1,5 +1,6 @@
 class Kanji {
 
+	static gakunenList = [];
     static list = [];
     static failedList = [];
 
@@ -20,6 +21,20 @@ class Kanji {
 
         // this.exampleList = [];
         Kanji.list.push(this);
+
+		if (this.id <= 80) {
+			Kanji.gakunenList["一"].push(this);
+		} else if (this.id <= 240) {
+			Kanji.gakunenList["二"].push(this);
+		} else if (this.id <= 440) {
+			Kanji.gakunenList["三"].push(this);
+		} else if (this.id <= 640) {
+			Kanji.gakunenList["四"].push(this);
+		} else if (this.id <= 825) {
+			Kanji.gakunenList["五"].push(this);
+		} else if (this.id <= 1006) {
+			Kanji.gakunenList["六"].push(this);
+		}
     }
 
     setExamples(pExamples) {
@@ -74,6 +89,14 @@ function n_createFailedList(pFile) {
 }
 
 function createKanji(pFile) {
+
+	Kanji.gakunenList["一"] = [];
+	Kanji.gakunenList["二"] = [];
+	Kanji.gakunenList["三"] = [];
+	Kanji.gakunenList["四"] = [];
+	Kanji.gakunenList["五"] = [];
+	Kanji.gakunenList["六"] = [];
+
     let row = pFile.split(/\r\n|\n/);
     let test;
     for (let i = 1; i < row.length; i++) {
@@ -83,6 +106,7 @@ function createKanji(pFile) {
         test = new Kanji(i, row[i][0], row[i][1], row[i][2], row[i][3], row[i][4], row[i][5], row[i][6], row[i][7], row[i][8]);
     }
     // console.log(Kanji.list);
+	// log(Kanji.gakunenList);
 }
 
 let joyo = `

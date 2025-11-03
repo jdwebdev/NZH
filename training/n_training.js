@@ -36,7 +36,13 @@ nt_select.addEventListener("change", e => {
     switch (nt_select.value) {
         case "kanji":
             nt_select_filter.innerHTML = `
-                <option id="nt_all_option" value="all" selected>全部</option>
+                <option id="nt_all_option" value="all">全部</option>
+                <option value="一" selected>第一学年</option>
+                <option value="二">第二学年</option>
+                <option value="三">第三学年</option>
+                <option value="四">第四学年</option>
+                <option value="五">第五学年</option>
+                <option value="六">第六学年</option>
                 <option value="xy">X-Y</option>
                 <option id="nt_random_option" value="xrandom">x-rd</option>
             `;
@@ -129,7 +135,14 @@ function nt_startTraining() {
                     nt_randomList.push(Kanji.list[i]);
                 }
 
-            } else if (filter == "xy") {
+            } else if (filter.includes("gakunen")) {
+				const gakunen = filter.slice(8);
+				for (let i = 0; i < Kanji.gakunenList[gakunen].length; i++) {
+					nt_randomList.push(Kanji.gakunenList[gakunen][i]);
+				}
+				log(nt_randomList);
+
+			} else if (filter == "xy") {
 
                 let sKanji = "";
                 Kanji.list.forEach(k => {

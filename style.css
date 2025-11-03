@@ -1,366 +1,382 @@
 @font-face {
-    font-family: "pgfont";
-    src: url("./fonts/PGFontV2.ttf") format("truetype");
+	font-family: "pgfont";
+	src: url("./fonts/PGFontV2.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "jpfont";
-    src: url("./fonts/PixelMplus10-Regular.ttf") format("truetype");
+	font-family: "jpfont";
+	src: url("./fonts/PixelMplus10-Regular.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: "kyokasho";
-    src: url("./fonts/UDDigiKyokashoN-R-01.ttf") format("truetype");
+	font-family: "kyokasho";
+	src: url("./fonts/UDDigiKyokashoN-R-01.ttf") format("truetype");
 }
 
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family:"kyokasho";
-    color: black;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: "kyokasho";
+	color: black;
 }
 
 .no-scroll {
-    overflow: hidden;
+	overflow: hidden;
 }
 
 header {
-    padding: 10px;
-    height: 100px;
-    background-color:rgba(172,50,50);
-    z-index: 10;
+	padding: 10px;
+	height: 100px;
+	background-color: rgba(172, 50, 50);
+	z-index: 10;
 }
 
 ul {
-    list-style: none;
+	list-style: none;
 }
 
 nav {
-    /* margin: 0 auto; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+	/* margin: 0 auto; */
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 nav ul {
-    display:flex;
-    list-style: none;
+	display: flex;
+	list-style: none;
 }
 
 .languageBtn {
-    padding: 10px;
-    font-size: 30px;
-    background-color: rgba(217,160,102);
-    border-radius: 10px;
-    height: 80px;
-    width: 150px;
-    margin-left: 10px;
-    margin-right: 10px;
-    border: 1px solid white;
+	padding: 10px;
+	font-size: 30px;
+	background-color: rgba(217, 160, 102);
+	border-radius: 10px;
+	height: 80px;
+	width: 150px;
+	margin-left: 10px;
+	margin-right: 10px;
+	border: 1px solid white;
 }
 
 .languageBtn:hover {
-    cursor: pointer;
-    background-color:bisque;
+	cursor: pointer;
+	background-color: bisque;
 }
 
 main {
-    width:700px;
-    margin: 0 auto;
+	width: 700px;
+	margin: 0 auto;
 }
 
 select {
-    border-radius: 10px;
+	border-radius: 10px;
 }
 
 /* ---------- Result section ---------- */
 .zh_font {
-    font-family:Arial, Helvetica, sans-serif;
+	font-family: Arial, Helvetica, sans-serif;
 }
 
 .oneResult {
-    display: flex;
-    margin: 0 auto;
-    width: 100%;
-    background-color:blanchedalmond;
-    border-radius: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	display: flex;
+	margin: 0 auto;
+	width: 100%;
+	background-color: blanchedalmond;
+	border-radius: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .word_container {
-    border-radius: 10px 0px 0px 10px;
-    border-right: 1px solid gray;
-    width: 20%;
-    padding: 10px;
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+	border-radius: 10px 0px 0px 10px;
+	border-right: 1px solid gray;
+	width: 20%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 .dico_link {
-    /* position: absolute; */
-    /* right: 20%; */
-    /* top: 50px; */
-    margin-right: 10px;
-    align-self: center;
+	/* position: absolute; */
+	/* right: 20%; */
+	/* top: 50px; */
+	margin-right: 10px;
+	align-self: center;
 }
 
 .word_details {
-    border-right: 1px solid gray;
-    font-size: 22px;
-    width: 60%;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+	border-right: 1px solid gray;
+	font-size: 22px;
+	width: 60%;
+	padding: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
 }
+
 .word_details p {
-    margin-bottom: 10px;
+	margin-bottom: 10px;
 }
 
 .category {
-    color: gray;
-    font-size: 18px;
+	color: gray;
+	font-size: 18px;
 }
 
 /* Listing kanji */
 .kanji {
-    font-size: 80px;
-    width: 80%;
-    align-self: center;
-    /* background-color: bisque; */
+	font-size: 80px;
+	width: 80%;
+	align-self: center;
+	/* background-color: bisque; */
 }
+
 .kakusuu {
-    width: 20%;
-    align-self: flex-start;
-    /* background-color: cadetblue; */
+	width: 20%;
+	align-self: flex-start;
+	/* background-color: cadetblue; */
 }
+
 .bushu {
-    align-self: flex-start;
+	align-self: flex-start;
 }
+
 .sonota {
-    width: 20%;
-    padding: 10px;
-    font-size: 22px;
+	width: 20%;
+	padding: 10px;
+	font-size: 22px;
 }
+
 .kyuu {
-    font-size: 34px;
+	font-size: 34px;
 }
+
 .pinyin {
-    font-size: 18px;
-    word-wrap: break-word;
+	font-size: 18px;
+	word-wrap: break-word;
 }
 
 /* Listing word n */
 .sonota_n {
-    width: 20%;
-    padding: 10px;
-    font-size: 22px;
+	width: 20%;
+	padding: 10px;
+	font-size: 22px;
 }
 
 /* Listing hanzi */
 .hanzi {
-    font-size: 70px;
+	font-size: 70px;
 }
+
 .sonota_hanzi {
-    width: 100%;
-    padding: 10px;
-    font-size: 22px;
-    display: flex;
-    justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+	font-size: 22px;
+	display: flex;
+	justify-content: space-between;
 }
+
 .kyuu_z {
-    font-size: 34px;
+	font-size: 34px;
 }
 
 /* Listing word h */
 .sonota_h {
-    width: 100%;
-    padding: 10px;
-    font-size: 28px;
-    display: flex;
-    justify-content: space-between;
+	width: 100%;
+	padding: 10px;
+	font-size: 28px;
+	display: flex;
+	justify-content: space-between;
 }
 
 /* ---------- MODAL ---------- */
 
 /* ---------- Search Form section ---------- */
 .search_section {
-    width: 100%;
-    display: flex;
-    flex-direction:column;
-    padding-top: 5px;
-    position:sticky;
-    top: 60px;
-    background-color: white;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	padding-top: 5px;
+	position: sticky;
+	top: 60px;
+	background-color: white;
 }
 
 .search_form {
-    display: flex;
-    justify-content:space-around;
+	display: flex;
+	justify-content: space-around;
 }
 
 .search_input {
-    height: 40px;
-    width: 70%;
-    padding-left: 10px;
-    font-size: 16px;
-    border-radius: 10px;
+	height: 40px;
+	width: 70%;
+	padding-left: 10px;
+	font-size: 16px;
+	border-radius: 10px;
 }
 
 .search_form label {
-    align-self:center;
+	align-self: center;
 }
 
 .select_container {
-    display:flex;
-    justify-content: space-around;
-    padding: 0px 5px; 
+	display: flex;
+	justify-content: space-around;
+	padding: 0px 5px;
 }
 
 .select_type {
-    width: 80%;
-    margin: 5px auto;
-    height: 30px;
-    font-size: 16px;
+	width: 80%;
+	margin: 5px auto;
+	height: 30px;
+	font-size: 16px;
 }
 
 /* Cacher par défaut pour z_select_lesson */
 #z_select_lesson {
-    display: none;
+	display: none;
 }
 
 .select_lesson {
-    width: 20%;
-    margin: 5px 0px 5px 5px;
-    height: 30px;
-    font-size: 16px;
+	width: 20%;
+	margin: 5px 0px 5px 5px;
+	height: 30px;
+	font-size: 16px;
 }
 
 
 .searchBtn {
-    border: none;
-    border-radius: 5px;
-    width: 50px;
-    height: 40px;
-    font-size: 16px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	border: none;
+	border-radius: 5px;
+	width: 50px;
+	height: 40px;
+	font-size: 16px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 /* ---------- Search Result section ---------- */
 #n_section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 #z_section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
+
 #h_section {
-    display: flex;
-    flex-direction: column;
+	display: flex;
+	flex-direction: column;
 }
 
 .result_section {
-    overflow-y: scroll;
+	overflow-y: scroll;
 }
 
 .one_line {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
 }
+
 .one_line div {
-    font-size: 30px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border: 1px solid rgba(200,200,200,1);
-    border-radius: 5px;
-    padding: 10px;
-    width: 52px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 30px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid rgba(200, 200, 200, 1);
+	border-radius: 5px;
+	padding: 10px;
+	width: 52px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
 .one_line div.no_border {
-    border: 1px solid rgba(0,0,0,0);
-    box-shadow: 2px 2px 2px rgba(0,0,0,0);
+	border: 1px solid rgba(0, 0, 0, 0);
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0);
 }
+
 .resultNb {
-    margin-left: 10px;
+	margin-left: 10px;
 }
 
 .word_one_line {
-    display: flex;
-    flex-direction: row;
-    margin-left: 10px;
-    margin-right: 10px;
+	display: flex;
+	flex-direction: row;
+	margin-left: 10px;
+	margin-right: 10px;
 }
+
 .word_one_line div {
-    font-size: 30px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    border: 1px solid rgba(200,200,200,1);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	font-size: 30px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	border: 1px solid rgba(200, 200, 200, 1);
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .word_one_line div.h_word {
-    font-size: 20px;
-    margin-left: 10px;
-    margin-right: 10px;
+	font-size: 20px;
+	margin-left: 10px;
+	margin-right: 10px;
 }
 
 .lesson_separation {
-    font-size: 20px;
-    text-align: center;
-    margin-top: 4px;
+	font-size: 20px;
+	text-align: center;
+	margin-top: 4px;
 }
+
 .n_gram_one_line {
-    display:inline-block;
-    font-size: 24px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 1px solid rgba(200,200,200,1);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	display: inline-block;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px solid rgba(200, 200, 200, 1);
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 .n_one_line {
-    display:inline-block;
-    font-size: 30px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 1px solid rgba(200,200,200,1);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	display: inline-block;
+	font-size: 30px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px solid rgba(200, 200, 200, 1);
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
+
 .z_one_line {
-    display:inline-block;
-    font-size: 24px;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    margin-left: 5px;
-    border: 1px solid rgba(200,200,200,1);
-    border-radius: 5px;
-    padding: 10px;
-    box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
+	display: inline-block;
+	font-size: 24px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 5px;
+	border: 1px solid rgba(200, 200, 200, 1);
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
 }
 
 #switchMode {
-    position: absolute;
-    font-size: 18px;
-    top: 5px;
-    right: 5px;
-    width: 60px;
-    height: 50px;
-    border-radius: 30%;
-    border: 0px solid white;
+	position: absolute;
+	font-size: 18px;
+	top: 5px;
+	right: 5px;
+	width: 60px;
+	height: 50px;
+	border-radius: 30%;
+	border: 0px solid white;
 }
 
 /*
@@ -374,618 +390,679 @@ select {
 */
 @media (max-width: 600px) {
 
-    /* HEADER */
+	/* HEADER */
 
-    header {
-        width: 100%;
-        height: 60px;
-        padding: 0;
-        display: flex;
-        align-items: center;
-        position: sticky;
-        top: 0px;
-    }
+	header {
+		width: 100%;
+		height: 60px;
+		padding: 0;
+		display: flex;
+		align-items: center;
+		position: sticky;
+		top: 0px;
+	}
 
-    .btnList {
-        display:flex;
-        justify-content: space-around;
-    }
+	.btnList {
+		display: flex;
+		justify-content: space-around;
+	}
 
-    .languageBtn {
-        padding: 0px;
-        font-size: 20px;
-        background-color: rgba(217,160,102);
-        border-radius: 10px;
-        border-color: white;
-        height: 50px;
-        width: 70px;
-    }
-
-
-    /* Remove press button effect on click. div & button */
-    div {
-        -webkit-tap-highlight-color: transparent;
-    }
-    button {
-        -webkit-tap-highlight-color: transparent;
-    }
-
-    /* MAIN */
-    main {
-        width:100%;
-        margin: 0 auto;
-    }
-
-    .oneResult {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        background-color:blanchedalmond;
-        border-radius: 10px;
-        margin-bottom: 10px;
-    }
-
-    .word_container {
-        border-radius: 10px 10px 0px 0px;
-        border-right: 0px;
-        border-bottom: 1px solid gray;
-        width: 100%;
-        padding: 5px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding-top: 10px;
-    }
-    .word_details {
-        border-right: 0px;
-        /* border-bottom: 1px solid gray; */
-        font-size: 18px;
-        width: 100%;
-        padding: 10px;
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-bottom: 10px;
-        max-height: 407px;
-        overflow-y: auto;
-    }
-
-    .reibun {
-        /* margin-bottom: 5px; */
-        padding-bottom: 5px;
-        padding-top: 5px;
-        background-color: rgb(235,215,185);
-        border-bottom: 1px dashed gray;
-    }
-    .gramResult p {
-        font-size: 12px;
-    }
-    .gramResult li {
-        font-size: 16px;
-    }
-    .gramResult li span {
-        font-size: 12px;
-    }
-
-    .category {
-        color: gray;
-        font-size: 12px;
-    }
-
-    /* Popup MinnaWord */
-    .n_word {
-        font-size: 40px;
-    }
-    .n_yomi {
-        font-size: 20px;
-        align-self: center;
-    }
-    .n_yomi_none {
-        display: none;
-    }
-    .n_imi {
-
-    }
-    .n_lesson {
-        margin-bottom: 10px;
-        margin-left: 10px;
-    }
-
-    .n_gramTitle {
-        font-size: 20px;
-    }
-
-    /* Listing kanji */
-    .kanji {
-        font-size: 40px;
-        text-align: center;
-        /* width: 50px; */
-    }
-    .kakusuu {
-        font-size: 12px;
-        align-self: flex-start;
-    }
-    .bushu {
-        font-size: 12px;
-        align-self: flex-start;
-    }
-    .sonota {
-        display: flex;
-        justify-content: space-around;
-        padding: 5px;
-        font-size: 18px;
-        width: 100%;
-    }
-    .kyuu {
-        font-size: 26px;
-    }
-    .pinyin {
-        font-size: 12px;
-        word-wrap: break-word;
-        align-self: center;
-    }
-    
-    
-    /* Listing word n */
-    #n_select_lesson {
-        display: none;
-        font-family:Arial, Helvetica, sans-serif;
-    }
-    .sonota_n {
-        display: flex;
-        justify-content: space-around;
-        width: 100%;
-        padding: 10px;
-        font-size: 18px;
-    }
-    
-    /* Listing kanji */
-    .kanji {
-        font-size: 35px;
-    }
-
-    /* Listing hanzi */
-    .hanzi {
-        font-size: 35px;
-    }
-    .sonota_hanzi {
-        padding: 10px;
-        font-size: 18px;
-    }
-    .kyuu_z {
-        font-size: 30px;
-    }
-    
-    /* Listing word h */
-    .word_h {
-        font-size: 30px;
-    }
-    .sonota_h {
-        padding: 5px;
-        font-size: 20px;
-    }
-
-    /* ---------- MODAL ---------- */
-    #modal {
-        /* display: none; */
-        display: flex;
-        position: fixed;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0,0,0,0.5);
-        flex-direction: center;
-        z-index: -10;
-        opacity: 0;
-        transition: ease opacity 0.3s;
-    }
-
-    #modal.fadeIn {
-        opacity:1;
-        z-index:10;
-    }
-
-    #popup {
-        margin: 100px auto;
-        width: 95%;
-    }
-
-    .lesson_number {
-        position:absolute;
-        bottom: 10px;
-        right: 10px;
-        font-size: 10px
-    }
-
-    .mk_voc { /* <li> */
-        display: flex;
-        border-bottom: 1px dashed gray;
-        padding: 5px 0 5px 0;
-    }
-    .mk_voc_last {
-        border-bottom: none;
-    }
-
-    .minna_lesson {
-        width: 100%;
-        font-size: 10px;
-        text-align: center;
-        margin-top: 5px;
-        display: block;
-    }
-    
-    .mk_word {
-        width: 33%;
-    }
-    .mk_yomi {
-        width: 33%;
-        font-size: 14px;
-    }
-    .mk_void_yomi {
-        /* background-color: rgb(245,225,195); */
-        display: flex;
-        height: 20px;
-    }
-    .mk_void_hide {
-        display: flex;
-        background-color: rgb(245,225,195) !important;
-        border-radius: 10px;
-        width: 100px;
-    }
-
-    .mk_imi {
-        width: 33%;
-        font-size: 12px;
-        padding-left:2px;
-    }
-
-    /* ---------- TRAINING ---------- */
-
-    .none {
-        display: none;
-    }
-    
-    .training_section {
-        width: 95%;
-        margin: 5px auto;
-        /* background-color:aqua; */
-        display: flex;
-        flex-direction: column;
-        /* align-items: center; */
-        /* padding-right: 10px; */
-    }
-
-    .filters_section {
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-    }
-    
-    .filters_container {
-        width: 90%;
-        display: flex;
-        /* background-color: burlywood; */
-    }
-
-    #nt_select {
-        margin-right: 10px;
-        height: 36px;
-        width: 100px;
-    }
-    #nt_select_filter {
-        margin-right: 10px;
-        width: 70px;
-        height: 36px;
-    }
-    #nt_start {
-        margin-right: 10px;
-        height: 36px;
-    }
-    #nt_end {
-        margin-right: 10px;
-        height: 36px;
-    }
-
-    #zt_select {
-        margin-right: 10px;
-        width: 70px;
-        height: 36px;
-    }
-    #zt_select_filter {
-        margin-right: 10px;
-        width: 70px;
-        height: 36px;
-    }
-    #zt_start {
-        margin-right: 10px;
-        height: 36px;
-    }
-    #zt_end {
-        margin-right: 10px;
-        height: 36px;
-    }
-
-    #ht_select {
-        margin-right: 10px;
-        width: 62px;
-        height: 36px;
-    }
-    #ht_select_filter {
-        margin-right: 10px;
-        height: 36px;
-    }
-    #ht_start {
-        margin-right: 10px;
-    }
-    #ht_end {
-        margin-right: 10px;
-    }
-    #ht_select_lesson {
-        width: 68px;
-        height: 36px;
-    }
-
-    .select_filter {
-        width: 65px;
-        height: 30px;
-        font-size: 16px;
-    }
-
-    input.select_filter {
-        width: 35px;
-    }
-
-    #zt_select_lesson {
-        margin-right: 5px;
-        width:70px;
-        height: 36px;
-    }
-
-    .startBtn {
-        width: 50px;
-        padding: 0 5px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border-radius: 10px;
-        border: 0px solid black;
-        font-size: 16px;
-    }
-
-    #fanti_check_container {
-        align-self: center;
-    }
-    #fanti_check {
-        margin-right: 5px;
-    }
-    #hanja_check_container {
-        align-self: center;
-        margin-right: 5px;
-        font-size: 10px;
-    }
-
-    #h_to_n_container {
-        align-self: center;
-        font-size: 10px;
-    }
-
-    /* TRAINING PART */
-
-    .training_part {
-        margin-top: 10px;
-    }
-
-    .toFound {
-        font-size: 40px;
-        text-align: center;
-        border: 1px solid gray;
-        padding: 5px 0;
-        margin-bottom: 5px;
-        min-height: 64px;
-    }
-    .itaijiToFound, .fantiToFound, .hanjaToFound {
-        font-size: 32px;
-        text-align: center;
-        padding: 5px 0;
-    }
-
-    .nt_n_btn {
-        width: 20%;
-        height: 30px;
-        font-size: 18px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    }
-    
-    .nt_yomi { /*マノン*/
-        text-align: center;
-        margin-bottom: 10px;
-        border-bottom: 1px dashed gray;
-    }
-    .nt_p, .zt_p, .ht_p {
-        font-size: 16px;
-        margin-bottom: 10px;
-    }
-    .zt_nihongo {
-        display: flex;
-        justify-content: space-between;
-    }
-    .zt_nihongo p {
-        width: 90%;
-    }
-
-    .zt_n_btn {
-        width: 10%;
-        height: 30px;
-        font-size: 18px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-    }
-
-    #nt_kakunin {
-        width: 100%;
-        height: 60px;
-        font-size: 26px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #nt_fanti {
-        height: 52px;
-    }
-    #nt_nt_exK {
-        min-height: 26px;
-    }
-    #nt_nextBtn_container {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    #nt_nextBtn_container button {
-        width: 48%;
-        height: 50px;
-        font-size: 30px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border: none;
-    }
-    #nt_win {
-        background-color:rgb(118, 216, 20);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #nt_fail {
-        background-color:firebrick;
-        border-radius: 10px;
-        border: 0px solid white;
-    }
+	.languageBtn {
+		padding: 0px;
+		font-size: 20px;
+		background-color: rgba(217, 160, 102);
+		border-radius: 10px;
+		border-color: white;
+		height: 50px;
+		width: 70px;
+	}
 
 
-    #zt_kakunin {
-        width: 100%;
-        height: 60px;
-        font-size: 26px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #zt_fanti {
-        height: 52px;
-    }
-    #zt_lizi {
-        min-height: 26px;
-    }
-    #zt_nextBtn_container {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    #zt_nextBtn_container button {
-        width: 48%;
-        height: 50px;
-        font-size: 30px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border: none;
-    }
-    #zt_win {
-        background-color:rgb(118, 216, 20);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #zt_fail {
-        background-color:firebrick;
-        border-radius: 10px;
-        border: 0px solid white;
-    }
+	/* Remove press button effect on click. div & button */
+	div {
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	button {
+		-webkit-tap-highlight-color: transparent;
+	}
+
+	/* MAIN */
+	main {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.oneResult {
+		display: flex;
+		flex-direction: column;
+		width: 100%;
+		background-color: blanchedalmond;
+		border-radius: 10px;
+		margin-bottom: 10px;
+	}
+
+	.word_container {
+		border-radius: 10px 10px 0px 0px;
+		border-right: 0px;
+		border-bottom: 1px solid gray;
+		width: 100%;
+		padding: 5px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		padding-top: 10px;
+	}
+
+	.word_details {
+		border-right: 0px;
+		/* border-bottom: 1px solid gray; */
+		font-size: 18px;
+		width: 100%;
+		padding: 10px;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		margin-bottom: 10px;
+		max-height: 407px;
+		overflow-y: auto;
+	}
+
+	.reibun {
+		/* margin-bottom: 5px; */
+		padding-bottom: 5px;
+		padding-top: 5px;
+		background-color: rgb(235, 215, 185);
+		border-bottom: 1px dashed gray;
+	}
+
+	.gramResult p {
+		font-size: 12px;
+	}
+
+	.gramResult li {
+		font-size: 16px;
+	}
+
+	.gramResult li span {
+		font-size: 12px;
+	}
+
+	.category {
+		color: gray;
+		font-size: 12px;
+	}
+
+	/* Popup MinnaWord */
+	.n_word {
+		font-size: 40px;
+	}
+
+	.n_yomi {
+		font-size: 20px;
+		align-self: center;
+	}
+
+	.n_yomi_none {
+		display: none;
+	}
+
+	.n_imi {}
+
+	.n_lesson {
+		margin-bottom: 10px;
+		margin-left: 10px;
+	}
+
+	.n_gramTitle {
+		font-size: 20px;
+	}
+
+	/* Listing kanji */
+	.kanji {
+		font-size: 40px;
+		text-align: center;
+		/* width: 50px; */
+	}
+
+	.kakusuu {
+		font-size: 12px;
+		align-self: flex-start;
+	}
+
+	.bushu {
+		font-size: 12px;
+		align-self: flex-start;
+	}
+
+	.sonota {
+		display: flex;
+		justify-content: space-around;
+		padding: 5px;
+		font-size: 18px;
+		width: 100%;
+	}
+
+	.kyuu {
+		font-size: 26px;
+	}
+
+	.pinyin {
+		font-size: 12px;
+		word-wrap: break-word;
+		align-self: center;
+	}
 
 
-    #ht_kakunin {
-        width: 100%;
-        height: 60px;
-        font-size: 26px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #ht_fanti {
-        height: 52px;
-    }
-    #ht_lizi {
-        min-height: 26px;
-    }
+	/* Listing word n */
+	#n_select_lesson {
+		display: none;
+		font-family: Arial, Helvetica, sans-serif;
+	}
 
-    #ht_nextBtn_container {
-        margin-top: 20px;
-        display: flex;
-        justify-content: space-between;
-    }
-    #ht_nextBtn_container button {
-        width: 48%;
-        height: 50px;
-        font-size: 30px;
-        box-shadow: 2px 2px 2px rgba(0,0,0,0.5);
-        border: none;
-    }
-    #ht_win {
-        background-color:rgb(118, 216, 20);
-        border-radius: 10px;
-        border: 0px solid white;
-    }
-    #ht_fail {
-        background-color:firebrick;
-        border-radius: 10px;
-        border: 0px solid white;
-    }
+	.sonota_n {
+		display: flex;
+		justify-content: space-around;
+		width: 100%;
+		padding: 10px;
+		font-size: 18px;
+	}
+
+	/* Listing kanji */
+	.kanji {
+		font-size: 35px;
+	}
+
+	/* Listing hanzi */
+	.hanzi {
+		font-size: 35px;
+	}
+
+	.sonota_hanzi {
+		padding: 10px;
+		font-size: 18px;
+	}
+
+	.kyuu_z {
+		font-size: 30px;
+	}
+
+	/* Listing word h */
+	.word_h {
+		font-size: 30px;
+	}
+
+	.sonota_h {
+		padding: 5px;
+		font-size: 20px;
+	}
+
+	/* ---------- MODAL ---------- */
+	#modal {
+		/* display: none; */
+		display: flex;
+		position: fixed;
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0, 0, 0, 0.5);
+		flex-direction: center;
+		z-index: -10;
+		opacity: 0;
+		transition: ease opacity 0.3s;
+	}
+
+	#modal.fadeIn {
+		opacity: 1;
+		z-index: 10;
+	}
+
+	#popup {
+		margin: 100px auto;
+		width: 95%;
+	}
+
+	.lesson_number {
+		position: absolute;
+		bottom: 10px;
+		right: 10px;
+		font-size: 10px
+	}
+
+	.mk_voc {
+		/* <li> */
+		display: flex;
+		border-bottom: 1px dashed gray;
+		padding: 5px 0 5px 0;
+	}
+
+	.mk_voc_last {
+		border-bottom: none;
+	}
+
+	.minna_lesson {
+		width: 100%;
+		font-size: 10px;
+		text-align: center;
+		margin-top: 5px;
+		display: block;
+	}
+
+	.mk_word {
+		width: 33%;
+	}
+
+	.mk_yomi {
+		width: 33%;
+		font-size: 14px;
+	}
+
+	.mk_void_yomi {
+		/* background-color: rgb(245,225,195); */
+		display: flex;
+		height: 20px;
+	}
+
+	.mk_void_hide {
+		display: flex;
+		background-color: rgb(245, 225, 195) !important;
+		border-radius: 10px;
+		width: 100px;
+	}
+
+	.mk_imi {
+		width: 33%;
+		font-size: 12px;
+		padding-left: 2px;
+	}
+
+	/* ---------- TRAINING ---------- */
+
+	.none {
+		display: none;
+	}
+
+	.training_section {
+		width: 95%;
+		margin: 5px auto;
+		/* background-color:aqua; */
+		display: flex;
+		flex-direction: column;
+		/* align-items: center; */
+		/* padding-right: 10px; */
+	}
+
+	.filters_section {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.filters_container {
+		width: 90%;
+		display: flex;
+		/* background-color: burlywood; */
+	}
+
+	#nt_select {
+		margin-right: 10px;
+		height: 36px;
+		width: 100px;
+	}
+
+	#nt_select_filter {
+		margin-right: 10px;
+		width: 90px;
+		height: 36px;
+	}
+
+	#nt_start {
+		margin-right: 10px;
+		height: 36px;
+	}
+
+	#nt_end {
+		margin-right: 10px;
+		height: 36px;
+	}
+
+	#zt_select {
+		margin-right: 10px;
+		width: 70px;
+		height: 36px;
+	}
+
+	#zt_select_filter {
+		margin-right: 10px;
+		width: 70px;
+		height: 36px;
+	}
+
+	#zt_start {
+		margin-right: 10px;
+		height: 36px;
+	}
+
+	#zt_end {
+		margin-right: 10px;
+		height: 36px;
+	}
+
+	#ht_select {
+		margin-right: 10px;
+		width: 62px;
+		height: 36px;
+	}
+
+	#ht_select_filter {
+		margin-right: 10px;
+		height: 36px;
+	}
+
+	#ht_start {
+		margin-right: 10px;
+	}
+
+	#ht_end {
+		margin-right: 10px;
+	}
+
+	#ht_select_lesson {
+		width: 68px;
+		height: 36px;
+	}
+
+	.select_filter {
+		width: 65px;
+		height: 30px;
+		font-size: 16px;
+	}
+
+	input.select_filter {
+		width: 35px;
+	}
+
+	#zt_select_lesson {
+		margin-right: 5px;
+		width: 70px;
+		height: 36px;
+	}
+
+	.startBtn {
+		width: 50px;
+		padding: 0 5px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		border: 0px solid black;
+		font-size: 16px;
+	}
+
+	#fanti_check_container {
+		align-self: center;
+	}
+
+	#fanti_check {
+		margin-right: 5px;
+	}
+
+	#hanja_check_container {
+		align-self: center;
+		margin-right: 5px;
+		font-size: 10px;
+	}
+
+	#h_to_n_container {
+		align-self: center;
+		font-size: 10px;
+	}
+
+	/* TRAINING PART */
+
+	.training_part {
+		margin-top: 10px;
+	}
+
+	.toFound {
+		font-size: 40px;
+		text-align: center;
+		border: 1px solid gray;
+		padding: 5px 0;
+		margin-bottom: 5px;
+		min-height: 64px;
+	}
+
+	.itaijiToFound,
+	.fantiToFound,
+	.hanjaToFound {
+		font-size: 32px;
+		text-align: center;
+		padding: 5px 0;
+	}
+
+	.nt_n_btn {
+		width: 20%;
+		height: 30px;
+		font-size: 18px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+
+	.nt_yomi {
+		/*マノン*/
+		text-align: center;
+		margin-bottom: 10px;
+		border-bottom: 1px dashed gray;
+	}
+
+	.nt_p,
+	.zt_p,
+	.ht_p {
+		font-size: 16px;
+		margin-bottom: 10px;
+	}
+
+	.zt_nihongo {
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.zt_nihongo p {
+		width: 90%;
+	}
+
+	.zt_n_btn {
+		width: 10%;
+		height: 30px;
+		font-size: 18px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+	}
+
+	#nt_kakunin {
+		width: 100%;
+		height: 60px;
+		font-size: 26px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#nt_fanti {
+		height: 52px;
+	}
+
+	#nt_nt_exK {
+		min-height: 26px;
+	}
+
+	#nt_nextBtn_container {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#nt_nextBtn_container button {
+		width: 48%;
+		height: 50px;
+		font-size: 30px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border: none;
+	}
+
+	#nt_win {
+		background-color: rgb(118, 216, 20);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#nt_fail {
+		background-color: firebrick;
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+
+	#zt_kakunin {
+		width: 100%;
+		height: 60px;
+		font-size: 26px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#zt_fanti {
+		height: 52px;
+	}
+
+	#zt_lizi {
+		min-height: 26px;
+	}
+
+	#zt_nextBtn_container {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#zt_nextBtn_container button {
+		width: 48%;
+		height: 50px;
+		font-size: 30px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border: none;
+	}
+
+	#zt_win {
+		background-color: rgb(118, 216, 20);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#zt_fail {
+		background-color: firebrick;
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+
+	#ht_kakunin {
+		width: 100%;
+		height: 60px;
+		font-size: 26px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#ht_fanti {
+		height: 52px;
+	}
+
+	#ht_lizi {
+		min-height: 26px;
+	}
+
+	#ht_nextBtn_container {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	#ht_nextBtn_container button {
+		width: 48%;
+		height: 50px;
+		font-size: 30px;
+		box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+		border: none;
+	}
+
+	#ht_win {
+		background-color: rgb(118, 216, 20);
+		border-radius: 10px;
+		border: 0px solid white;
+	}
+
+	#ht_fail {
+		background-color: firebrick;
+		border-radius: 10px;
+		border: 0px solid white;
+	}
 
 
 
-    #copyBtn {
-        width: 100%;
-        margin-top: 10px;
-        padding: 10px;
-        font-size: 20px;
-        
-    }
+	#copyBtn {
+		width: 100%;
+		margin-top: 10px;
+		padding: 10px;
+		font-size: 20px;
 
-    .result_fail_list {
-        word-wrap: break-word;
-    }
+	}
 
-    .progressBar {
-        height: 15px;
-        width: 0%;
-        background-color: rgb(38, 194, 38);
-    }
+	.result_fail_list {
+		word-wrap: break-word;
+	}
 
-    #currentIndex {
-        position: absolute;
-        /* left: 40%; */
-        right:20px;
-    }
+	.progressBar {
+		height: 15px;
+		width: 0%;
+		background-color: rgb(38, 194, 38);
+	}
 
-/* -- FOR JEREMY -- */
-    #n_keyboard_container {
-        height: 500px;
-        /* background-color: red; */
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: space-around;
-        padding-top: 10px;
-    }
-    .keyboard_input {
-        width: 70%;
-        height: 50px;
-        font-size: 20px;
-    }
+	#currentIndex {
+		position: absolute;
+		/* left: 40%; */
+		right: 20px;
+	}
 
-    .keyboard button {
-        width: 80px;
-        height: 80px;
-        font-size: 30px;
-    }
+	/* -- FOR JEREMY -- */
+	#n_keyboard_container {
+		height: 500px;
+		/* background-color: red; */
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;
+		padding-top: 10px;
+	}
 
-    #btn_return {
-        height: 162px;
-    }
-    #btn_enter {
-        height: 162px;
-    }
+	.keyboard_input {
+		width: 70%;
+		height: 50px;
+		font-size: 20px;
+	}
+
+	.keyboard button {
+		width: 80px;
+		height: 80px;
+		font-size: 30px;
+	}
+
+	#btn_return {
+		height: 162px;
+	}
+
+	#btn_enter {
+		height: 162px;
+	}
 
 
 }
