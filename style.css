@@ -853,6 +853,17 @@ select {
 		border-bottom: 1px dashed gray;
 	}
 
+	.nt_onkun_yomi {
+		font-size: 12px;
+		color: gray;
+	}
+
+	.nt_separation {
+		border-top: 1px dashed gray;
+		height: 10px;
+		width: 100%;
+	}
+
 	.nt_p,
 	.zt_p,
 	.ht_p {

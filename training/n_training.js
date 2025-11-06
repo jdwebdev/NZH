@@ -258,8 +258,9 @@ function nt_kanjiDisplayTraining() {
         <div id="nt_progressBar" class="progressBar"><span id="currentIndex">${nt_currentIndex+1}/${nt_randomList.length}</span></div>
         <p id="nt_kanji" class="toFound">?</p>
         <p id="nt_itaiji" class="itaijiToFound">${nt_randomList[nt_currentIndex].itaiji != "" ? "?" : ""}</p>
-        <p class="nt_p">${nt_randomList[nt_currentIndex].onYomi}</p>
-        <p class="nt_p">${nt_randomList[nt_currentIndex].kunYomi}</p>
+        <p class="nt_p"><span class="nt_onkun_yomi">音 </span>${nt_randomList[nt_currentIndex].onYomi}</p>
+        <p class="nt_p"><span class="nt_onkun_yomi">訓 </span>${nt_randomList[nt_currentIndex].kunYomi}</p>
+		<div class="nt_separation"></div>
         <p class="nt_p">${nt_randomList[nt_currentIndex].exHiragana}</p>
         <p id="nt_exK" class="nt_p">?</p>
         <button id="nt_kakunin">確認</button>
